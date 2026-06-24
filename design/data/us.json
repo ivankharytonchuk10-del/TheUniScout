@@ -1,0 +1,2645 @@
+{
+  "meta": {
+    "name": "United States",
+    "code": "us",
+    "flag": "us",
+    "capital": "Washington D.C.",
+    "language": "English",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "aboutStudying": "The USA hosts the world's highest concentration of top-ranked universities. With world-class research, diverse campus cultures and strong career networks, American degrees are globally recognised — though tuition can be significant. Scholarships, assistantships and financial aid are widely available.",
+    "uniCount": 87,
+    "cityCount": 7
+  },
+  "tips": [
+    {
+      "icon": "fa-solid fa-passport",
+      "color": "rgba(0,40,104,.1)",
+      "iconColor": "rgb(0,40,104)",
+      "title": "Visa & Immigration",
+      "text": "International students require an F-1 student visa. You must first be accepted by a SEVP-certified university, which issues a Form I-20. Apply at your local US Embassy or Consulate at least 3 months before your start date. Maintain full-time enrollment to keep your status."
+    },
+    {
+      "icon": "fa-solid fa-dollar-sign",
+      "color": "rgba(52,152,219,.1)",
+      "iconColor": "rgb(52,152,219)",
+      "title": "Tuition & Financial Aid",
+      "text": "Tuition ranges from $10,000–60,000+/year. Many universities offer merit scholarships, teaching and research assistantships (which waive tuition entirely), and need-based aid. Ivy League schools meet 100% of demonstrated financial need for all students worldwide."
+    },
+    {
+      "icon": "fa-solid fa-graduation-cap",
+      "color": "rgba(39,174,96,.1)",
+      "iconColor": "rgb(39,174,96)",
+      "title": "Academic Culture",
+      "text": "US universities follow a semester or quarter system. Grades are continuous (GPA), participation is expected in class, and research opportunities start from the first year. Liberal arts colleges offer broad undergraduate education before specialisation."
+    }
+  ],
+  "universities": [
+    {
+      "id": "harvard",
+      "name": "Harvard University",
+      "abbr": "Harvard",
+      "color": "#A51C30",
+      "city": "Boston",
+      "type": "Private",
+      "tuition": "$57,000–60,000/yr",
+      "ts": 5,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Law",
+        "Medicine",
+        "Business",
+        "Science",
+        "Humanities"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1636,
+      "students": "~23,000",
+      "desc": "The world's most famous university — 162 Nobel laureates, 8 US Presidents, and a $50 billion endowment. Harvard's name is a global asset unlike any other.",
+      "website": ""
+    },
+    {
+      "id": "mit",
+      "name": "Massachusetts Institute of Technology",
+      "abbr": "MIT",
+      "color": "#A31F34",
+      "city": "Boston",
+      "type": "Private",
+      "tuition": "$57,000–60,000/yr",
+      "ts": 5,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "Science",
+        "CS",
+        "Business",
+        "Architecture"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1861,
+      "students": "~11,000",
+      "desc": "The world's #1 science and engineering university — birthplace of email, RSA encryption, radar and countless technologies. 100+ Nobel laureates among faculty and alumni.",
+      "website": ""
+    },
+    {
+      "id": "stanford",
+      "name": "Stanford University",
+      "abbr": "Stanford",
+      "color": "#8C1515",
+      "city": "San Francisco",
+      "type": "Private",
+      "tuition": "$57,000–60,000/yr",
+      "ts": 5,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Medicine",
+        "Humanities"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1885,
+      "students": "~17,000",
+      "desc": "Silicon Valley's intellectual engine — Google, Yahoo, HP and Cisco all started here. Stanford's CS, business and medicine schools are among the world's very best.",
+      "website": ""
+    },
+    {
+      "id": "caltech",
+      "name": "California Institute of Technology",
+      "abbr": "Caltech",
+      "color": "#FF6C0C",
+      "city": "Los Angeles",
+      "type": "Private",
+      "tuition": "$57,000–60,000/yr",
+      "ts": 5,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Science",
+        "Engineering",
+        "CS"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1891,
+      "students": "~2,300",
+      "desc": "The world's most concentrated research university — 6:1 student-to-faculty ratio, 39 Nobel laureates, manages NASA's Jet Propulsion Laboratory. Tiny and extraordinary.",
+      "website": ""
+    },
+    {
+      "id": "princeton",
+      "name": "Princeton University",
+      "abbr": "Princeton",
+      "color": "#E77500",
+      "city": "New York",
+      "type": "Private",
+      "tuition": "$57,000–60,000/yr",
+      "ts": 5,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Science",
+        "Humanities",
+        "Engineering",
+        "Business",
+        "Law"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1746,
+      "students": "~8,500",
+      "desc": "America's most beautiful campus — consistently #1 in undergraduate education. No professional schools (no law, no med, no business), just pure intellectual rigour.",
+      "website": ""
+    },
+    {
+      "id": "yale",
+      "name": "Yale University",
+      "abbr": "Yale",
+      "color": "#00356B",
+      "city": "New York",
+      "type": "Private",
+      "tuition": "$62,000–65,000/yr",
+      "ts": 5,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Law",
+        "Medicine",
+        "Humanities",
+        "Science",
+        "Arts"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1701,
+      "students": "~14,000",
+      "desc": "Home to America's most famous law school and drama school — Yale produces more heads of state and Oscar-winning actors than any other university.",
+      "website": ""
+    },
+    {
+      "id": "columbia",
+      "name": "Columbia University",
+      "abbr": "Columbia",
+      "color": "#003DA5",
+      "city": "New York",
+      "type": "Private",
+      "tuition": "$62,000–65,000/yr",
+      "ts": 5,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Law",
+        "Business",
+        "Medicine",
+        "Journalism",
+        "Engineering"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1754,
+      "students": "~35,000",
+      "desc": "New York City's Ivy League — the world's foremost journalism school (Pulitzer Prizes), top-5 law and business schools, in Morningside Heights, Manhattan.",
+      "website": ""
+    },
+    {
+      "id": "upenn",
+      "name": "University of Pennsylvania",
+      "abbr": "Penn",
+      "color": "#011F5B",
+      "city": "New York",
+      "type": "Private",
+      "tuition": "$62,000–65,000/yr",
+      "ts": 5,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Business",
+        "Medicine",
+        "Law",
+        "Engineering",
+        "Nursing"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1740,
+      "students": "~26,000",
+      "desc": "Home of Wharton — the world's most famous business school. UPenn was Benjamin Franklin's university, combining liberal arts with professional education since 1740.",
+      "website": ""
+    },
+    {
+      "id": "duke",
+      "name": "Duke University",
+      "abbr": "Duke",
+      "color": "#003087",
+      "city": "Charlotte",
+      "type": "Private",
+      "tuition": "$60,000–63,000/yr",
+      "ts": 5,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Business",
+        "Engineering",
+        "Humanities"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1838,
+      "students": "~17,000",
+      "desc": "The South's finest university — world-class for medicine, law and environmental studies, with a Gothic campus in Durham, North Carolina.",
+      "website": ""
+    },
+    {
+      "id": "johns-hopkins",
+      "name": "Johns Hopkins University",
+      "abbr": "JHU",
+      "color": "#002D62",
+      "city": "Baltimore",
+      "type": "Private",
+      "tuition": "$58,000–61,000/yr",
+      "ts": 5,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Medicine",
+        "Engineering",
+        "Science",
+        "Business",
+        "Humanities"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1876,
+      "students": "~24,000",
+      "desc": "America's first research university and the world's #1 in medicine — the Johns Hopkins Hospital is the most cited medical institution in history.",
+      "website": ""
+    },
+    {
+      "id": "northwestern",
+      "name": "Northwestern University",
+      "abbr": "NWU",
+      "color": "#4E2A84",
+      "city": "Chicago",
+      "type": "Private",
+      "tuition": "$60,000–63,000/yr",
+      "ts": 5,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Journalism",
+        "Law",
+        "Business",
+        "Medicine",
+        "Engineering"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1851,
+      "students": "~22,000",
+      "desc": "Chicago's Ivy-equivalent — Kellogg School of Management, Pritzker Law and Medill Journalism are among America's very best. On the shores of Lake Michigan in Evanston.",
+      "website": "https://www.northwestern.edu/"
+    },
+    {
+      "id": "dartmouth",
+      "name": "Dartmouth College",
+      "abbr": "Dartmouth",
+      "color": "#00693E",
+      "city": "Boston",
+      "type": "Private",
+      "tuition": "$60,000–63,000/yr",
+      "ts": 5,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Humanities",
+        "Business",
+        "Engineering",
+        "Medicine",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1769,
+      "students": "~6,400",
+      "desc": "The smallest Ivy League college — Tuck School of Business and Thayer Engineering are world-class. Known for its undergraduate focus and community spirit in rural New Hampshire.",
+      "website": "https://home.dartmouth.edu"
+    },
+    {
+      "id": "brown",
+      "name": "Brown University",
+      "abbr": "Brown",
+      "color": "#4E3629",
+      "city": "Boston",
+      "type": "Private",
+      "tuition": "$62,000–65,000/yr",
+      "ts": 5,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Humanities",
+        "Science",
+        "Engineering",
+        "Medicine",
+        "Arts"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1764,
+      "students": "~10,000",
+      "desc": "The most open and liberal Ivy — Brown's 'Open Curriculum' has no core requirements, producing famously creative, independent thinkers in Providence, Rhode Island.",
+      "website": "https://www.brown.edu/"
+    },
+    {
+      "id": "cornell",
+      "name": "Cornell University",
+      "abbr": "Cornell",
+      "color": "#B31B1B",
+      "city": "New York",
+      "type": "Private",
+      "tuition": "$60,000–63,000/yr",
+      "ts": 5,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Agriculture",
+        "Law",
+        "Architecture"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1865,
+      "students": "~25,000",
+      "desc": "The most 'useful' Ivy — founded to teach 'any person any study', Cornell has the world's best hotel school, top-5 engineering and an exceptional agriculture programme.",
+      "website": "https://cornell.edu"
+    },
+    {
+      "id": "uc-berkeley",
+      "name": "UC Berkeley",
+      "abbr": "UCB",
+      "color": "#003262",
+      "city": "San Francisco",
+      "type": "Public",
+      "tuition": "$14,000–44,000/yr",
+      "ts": 2,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "CS",
+        "Engineering",
+        "Law",
+        "Business",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1868,
+      "students": "~45,000",
+      "desc": "America's best public university — 107 Nobel laureates, the birthplace of the Free Speech Movement, consistently ranked #1 public in the world for computer science.",
+      "website": ""
+    },
+    {
+      "id": "ucla",
+      "name": "University of California, Los Angeles",
+      "abbr": "UCLA",
+      "color": "#003B5C",
+      "city": "Los Angeles",
+      "type": "Public",
+      "tuition": "$13,000–43,000/yr",
+      "ts": 2,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Engineering",
+        "Business",
+        "Arts"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1919,
+      "students": "~46,000",
+      "desc": "America's most applied-to university — combining research excellence with a stunning LA campus, world-class medical centre and legendary athletics.",
+      "website": ""
+    },
+    {
+      "id": "carnegie-mellon",
+      "name": "Carnegie Mellon University",
+      "abbr": "CMU",
+      "color": "#C41230",
+      "city": "Pittsburgh",
+      "type": "Private",
+      "tuition": "$58,000–62,000/yr",
+      "ts": 5,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "CS",
+        "Engineering",
+        "Business",
+        "Arts",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1900,
+      "students": "~15,000",
+      "desc": "The world's #1 computer science university by many rankings — also top-ranked for drama, fine arts and public policy. CMU alumni founded over 4,000 companies.",
+      "website": ""
+    },
+    {
+      "id": "georgetown",
+      "name": "Georgetown University",
+      "abbr": "Georgetown",
+      "color": "#002244",
+      "city": "Washington DC",
+      "type": "Private",
+      "tuition": "$60,000–63,000/yr",
+      "ts": 5,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Law",
+        "Medicine",
+        "Business",
+        "Humanities",
+        "Political Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1789,
+      "students": "~20,000",
+      "desc": "America's oldest Jesuit university — the definitive school for US foreign policy and international law. Bill Clinton's alma mater, in the shadow of the US Capitol.",
+      "website": ""
+    },
+    {
+      "id": "nyu",
+      "name": "New York University",
+      "abbr": "NYU",
+      "color": "#57068C",
+      "city": "New York",
+      "type": "Private",
+      "tuition": "$56,000–60,000/yr",
+      "ts": 4,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Law",
+        "Business",
+        "Medicine",
+        "Arts",
+        "Engineering"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1831,
+      "students": "~58,000",
+      "desc": "The urban university par excellence — Stern Business School, Tisch School of the Arts and one of the top 5 law schools, scattered across Greenwich Village and Manhattan.",
+      "website": ""
+    },
+    {
+      "id": "vanderbilt",
+      "name": "Vanderbilt University",
+      "abbr": "Vandy",
+      "color": "#866D4B",
+      "city": "Nashville",
+      "type": "Private",
+      "tuition": "$56,000–59,000/yr",
+      "ts": 5,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Business",
+        "Engineering",
+        "Education"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1873,
+      "students": "~14,000",
+      "desc": "The South's premier research university — world-class medical school and Peabody College of Education, in Nashville, the Music City.",
+      "website": ""
+    },
+    {
+      "id": "rice",
+      "name": "Rice University",
+      "abbr": "Rice",
+      "color": "#00205B",
+      "city": "Houston",
+      "type": "Private",
+      "tuition": "$51,000–55,000/yr",
+      "ts": 5,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Business",
+        "Humanities",
+        "Architecture"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1912,
+      "students": "~4,200",
+      "desc": "The Ivy of the South — smallest major research university in the US with a 6:1 ratio. Rice's Jones School, Jones Center and stunning 300-acre campus make it exceptional.",
+      "website": ""
+    },
+    {
+      "id": "emory",
+      "name": "Emory University",
+      "abbr": "Emory",
+      "color": "#012169",
+      "city": "Atlanta",
+      "type": "Private",
+      "tuition": "$56,000–59,000/yr",
+      "ts": 5,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Business",
+        "Science",
+        "Humanities"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1836,
+      "students": "~14,000",
+      "desc": "Atlanta's leading research university — world-class Rollins School of Public Health, Goizueta Business School and one of America's strongest medical programmes.",
+      "website": ""
+    },
+    {
+      "id": "notre-dame",
+      "name": "University of Notre Dame",
+      "abbr": "Notre Dame",
+      "color": "#0C2340",
+      "city": "Chicago",
+      "type": "Private",
+      "tuition": "$57,000–60,000/yr",
+      "ts": 5,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Law",
+        "Business",
+        "Engineering",
+        "Humanities",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1842,
+      "students": "~12,000",
+      "desc": "America's greatest Catholic university — top-5 law school, exceptional undergraduate education, and the most passionate alumni community in American higher education.",
+      "website": ""
+    },
+    {
+      "id": "usc",
+      "name": "University of Southern California",
+      "abbr": "USC",
+      "color": "#990000",
+      "city": "Los Angeles",
+      "type": "Private",
+      "tuition": "$62,000–65,000/yr",
+      "ts": 5,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Business",
+        "Engineering",
+        "Medicine",
+        "Arts",
+        "Law"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1880,
+      "students": "~48,000",
+      "desc": "LA's dominant private university — Marshall Business School, Keck Medicine and the USC Annenberg film school are top-ranked. Hollywood's favourite feeder school.",
+      "website": ""
+    },
+    {
+      "id": "unc",
+      "name": "University of North Carolina",
+      "abbr": "UNC",
+      "color": "#4B9CD3",
+      "city": "Charlotte",
+      "type": "Public",
+      "tuition": "$9,000–37,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Business",
+        "Journalism",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1789,
+      "students": "~32,000",
+      "desc": "America's oldest public university — consistently top-5 public, with world-class journalism, pharmacy and medicine in the Research Triangle of North Carolina.",
+      "website": ""
+    },
+    {
+      "id": "michigan",
+      "name": "University of Michigan",
+      "abbr": "UMich",
+      "color": "#00274C",
+      "city": "Detroit",
+      "type": "Public",
+      "tuition": "$15,000–52,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Medicine",
+        "Law",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1817,
+      "students": "~48,000",
+      "desc": "The flagship of the Big Ten — Ross Business School, Michigan Law and Michigan Engineering are all top-10 nationally. The most comprehensive research university in America.",
+      "website": ""
+    },
+    {
+      "id": "virginia",
+      "name": "University of Virginia",
+      "abbr": "UVA",
+      "color": "#232D4B",
+      "city": "Washington DC",
+      "type": "Public",
+      "tuition": "$17,000–51,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Law",
+        "Business",
+        "Medicine",
+        "Engineering",
+        "Humanities"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1819,
+      "students": "~25,000",
+      "desc": "Thomas Jefferson's university — a UNESCO World Heritage campus in Charlottesville, consistently America's best public university for law and undergraduate education.",
+      "website": "https://virginia.edu"
+    },
+    {
+      "id": "washington-u",
+      "name": "Washington University in St. Louis",
+      "abbr": "WashU",
+      "color": "#A51417",
+      "city": "St. Louis",
+      "type": "Private",
+      "tuition": "$58,000–62,000/yr",
+      "ts": 5,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Business",
+        "Engineering",
+        "Arts"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1853,
+      "students": "~16,000",
+      "desc": "Consistently top-15 nationally — Olin Business School, WashU Law and Barnes-Jewish Hospital make St. Louis an extraordinary academic hub that most people underestimate.",
+      "website": "https://washu.edu/"
+    },
+    {
+      "id": "wake-forest",
+      "name": "Wake Forest University",
+      "abbr": "WFU",
+      "color": "#9E7E38",
+      "city": "Charlotte",
+      "type": "Private",
+      "tuition": "$59,000–62,000/yr",
+      "ts": 5,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Business",
+        "Medicine",
+        "Law",
+        "Humanities",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1834,
+      "students": "~8,500",
+      "desc": "A smaller research university with a very high student-faculty ratio — known for close faculty mentorship, Wake Forest's pro humanitate motto guides an emphasis on service alongside academic excellence.",
+      "website": "https://wfu.edu"
+    },
+    {
+      "id": "tufts",
+      "name": "Tufts University",
+      "abbr": "Tufts",
+      "color": "#3E8EDE",
+      "city": "Boston",
+      "type": "Private",
+      "tuition": "$62,000–65,000/yr",
+      "ts": 5,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "International Relations",
+        "Medicine",
+        "Engineering",
+        "Arts",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1852,
+      "students": "~11,000",
+      "desc": "America's top university for international relations and diplomacy — The Fletcher School is the gold standard for global affairs, in the Boston–Cambridge academic hub.",
+      "website": "https://tufts.edu"
+    },
+    {
+      "id": "boston-u",
+      "name": "Boston University",
+      "abbr": "BU",
+      "color": "#CC0000",
+      "city": "Boston",
+      "type": "Private",
+      "tuition": "$58,000–62,000/yr",
+      "ts": 4,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Business",
+        "Engineering",
+        "Arts"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1839,
+      "students": "~34,000",
+      "desc": "A major research university on the Charles River — top-ranked for public health, journalism and film/TV production, in America's greatest college city.",
+      "website": ""
+    },
+    {
+      "id": "northeastern",
+      "name": "Northeastern University",
+      "abbr": "NEU",
+      "color": "#CC0000",
+      "city": "Boston",
+      "type": "Private",
+      "tuition": "$57,000–60,000/yr",
+      "ts": 4,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "Business",
+        "CS",
+        "Law",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1898,
+      "students": "~37,000",
+      "desc": "America's #1 co-op education university — Northeastern's mandatory work placement programme means 95% of graduates have relevant job offers before graduation.",
+      "website": ""
+    },
+    {
+      "id": "georgia-tech",
+      "name": "Georgia Institute of Technology",
+      "abbr": "GT",
+      "color": "#003057",
+      "city": "Atlanta",
+      "type": "Public",
+      "tuition": "$13,000–34,000/yr",
+      "ts": 2,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science",
+        "Business",
+        "Architecture"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1885,
+      "students": "~44,000",
+      "desc": "America's best public engineering university — consistently top-5 for engineering and CS nationwide, in Atlanta's booming tech economy.",
+      "website": ""
+    },
+    {
+      "id": "illinois",
+      "name": "University of Illinois Urbana-Champaign",
+      "abbr": "UIUC",
+      "color": "#13294B",
+      "city": "Chicago",
+      "type": "Public",
+      "tuition": "$16,000–35,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "CS",
+        "Engineering",
+        "Business",
+        "Science",
+        "Agriculture"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1867,
+      "students": "~56,000",
+      "desc": "America's top-3 public CS programme — produced founders of Netscape, PayPal, YouTube and Oracle. One of the world's great land-grant research universities.",
+      "website": ""
+    },
+    {
+      "id": "purdue",
+      "name": "Purdue University",
+      "abbr": "Purdue",
+      "color": "#CEB888",
+      "city": "Chicago",
+      "type": "Public",
+      "tuition": "$10,000–29,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science",
+        "Agriculture",
+        "Business"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1869,
+      "students": "~50,000",
+      "desc": "America's top aerospace and aeronautical engineering university — Neil Armstrong's alma mater, home of Purdue Polytechnic and the world's #1 agricultural engineering programme.",
+      "website": ""
+    },
+    {
+      "id": "wisconsin",
+      "name": "University of Wisconsin–Madison",
+      "abbr": "UW",
+      "color": "#C5050C",
+      "city": "Chicago",
+      "type": "Public",
+      "tuition": "$11,000–38,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Engineering",
+        "Business",
+        "Science",
+        "Law"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1848,
+      "students": "~48,000",
+      "desc": "A flagship research powerhouse on the shores of Lake Mendota — consistently top-5 public for research spending, producing more patents than almost any US university.",
+      "website": ""
+    },
+    {
+      "id": "u-washington",
+      "name": "University of Washington",
+      "abbr": "UW2",
+      "color": "#4B2E83",
+      "city": "Seattle",
+      "type": "Public",
+      "tuition": "$12,000–40,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "CS",
+        "Engineering",
+        "Business",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1861,
+      "students": "~47,000",
+      "desc": "The Pacific Northwest's leading university — top-5 public nationwide, adjacent to Amazon, Microsoft and Boeing. UW's CS programme is world-class.",
+      "website": ""
+    },
+    {
+      "id": "ohio-state",
+      "name": "Ohio State University",
+      "abbr": "OSU",
+      "color": "#BB0000",
+      "city": "Columbus",
+      "type": "Public",
+      "tuition": "$11,000–33,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Medicine",
+        "Business",
+        "Law",
+        "Agriculture"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1870,
+      "students": "~61,000",
+      "desc": "One of America's largest universities — Fisher College of Business, Wexner Medical Center and strong engineering make Ohio State a comprehensive research powerhouse.",
+      "website": ""
+    },
+    {
+      "id": "penn-state",
+      "name": "Penn State University",
+      "abbr": "PSU",
+      "color": "#1E407C",
+      "city": "Philadelphia",
+      "type": "Public",
+      "tuition": "$19,000–38,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Medicine",
+        "Science",
+        "Agriculture"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1855,
+      "students": "~90,000",
+      "desc": "America's largest single-campus university — Smeal College of Business, Schreyer Honors College and one of the most extensive alumni networks in the world.",
+      "website": ""
+    },
+    {
+      "id": "texas",
+      "name": "University of Texas at Austin",
+      "abbr": "UT",
+      "color": "#BF5700",
+      "city": "Austin",
+      "type": "Public",
+      "tuition": "$11,000–38,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Law",
+        "Business",
+        "Engineering",
+        "CS",
+        "Arts"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1883,
+      "students": "~51,000",
+      "desc": "Texas's flagship — McCombs Business School, UT Law and Cockrell Engineering are all nationally ranked. In Austin, the tech capital of the American South.",
+      "website": ""
+    },
+    {
+      "id": "florida",
+      "name": "University of Florida",
+      "abbr": "UF",
+      "color": "#003087",
+      "city": "Miami",
+      "type": "Public",
+      "tuition": "$6,000–28,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Engineering",
+        "Business",
+        "Agriculture",
+        "Law"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1853,
+      "students": "~57,000",
+      "desc": "Florida's flagship and one of America's best values — consistently top-10 public nationally, with world-class agriculture, law and medicine.",
+      "website": ""
+    },
+    {
+      "id": "minnesota",
+      "name": "University of Minnesota",
+      "abbr": "UMN",
+      "color": "#7A0019",
+      "city": "Minneapolis",
+      "type": "Public",
+      "tuition": "$15,000–33,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Engineering",
+        "Business",
+        "Science",
+        "Law"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1851,
+      "students": "~55,000",
+      "desc": "A Big Ten research powerhouse in Minneapolis — world-class for medical devices (pacemaker invented here), food science and computer science.",
+      "website": ""
+    },
+    {
+      "id": "case-western",
+      "name": "Case Western Reserve University",
+      "abbr": "CWRU",
+      "color": "#0A3161",
+      "city": "Cleveland",
+      "type": "Private",
+      "tuition": "$55,000–59,000/yr",
+      "ts": 4,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Engineering",
+        "Science",
+        "Law",
+        "Business"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1826,
+      "students": "~12,000",
+      "desc": "Cleveland's premier research university — top-5 for biomedical engineering, with one of America's strongest doctor-patient learning hospitals and a vibrant University Circle campus.",
+      "website": "https://case.edu"
+    },
+    {
+      "id": "tulane",
+      "name": "Tulane University",
+      "abbr": "Tulane",
+      "color": "#006633",
+      "city": "New Orleans",
+      "type": "Private",
+      "tuition": "$58,000–61,000/yr",
+      "ts": 5,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Business",
+        "Law",
+        "Medicine",
+        "Public Health",
+        "Humanities"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1834,
+      "students": "~13,000",
+      "desc": "America's best research university in the South's cultural capital — Freeman School of Business and Tulane Law are top-ranked, surrounded by the music, food and culture of New Orleans.",
+      "website": "https://tulane.edu"
+    },
+    {
+      "id": "rochester",
+      "name": "University of Rochester",
+      "abbr": "UR",
+      "color": "#003087",
+      "city": "Buffalo",
+      "type": "Private",
+      "tuition": "$56,000–59,000/yr",
+      "ts": 5,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Music",
+        "Engineering",
+        "Business",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1850,
+      "students": "~11,000",
+      "desc": "Home of the Eastman School of Music — America's finest music conservatory, combined with a top medical school. Rochester's small size enables intensive faculty mentorship.",
+      "website": "https://www.rochester.edu/"
+    },
+    {
+      "id": "arizona-state",
+      "name": "Arizona State University",
+      "abbr": "ASU",
+      "color": "#8C1D40",
+      "city": "Phoenix",
+      "type": "Public",
+      "tuition": "$11,000–29,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "CS",
+        "Science",
+        "Journalism"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1885,
+      "students": "~80,000",
+      "desc": "America's largest and most innovative public university — consistently ranked #1 for innovation in the US by US News, with strong engineering, journalism and sustainability programmes.",
+      "website": "https://www.asu.edu/"
+    },
+    {
+      "id": "miami-u",
+      "name": "University of Miami",
+      "abbr": "UM-Miami",
+      "color": "#005030",
+      "city": "Miami",
+      "type": "Private",
+      "tuition": "$54,000–57,000/yr",
+      "ts": 4,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Business",
+        "Engineering",
+        "Arts"
+      ],
+      "langs": [
+        "English",
+        "Spanish"
+      ],
+      "founded": 1925,
+      "students": "~17,000",
+      "desc": "South Florida's leading private research university — Miller School of Medicine and Miami Law are highly regarded, in the most international city in the United States.",
+      "website": ""
+    },
+    {
+      "id": "uchicago",
+      "name": "University of Chicago",
+      "abbr": "UChicago",
+      "color": "#800000",
+      "city": "Chicago",
+      "type": "Private",
+      "tuition": "$61,000–65,000/yr",
+      "ts": 5,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Economics",
+        "Law",
+        "Science",
+        "Humanities",
+        "Business"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1890,
+      "students": "~17,000",
+      "desc": "America's most intellectually rigorous university — 100 Nobel laureates, the Chicago School of Economics, and a required Common Core curriculum that produces extraordinarily well-rounded graduates.",
+      "website": ""
+    },
+    {
+      "id": "penn-upenn",
+      "name": "Temple University",
+      "abbr": "Temple",
+      "color": "#A41034",
+      "city": "Philadelphia",
+      "type": "Public",
+      "tuition": "$18,000–32,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Law",
+        "Business",
+        "Medicine",
+        "Engineering",
+        "Arts"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1884,
+      "students": "~35,000",
+      "desc": "Philadelphia's most diverse research university — Temple Beasley School of Law and Fox School of Business serve a large, urban student body in the City of Brotherly Love.",
+      "website": ""
+    },
+    {
+      "id": "fordham",
+      "name": "Fordham University",
+      "abbr": "Fordham",
+      "color": "#8B1A1A",
+      "city": "New York",
+      "type": "Private",
+      "tuition": "$55,000–58,000/yr",
+      "ts": 4,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Law",
+        "Business",
+        "Social Science",
+        "Humanities",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1841,
+      "students": "~16,000",
+      "desc": "New York's Jesuit university — two campuses in the Bronx and Lincoln Center, with a strong law school and finance programme serving a large New York alumni network.",
+      "website": ""
+    },
+    {
+      "id": "uva",
+      "name": "University of Virginia",
+      "abbr": "UVA",
+      "color": "#232D4B",
+      "city": "Charlottesville",
+      "type": "Public",
+      "tuition": "$17,000–54,000/yr",
+      "ts": 4,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Law",
+        "Business",
+        "Medicine",
+        "Engineering",
+        "Humanities"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1819,
+      "students": "~24,000",
+      "desc": "Thomas Jefferson's academic village — a UNESCO World Heritage campus, with a top-3 public law school and the McIntire business school consistently in the national top 10.",
+      "website": ""
+    },
+    {
+      "id": "umich",
+      "name": "University of Michigan",
+      "abbr": "UMich",
+      "color": "#00274C",
+      "city": "Ann Arbor",
+      "type": "Public",
+      "tuition": "$16,000–54,000/yr",
+      "ts": 4,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Law",
+        "Medicine",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1817,
+      "students": "~47,000",
+      "desc": "America's greatest public research university — Ross School of Business, Michigan Law and an engineering school that feeds Boeing, Ford and Amazon. The Big House holds 107,000 fans.",
+      "website": ""
+    },
+    {
+      "id": "ucd",
+      "name": "University of California Davis",
+      "abbr": "UCD",
+      "color": "#002855",
+      "city": "Davis",
+      "type": "Public",
+      "tuition": "$14,000–43,000/yr",
+      "ts": 4,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Agriculture",
+        "Medicine",
+        "Veterinary",
+        "Science",
+        "Engineering"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1905,
+      "students": "~40,000",
+      "desc": "America's leading agriculture and veterinary science university — the 'Aggie' campus in the Sacramento Valley, with the world's most cited school of viticulture and enology.",
+      "website": ""
+    },
+    {
+      "id": "ucsc",
+      "name": "University of California Santa Cruz",
+      "abbr": "UCSC",
+      "color": "#003C6E",
+      "city": "Santa Cruz",
+      "type": "Public",
+      "tuition": "$14,000–43,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "CS",
+        "Engineering",
+        "Humanities",
+        "Social Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1965,
+      "students": "~19,000",
+      "desc": "On the redwood-forested cliffs above Monterey Bay — progressive and research-intensive, particularly strong in genomics, astronomy and ocean sciences.",
+      "website": ""
+    },
+    {
+      "id": "uiuc",
+      "name": "University of Illinois Urbana-Champaign",
+      "abbr": "UIUC",
+      "color": "#13294B",
+      "city": "Champaign",
+      "type": "Public",
+      "tuition": "$16,000–33,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Science",
+        "Law"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1867,
+      "students": "~56,000",
+      "desc": "The Midwest's engineering powerhouse — UIUC's CS department invented the Mosaic browser and has produced more Turing Award winners than any Big Ten university.",
+      "website": ""
+    },
+    {
+      "id": "osu",
+      "name": "Ohio State University",
+      "abbr": "OSU",
+      "color": "#BB0000",
+      "city": "Columbus",
+      "type": "Public",
+      "tuition": "$12,000–34,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Medicine",
+        "Law",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1870,
+      "students": "~60,000",
+      "desc": "One of America's largest research universities — the Fisher College of Business and Wexner Medical Center are nationally ranked, and the Buckeyes football programme is iconic.",
+      "website": ""
+    },
+    {
+      "id": "uwash",
+      "name": "University of Washington",
+      "abbr": "UW",
+      "color": "#4B2E83",
+      "city": "Seattle",
+      "type": "Public",
+      "tuition": "$12,000–39,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "CS",
+        "Medicine",
+        "Engineering",
+        "Business",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1861,
+      "students": "~47,000",
+      "desc": "Seattle's research university — in the heart of Amazon and Microsoft country, UW is top-5 globally in CS and biomedical research, with the Paul G. Allen School of Computer Science.",
+      "website": ""
+    },
+    {
+      "id": "pitt",
+      "name": "University of Pittsburgh",
+      "abbr": "Pitt",
+      "color": "#003594",
+      "city": "Pittsburgh",
+      "type": "Public",
+      "tuition": "$20,000–34,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Engineering",
+        "Business",
+        "Law",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1787,
+      "students": "~32,000",
+      "desc": "Steel city's world-class research university — the Pitt School of Medicine developed the polio vaccine. Today it's a top-10 medical research institution driving Pittsburgh's transformation.",
+      "website": ""
+    },
+    {
+      "id": "rutgers",
+      "name": "Rutgers University",
+      "abbr": "Rutgers",
+      "color": "#CC0033",
+      "city": "New Brunswick",
+      "type": "Public",
+      "tuition": "$14,000–32,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Engineering",
+        "Law",
+        "Medicine",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1766,
+      "students": "~70,000",
+      "desc": "New Jersey's state university and one of America's oldest — massive and comprehensive, strong in pharmacy, supply chain management and business analytics.",
+      "website": "https://www.rutgers.edu/"
+    },
+    {
+      "id": "bu",
+      "name": "Boston University",
+      "abbr": "BU",
+      "color": "#CC0000",
+      "city": "Boston",
+      "type": "Private",
+      "tuition": "$58,000–62,000/yr",
+      "ts": 5,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Business",
+        "Engineering",
+        "Communication"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1839,
+      "students": "~34,000",
+      "desc": "Set along the Charles River — BU School of Medicine (with the only US Biodefense Lab), Questrom School of Business and exceptional access to Boston's biotech corridor.",
+      "website": "https://bu.edu/"
+    },
+    {
+      "id": "bc",
+      "name": "Boston College",
+      "abbr": "BC",
+      "color": "#8B0000",
+      "city": "Boston",
+      "type": "Private",
+      "tuition": "$61,000–64,000/yr",
+      "ts": 5,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Business",
+        "Law",
+        "Education",
+        "Social Science",
+        "Humanities"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1863,
+      "students": "~14,000",
+      "desc": "Boston's Jesuit university on a beautiful Gothic campus — Carroll School of Management and BC Law are consistently top-25, with an exceptional alumni network.",
+      "website": "https://bc.edu"
+    },
+    {
+      "id": "wustl",
+      "name": "Washington University in St. Louis",
+      "abbr": "WashU",
+      "color": "#9B1B30",
+      "city": "St. Louis",
+      "type": "Private",
+      "tuition": "$60,000–63,000/yr",
+      "ts": 5,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Medicine",
+        "Business",
+        "Law",
+        "Engineering",
+        "Arts"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1853,
+      "students": "~15,000",
+      "desc": "Consistently top-15 in the national rankings — WashU's Olin Business School, medical school and architecture programme are all ranked in America's top 10.",
+      "website": "https://washu.edu/"
+    },
+    {
+      "id": "umiami",
+      "name": "University of Miami",
+      "abbr": "UMiami",
+      "color": "#005030",
+      "city": "Miami",
+      "type": "Private",
+      "tuition": "$55,000–59,000/yr",
+      "ts": 5,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Business",
+        "Medicine",
+        "Law",
+        "Engineering",
+        "Arts"
+      ],
+      "langs": [
+        "English",
+        "Spanish"
+      ],
+      "founded": 1925,
+      "students": "~18,000",
+      "desc": "At the gateway to Latin America — the Miller School of Medicine and Frost School of Music are top-ranked, in a genuinely international city with year-round sunshine.",
+      "website": ""
+    },
+    {
+      "id": "gt",
+      "name": "Georgia Tech",
+      "abbr": "GT",
+      "color": "#003057",
+      "city": "Atlanta",
+      "type": "Public",
+      "tuition": "$13,000–32,000/yr",
+      "ts": 4,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science",
+        "Business",
+        "Architecture"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1885,
+      "students": "~45,000",
+      "desc": "America's most powerful public engineering university — consistently top-5 for engineering and CS, producing the engineers driving Atlanta's booming tech sector.",
+      "website": ""
+    },
+    {
+      "id": "uw-madison",
+      "name": "University of Wisconsin-Madison",
+      "abbr": "UW-M",
+      "color": "#C5050C",
+      "city": "Madison",
+      "type": "Public",
+      "tuition": "$11,000–37,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Science",
+        "Engineering",
+        "Business",
+        "Law",
+        "Medicine"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1848,
+      "students": "~47,000",
+      "desc": "On the shores of Lake Mendota — one of America's top public research universities, with $1.3bn in annual research expenditure, a leading business school and legendary campus spirit.",
+      "website": ""
+    },
+    {
+      "id": "psu",
+      "name": "Pennsylvania State University",
+      "abbr": "PSU",
+      "color": "#1E407C",
+      "city": "State College",
+      "type": "Public",
+      "tuition": "$20,000–38,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Science",
+        "Education",
+        "Agriculture"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1855,
+      "students": "~88,000",
+      "desc": "America's largest residential university — Smeal College of Business, a world-class meteorology department and an engineering school deeply embedded in US manufacturing and defence.",
+      "website": ""
+    },
+    {
+      "id": "unc2",
+      "name": "North Carolina State University",
+      "abbr": "NCSU",
+      "color": "#CC0000",
+      "city": "Raleigh",
+      "type": "Public",
+      "tuition": "$9,000–28,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science",
+        "Business",
+        "Agriculture"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1887,
+      "students": "~37,000",
+      "desc": "Research Triangle's technical powerhouse — a top-10 engineering college with major research contracts from Cisco, IBM and the NC Biotech Center.",
+      "website": ""
+    },
+    {
+      "id": "usc-la",
+      "name": "University of Southern California",
+      "abbr": "USC",
+      "color": "#990000",
+      "city": "Los Angeles",
+      "type": "Private",
+      "tuition": "$62,000–65,000/yr",
+      "ts": 5,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Business",
+        "Engineering",
+        "Arts",
+        "Law",
+        "Medicine"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1880,
+      "students": "~49,000",
+      "desc": "Hollywood's university — the USC School of Cinematic Arts has produced more directors, producers and screenwriters than any institution on earth. The Marshall School of Business is top-20.",
+      "website": ""
+    },
+    {
+      "id": "ufl",
+      "name": "University of Florida",
+      "abbr": "UF",
+      "color": "#003087",
+      "city": "Gainesville",
+      "type": "Public",
+      "tuition": "$6,000–28,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Engineering",
+        "Law",
+        "Medicine",
+        "Agriculture"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1853,
+      "students": "~57,000",
+      "desc": "The Sunshine State's flagship — one of America's best-value public universities, with a top-ranked law school, engineering programme and the fastest-rising medical school in the US.",
+      "website": ""
+    },
+    {
+      "id": "ua",
+      "name": "University of Alabama",
+      "abbr": "UA",
+      "color": "#9E1B32",
+      "city": "Tuscaloosa",
+      "type": "Public",
+      "tuition": "$11,000–31,000/yr",
+      "ts": 3,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Engineering",
+        "Law",
+        "Education",
+        "Communication"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1831,
+      "students": "~38,000",
+      "desc": "The American South's most traditional university — known for the Culverhouse College of Business, the National Champions football programme and generous scholarship packages.",
+      "website": ""
+    },
+    {
+      "id": "uga",
+      "name": "University of Georgia",
+      "abbr": "UGA",
+      "color": "#BA0C2F",
+      "city": "Athens",
+      "type": "Public",
+      "tuition": "$12,000–30,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Law",
+        "Agriculture",
+        "Education",
+        "Journalism"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1785,
+      "students": "~39,000",
+      "desc": "America's oldest chartered public university — Terry College of Business, a top-10 public law school and the Grady College of Journalism in a vibrant college town.",
+      "website": ""
+    },
+    {
+      "id": "ku",
+      "name": "University of Kansas",
+      "abbr": "KU",
+      "color": "#0051A2",
+      "city": "Lawrence",
+      "type": "Public",
+      "tuition": "$11,000–28,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Engineering",
+        "Medicine",
+        "Law",
+        "Journalism"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1865,
+      "students": "~28,000",
+      "desc": "The quintessential American Midwest campus on a hill — strong in pharmacy, journalism and architecture, with one of the most affordable tuitions among major research universities.",
+      "website": ""
+    },
+    {
+      "id": "iupui",
+      "name": "Indiana University",
+      "abbr": "IU",
+      "color": "#990000",
+      "city": "Bloomington",
+      "type": "Public",
+      "tuition": "$12,000–35,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Law",
+        "Education",
+        "Music",
+        "Medicine"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1820,
+      "students": "~46,000",
+      "desc": "Big Ten's music and business school powerhouse — Kelley School of Business and Jacobs School of Music are both top-5 nationally, in a quintessential Indiana college town.",
+      "website": ""
+    },
+    {
+      "id": "tulane2",
+      "name": "Temple University",
+      "abbr": "Temple",
+      "color": "#9D1F2E",
+      "city": "Philadelphia",
+      "type": "Public",
+      "tuition": "$17,000–28,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Law",
+        "Medicine",
+        "Engineering",
+        "Arts"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1884,
+      "students": "~37,000",
+      "desc": "Philadelphia's urban public university — Fox School of Business, Beasley School of Law and strong medicine, set on a lively North Philadelphia campus.",
+      "website": ""
+    },
+    {
+      "id": "ucr",
+      "name": "University of California Riverside",
+      "abbr": "UCR",
+      "color": "#003DA5",
+      "city": "Riverside",
+      "type": "Public",
+      "tuition": "$14,000–43,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Engineering",
+        "Business",
+        "Humanities",
+        "CS"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1954,
+      "students": "~26,000",
+      "desc": "One of the most diverse universities in the US — strong in plant biology, environmental sciences and engineering, in the Inland Empire of Southern California.",
+      "website": "https://ucr.edu"
+    },
+    {
+      "id": "umb",
+      "name": "University of Massachusetts Amherst",
+      "abbr": "UMass",
+      "color": "#881C1C",
+      "city": "Amherst",
+      "type": "Public",
+      "tuition": "$16,000–37,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Business",
+        "CS",
+        "Science",
+        "Education"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1863,
+      "students": "~32,000",
+      "desc": "New England's flagship public university — Isenberg School of Management and the Manning College of Information & Computer Sciences are top-ranked among public universities.",
+      "website": "https://www.umass.edu/"
+    },
+    {
+      "id": "asu2",
+      "name": "Arizona State University",
+      "abbr": "ASU",
+      "color": "#8C1D40",
+      "city": "Phoenix",
+      "type": "Public",
+      "tuition": "$12,000–30,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "CS",
+        "Education",
+        "Sustainability"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1885,
+      "students": "~83,000",
+      "desc": "America's largest and most innovative public university — ranked #1 in the US for innovation 9 years running, with a vast engineering school and pioneering online degree programmes.",
+      "website": "https://www.asu.edu/"
+    },
+    {
+      "id": "gmu",
+      "name": "George Mason University",
+      "abbr": "GMU",
+      "color": "#006633",
+      "city": "Fairfax",
+      "type": "Public",
+      "tuition": "$14,000–36,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Law",
+        "CS",
+        "Business",
+        "Engineering",
+        "Social Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1949,
+      "students": "~40,000",
+      "desc": "The DC suburb's rising research university — home to 2 Nobel Prize-winning economists, a strong CS and cybersecurity school and deep ties to the federal government and defence industry.",
+      "website": "https://www.gmu.edu/"
+    },
+    {
+      "id": "vt",
+      "name": "Virginia Tech",
+      "abbr": "VT",
+      "color": "#861F41",
+      "city": "Blacksburg",
+      "type": "Public",
+      "tuition": "$13,000–32,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Agriculture",
+        "Architecture"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1872,
+      "students": "~36,000",
+      "desc": "In the Appalachian foothills — a top-20 engineering university with particularly strong programmes in architecture, aerospace and cybersecurity, with a famous campus spirit (Hokies).",
+      "website": ""
+    },
+    {
+      "id": "ucm",
+      "name": "University of Central Florida",
+      "abbr": "UCF",
+      "color": "#FFC904",
+      "city": "Orlando",
+      "type": "Public",
+      "tuition": "$6,000–23,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Education",
+        "Hospitality"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1963,
+      "students": "~69,000",
+      "desc": "America's second-largest university and the most affordable major research institution in Florida — strong in CS, engineering simulation and hospitality management near Disney World.",
+      "website": ""
+    },
+    {
+      "id": "usf",
+      "name": "University of South Florida",
+      "abbr": "USF",
+      "color": "#006747",
+      "city": "Tampa",
+      "type": "Public",
+      "tuition": "$6,000–18,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Engineering",
+        "Business",
+        "Science",
+        "CS"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1956,
+      "students": "~50,000",
+      "desc": "Tampa Bay's research powerhouse — one of America's fastest-rising public universities with a top-50 medical school and strong marine sciences on the Gulf Coast.",
+      "website": ""
+    },
+    {
+      "id": "drexel",
+      "name": "Drexel University",
+      "abbr": "Drexel",
+      "color": "#07294D",
+      "city": "Philadelphia",
+      "type": "Private",
+      "tuition": "$55,000–58,000/yr",
+      "ts": 5,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Medicine",
+        "Law"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1891,
+      "students": "~25,000",
+      "desc": "Philadelphia's co-op university — Drexel's mandatory work-integrated learning programme means graduates have 18 months of paid work experience before they receive their degree.",
+      "website": ""
+    },
+    {
+      "id": "american-u",
+      "name": "American University",
+      "abbr": "AU",
+      "color": "#003B5C",
+      "city": "Washington DC",
+      "type": "Private",
+      "tuition": "$52,000–55,000/yr",
+      "ts": 5,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Law",
+        "Business",
+        "Social Science",
+        "Communication",
+        "International Relations"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1893,
+      "students": "~14,000",
+      "desc": "Washington DC's international affairs university — the School of International Service is top-5 in the US, and proximity to Capitol Hill makes it the most politically connected campus in America.",
+      "website": ""
+    },
+    {
+      "id": "uvm",
+      "name": "University of Vermont",
+      "abbr": "UVM",
+      "color": "#154734",
+      "city": "Burlington",
+      "type": "Public",
+      "tuition": "$18,000–44,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Agriculture",
+        "Engineering",
+        "Business",
+        "Arts"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1791,
+      "students": "~14,000",
+      "desc": "New England's green university — strong in environmental sciences, sustainable agriculture and medicine, in the most beautiful small city in America on Lake Champlain.",
+      "website": ""
+    },
+    {
+      "id": "uga2",
+      "name": "Colorado State University",
+      "abbr": "CSU",
+      "color": "#1E4D2B",
+      "city": "Fort Collins",
+      "type": "Public",
+      "tuition": "$13,000–30,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Agriculture",
+        "Veterinary",
+        "Engineering",
+        "Business",
+        "Environmental Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1870,
+      "students": "~34,000",
+      "desc": "Colorado's outdoors university at the Rocky Mountain foothills — world-leading veterinary medicine, atmospheric science and sustainable agriculture.",
+      "website": ""
+    },
+    {
+      "id": "miami-oh",
+      "name": "Miami University Ohio",
+      "abbr": "MiamiOH",
+      "color": "#B61E2E",
+      "city": "Oxford",
+      "type": "Public",
+      "tuition": "$16,000–34,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Engineering",
+        "Education",
+        "Humanities",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1809,
+      "students": "~20,000",
+      "desc": "'The Public Ivy' — Miami Ohio's Farmer School of Business and education department are top-ranked, with a beautiful collegiate campus and strong alumni in Cincinnati's business community.",
+      "website": ""
+    },
+    {
+      "id": "marquette",
+      "name": "Marquette University",
+      "abbr": "MU",
+      "color": "#003366",
+      "city": "Milwaukee",
+      "type": "Private",
+      "tuition": "£44,000–48,000/yr",
+      "ts": 4,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Law",
+        "Engineering",
+        "Business",
+        "Nursing",
+        "Humanities"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1881,
+      "students": "~11,000",
+      "desc": "Milwaukee's Jesuit university — Marquette Law School and a nationally ranked nursing programme, with an intimate Jesuit education model and strong Midwest alumni network.",
+      "website": ""
+    }
+  ],
+  "cities": {
+    "Boston": {
+      "region": "New England",
+      "pop": "675,000 (metro 4.9M)",
+      "climate": "Humid continental",
+      "cost": "$2,000–3,500/mo",
+      "desc": "America's intellectual capital — more universities per square mile than anywhere on earth. Harvard, MIT, Tufts, BU, Northeastern and Brandeis are all here. Boston's mix of colonial history, cutting-edge biotech and a passionate sports culture makes it the ultimate college city.",
+      "highlights": [
+        "Harvard Yard — the oldest university campus in America",
+        "MIT campus and the Infinite Corridor",
+        "Freedom Trail — 2.5km walking tour of American Revolution sites",
+        "Museum of Fine Arts — one of America's great art collections",
+        "Fenway Park — baseball's most historic stadium"
+      ],
+      "studentLife": "Over 350,000 students from 100+ universities. The T (subway) student pass makes the city navigable. Cambridge (Harvard/MIT side) and Boston's Fenway/Mission Hill are the core student zones. Apartments start around $1,200/month for a room.",
+      "transport": "MBTA subway (T), bus and commuter rail. Monthly pass ~$90. Logan Airport is 3 miles from downtown — accessible by Silver Line free from the airport.",
+      "nightlife": "Faneuil Hall for tourists, Allston for student bars, Jamaica Plain for craft beer. Boston has a 2 AM last call and a passionate live music scene.",
+      "pros": [
+        "World's highest concentration of universities",
+        "World-class biotech and tech job market",
+        "American history everywhere",
+        "Strong academic culture — lectures, debates and public events weekly"
+      ],
+      "tags": [
+        "University city",
+        "Biotech",
+        "History",
+        "Intellectual"
+      ]
+    },
+    "New York": {
+      "region": "Mid-Atlantic",
+      "pop": "8.3 million",
+      "climate": "Humid subtropical",
+      "cost": "$2,500–4,500/mo",
+      "desc": "The greatest city on earth hosts Columbia, NYU, Fordham, Cornell (Tech campus), The New School and dozens more. No city offers more cultural, professional and social opportunities — the cost is real but the return is unlike anywhere else.",
+      "highlights": [
+        "Metropolitan Museum of Art — the largest art museum in the Americas",
+        "Central Park — 843 acres of green space at the heart of Manhattan",
+        "Brooklyn Bridge and DUMBO — the most photographed spot in New York",
+        "High Line — a 1.5-mile elevated park on an old railway line",
+        "Broadway — the world's greatest live theatre district"
+      ],
+      "studentLife": "700,000 students across 120+ institutions. Columbia is in Morningside Heights; NYU is scattered across Greenwich Village. Student housing is expensive ($1,500–2,500/month) but subway-connected to everything.",
+      "transport": "24-hour subway (A-Z lines), buses, Citi Bike. Student MetroCard ~$116/month. Walk, cycle or take the subway — never rely on taxis.",
+      "nightlife": "Greenwich Village for jazz bars, Bushwick for avant-garde clubs, Midtown for rooftop bars. New York never sleeps — there is no closing time for the city's nightlife imagination.",
+      "pros": [
+        "The world's financial, cultural and media capital",
+        "Every industry has its HQ here — unrivalled internship access",
+        "No other city offers more cultural variety per block",
+        "The NY network is the most powerful alumni network in the world"
+      ],
+      "tags": [
+        "Finance",
+        "Culture",
+        "Media",
+        "Career hub"
+      ]
+    },
+    "San Francisco": {
+      "region": "Bay Area",
+      "pop": "870,000 (metro 7.7M)",
+      "climate": "Mediterranean oceanic",
+      "cost": "$2,200–4,000/mo",
+      "desc": "Silicon Valley's city — Stanford is 30 miles south, Berkeley is across the Bay, and the companies these universities founded (Google, Apple, Facebook, Netflix) are all around you. San Francisco offers the world's most exciting tech ecosystem alongside extraordinary natural beauty.",
+      "highlights": [
+        "Golden Gate Bridge — the most beautiful engineering landmark in America",
+        "Alcatraz — the infamous island penitentiary tour in the Bay",
+        "Fisherman's Wharf — fresh Dungeness crab, sourdough and sea lions",
+        "Golden Gate Park — 1,017 acres of meadows, lakes and museums",
+        "Haight-Ashbury — birthplace of 1960s counterculture"
+      ],
+      "studentLife": "UC Berkeley across the Bay, Stanford in Palo Alto, UCSF in the city. Housing is expensive but the job market is extraordinary. Internship culture starts from year 1.",
+      "transport": "BART rapid transit, MUNI buses and streetcars, Caltrain to Stanford/Silicon Valley. Monthly BART pass ~$120. Ferry to Berkeley. Cycling infrastructure is excellent.",
+      "nightlife": "Mission District for tacos and Latin clubs, Castro for LGBT+ culture, SoMa for tech industry bars, North Beach for literary cafes. San Francisco closes earlier than New York but the culture compensates.",
+      "pros": [
+        "The global centre of technology — internships at Google, Apple, Meta, Salesforce all accessible",
+        "World's most stunning urban geography — hills, bay and ocean",
+        "Best food and coffee culture in America",
+        "Progressive, open-minded social environment"
+      ],
+      "tags": [
+        "Tech",
+        "Innovation",
+        "Nature",
+        "Bay Area"
+      ]
+    },
+    "Los Angeles": {
+      "region": "Southern California",
+      "pop": "4 million (metro 13M)",
+      "climate": "Mediterranean",
+      "cost": "$2,000–3,500/mo",
+      "desc": "Entertainment, aerospace and technology converge in America's second city. UCLA and USC are both world-class; Caltech is nearby in Pasadena. LA's year-round sunshine, beach culture and entertainment industry make it uniquely aspirational.",
+      "highlights": [
+        "Getty Center — world-class art collection with panoramic city views",
+        "Hollywood Walk of Fame and Griffith Observatory",
+        "Santa Monica and Venice Beach — LA's beach culture in full bloom",
+        "The Getty Villa — ancient Greek and Roman art in a Malibu setting",
+        "Universal Studios Hollywood — the world's largest movie studio theme park"
+      ],
+      "studentLife": "UCLA and USC together host over 90,000 students. Westwood (UCLA) and University Park (USC) are the campus neighbourhoods. Car culture dominates but Metro is expanding. Apartments average $1,500–2,000/month.",
+      "transport": "LA Metro (6 lines), bus rapid transit. Monthly pass ~$100. Car ownership common. LAX airport 20 minutes from UCLA by Uber/bus.",
+      "nightlife": "Santa Monica for beach bars, West Hollywood for celebrity spotting and LGBT+ nightlife, Silver Lake for indie music. LA has world-famous clubs and the city's entertainment industry means events every night.",
+      "pros": [
+        "Entertainment industry — direct access to film, music and TV careers",
+        "Year-round sunshine and beaches 20 minutes from campus",
+        "Diverse, multicultural metropolis of 140 languages",
+        "Proximity to Silicon Valley tech firms and LA's booming tech sector"
+      ],
+      "tags": [
+        "Entertainment",
+        "Sunshine",
+        "Tech",
+        "Diverse"
+      ]
+    },
+    "Chicago": {
+      "region": "Midwest",
+      "pop": "2.7 million",
+      "climate": "Humid continental",
+      "cost": "$1,500–2,800/mo",
+      "desc": "America's 'city that works' — UChicago, Northwestern and Illinois are all within reach. Chicago's architecture, food, jazz and blues culture rival any American city, and at prices significantly below New York or San Francisco.",
+      "highlights": [
+        "The Bean (Cloud Gate) — Anish Kapoor's mirror sculpture in Millennium Park",
+        "Art Institute of Chicago — one of America's three great art museums",
+        "Chicago Architecture River Cruise — the world's greatest architecture lesson afloat",
+        "Deep-dish pizza — Pizzeria Uno's original and Giordano's stuffed crust",
+        "Jazz and Blues clubs on the North Side — America's live music capital"
+      ],
+      "studentLife": "UChicago in Hyde Park, Northwestern in Evanston, DePaul and Loyola in the city. Chicago is one of America's most affordable major cities with a vibrant student culture and extraordinary restaurant scene.",
+      "transport": "CTA L elevated train (8 lines), buses, Divvy bike-share. Monthly pass ~$105. Midway and O'Hare airports — the world's busiest air hub. Amtrak to New York in 18h.",
+      "nightlife": "Wicker Park and Bucktown for bars, Boystown for LGBT+ nightlife, River North for upmarket clubs. Chicago's music scene (jazz, blues, house, gospel) is unrivalled.",
+      "pros": [
+        "More affordable than New York or San Francisco by 30–40%",
+        "Extraordinary architecture — the birthplace of the skyscraper",
+        "World-class museums (Art Institute, Field Museum, Science & Industry)",
+        "Strong financial, consulting and commodities trading job market"
+      ],
+      "tags": [
+        "Architecture",
+        "Jazz",
+        "Affordable",
+        "Financial"
+      ]
+    },
+    "Austin": {
+      "region": "Texas",
+      "pop": "980,000",
+      "climate": "Humid subtropical",
+      "cost": "$1,100–1,800/mo",
+      "desc": "Austin is America's fastest-growing tech hub — 'Silicon Hills' — and the self-proclaimed Live Music Capital of the World. The University of Texas at Austin is a Big 12 powerhouse. With a booming startup scene, SXSW festival, and uniquely vibrant culture, Austin punches above its weight for any ambitious student.",
+      "highlights": [
+        "Sixth Street — the legendary live music and bar district",
+        "Texas State Capitol — impressive domed capitol in the city centre",
+        "Barton Springs Pool — natural swimming hole in Zilker Park",
+        "South Congress Avenue — quirky shops and food trucks",
+        "The Drag — UT campus street with legendary college bars"
+      ],
+      "studentLife": "UT Austin has 50,000+ students. West Campus and Hyde Park are the student neighbourhoods. Austin's tech ecosystem means internship and job opportunities are exceptional, especially in tech, music, and film.",
+      "transport": "Capital Metro bus, new MetroRail. Austin is very car-dependent outside of downtown. Bikesharing (BCycle) is popular for campus areas.",
+      "nightlife": "Sixth Street for bars and live music, Red River District for alternative and punk venues, Rainey Street for more upscale bars. SXSW brings the world to Austin every March.",
+      "pros": [
+        "America's fastest-growing tech hiring market",
+        "Live Music Capital of the World — constant events",
+        "UT Austin — top 50 global university",
+        "No state income tax in Texas"
+      ],
+      "tags": [
+        "Tech hub",
+        "Music",
+        "Growth city",
+        "Startup"
+      ]
+    },
+    "Seattle": {
+      "region": "Washington State",
+      "pop": "750,000",
+      "climate": "Oceanic",
+      "cost": "$1,400–2,200/mo",
+      "desc": "Seattle is where Amazon, Microsoft, Boeing, and Starbucks were born. The University of Washington is a world-class research institution set against the backdrop of mountains, water, and some of the most dramatic natural scenery in the US. The city is liberal, innovative, and deeply caffeinated.",
+      "highlights": [
+        "Pike Place Market — the world-famous market on the Sound",
+        "Space Needle — Seattle's iconic 1962 World's Fair tower",
+        "Museum of Pop Culture (MoPOP) — rock, film, and fantasy culture",
+        "Lake Union — kayaking, houseboats, and the UW campus view",
+        "Capitol Hill — Seattle's creative and LGBTQ+ neighbourhood"
+      ],
+      "studentLife": "University of Washington has 47,000+ students. The U-District (University District) is the student heartland. Amazon campus and Microsoft are accessible by bus, making career opportunities exceptional.",
+      "transport": "King County Metro buses, Link Light Rail connecting airport, downtown, and UW. Very walkable downtown. Rain gear is mandatory equipment.",
+      "nightlife": "Capitol Hill for bars, clubs, and live music. Pioneer Square for jazz and live gigs. Belltown for upscale cocktail bars. Seattle invented grunge and still has excellent live music.",
+      "pros": [
+        "Home to Amazon, Microsoft, Boeing — unrivalled tech jobs",
+        "University of Washington — top 15 public university in the US",
+        "Pacific Northwest outdoor access — mountains, coast, forests",
+        "Thriving coffee culture (Starbucks started here)"
+      ],
+      "tags": [
+        "Tech jobs",
+        "Mountains",
+        "Coffee",
+        "Innovation"
+      ]
+    }
+  },
+  "cityCards": [
+    {
+      "city": "Boston",
+      "region": "New England",
+      "gradient": "linear-gradient(135deg,#CC0000,#003087)",
+      "icon": "fa-solid fa-university",
+      "desc": "America's college capital — more universities per square mile than anywhere, home to Harvard, MIT, Tufts and a world-class biotech sector.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-snowflake"
+      ],
+      "stats": [
+        "675,000 residents",
+        "$2,000–3,500/mo student cost",
+        "Humid continental"
+      ],
+      "tags": [
+        "University city",
+        "Biotech",
+        "History"
+      ]
+    },
+    {
+      "city": "New York",
+      "region": "Mid-Atlantic",
+      "gradient": "linear-gradient(135deg,#003DA5,#57068C)",
+      "icon": "fa-solid fa-city",
+      "desc": "The world's greatest city — Columbia, NYU and Cornell Tech, plus unrivalled career access in finance, media and tech.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud"
+      ],
+      "stats": [
+        "8.3 million residents",
+        "$2,500–4,500/mo student cost",
+        "Humid subtropical"
+      ],
+      "tags": [
+        "Finance",
+        "Culture",
+        "Career hub"
+      ]
+    },
+    {
+      "city": "San Francisco",
+      "region": "Bay Area",
+      "gradient": "linear-gradient(135deg,#003262,#FF6C0C)",
+      "icon": "fa-solid fa-microchip",
+      "desc": "Silicon Valley's gateway — Stanford and Berkeley nearby, Google, Apple and Meta internships within reach, set against stunning natural beauty.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-sun"
+      ],
+      "stats": [
+        "870,000 residents",
+        "$2,200–4,000/mo student cost",
+        "Mediterranean oceanic"
+      ],
+      "tags": [
+        "Tech",
+        "Innovation",
+        "Bay Area"
+      ]
+    },
+    {
+      "city": "Los Angeles",
+      "region": "Southern California",
+      "gradient": "linear-gradient(135deg,#003B5C,#CC0000)",
+      "icon": "fa-solid fa-film",
+      "desc": "Entertainment and tech capital of the West — UCLA and USC in a city of sunshine, beaches and relentless ambition.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-sun"
+      ],
+      "stats": [
+        "4 million residents",
+        "$2,000–3,500/mo student cost",
+        "Mediterranean"
+      ],
+      "tags": [
+        "Entertainment",
+        "Sunshine",
+        "Diverse"
+      ]
+    },
+    {
+      "city": "Chicago",
+      "region": "Midwest",
+      "gradient": "linear-gradient(135deg,#13294B,#003DA5)",
+      "icon": "fa-solid fa-wind",
+      "desc": "America's 'Second City' — UChicago, Northwestern and a world-class architecture, food and jazz scene at 30% lower cost than NYC.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-snowflake"
+      ],
+      "stats": [
+        "2.7 million residents",
+        "$1,500–2,800/mo student cost",
+        "Humid continental"
+      ],
+      "tags": [
+        "Architecture",
+        "Jazz",
+        "Affordable"
+      ]
+    }
+  ],
+  "featuredCities": [
+    {
+      "city": "Boston",
+      "icon": "fa-solid fa-university",
+      "sub": "New England"
+    },
+    {
+      "city": "New York",
+      "icon": "fa-solid fa-city",
+      "sub": "Mid-Atlantic"
+    },
+    {
+      "city": "San Francisco",
+      "icon": "fa-solid fa-microchip",
+      "sub": "Bay Area"
+    },
+    {
+      "city": "Los Angeles",
+      "icon": "fa-solid fa-film",
+      "sub": "SoCal"
+    },
+    {
+      "city": "Chicago",
+      "icon": "fa-solid fa-wind",
+      "sub": "Midwest"
+    }
+  ]
+}

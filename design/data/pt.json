@@ -1,0 +1,2484 @@
+{
+  "meta": {
+    "name": "Portugal",
+    "code": "pt",
+    "flag": "pt",
+    "capital": "Lisbon",
+    "language": "Portuguese",
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "aboutStudying": "Portugal has emerged as one of Europe's hottest study destinations — affordable tuition (€1,000–5,000/year), a warm Mediterranean climate, English widely spoken in universities, and a rapidly growing startup and tech scene centred on Lisbon. Consistently ranked the world's most peaceful country.",
+    "uniCount": 80,
+    "cityCount": 7
+  },
+  "tips": [
+    {
+      "icon": "fa-solid fa-passport",
+      "color": "rgba(0,102,0,.1)",
+      "iconColor": "rgb(0,102,0)",
+      "title": "Visa & Residence",
+      "text": "EU/EEA citizens need no visa. Non-EU students need a student visa and must obtain a residence permit from SEF (Immigration Service) after arrival. Apply through the Portuguese consulate in your country at least 2 months before the semester."
+    },
+    {
+      "icon": "fa-solid fa-euro-sign",
+      "color": "rgba(52,152,219,.1)",
+      "iconColor": "rgb(52,152,219)",
+      "title": "Cost of Living",
+      "text": "Portugal is one of Europe's most affordable countries for students. Lisbon costs €800–1,300/month; Porto and Coimbra are cheaper at €600–1,000. Excellent canteen meals cost €2–5. However, Lisbon rents have risen sharply in recent years."
+    },
+    {
+      "icon": "fa-solid fa-language",
+      "color": "rgba(204,16,0,.1)",
+      "iconColor": "rgb(204,16,0)",
+      "title": "Language",
+      "text": "Many master's programmes are fully in English, especially in technology and business schools. Bachelor's programmes are primarily in Portuguese. Learning basic Portuguese is warmly appreciated and relatively quick for Spanish or French speakers."
+    }
+  ],
+  "universities": [
+    {
+      "id": "ulisboa",
+      "name": "Universidade de Lisboa",
+      "abbr": "ULisboa",
+      "color": "#003087",
+      "city": "Lisbon",
+      "type": "Public",
+      "tuition": "€1,000–3,500/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Humanities",
+        "Engineering"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1290,
+      "students": "~48,000",
+      "desc": "Portugal's largest and most prestigious university, formed by the merger of the historic University of Lisbon and Technical University — covering every major discipline.",
+      "website": "https://www.ulisboa.pt/"
+    },
+    {
+      "id": "nova",
+      "name": "NOVA University Lisbon",
+      "abbr": "NOVA",
+      "color": "#C8102E",
+      "city": "Lisbon",
+      "type": "Public",
+      "tuition": "€1,500–4,000/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Business",
+        "Law",
+        "Science",
+        "Medicine",
+        "Social Science"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1973,
+      "students": "~20,000",
+      "desc": "Portugal's most internationally ranked young university, with NOVA SBE (Carcavelos campus) consistently in the top 50 European business schools.",
+      "website": "https://www.unl.pt/"
+    },
+    {
+      "id": "catolica",
+      "name": "Universidade Católica Portuguesa",
+      "abbr": "UCP",
+      "color": "#003087",
+      "city": "Lisbon",
+      "type": "Private",
+      "tuition": "€5,000–12,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Law",
+        "Business",
+        "Humanities",
+        "Medicine"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1967,
+      "students": "~12,000",
+      "desc": "Portugal's premier private university with an elite reputation in law, management and humanities, and a strong alumni network in Portuguese and international institutions.",
+      "website": "https://www.ucp.pt"
+    },
+    {
+      "id": "porto",
+      "name": "University of Porto",
+      "abbr": "UPorto",
+      "color": "#003399",
+      "city": "Porto",
+      "type": "Public",
+      "tuition": "€700–2,500/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Medicine",
+        "Law",
+        "Science",
+        "Architecture"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1911,
+      "students": "~33,000",
+      "desc": "Portugal's second university — consistently ranked among the top 5% of universities worldwide, with particular strength in engineering, medicine and architecture.",
+      "website": "http://www.up.pt"
+    },
+    {
+      "id": "coimbra",
+      "name": "University of Coimbra",
+      "abbr": "UC",
+      "color": "#8B0000",
+      "city": "Coimbra",
+      "type": "Public",
+      "tuition": "€700–2,200/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Law",
+        "Medicine",
+        "Science",
+        "Humanities",
+        "Engineering"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1290,
+      "students": "~24,000",
+      "desc": "One of the world's oldest universities (1290), its entire campus is a UNESCO World Heritage Site — one of the most beautiful university environments in existence.",
+      "website": ""
+    },
+    {
+      "id": "minho",
+      "name": "University of Minho",
+      "abbr": "UMinho",
+      "color": "#006633",
+      "city": "Braga",
+      "type": "Public",
+      "tuition": "€700–2,000/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science",
+        "Business",
+        "Architecture"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1973,
+      "students": "~19,000",
+      "desc": "A dynamic young university between Braga and Guimarães — particularly strong in engineering, information systems and textile technology, with excellent Erasmus links.",
+      "website": ""
+    },
+    {
+      "id": "iscte",
+      "name": "ISCTE-IUL Lisbon",
+      "abbr": "ISCTE",
+      "color": "#FF6600",
+      "city": "Lisbon",
+      "type": "Public",
+      "tuition": "€1,200–3,500/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Social Science",
+        "CS",
+        "Architecture"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1972,
+      "students": "~9,000",
+      "desc": "A focused university specialising in management, architecture and social sciences — known for its entrepreneurship culture and strong links to the Lisbon tech startup scene.",
+      "website": ""
+    },
+    {
+      "id": "aveiro",
+      "name": "University of Aveiro",
+      "abbr": "UAV",
+      "color": "#009BBB",
+      "city": "Aveiro",
+      "type": "Public",
+      "tuition": "€700–2,200/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Science",
+        "CS",
+        "Business",
+        "Arts"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1973,
+      "students": "~15,000",
+      "desc": "An innovative campus university known for electronic engineering, IT and ceramics research — in the beautiful 'Venice of Portugal' on the Atlantic coast.",
+      "website": ""
+    },
+    {
+      "id": "evora",
+      "name": "University of Évora",
+      "abbr": "UEvora",
+      "color": "#5A0000",
+      "city": "Évora",
+      "type": "Public",
+      "tuition": "€700–2,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Humanities",
+        "Science",
+        "Engineering",
+        "Business",
+        "Arts"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1559,
+      "students": "~7,000",
+      "desc": "One of Portugal's oldest universities (1559), set in the UNESCO World Heritage city of Évora. A small, intimate campus with a long tradition in humanities, archaeology and science.",
+      "website": ""
+    },
+    {
+      "id": "beiras",
+      "name": "University of Beira Interior",
+      "abbr": "UBI",
+      "color": "#003366",
+      "city": "Covilhã",
+      "type": "Public",
+      "tuition": "€700–1,800/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Science",
+        "CS",
+        "Business",
+        "Architecture"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1986,
+      "students": "~6,500",
+      "desc": "A young, entrepreneurial university in the Serra da Estrela mountains, specialising in textile engineering, computer science and management — the gateway to Portugal's ski country.",
+      "website": ""
+    },
+    {
+      "id": "nursing-esep",
+      "name": "ISPA – University Institute",
+      "abbr": "ISPA",
+      "color": "#8B0050",
+      "city": "Lisbon",
+      "type": "Private",
+      "tuition": "€4,000–8,500/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Psychology",
+        "Social Science",
+        "Business",
+        "Humanities"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1962,
+      "students": "~5,000",
+      "desc": "Portugal's leading private institution for psychology, education and social sciences — highly respected for clinical psychology and counselling programmes in Lisbon.",
+      "website": ""
+    },
+    {
+      "id": "algarve",
+      "name": "University of Algarve",
+      "abbr": "UAlg",
+      "color": "#C8600A",
+      "city": "Faro",
+      "type": "Public",
+      "tuition": "€700–2,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Tourism",
+        "Science",
+        "Engineering",
+        "Business",
+        "Arts"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1979,
+      "students": "~8,000",
+      "desc": "Portugal's southernmost university on the Algarve coast — known for marine biology, tourism management and biotechnology research in the country's most visited holiday region.",
+      "website": ""
+    },
+    {
+      "id": "utad",
+      "name": "University of Trás-os-Montes e Alto Douro",
+      "abbr": "UTAD",
+      "color": "#006633",
+      "city": "Vila Real",
+      "type": "Public",
+      "tuition": "€700–2,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Science",
+        "Agriculture",
+        "Engineering",
+        "Business",
+        "Humanities"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1986,
+      "students": "~7,000",
+      "desc": "In the heart of Douro wine country — specialising in agronomy, viticulture, environmental engineering and veterinary sciences in a stunning mountain river valley setting.",
+      "website": ""
+    },
+    {
+      "id": "aberta",
+      "name": "Universidade Aberta",
+      "abbr": "UAb",
+      "color": "#003087",
+      "city": "Lisbon",
+      "type": "Public",
+      "tuition": "€700–1,500/yr",
+      "ts": 1,
+      "diff": 1,
+      "dl": "Open admission",
+      "fields": [
+        "Humanities",
+        "Social Science",
+        "CS",
+        "Education",
+        "Business"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1988,
+      "students": "~20,000",
+      "desc": "Portugal's public distance-learning university — offering fully online degrees to students in Portugal and across the Portuguese-speaking world, from Brazil to Mozambique.",
+      "website": ""
+    },
+    {
+      "id": "madeira",
+      "name": "University of Madeira",
+      "abbr": "UMa",
+      "color": "#009A44",
+      "city": "Funchal",
+      "type": "Public",
+      "tuition": "€700–1,800/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Science",
+        "Engineering",
+        "Business",
+        "Arts",
+        "Education"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1988,
+      "students": "~3,500",
+      "desc": "Portugal's island university on Madeira — offering a unique subtropical campus experience with strengths in tourism, biology and interactive technologies.",
+      "website": ""
+    },
+    {
+      "id": "acores",
+      "name": "University of the Azores",
+      "abbr": "UAc",
+      "color": "#005B8E",
+      "city": "Ponta Delgada",
+      "type": "Public",
+      "tuition": "€700–1,800/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Science",
+        "Agriculture",
+        "Business",
+        "Humanities",
+        "Education"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1976,
+      "students": "~4,000",
+      "desc": "Europe's most remote public university — on the volcanic mid-Atlantic island of São Miguel, with world-class oceanographic, volcanology and environmental research.",
+      "website": ""
+    },
+    {
+      "id": "lusiada",
+      "name": "Universidade Lusíada",
+      "abbr": "ULusiada",
+      "color": "#8B0000",
+      "city": "Lisbon",
+      "type": "Private",
+      "tuition": "€3,500–7,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Law",
+        "Architecture",
+        "Engineering",
+        "Business",
+        "Humanities"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1986,
+      "students": "~9,000",
+      "desc": "A private university with campuses in Lisbon, Porto and Vila Nova de Famalicão — known for law, architecture and engineering with a strong Portuguese-speaking world focus.",
+      "website": "http://www.ulusiada.pt/"
+    },
+    {
+      "id": "lusofona",
+      "name": "Universidade Lusófona",
+      "abbr": "ULusofona",
+      "color": "#C8102E",
+      "city": "Lisbon",
+      "type": "Private",
+      "tuition": "€3,500–7,500/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Law",
+        "CS",
+        "Humanities",
+        "Arts"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1998,
+      "students": "~12,000",
+      "desc": "One of Portugal's largest private universities — strong in communication sciences, architecture, law and health sciences with a diverse student community.",
+      "website": "http://www.ulusofona.pt"
+    },
+    {
+      "id": "autonoma",
+      "name": "Universidade Autónoma de Lisboa",
+      "abbr": "UAL",
+      "color": "#003DA5",
+      "city": "Lisbon",
+      "type": "Private",
+      "tuition": "€3,500–7,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Law",
+        "Business",
+        "Architecture",
+        "Humanities",
+        "CS"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1985,
+      "students": "~5,000",
+      "desc": "A central Lisbon private university offering competitive degrees in law, business and architecture, valued for its central location and academic partnerships.",
+      "website": "http://www.autonoma.pt"
+    },
+    {
+      "id": "europeia",
+      "name": "Universidade Europeia",
+      "abbr": "UEuropeia",
+      "color": "#004B87",
+      "city": "Lisbon",
+      "type": "Private",
+      "tuition": "€4,000–9,000/yr",
+      "ts": 3,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "CS",
+        "Tourism",
+        "Arts",
+        "Engineering"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 2011,
+      "students": "~4,000",
+      "desc": "A modern private university in Lisbon offering English-friendly business, digital and creative degrees — part of the Laureate international network.",
+      "website": "https://www.europeia.pt/"
+    },
+    {
+      "id": "portucalense",
+      "name": "Universidade Portucalense Infante D. Henrique",
+      "abbr": "UPT",
+      "color": "#C8600A",
+      "city": "Porto",
+      "type": "Private",
+      "tuition": "€3,500–6,500/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Law",
+        "Business",
+        "CS",
+        "Engineering",
+        "Education"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1986,
+      "students": "~4,500",
+      "desc": "Porto's longstanding private university named after Prince Henry the Navigator — strong in law, business and computing with good links to the Porto business community.",
+      "website": ""
+    },
+    {
+      "id": "fp",
+      "name": "Universidade Fernando Pessoa",
+      "abbr": "UFP",
+      "color": "#005B8E",
+      "city": "Porto",
+      "type": "Private",
+      "tuition": "€3,500–6,500/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Business",
+        "CS",
+        "Humanities"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1996,
+      "students": "~4,000",
+      "desc": "A Porto private university with a growing medical faculty and solid programmes in law, communication and criminology.",
+      "website": ""
+    },
+    {
+      "id": "ismai",
+      "name": "Instituto Universitário da Maia",
+      "abbr": "ISMAI",
+      "color": "#006633",
+      "city": "Maia",
+      "type": "Private",
+      "tuition": "€3,000–6,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Sports",
+        "Business",
+        "Education",
+        "Humanities",
+        "CS"
+      ],
+      "langs": [
+        "Portuguese"
+      ],
+      "founded": 1990,
+      "students": "~3,500",
+      "desc": "Near Porto — known for sports science, education and criminology programmes, producing many of Portugal's sports coaches and physical education teachers.",
+      "website": ""
+    },
+    {
+      "id": "ipp",
+      "name": "Instituto Politécnico do Porto",
+      "abbr": "IPP",
+      "color": "#C8102E",
+      "city": "Porto",
+      "type": "Public",
+      "tuition": "€700–1,800/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Arts",
+        "CS",
+        "Education"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1988,
+      "students": "~18,000",
+      "desc": "Porto's major polytechnic institute — one of Portugal's largest higher education institutions, offering practical engineering, business, arts and education degrees.",
+      "website": ""
+    },
+    {
+      "id": "ipl",
+      "name": "Instituto Politécnico de Lisboa",
+      "abbr": "IPL",
+      "color": "#003087",
+      "city": "Lisbon",
+      "type": "Public",
+      "tuition": "€700–1,800/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Health",
+        "Arts",
+        "CS"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1980,
+      "students": "~14,000",
+      "desc": "Lisbon's polytechnic institute — offering highly practical, employment-focused degrees in engineering, business, nursing, music and communications.",
+      "website": ""
+    },
+    {
+      "id": "ipb",
+      "name": "Instituto Politécnico de Bragança",
+      "abbr": "IPB",
+      "color": "#8B4513",
+      "city": "Bragança",
+      "type": "Public",
+      "tuition": "€700–1,600/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Agriculture",
+        "Business",
+        "Education",
+        "CS"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1983,
+      "students": "~7,000",
+      "desc": "In Portugal's remote northeast near the Spanish border — a popular choice for international students for its low costs, modern campus and erasmus-friendly environment.",
+      "website": ""
+    },
+    {
+      "id": "ipv",
+      "name": "Instituto Politécnico de Viseu",
+      "abbr": "IPV",
+      "color": "#006633",
+      "city": "Viseu",
+      "type": "Public",
+      "tuition": "€700–1,600/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Health",
+        "Education",
+        "Agriculture"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1979,
+      "students": "~6,000",
+      "desc": "In the beautiful Dão wine region — offering practical health, engineering and business programmes in one of Portugal's most liveable interior cities.",
+      "website": ""
+    },
+    {
+      "id": "ipcb",
+      "name": "Instituto Politécnico de Castelo Branco",
+      "abbr": "IPCB",
+      "color": "#005B8E",
+      "city": "Castelo Branco",
+      "type": "Public",
+      "tuition": "€700–1,500/yr",
+      "ts": 1,
+      "diff": 1,
+      "dl": "Open admission",
+      "fields": [
+        "Agriculture",
+        "Engineering",
+        "Arts",
+        "Business",
+        "Education"
+      ],
+      "langs": [
+        "Portuguese"
+      ],
+      "founded": 1980,
+      "students": "~3,500",
+      "desc": "In the Serra da Gardunha region — specialising in agronomy, design, education and applied languages near the Spanish border.",
+      "website": ""
+    },
+    {
+      "id": "ipg",
+      "name": "Instituto Politécnico da Guarda",
+      "abbr": "IPG",
+      "color": "#003087",
+      "city": "Guarda",
+      "type": "Public",
+      "tuition": "€700–1,500/yr",
+      "ts": 1,
+      "diff": 1,
+      "dl": "Open admission",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Tourism",
+        "Health",
+        "Arts"
+      ],
+      "langs": [
+        "Portuguese"
+      ],
+      "founded": 1980,
+      "students": "~3,000",
+      "desc": "At Portugal's highest city (1,056m) on the Spanish border — a small polytechnic with very accessible entry and low living costs, near Serra da Estrela ski resort.",
+      "website": ""
+    },
+    {
+      "id": "ipleiria",
+      "name": "Instituto Politécnico de Leiria",
+      "abbr": "IPL-Lei",
+      "color": "#CC0000",
+      "city": "Leiria",
+      "type": "Public",
+      "tuition": "€700–1,800/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "CS",
+        "Health",
+        "Arts"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1980,
+      "students": "~10,000",
+      "desc": "In the city of the Batalha UNESCO monastery — a leading polytechnic with strong engineering, design and gaming programmes, known for international openness.",
+      "website": ""
+    },
+    {
+      "id": "ipbeja",
+      "name": "Instituto Politécnico de Beja",
+      "abbr": "IPBeja",
+      "color": "#C8A100",
+      "city": "Beja",
+      "type": "Public",
+      "tuition": "€700–1,500/yr",
+      "ts": 1,
+      "diff": 1,
+      "dl": "Open admission",
+      "fields": [
+        "Agriculture",
+        "Engineering",
+        "Business",
+        "Education",
+        "Health"
+      ],
+      "langs": [
+        "Portuguese"
+      ],
+      "founded": 1979,
+      "students": "~2,500",
+      "desc": "In the vast Alentejo plains — specialising in agriculture, renewable energies and food technology in Portugal's sunniest and least densely populated region.",
+      "website": ""
+    },
+    {
+      "id": "ipportalegre",
+      "name": "Instituto Politécnico de Portalegre",
+      "abbr": "IPPortalegre",
+      "color": "#8B0000",
+      "city": "Portalegre",
+      "type": "Public",
+      "tuition": "€700–1,500/yr",
+      "ts": 1,
+      "diff": 1,
+      "dl": "Open admission",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Education",
+        "Health",
+        "Arts"
+      ],
+      "langs": [
+        "Portuguese"
+      ],
+      "founded": 1980,
+      "students": "~2,000",
+      "desc": "The polytechnic of the Upper Alentejo region near the Spanish border — very affordable with small class sizes and individual attention for students.",
+      "website": ""
+    },
+    {
+      "id": "ipt",
+      "name": "Instituto Politécnico de Tomar",
+      "abbr": "IPT",
+      "color": "#005F3C",
+      "city": "Tomar",
+      "type": "Public",
+      "tuition": "€700–1,600/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Tourism",
+        "Arts",
+        "Business"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1980,
+      "students": "~3,500",
+      "desc": "In the UNESCO World Heritage city of Tomar — home to the Convent of Christ (Knights Templar). Strong in conservation studies, heritage management and engineering.",
+      "website": "http://www.ipt.pt/"
+    },
+    {
+      "id": "ipvc",
+      "name": "Instituto Politécnico de Viana do Castelo",
+      "abbr": "IPVC",
+      "color": "#003DA5",
+      "city": "Viana do Castelo",
+      "type": "Public",
+      "tuition": "€700–1,600/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Health",
+        "Education",
+        "Tourism"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1980,
+      "students": "~5,000",
+      "desc": "In northern Portugal's green Minho coast — known for engineering, nursing and tourism management in one of Portugal's most beautiful green cities.",
+      "website": "http://www.ipvc.pt"
+    },
+    {
+      "id": "ips",
+      "name": "Instituto Politécnico de Setúbal",
+      "abbr": "IPS",
+      "color": "#C8600A",
+      "city": "Setúbal",
+      "type": "Public",
+      "tuition": "€700–1,800/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Education",
+        "Health",
+        "CS"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1979,
+      "students": "~7,000",
+      "desc": "In the Setúbal peninsula between Lisbon and the Atlantic — offering practical engineering, management and health sciences 40 minutes from the capital.",
+      "website": "http://www.ips.pt/"
+    },
+    {
+      "id": "ipca",
+      "name": "Instituto Politécnico do Cávado e do Ave",
+      "abbr": "IPCA",
+      "color": "#006633",
+      "city": "Barcelos",
+      "type": "Public",
+      "tuition": "€700–1,600/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "CS",
+        "Fashion",
+        "Arts"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1994,
+      "students": "~5,000",
+      "desc": "In the heart of northern Portugal's textile industry — particularly strong in fashion design, textile engineering and management in the Ave Valley industrial corridor.",
+      "website": "http://www.ipca.pt/"
+    },
+    {
+      "id": "isel",
+      "name": "Instituto Superior de Engenharia de Lisboa",
+      "abbr": "ISEL",
+      "color": "#003087",
+      "city": "Lisbon",
+      "type": "Public",
+      "tuition": "€700–1,800/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1852,
+      "students": "~6,000",
+      "desc": "Lisbon's specialist engineering polytechnic — among the most selective polytechnics in Portugal, producing civil, electrical and mechanical engineers for Lisbon's construction boom.",
+      "website": ""
+    },
+    {
+      "id": "iscal",
+      "name": "Instituto Superior de Contabilidade e Administração de Lisboa",
+      "abbr": "ISCAL",
+      "color": "#C8102E",
+      "city": "Lisbon",
+      "type": "Public",
+      "tuition": "€700–1,500/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Law"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1759,
+      "students": "~4,000",
+      "desc": "Lisbon's oldest accounting and management polytechnic — highly practical finance, accounting and management degrees with excellent employment links to Portuguese business.",
+      "website": ""
+    },
+    {
+      "id": "iscsp",
+      "name": "Instituto Superior de Ciências Sociais e Políticas",
+      "abbr": "ISCSP",
+      "color": "#8B0000",
+      "city": "Lisbon",
+      "type": "Public",
+      "tuition": "€700–2,000/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Social Science",
+        "Political Science",
+        "Humanities",
+        "Law"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1906,
+      "students": "~3,500",
+      "desc": "Part of the University of Lisbon — a specialist political science and social policy school producing Portugal's diplomats, social workers and public administrators.",
+      "website": ""
+    },
+    {
+      "id": "fmh",
+      "name": "Faculdade de Motricidade Humana",
+      "abbr": "FMH",
+      "color": "#005F3C",
+      "city": "Cruz Quebrada",
+      "type": "Public",
+      "tuition": "€700–1,800/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Sports",
+        "Science",
+        "Education",
+        "Health"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1940,
+      "students": "~3,000",
+      "desc": "Part of the University of Lisbon — Portugal's leading institution for sports science, physical therapy and human movement, producing the country's elite sports coaches and physiotherapists.",
+      "website": ""
+    },
+    {
+      "id": "uatla",
+      "name": "Universidade Atlântica",
+      "abbr": "UAtlantica",
+      "color": "#005B8E",
+      "city": "Barcarena",
+      "type": "Private",
+      "tuition": "€3,500–6,500/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Health",
+        "CS"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1996,
+      "students": "~2,500",
+      "desc": "A private university near Lisbon offering engineering, health sciences and computing — known for personalised attention and good links to the Lisbon tech sector.",
+      "website": ""
+    },
+    {
+      "id": "piaget",
+      "name": "Instituto Piaget",
+      "abbr": "Piaget",
+      "color": "#006633",
+      "city": "Almada",
+      "type": "Private",
+      "tuition": "€3,000–6,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Health",
+        "Education",
+        "Social Science",
+        "Engineering"
+      ],
+      "langs": [
+        "Portuguese"
+      ],
+      "founded": 1979,
+      "students": "~8,000",
+      "desc": "A private cooperative institution with campuses across Portugal — strong in nursing, education, social work and rehabilitation sciences, inspired by Jean Piaget's educational philosophy.",
+      "website": ""
+    },
+    {
+      "id": "cespu",
+      "name": "CESPU – Instituto Universitário de Ciências da Saúde",
+      "abbr": "CESPU",
+      "color": "#C8102E",
+      "city": "Gandra",
+      "type": "Private",
+      "tuition": "€4,000–8,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Health",
+        "Science"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1983,
+      "students": "~3,500",
+      "desc": "A private health sciences university north of Porto — offering medicine (the first private medical school in Portugal), pharmacy, dentistry and nursing.",
+      "website": ""
+    },
+    {
+      "id": "escola-naval",
+      "name": "Escola Naval",
+      "abbr": "EN",
+      "color": "#003087",
+      "city": "Almada",
+      "type": "Public",
+      "tuition": "€0/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "Science"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1845,
+      "students": "~200",
+      "desc": "Portugal's naval officer academy — producing officers for the Portuguese Navy since 1845. Graduates receive a degree in naval sciences with engineering specialisations, all expenses paid by the state.",
+      "website": ""
+    },
+    {
+      "id": "academia-militar",
+      "name": "Academia Militar",
+      "abbr": "AM",
+      "color": "#4A3728",
+      "city": "Lisbon",
+      "type": "Public",
+      "tuition": "€0/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "Humanities",
+        "Science",
+        "Law"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1837,
+      "students": "~500",
+      "desc": "Portugal's military officer academy — offering accredited degrees in engineering, history and management, with all costs covered by the state in exchange for military service.",
+      "website": ""
+    },
+    {
+      "id": "ipsan",
+      "name": "Instituto Politécnico de Santarém",
+      "abbr": "IPSantarém",
+      "color": "#8B4513",
+      "city": "Santarém",
+      "type": "Public",
+      "tuition": "€700–1,500/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Agriculture",
+        "Business",
+        "Education",
+        "Health",
+        "Sports"
+      ],
+      "langs": [
+        "Portuguese"
+      ],
+      "founded": 1979,
+      "students": "~5,000",
+      "desc": "In the medieval city of Santarém, capital of the Portuguese Ribatejo — particularly strong in agronomy, sports management and primary education in Portugal's farming heartland.",
+      "website": ""
+    },
+    {
+      "id": "lusiada-porto",
+      "name": "Universidade Lusíada do Porto",
+      "abbr": "ULPorto",
+      "color": "#8B0000",
+      "city": "Porto",
+      "type": "Private",
+      "tuition": "€3,500–7,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Law",
+        "Architecture",
+        "Engineering",
+        "Business",
+        "Humanities"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1993,
+      "students": "~4,000",
+      "desc": "The Porto campus of the Lusíada network — offering law, architecture and engineering degrees in Portugal's second-largest city.",
+      "website": ""
+    },
+    {
+      "id": "unh",
+      "name": "Universidade Nova de Lisboa – NOVA Medical School",
+      "abbr": "NMS",
+      "color": "#C8102E",
+      "city": "Lisbon",
+      "type": "Public",
+      "tuition": "€1,500–4,500/yr",
+      "ts": 2,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Medicine",
+        "Science"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 2013,
+      "students": "~1,500",
+      "desc": "NOVA University's standalone medical school — one of Portugal's most selective university programmes, offering an English-friendly medical curriculum in Lisbon.",
+      "website": ""
+    },
+    {
+      "id": "ist",
+      "name": "Instituto Superior Técnico",
+      "abbr": "IST",
+      "color": "#003087",
+      "city": "Lisbon",
+      "type": "Public",
+      "tuition": "€700–1,800/yr",
+      "ts": 1,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science",
+        "Architecture"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1911,
+      "students": "~11,000",
+      "desc": "Portugal's #1 engineering school — part of the University of Lisbon and consistently ranked among the top 200 engineering universities in the world.",
+      "website": "https://tecnico.ulisboa.pt/"
+    },
+    {
+      "id": "iseg",
+      "name": "ISEG – Lisbon School of Economics & Management",
+      "abbr": "ISEG",
+      "color": "#CC0000",
+      "city": "Lisbon",
+      "type": "Public",
+      "tuition": "€1,000–4,000/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Business",
+        "Economics",
+        "Finance"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1911,
+      "students": "~5,000",
+      "desc": "The University of Lisbon's economics and management school — Portugal's leading institution for economics, finance and applied management.",
+      "website": ""
+    },
+    {
+      "id": "nova-sbe",
+      "name": "Nova SBE – School of Business and Economics",
+      "abbr": "NovaSBE",
+      "color": "#003366",
+      "city": "Lisbon",
+      "type": "Public",
+      "tuition": "€4,000–8,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Business",
+        "Economics",
+        "Finance"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1977,
+      "students": "~4,000",
+      "desc": "Portugal's fast-rising business school — a stunning new campus in Cascais, ranked Portugal's best for business with a genuinely global MBA programme.",
+      "website": ""
+    },
+    {
+      "id": "fcul",
+      "name": "Faculty of Sciences – University of Lisbon",
+      "abbr": "FCUL",
+      "color": "#003087",
+      "city": "Lisbon",
+      "type": "Public",
+      "tuition": "€1,000–2,500/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Science",
+        "CS",
+        "Mathematics",
+        "Environmental Science"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1911,
+      "students": "~6,000",
+      "desc": "Portugal's premier pure science faculty — world-class in mathematics, statistics and oceanography, adjacent to Lisbon's National Museum of Natural History.",
+      "website": ""
+    },
+    {
+      "id": "fdul",
+      "name": "Faculty of Law – University of Lisbon",
+      "abbr": "FDUL",
+      "color": "#8B1A1A",
+      "city": "Lisbon",
+      "type": "Public",
+      "tuition": "€1,000–2,500/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Law"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1913,
+      "students": "~4,500",
+      "desc": "Portugal's oldest and most prestigious law faculty — training every generation of the country's judges, politicians and corporate lawyers.",
+      "website": ""
+    },
+    {
+      "id": "uac",
+      "name": "University of the Azores",
+      "abbr": "UAç",
+      "color": "#005691",
+      "city": "Ponta Delgada",
+      "type": "Public",
+      "tuition": "€600–1,500/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Science",
+        "Agriculture",
+        "Humanities",
+        "Business",
+        "Education"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1976,
+      "students": "~4,000",
+      "desc": "The only university in the Atlantic Azores archipelago — exceptional in volcanology, marine biology and agricultural sciences on nine volcanic islands.",
+      "website": "http://www.uac.pt"
+    },
+    {
+      "id": "uma",
+      "name": "University of Madeira",
+      "abbr": "UMa",
+      "color": "#CC0000",
+      "city": "Funchal",
+      "type": "Public",
+      "tuition": "€600–1,500/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Science",
+        "Business",
+        "Education",
+        "Humanities",
+        "CS"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1988,
+      "students": "~4,000",
+      "desc": "On the island of eternal spring — very affordable, strong in marine biology, tourism studies and Portuguese language on Europe's most flower-covered island.",
+      "website": ""
+    },
+    {
+      "id": "uai",
+      "name": "University of Algarve",
+      "abbr": "UAlg",
+      "color": "#E5007A",
+      "city": "Faro",
+      "type": "Public",
+      "tuition": "€700–1,800/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Science",
+        "Business",
+        "Engineering",
+        "Tourism",
+        "Health Sciences"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1979,
+      "students": "~8,000",
+      "desc": "On the golden beaches of the Algarve — strong in tourism, marine sciences and biomedical sciences in Portugal's most visited coastal destination.",
+      "website": ""
+    },
+    {
+      "id": "uatlantica",
+      "name": "Universidade Atlântica",
+      "abbr": "UAtl",
+      "color": "#003366",
+      "city": "Lisbon",
+      "type": "Private",
+      "tuition": "€3,500–7,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Health Sciences",
+        "Engineering",
+        "Business",
+        "CS",
+        "Law"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1996,
+      "students": "~4,000",
+      "desc": "A Lisbon private university with strong health sciences and computing — known for nursing, physiotherapy and digital business programmes.",
+      "website": ""
+    },
+    {
+      "id": "ulusiada",
+      "name": "Universidade Lusíada",
+      "abbr": "ULusíada",
+      "color": "#CC0000",
+      "city": "Lisbon",
+      "type": "Private",
+      "tuition": "€3,500–7,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Law",
+        "Architecture",
+        "Engineering",
+        "Business",
+        "Humanities"
+      ],
+      "langs": [
+        "Portuguese"
+      ],
+      "founded": 1986,
+      "students": "~6,000",
+      "desc": "The Lusíada group's Lisbon university — one of Portugal's best-known private institutions for law, architecture and economics.",
+      "website": ""
+    },
+    {
+      "id": "ulusiofona",
+      "name": "Universidade Lusófona",
+      "abbr": "ULusófona",
+      "color": "#003366",
+      "city": "Lisbon",
+      "type": "Private",
+      "tuition": "€3,500–8,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Law",
+        "Communication",
+        "CS",
+        "Health Sciences",
+        "Humanities"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1998,
+      "students": "~10,000",
+      "desc": "The largest private university in Portugal — with campuses in Lisbon, Porto and internationally, offering law, media and communication at competitive prices.",
+      "website": ""
+    },
+    {
+      "id": "univ-europeia",
+      "name": "Universidade Europeia",
+      "abbr": "UEur",
+      "color": "#003087",
+      "city": "Lisbon",
+      "type": "Private",
+      "tuition": "£8,000–14,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Law",
+        "CS",
+        "Engineering",
+        "Health Sciences"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 2009,
+      "students": "~3,000",
+      "desc": "A young dynamic Lisbon private university with strong English-taught programmes — focused on business, digital marketing and sports management.",
+      "website": ""
+    },
+    {
+      "id": "ucp",
+      "name": "Catholic University of Portugal – Porto",
+      "abbr": "UCP-Porto",
+      "color": "#8B1A1A",
+      "city": "Porto",
+      "type": "Private",
+      "tuition": "£6,000–14,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Law",
+        "Business",
+        "Education",
+        "Architecture",
+        "Health Sciences"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1967,
+      "students": "~7,000",
+      "desc": "Porto's Catholic university campus — particularly strong in law, economics and management, with close ties to Porto's business and cultural institutions.",
+      "website": ""
+    },
+    {
+      "id": "ipporto",
+      "name": "Porto Polytechnic",
+      "abbr": "IPP",
+      "color": "#CC0000",
+      "city": "Porto",
+      "type": "Public",
+      "tuition": "€700–1,800/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Arts",
+        "Health Sciences",
+        "Education"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1985,
+      "students": "~23,000",
+      "desc": "One of Portugal's largest polytechnics — 7 schools across Porto offering practical engineering, arts and health sciences degrees with strong graduate employment.",
+      "website": ""
+    },
+    {
+      "id": "ipl2",
+      "name": "Polytechnic of Lisbon",
+      "abbr": "IPLisboa",
+      "color": "#CC0000",
+      "city": "Lisbon",
+      "type": "Public",
+      "tuition": "€700–2,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Arts",
+        "Health Sciences",
+        "Business",
+        "Education"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1979,
+      "students": "~18,000",
+      "desc": "Lisbon's largest polytechnic — 7 schools including the Escola Superior de Música, offering applied degrees from nursing to multimedia and digital arts.",
+      "website": ""
+    },
+    {
+      "id": "ipsantarem",
+      "name": "Polytechnic Institute of Santarém",
+      "abbr": "IPS2",
+      "color": "#006A4E",
+      "city": "Santarém",
+      "type": "Public",
+      "tuition": "€600–1,200/yr",
+      "ts": 1,
+      "diff": 1,
+      "dl": "Open access",
+      "fields": [
+        "Agriculture",
+        "Education",
+        "Business",
+        "Health Sciences",
+        "Sports"
+      ],
+      "langs": [
+        "Portuguese"
+      ],
+      "founded": 1979,
+      "students": "~4,000",
+      "desc": "In the Ribatejo farming heartland — the most specialised polytechnic in Portugal for agricultural sciences, sports and teacher education.",
+      "website": ""
+    },
+    {
+      "id": "ubi",
+      "name": "University of Beira Interior",
+      "abbr": "UBI",
+      "color": "#005691",
+      "city": "Covilhã",
+      "type": "Public",
+      "tuition": "€700–2,000/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Arts",
+        "Business",
+        "Health Sciences"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1979,
+      "students": "~9,000",
+      "desc": "Tucked in the Serra da Estrela textile valleys — world-leading in textile engineering and aeronautical sciences, with a growing tech and aerospace focus.",
+      "website": ""
+    },
+    {
+      "id": "ipm",
+      "name": "Polytechnic Institute of Mafra",
+      "abbr": "IPMafra",
+      "color": "#CC0000",
+      "city": "Mafra",
+      "type": "Public",
+      "tuition": "€700–1,500/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Health Sciences",
+        "Education"
+      ],
+      "langs": [
+        "Portuguese"
+      ],
+      "founded": 2012,
+      "students": "~2,000",
+      "desc": "Portugal's newest polytechnic — compact and modern, serving the growing suburban Mafra-Sintra corridor north of Lisbon.",
+      "website": ""
+    },
+    {
+      "id": "iaa",
+      "name": "Instituto de Arte e Design – IADE",
+      "abbr": "IADE",
+      "color": "#CC0000",
+      "city": "Lisbon",
+      "type": "Private",
+      "tuition": "£6,000–12,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Arts",
+        "Architecture",
+        "Business"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1969,
+      "students": "~3,500",
+      "desc": "Portugal's leading private arts and design school — known for graphic design, advertising, photography and fashion, set in a converted 1960s Lisbon building.",
+      "website": ""
+    },
+    {
+      "id": "esad",
+      "name": "ESAD – School of Art and Design",
+      "abbr": "ESAD",
+      "color": "#003366",
+      "city": "Porto",
+      "type": "Private",
+      "tuition": "£6,000–11,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Arts",
+        "Architecture",
+        "CS"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1989,
+      "students": "~1,500",
+      "desc": "Porto's leading private arts school — consistently top-ranked for graphic design, product design and digital arts in Portugal's most creative city.",
+      "website": ""
+    },
+    {
+      "id": "uep",
+      "name": "Universidade de Évora",
+      "abbr": "UE",
+      "color": "#8B1A1A",
+      "city": "Évora",
+      "type": "Public",
+      "tuition": "€700–2,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Agriculture",
+        "Science",
+        "Humanities",
+        "Business",
+        "Arts"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1559,
+      "students": "~8,000",
+      "desc": "In the whitewashed UNESCO World Heritage city of Évora — the Alentejo's ancient university, strong in archaeology, ecology and agricultural sciences.",
+      "website": "https://www.uevora.pt/"
+    },
+    {
+      "id": "ip-viseu",
+      "name": "Polytechnic Institute of Viseu",
+      "abbr": "IPV",
+      "color": "#005691",
+      "city": "Viseu",
+      "type": "Public",
+      "tuition": "€700–1,500/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Health Sciences",
+        "Education",
+        "Agriculture"
+      ],
+      "langs": [
+        "Portuguese"
+      ],
+      "founded": 1979,
+      "students": "~8,000",
+      "desc": "In the Dão wine region of Viseu — strong in civil engineering, health sciences and tourism in the most unspoilt central Portuguese city.",
+      "website": "http://www.ipv.pt/"
+    },
+    {
+      "id": "univ-maia",
+      "name": "University of Maia – ISMAI",
+      "abbr": "ISMAI",
+      "color": "#CC0000",
+      "city": "Porto",
+      "type": "Private",
+      "tuition": "€3,500–7,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Sports Science",
+        "Business",
+        "Law",
+        "CS",
+        "Health Sciences"
+      ],
+      "langs": [
+        "Portuguese"
+      ],
+      "founded": 1990,
+      "students": "~6,000",
+      "desc": "Porto's sports and health sciences private university — one of Portugal's leading schools for physiotherapy, sports coaching and human nutrition.",
+      "website": ""
+    },
+    {
+      "id": "isg",
+      "name": "ISG – Business & Economics School",
+      "abbr": "ISG",
+      "color": "#003087",
+      "city": "Lisbon",
+      "type": "Private",
+      "tuition": "£6,000–12,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Finance",
+        "Economics"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1978,
+      "students": "~3,000",
+      "desc": "Lisbon's international management school — offering English-track MBA and master's programmes with strong alumni networks in banking and consulting.",
+      "website": ""
+    },
+    {
+      "id": "catedralc",
+      "name": "Universidade Católica Portuguesa – Lisbon",
+      "abbr": "UCP-LX",
+      "color": "#8B1A1A",
+      "city": "Lisbon",
+      "type": "Private",
+      "tuition": "£8,000–16,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Law",
+        "Business",
+        "Medicine",
+        "Theology",
+        "Humanities"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1967,
+      "students": "~7,000",
+      "desc": "Portugal's Catholic university — the country's most prestigious private institution, training Portugal's top lawyers, economists and theologians.",
+      "website": ""
+    },
+    {
+      "id": "ip-santarem2",
+      "name": "Polytechnic University of Leiria – ESTM",
+      "abbr": "ESTM",
+      "color": "#003366",
+      "city": "Leiria",
+      "type": "Public",
+      "tuition": "€700–1,500/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Tourism",
+        "Business",
+        "Engineering",
+        "CS"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1980,
+      "students": "~3,000",
+      "desc": "IPL's tourism and management school on the Peniche Atlantic coast — one of Portugal's best schools for hospitality, marine tourism and surf sciences.",
+      "website": ""
+    },
+    {
+      "id": "unilisboa2",
+      "name": "FBAUL – Faculty of Fine Arts",
+      "abbr": "FBAUL",
+      "color": "#000000",
+      "city": "Lisbon",
+      "type": "Public",
+      "tuition": "€800–2,000/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Arts",
+        "Architecture",
+        "Education"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1836,
+      "students": "~2,500",
+      "desc": "Lisbon's historic fine arts faculty on the Tagus waterfront — one of Portugal's oldest institutions, graduating painters, sculptors and set designers since the Romantic period.",
+      "website": ""
+    },
+    {
+      "id": "unibeira2",
+      "name": "ISLA Santarém",
+      "abbr": "ISLA",
+      "color": "#CC0000",
+      "city": "Santarém",
+      "type": "Private",
+      "tuition": "€2,500–6,000/yr",
+      "ts": 2,
+      "diff": 1,
+      "dl": "Open access",
+      "fields": [
+        "Business",
+        "Law",
+        "CS",
+        "Tourism",
+        "Education"
+      ],
+      "langs": [
+        "Portuguese"
+      ],
+      "founded": 1990,
+      "students": "~4,000",
+      "desc": "A practical private higher institution in the Ribatejo region — offering accessible business, law and CS degrees with strong employment-focused curricula.",
+      "website": ""
+    },
+    {
+      "id": "unil",
+      "name": "University of Lusíada – Porto",
+      "abbr": "ULusP",
+      "color": "#003366",
+      "city": "Porto",
+      "type": "Private",
+      "tuition": "€3,500–7,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Architecture",
+        "Law",
+        "Engineering",
+        "Business",
+        "Humanities"
+      ],
+      "langs": [
+        "Portuguese"
+      ],
+      "founded": 1986,
+      "students": "~5,000",
+      "desc": "The Porto campus of the Lusíada network — known for architecture, law and engineering with a strong community of returning students.",
+      "website": ""
+    },
+    {
+      "id": "unipte",
+      "name": "Universidade Portucalense",
+      "abbr": "UPT",
+      "color": "#CC0000",
+      "city": "Porto",
+      "type": "Private",
+      "tuition": "£4,000–8,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Law",
+        "Business",
+        "CS",
+        "Engineering",
+        "Humanities"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1991,
+      "students": "~5,000",
+      "desc": "Porto's practical private university — one of Portugal's leaders in e-learning business degrees, law and digital media.",
+      "website": ""
+    },
+    {
+      "id": "ibs-porto",
+      "name": "IPAM – The Marketing School",
+      "abbr": "IPAM",
+      "color": "#003087",
+      "city": "Porto",
+      "type": "Private",
+      "tuition": "£5,000–10,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Marketing",
+        "CS"
+      ],
+      "langs": [
+        "Portuguese",
+        "English"
+      ],
+      "founded": 1984,
+      "students": "~2,000",
+      "desc": "Portugal's original marketing school — now part of the LAUREATE network, offering practical marketing, branding and digital commerce degrees.",
+      "website": ""
+    },
+    {
+      "id": "estgl",
+      "name": "Instituto Politécnico da Guarda – ESTG Leiria",
+      "abbr": "ESTGL",
+      "color": "#005691",
+      "city": "Leiria",
+      "type": "Public",
+      "tuition": "€700–1,500/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "CS",
+        "Tourism"
+      ],
+      "langs": [
+        "Portuguese"
+      ],
+      "founded": 1980,
+      "students": "~4,000",
+      "desc": "Leiria Polytechnic's main engineering school — a practical applied sciences institution at the geographic heart of Portugal.",
+      "website": ""
+    }
+  ],
+  "cities": {
+    "Lisbon": {
+      "region": "Lisboa",
+      "pop": "550,000 (metro 2.9M)",
+      "climate": "Mediterranean",
+      "cost": "€800–1,300/mo",
+      "desc": "Lisbon is Europe's hottest city of the moment — sunny, hilly, tiled and melancholy-beautiful. Once the capital of a global empire, it's now a compact, human-scale capital undergoing an extraordinary renaissance driven by tech, tourism and creative industries. Consistently ranked one of Europe's best cities for quality of life, and still far more affordable than London or Paris.",
+      "highlights": [
+        "Alfama district — the original Moorish quarter with Fado music drifting from every window",
+        "Belém Tower & Jerónimos Monastery — twin UNESCO masterpieces of Manueline architecture",
+        "LX Factory — Lisbon's creative hub in a converted textile factory",
+        "Time Out Market — Portugal's best food market and global culinary laboratory",
+        "Sintra palaces — fairy-tale royal palaces in the hills, 30 minutes by train"
+      ],
+      "studentLife": "Over 100,000 students across Lisbon's universities. The Baixa and Intendente areas are student heartlands. Accommodation costs €400–700/month for a room, though prices are rising sharply. Student canteens serve lunch for €2.65.",
+      "transport": "Metro (4 lines), trams (the famous Tram 28), Carris buses, ferry to Cacilhas and Setubal. Monthly pass ~€40. The Viva Viagem card is essential. Excellent cycling infrastructure (GIRA bike-share). Trains to Porto in 2h45.",
+      "nightlife": "Bairro Alto for traditional bars (and a famous outdoor drinking culture), Santos for riverside clubs, Cais do Sodré for the legendary Pink Street and Time Out Market terrace.",
+      "pros": [
+        "Sunniest European capital (2,800+ hours of sunshine per year)",
+        "Tech hub — Web Summit is held here, growing startup scene",
+        "Atlantic beaches 30 minutes from the city centre",
+        "Most affordable capital in Western Europe after budgets deteriorated elsewhere"
+      ],
+      "tags": [
+        "Sunny",
+        "Tech hub",
+        "Fado",
+        "Atlantic"
+      ]
+    },
+    "Porto": {
+      "region": "Norte",
+      "pop": "237,000 (metro 1.7M)",
+      "climate": "Oceanic",
+      "cost": "€600–1,000/mo",
+      "desc": "Porto is the anti-Lisbon — grimier, grittier, more working-class and deeply proud of it. It gave the world port wine, the original francesinha sandwich, and the most passionate football rivalry in Portugal. The University of Porto is genuinely strong in engineering and sciences. Douro wine country is 1 hour away.",
+      "highlights": [
+        "Ribeira district — UNESCO-listed medieval waterfront on the Douro river",
+        "Livraria Lello — the bookshop that inspired Harry Potter's Hogwarts library",
+        "Dom Luís I Bridge — Gustave Eiffel's two-level bridge connecting Porto to Vila Nova de Gaia",
+        "Palácio da Bolsa — the extraordinary Arab Room of Porto's 19th century Stock Exchange",
+        "Douro Valley wine region — UNESCO-listed terraced vineyards, 1 hour by car"
+      ],
+      "studentLife": "55,000 students in an increasingly trendy city. Foz do Douro and Cedofeita are student areas. Accommodation: €350–600/month for a room, still affordable despite rising. Porto's student culture is authentic and unpretentious.",
+      "transport": "Metro (6 lines), STCP buses, trams and Andante Card. Monthly pass ~€35. Cycling along the Douro is beautiful. Porto Airport is 25 minutes by metro.",
+      "nightlife": "Rua Galeria de Paris for bars, Galerias de Paris for outdoor drinking, Matosinhos for seafood and beach bars, Rua de Cedofeita for alternative venues.",
+      "pros": [
+        "Most authentic and genuinely Portuguese city experience",
+        "Douro Valley wine and port wine culture on your doorstep",
+        "Atlantic coast beaches 15 minutes from the city",
+        "Significantly cheaper than Lisbon for accommodation"
+      ],
+      "tags": [
+        "Authentic",
+        "Port wine",
+        "Atlantic",
+        "UNESCO"
+      ]
+    },
+    "Coimbra": {
+      "region": "Centro",
+      "pop": "143,000",
+      "climate": "Mediterranean continental",
+      "cost": "€500–800/mo",
+      "desc": "Coimbra is Portugal's Oxford — a medieval university city where the university has dominated every aspect of life since 1290. The black-caped students (caloiros), Fado de Coimbra, the Joanina Library (one of the world's most beautiful), and the ancient thermal baths make it a uniquely immersive academic experience.",
+      "highlights": [
+        "Joanina Library — 18th century library with Baroque gold-leaf interiors, one of the world's most beautiful",
+        "Coimbra Cathedral (Old Cathedral) — the most important Romanesque building in Portugal",
+        "Mondego River gardens — the park along the river below the university hill",
+        "Machado de Castro Museum — former Roman forum transformed into Portugal's finest regional museum",
+        "Fado de Coimbra performances — a sadder, more academic cousin of Lisbon's Fado"
+      ],
+      "studentLife": "24,000 students in a city of 143,000 — nearly identical to Salamanca's ratio. The entire upper city is the university campus. Black capes, academic ceremonies and 700 years of tradition make this unlike any other student experience in Portugal.",
+      "transport": "SMTUC buses, cycling along the Mondego. Trains to Lisbon in 1h40, Porto in 1h10. The university is on a hill — be prepared for walking or the elevator.",
+      "nightlife": "Bar Quebra Costas for classic student bars, Rua de Baixo for late-night venues, riverside esplanades in summer. Fado de Coimbra performances in historic venues.",
+      "pros": [
+        "One of the world's most beautiful university libraries (Joanina)",
+        "Campus is a UNESCO World Heritage Site",
+        "Cheapest city on this list — excellent quality of life for students",
+        "Most immersive traditional Portuguese university atmosphere"
+      ],
+      "tags": [
+        "Medieval university",
+        "UNESCO",
+        "Affordable",
+        "Fado"
+      ]
+    },
+    "Braga": {
+      "region": "Minho",
+      "pop": "193,000",
+      "climate": "Oceanic",
+      "cost": "€500–800/mo",
+      "desc": "Braga is the Rome of Portugal — the country's most religious city, with over 35 baroque churches, but also the youngest city demographically in the country and home to a dynamic university with a strong tech and engineering reputation. It's compact, affordable, green and increasingly entrepreneurial.",
+      "highlights": [
+        "Bom Jesus do Monte — Baroque staircase sanctuary with 17 fountains, 30 minutes walk up the hill",
+        "Braga Cathedral — Portugal's oldest cathedral, consecrated in 1089",
+        "Guimarães (30 min) — the 'birthplace of Portugal', UNESCO World Heritage",
+        "Roman Thermae — 1st century Roman baths excavated in the city centre",
+        "Parque da Ponte — beautiful riverside park and sports complex"
+      ],
+      "studentLife": "19,000 university students in a city of 193,000. Braga has a youthful energy driven by the University of Minho and NOS (tech startup) ecosystem. It's the fastest-growing city in Portugal.",
+      "transport": "TUB urban buses, cycling. Trains to Porto in 45 minutes, to Lisbon in 2h30. Braga is very compact and walkable.",
+      "nightlife": "Rua do Souto for cafes and bars, Bairro dos Congregados for student bars, Retiro outdoor summer concerts. Braga's nightlife is modest but growing as the student scene expands.",
+      "pros": [
+        "Cheapest city on this list",
+        "Youngest demographic in Portugal — dynamic, entrepreneurial energy",
+        "Guimarães (birthplace of Portugal) is 30 minutes away",
+        "University of Minho's engineering and tech programmes are top-rated"
+      ],
+      "tags": [
+        "Religious heritage",
+        "Tech hub",
+        "Affordable",
+        "Young city"
+      ]
+    },
+    "Aveiro": {
+      "region": "Centro",
+      "pop": "80,000",
+      "climate": "Oceanic",
+      "cost": "€500–750/mo",
+      "desc": "Aveiro is the 'Venice of Portugal' — a delightful small city built around a lagoon (ria), famous for its painted wooden moliceiro boats, its colourful Art Nouveau architecture and its fresh seafood. The University of Aveiro is punching well above its weight in engineering and technology research, making it a hidden gem for STEM students.",
+      "highlights": [
+        "Ria de Aveiro — the lagoon system with moliceiro boat trips",
+        "Costa Nova — striped-house fishing village on an Atlantic barrier island (15 min)",
+        "Aveiro Museum — stunning 15th century convent with exceptional azulejo tilework",
+        "Art Nouveau Museum — the finest collection of Portuguese Art Nouveau architecture",
+        "Ovos Moles — Aveiro's legendary UNESCO-listed traditional sweet"
+      ],
+      "studentLife": "15,000 students in a city of 80,000. The campus is a self-contained modern city in itself. Student life is intimate and supportive. Accommodation from €250–450/month.",
+      "transport": "Cycling is the main mode — the city is completely flat. Trains to Porto in 45 minutes, to Coimbra in 40 minutes. Very compact and walkable.",
+      "nightlife": "Small but vibrant student scene centred around the university campus. Cafes and cocktail bars along the canal. Porto (45 min by train) for a bigger night.",
+      "pros": [
+        "The 'Venice of Portugal' — uniquely beautiful lagoon setting",
+        "University punches above its weight — especially in engineering and IT",
+        "Most affordable city on this list",
+        "Atlantic beaches 15 minutes away"
+      ],
+      "tags": [
+        "Venice of Portugal",
+        "Engineering",
+        "Affordable",
+        "Lagoon"
+      ]
+    },
+    "Évora": {
+      "region": "Alentejo",
+      "pop": "56,000",
+      "climate": "Hot-summer Mediterranean",
+      "cost": "€550–850/mo",
+      "desc": "Évora is a living museum — a UNESCO World Heritage walled city in the heart of the Alentejo wine country. The University of Évora (founded 1559) is one of Portugal's oldest and makes this small city surprisingly academic. Perfect for students who want history, quiet, and extraordinary cheapness.",
+      "highlights": [
+        "Roman Temple of Diana — remarkably preserved 1st century temple",
+        "Chapel of Bones (Igreja dos Ossos) — the iconic bone-adorned chapel",
+        "Évora Cathedral — the largest medieval cathedral in Portugal",
+        "Praça do Giraldo — the beautiful central square",
+        "Cromeleque dos Almendres — prehistoric megalith site nearby"
+      ],
+      "studentLife": "University of Évora brings a student community disproportionate to the city's size. Very close-knit, affordable, and peaceful. One of the cheapest student cities in all of Portugal.",
+      "transport": "Small and walkable. Bus connections to Lisbon (1h30) and Beja. Car or motorcycle helpful for exploring the Alentejo region.",
+      "nightlife": "Low-key bars around the central square. This is a city for evening walks, wine tasting, and slow evenings rather than club culture.",
+      "pros": [
+        "Cheapest student city in Portugal",
+        "Entire city centre is UNESCO World Heritage",
+        "One of Portugal's oldest universities (1559)",
+        "Extraordinary historical character"
+      ],
+      "tags": [
+        "UNESCO",
+        "Historic",
+        "Wine country",
+        "Affordable"
+      ]
+    },
+    "Faro": {
+      "region": "Algarve",
+      "pop": "68,000",
+      "climate": "Mediterranean",
+      "cost": "€600–950/mo",
+      "desc": "Faro is the capital of the Algarve — a sunny, relaxed city with easy access to some of Europe's finest beaches, a lovely old town, and a growing student population at the University of Algarve. It's the warmest student city in Portugal and one of the sunniest in all of Europe.",
+      "highlights": [
+        "Faro Old Town (Cidade Velha) — walled historic quarter",
+        "Ria Formosa Natural Park — coastal lagoon ecosystem",
+        "Ilha de Faro — urban beach accessible by ferry",
+        "Faro Cathedral — panoramic views from the tower",
+        "Estói Palace and Roman ruins nearby"
+      ],
+      "studentLife": "University of Algarve creates a student scene in an otherwise tourism-focused city. International community is strong. The city is extremely student-friendly in terms of cost.",
+      "transport": "Faro International Airport (direct flights to 30+ cities), city buses. Car is useful for beach access.",
+      "nightlife": "Bar Faro and the marina area for evening drinks. More of a terrace-and-beach culture than club scene.",
+      "pros": [
+        "Warmest, sunniest city in Portugal",
+        "Gateway to the Algarve's famous beaches",
+        "International airport with direct flights everywhere",
+        "Very affordable student living"
+      ],
+      "tags": [
+        "Sunny",
+        "Beach",
+        "Algarve",
+        "Affordable"
+      ]
+    }
+  },
+  "cityCards": [
+    {
+      "city": "Lisbon",
+      "region": "Lisboa",
+      "gradient": "linear-gradient(135deg,#003087,#CC0000)",
+      "icon": "fa-solid fa-tram",
+      "desc": "Europe's sunniest and hippest capital — Fado, tile-covered hills, 2.9M metro area and a booming tech scene.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-sun"
+      ],
+      "stats": [
+        "550,000 residents",
+        "€800–1,300/mo student cost",
+        "Mediterranean"
+      ],
+      "tags": [
+        "Sunny",
+        "Tech hub",
+        "Fado"
+      ]
+    },
+    {
+      "city": "Porto",
+      "region": "Norte",
+      "gradient": "linear-gradient(135deg,#003399,#CC0000)",
+      "icon": "fa-solid fa-wine-glass",
+      "desc": "Portugal's authentic soul — Douro wine country, port wine cellars, UNESCO waterfront and Atlantic beaches.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud"
+      ],
+      "stats": [
+        "237,000 residents",
+        "€600–1,000/mo student cost",
+        "Oceanic"
+      ],
+      "tags": [
+        "Port wine",
+        "Authentic",
+        "UNESCO"
+      ]
+    },
+    {
+      "city": "Coimbra",
+      "region": "Centro",
+      "gradient": "linear-gradient(135deg,#8B0000,#d4890a)",
+      "icon": "fa-solid fa-landmark",
+      "desc": "Portugal's Oxford since 1290 — Joanina Library, black-capped students and the world's most beautiful university campus.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-sun"
+      ],
+      "stats": [
+        "143,000 residents",
+        "€500–800/mo student cost",
+        "Mediterranean continental"
+      ],
+      "tags": [
+        "Medieval university",
+        "UNESCO",
+        "Affordable"
+      ]
+    },
+    {
+      "city": "Braga",
+      "region": "Minho",
+      "gradient": "linear-gradient(135deg,#006633,#3CB371)",
+      "icon": "fa-solid fa-church",
+      "desc": "Portugal's Rome — youngest city in the country, 35 baroque churches and a dynamic tech university growing fast.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud"
+      ],
+      "stats": [
+        "193,000 residents",
+        "€500–800/mo student cost",
+        "Oceanic"
+      ],
+      "tags": [
+        "Religious heritage",
+        "Tech hub",
+        "Affordable"
+      ]
+    },
+    {
+      "city": "Aveiro",
+      "region": "Centro",
+      "gradient": "linear-gradient(135deg,#009BBB,#006699)",
+      "icon": "fa-solid fa-water",
+      "desc": "The Venice of Portugal — a lagoon city of Art Nouveau architecture, moliceiro boats and underrated engineering excellence.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud"
+      ],
+      "stats": [
+        "80,000 residents",
+        "€500–750/mo student cost",
+        "Oceanic"
+      ],
+      "tags": [
+        "Venice of Portugal",
+        "Engineering",
+        "Affordable"
+      ]
+    }
+  ],
+  "featuredCities": [
+    {
+      "city": "Lisbon",
+      "icon": "fa-solid fa-tram",
+      "sub": "Capital"
+    },
+    {
+      "city": "Porto",
+      "icon": "fa-solid fa-wine-glass",
+      "sub": "Norte"
+    },
+    {
+      "city": "Coimbra",
+      "icon": "fa-solid fa-landmark",
+      "sub": "Centro"
+    },
+    {
+      "city": "Braga",
+      "icon": "fa-solid fa-church",
+      "sub": "Minho"
+    },
+    {
+      "city": "Aveiro",
+      "icon": "fa-solid fa-water",
+      "sub": "Centro"
+    }
+  ]
+}

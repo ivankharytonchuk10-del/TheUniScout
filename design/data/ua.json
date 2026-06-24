@@ -1,0 +1,2516 @@
+{
+  "meta": {
+    "country": "Ukraine",
+    "name": "Ukraine",
+    "flag": "ua",
+    "code": "ua",
+    "currency": "UAH (₴)",
+    "currencySymbol": "₴",
+    "uniCount": 88,
+    "cityCount": 7,
+    "language": "Ukrainian",
+    "description": "Ukraine has a long academic tradition with over 400 higher education institutions. Universities offer affordable tuition and strong programs in engineering, medicine, and sciences."
+  },
+  "tips": [
+    "Many Ukrainian universities offer programs in English, especially in medicine and engineering.",
+    "Tuition fees are among the lowest in Europe — public universities charge $1,000–3,000/year for international students.",
+    "Kyiv-Mohyla Academy and KPI are considered the most prestigious universities in Ukraine.",
+    "EU citizens may study at Ukrainian universities; check current entry requirements.",
+    "Ukraine uses the 100-point grading scale; 60+ is a passing grade."
+  ],
+  "universities": [
+    {
+      "id": "knu",
+      "name": "Taras Shevchenko National University of Kyiv",
+      "abbr": "KNU",
+      "color": "#003087",
+      "city": "Kyiv",
+      "type": "public",
+      "tuition": 2,
+      "ts": 2,
+      "diff": 4,
+      "dl": "July 31",
+      "fields": [
+        "humanities",
+        "law",
+        "sciences",
+        "economics",
+        "biology"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1834,
+      "students": 26000,
+      "desc": "Ukraine's most prestigious classical university, founded in 1834. Strong in humanities, natural sciences, and law. The main symbol of Ukrainian higher education.",
+      "website": ""
+    },
+    {
+      "id": "kpi",
+      "name": "Igor Sikorsky Kyiv Polytechnic Institute",
+      "abbr": "KPI",
+      "color": "#1a5276",
+      "city": "Kyiv",
+      "type": "public",
+      "tuition": 2,
+      "ts": 2,
+      "diff": 4,
+      "dl": "July 31",
+      "fields": [
+        "engineering",
+        "cs",
+        "physics",
+        "robotics",
+        "aerospace"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1898,
+      "students": 25000,
+      "desc": "Ukraine's top technical university. Produces the majority of Ukraine's engineers and IT specialists. Named after aviation pioneer Igor Sikorsky.",
+      "website": ""
+    },
+    {
+      "id": "naukma",
+      "name": "National University of Kyiv-Mohyla Academy",
+      "abbr": "NaUKMA",
+      "color": "#8b0000",
+      "city": "Kyiv",
+      "type": "public",
+      "tuition": 2,
+      "ts": 2,
+      "diff": 5,
+      "dl": "July 25",
+      "fields": [
+        "humanities",
+        "cs",
+        "economics",
+        "social sciences",
+        "law"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1615,
+      "students": 4500,
+      "desc": "One of the oldest universities in Eastern Europe, refounded in 1991. Known for academic freedom, liberal arts education, and producing Ukraine's intellectual elite.",
+      "website": ""
+    },
+    {
+      "id": "karazin",
+      "name": "V.N. Karazin Kharkiv National University",
+      "abbr": "KhNU",
+      "color": "#003366",
+      "city": "Kharkiv",
+      "type": "public",
+      "tuition": 2,
+      "ts": 2,
+      "diff": 4,
+      "dl": "July 31",
+      "fields": [
+        "sciences",
+        "physics",
+        "chemistry",
+        "humanities",
+        "biology"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1804,
+      "students": 17000,
+      "desc": "One of Ukraine's oldest and most respected universities. Known for producing Nobel laureates and strong research in physics and chemistry.",
+      "website": ""
+    },
+    {
+      "id": "lviv-franko",
+      "name": "Ivan Franko National University of Lviv",
+      "abbr": "LNU",
+      "color": "#1a3c6e",
+      "city": "Lviv",
+      "type": "public",
+      "tuition": 2,
+      "ts": 2,
+      "diff": 3,
+      "dl": "July 31",
+      "fields": [
+        "humanities",
+        "law",
+        "biology",
+        "chemistry",
+        "journalism"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1661,
+      "students": 18000,
+      "desc": "The oldest university in western Ukraine, founded in 1661. A center of Ukrainian culture and national identity with strong programs in humanities and law.",
+      "website": ""
+    },
+    {
+      "id": "lpnu",
+      "name": "Lviv Polytechnic National University",
+      "abbr": "LPNU",
+      "color": "#006400",
+      "city": "Lviv",
+      "type": "public",
+      "tuition": 2,
+      "ts": 2,
+      "diff": 3,
+      "dl": "July 31",
+      "fields": [
+        "engineering",
+        "cs",
+        "architecture",
+        "electronics",
+        "chemistry"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1844,
+      "students": 30000,
+      "desc": "Western Ukraine's leading technical university. One of Ukraine's largest universities with strong IT and engineering programs, popular among international students.",
+      "website": ""
+    },
+    {
+      "id": "onu",
+      "name": "Odesa I.I. Mechnikov National University",
+      "abbr": "ONU",
+      "color": "#8b4513",
+      "city": "Odesa",
+      "type": "public",
+      "tuition": 2,
+      "ts": 2,
+      "diff": 3,
+      "dl": "July 31",
+      "fields": [
+        "sciences",
+        "biology",
+        "chemistry",
+        "humanities",
+        "economics"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1865,
+      "students": 10000,
+      "desc": "Odesa's main classical university, named after Nobel laureate Ilya Mechnikov. Strong in natural sciences and known for its beautiful historic campus.",
+      "website": ""
+    },
+    {
+      "id": "ucu",
+      "name": "Ukrainian Catholic University",
+      "abbr": "UCU",
+      "color": "#002147",
+      "city": "Lviv",
+      "type": "private",
+      "tuition": 4,
+      "ts": 4,
+      "diff": 5,
+      "dl": "June 30",
+      "fields": [
+        "humanities",
+        "social sciences",
+        "theology",
+        "business",
+        "cs"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 2002,
+      "students": 2000,
+      "desc": "Ukraine's most selective private university. Western-style liberal arts education with English-taught programs. Strong alumni network and international partnerships.",
+      "website": ""
+    },
+    {
+      "id": "nau",
+      "name": "National Aviation University",
+      "abbr": "NAU",
+      "color": "#003366",
+      "city": "Kyiv",
+      "type": "public",
+      "tuition": 2,
+      "ts": 2,
+      "diff": 3,
+      "dl": "July 31",
+      "fields": [
+        "aerospace",
+        "engineering",
+        "cs",
+        "law",
+        "economics"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1933,
+      "students": 20000,
+      "desc": "Ukraine's main aviation university. Offers aerospace engineering, air traffic control, and related fields. Popular with international students for English-medium programs.",
+      "website": ""
+    },
+    {
+      "id": "kneu",
+      "name": "Kyiv National Economic University",
+      "abbr": "KNEU",
+      "color": "#1a5276",
+      "city": "Kyiv",
+      "type": "public",
+      "tuition": 2,
+      "ts": 2,
+      "diff": 3,
+      "dl": "July 31",
+      "fields": [
+        "economics",
+        "finance",
+        "accounting",
+        "management",
+        "law"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1906,
+      "students": 22000,
+      "desc": "Ukraine's top economics university. Produces the majority of Ukraine's economists and financial specialists. Strong ties with government and business sectors.",
+      "website": ""
+    },
+    {
+      "id": "npu",
+      "name": "National Pedagogical Dragomanov University",
+      "abbr": "NPU",
+      "color": "#4a235a",
+      "city": "Kyiv",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 2,
+      "dl": "July 31",
+      "fields": [
+        "education",
+        "humanities",
+        "arts",
+        "social sciences",
+        "cs"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1834,
+      "students": 28000,
+      "desc": "Ukraine's largest pedagogical university, producing teachers and educators. Affordable and accessible with a wide range of programs.",
+      "website": ""
+    },
+    {
+      "id": "nmu",
+      "name": "Bogomolets National Medical University",
+      "abbr": "NMU",
+      "color": "#006400",
+      "city": "Kyiv",
+      "type": "public",
+      "tuition": 3,
+      "ts": 3,
+      "diff": 4,
+      "dl": "July 31",
+      "fields": [
+        "medicine",
+        "dentistry",
+        "pharmacy",
+        "nursing"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1841,
+      "students": 10000,
+      "desc": "Ukraine's oldest and most prestigious medical university. Attracts many international students with English-medium medical programs at affordable prices.",
+      "website": ""
+    },
+    {
+      "id": "khpi",
+      "name": "Kharkiv National Polytechnic Institute",
+      "abbr": "KhPI",
+      "color": "#8b0000",
+      "city": "Kharkiv",
+      "type": "public",
+      "tuition": 2,
+      "ts": 2,
+      "diff": 3,
+      "dl": "July 31",
+      "fields": [
+        "engineering",
+        "cs",
+        "physics",
+        "energy",
+        "management"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1885,
+      "students": 18000,
+      "desc": "Kharkiv's leading technical university. Strong in energy engineering, mechanical engineering, and computer science. Long tradition of technical education in eastern Ukraine.",
+      "website": ""
+    },
+    {
+      "id": "nure",
+      "name": "Kharkiv National University of Radio Electronics",
+      "abbr": "NURE",
+      "color": "#1a5276",
+      "city": "Kharkiv",
+      "type": "public",
+      "tuition": 2,
+      "ts": 2,
+      "diff": 3,
+      "dl": "July 31",
+      "fields": [
+        "cs",
+        "electronics",
+        "telecommunications",
+        "cybersecurity",
+        "engineering"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1930,
+      "students": 12000,
+      "desc": "Specializes in IT, electronics, and communications. Known for strong industry connections and producing top software engineers and electronics specialists.",
+      "website": "https://nure.ua/"
+    },
+    {
+      "id": "hnau",
+      "name": "Kharkiv National Agrarian University",
+      "abbr": "HNAU",
+      "color": "#228b22",
+      "city": "Kharkiv",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 2,
+      "dl": "July 31",
+      "fields": [
+        "agriculture",
+        "biology",
+        "ecology",
+        "veterinary",
+        "economics"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1816,
+      "students": 8000,
+      "desc": "One of Ukraine's oldest agricultural universities. Strong in agronomy, veterinary medicine, and agricultural economics.",
+      "website": "http://knau.kharkov.ua"
+    },
+    {
+      "id": "dnu",
+      "name": "Oles Honchar Dnipro National University",
+      "abbr": "DNU",
+      "color": "#003087",
+      "city": "Dnipro",
+      "type": "public",
+      "tuition": 2,
+      "ts": 2,
+      "diff": 3,
+      "dl": "July 31",
+      "fields": [
+        "sciences",
+        "engineering",
+        "economics",
+        "law",
+        "humanities"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1918,
+      "students": 20000,
+      "desc": "Dnipro's main classical university. Strong in physics and aerospace-related sciences, reflecting the city's historical role in Ukraine's space and defense industries.",
+      "website": "https://www.dnu.dp.ua"
+    },
+    {
+      "id": "ntu-dp",
+      "name": "Dnipro University of Technology",
+      "abbr": "NTU-Dp",
+      "color": "#8b4513",
+      "city": "Dnipro",
+      "type": "public",
+      "tuition": 2,
+      "ts": 2,
+      "diff": 3,
+      "dl": "July 31",
+      "fields": [
+        "engineering",
+        "mining",
+        "geology",
+        "cs",
+        "mechanical"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1899,
+      "students": 12000,
+      "desc": "Ukraine's oldest mining and geological engineering university. Specializes in mining, geotechnics, and industrial engineering.",
+      "website": "https://nmu.org.ua/"
+    },
+    {
+      "id": "onmu",
+      "name": "Odesa National Maritime University",
+      "abbr": "ONMU",
+      "color": "#003366",
+      "city": "Odesa",
+      "type": "public",
+      "tuition": 2,
+      "ts": 2,
+      "diff": 3,
+      "dl": "July 31",
+      "fields": [
+        "maritime",
+        "engineering",
+        "law",
+        "economics",
+        "navigation"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1930,
+      "students": 8000,
+      "desc": "Ukraine's main maritime university. Trains ship captains, marine engineers, and maritime lawyers. Located in the Black Sea port city of Odesa.",
+      "website": ""
+    },
+    {
+      "id": "oseu",
+      "name": "Odesa State Environmental University",
+      "abbr": "OSEU",
+      "color": "#006400",
+      "city": "Odesa",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 2,
+      "dl": "July 31",
+      "fields": [
+        "ecology",
+        "meteorology",
+        "hydrology",
+        "environmental sciences",
+        "geography"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1932,
+      "students": 5000,
+      "desc": "Specializes in environmental sciences, meteorology, and hydrology. Unique in Ukraine for its focus on Black Sea and Azov Sea ecological studies.",
+      "website": ""
+    },
+    {
+      "id": "knuba",
+      "name": "Kyiv National University of Construction and Architecture",
+      "abbr": "KNUCA",
+      "color": "#8b0000",
+      "city": "Kyiv",
+      "type": "public",
+      "tuition": 2,
+      "ts": 2,
+      "diff": 3,
+      "dl": "July 31",
+      "fields": [
+        "architecture",
+        "engineering",
+        "urban planning",
+        "civil engineering",
+        "design"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1930,
+      "students": 9000,
+      "desc": "Ukraine's leading university for architecture and civil engineering. Popular with students from the Middle East and Africa for English-medium programs.",
+      "website": ""
+    },
+    {
+      "id": "kname",
+      "name": "O.M. Beketov National University of Urban Economy",
+      "abbr": "KNAME",
+      "color": "#1a5276",
+      "city": "Kharkiv",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 2,
+      "dl": "July 31",
+      "fields": [
+        "urban planning",
+        "architecture",
+        "economics",
+        "engineering",
+        "ecology"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1922,
+      "students": 10000,
+      "desc": "Specializes in urban economy, municipal management, and architecture. Strong practical focus with internships in Kharkiv's city administration.",
+      "website": ""
+    },
+    {
+      "id": "sumdu",
+      "name": "Sumy State University",
+      "abbr": "SumDU",
+      "color": "#003366",
+      "city": "Sumy",
+      "type": "public",
+      "tuition": 2,
+      "ts": 2,
+      "diff": 2,
+      "dl": "July 31",
+      "fields": [
+        "engineering",
+        "medicine",
+        "cs",
+        "economics",
+        "physics"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1948,
+      "students": 15000,
+      "desc": "A comprehensive university known for active international recruitment. Offers medicine and engineering programs in English at very affordable prices.",
+      "website": ""
+    },
+    {
+      "id": "pnu",
+      "name": "Vasyl Stefanyk Precarpathian National University",
+      "abbr": "PNU",
+      "color": "#4a235a",
+      "city": "Ivano-Frankivsk",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 2,
+      "dl": "July 31",
+      "fields": [
+        "humanities",
+        "natural sciences",
+        "education",
+        "law",
+        "economics"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1940,
+      "students": 13000,
+      "desc": "Western Ukraine's classical university serving the Carpathian region. Strong in humanities and teacher education.",
+      "website": ""
+    },
+    {
+      "id": "chdtu",
+      "name": "Cherkasy State Technological University",
+      "abbr": "ChDTU",
+      "color": "#228b22",
+      "city": "Cherkasy",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 2,
+      "dl": "July 31",
+      "fields": [
+        "cs",
+        "engineering",
+        "economics",
+        "law",
+        "management"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1960,
+      "students": 8000,
+      "desc": "A growing technological university in central Ukraine. Known for affordable IT and engineering programs.",
+      "website": ""
+    },
+    {
+      "id": "vntu",
+      "name": "Vinnytsia National Technical University",
+      "abbr": "VNTU",
+      "color": "#003087",
+      "city": "Vinnytsia",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 2,
+      "dl": "July 31",
+      "fields": [
+        "engineering",
+        "cs",
+        "energy",
+        "electronics",
+        "management"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1960,
+      "students": 10000,
+      "desc": "A strong technical university in Podolia. Produces engineers for Ukraine's energy and electronics sectors.",
+      "website": ""
+    },
+    {
+      "id": "znu",
+      "name": "Zaporizhzhia National University",
+      "abbr": "ZNU",
+      "color": "#8b0000",
+      "city": "Zaporizhzhia",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 2,
+      "dl": "July 31",
+      "fields": [
+        "humanities",
+        "law",
+        "economics",
+        "sciences",
+        "education"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1930,
+      "students": 15000,
+      "desc": "The main classical university of southern Ukraine's industrial city. Comprehensive programs in humanities, social sciences, and natural sciences.",
+      "website": ""
+    },
+    {
+      "id": "zntu",
+      "name": "Zaporizhzhia National Technical University",
+      "abbr": "ZNTU",
+      "color": "#1a5276",
+      "city": "Zaporizhzhia",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 2,
+      "dl": "July 31",
+      "fields": [
+        "engineering",
+        "metallurgy",
+        "cs",
+        "mechanical",
+        "economics"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1900,
+      "students": 10000,
+      "desc": "Technical university in Ukraine's industrial heartland. Strong in metallurgy, mechanical engineering, and industrial automation.",
+      "website": ""
+    },
+    {
+      "id": "chnu",
+      "name": "Yuriy Fedkovych Chernivtsi National University",
+      "abbr": "ChNU",
+      "color": "#003366",
+      "city": "Chernivtsi",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 2,
+      "dl": "July 31",
+      "fields": [
+        "humanities",
+        "biology",
+        "chemistry",
+        "law",
+        "economics"
+      ],
+      "langs": [
+        "Ukrainian",
+        "German"
+      ],
+      "founded": 1875,
+      "students": 14000,
+      "desc": "Chernivtsi's historic university with a stunning UNESCO World Heritage campus (former Metropolitans' Residence). Strong in humanities and Central European studies.",
+      "website": ""
+    },
+    {
+      "id": "nuvgp",
+      "name": "National University of Water and Environmental Engineering",
+      "abbr": "NUWEE",
+      "color": "#006400",
+      "city": "Rivne",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 2,
+      "dl": "July 31",
+      "fields": [
+        "civil engineering",
+        "ecology",
+        "water management",
+        "cs",
+        "economics"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1922,
+      "students": 14000,
+      "desc": "Unique specialization in water resources and hydraulic engineering. Located in Rivne, serving the Volyn and Polesia regions.",
+      "website": ""
+    },
+    {
+      "id": "tntu",
+      "name": "Ternopil Ivan Puluj National Technical University",
+      "abbr": "TNTU",
+      "color": "#8b4513",
+      "city": "Ternopil",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 2,
+      "dl": "July 31",
+      "fields": [
+        "engineering",
+        "cs",
+        "food technology",
+        "mechanical",
+        "electronics"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1960,
+      "students": 8000,
+      "desc": "A technical university in western Ukraine named after physicist Ivan Puluj. Known for engineering and food technology programs.",
+      "website": "https://tntu.edu.ua/"
+    },
+    {
+      "id": "knl",
+      "name": "Kyiv National Linguistic University",
+      "abbr": "KNLU",
+      "color": "#003087",
+      "city": "Kyiv",
+      "type": "public",
+      "tuition": 2,
+      "ts": 2,
+      "diff": 3,
+      "dl": "July 31",
+      "fields": [
+        "linguistics",
+        "translation",
+        "humanities",
+        "education",
+        "international relations"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1948,
+      "students": 6000,
+      "desc": "Ukraine's main university for foreign language education and translation. Graduates work as diplomats, translators, and language teachers worldwide.",
+      "website": "https://knlu.edu.ua"
+    },
+    {
+      "id": "ukma-law",
+      "name": "Kyiv University of Law of the National Academy of Sciences",
+      "abbr": "KUL NAS",
+      "color": "#4a235a",
+      "city": "Kyiv",
+      "type": "public",
+      "tuition": 2,
+      "ts": 2,
+      "diff": 3,
+      "dl": "July 25",
+      "fields": [
+        "law",
+        "international law",
+        "criminal justice",
+        "civil law"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1995,
+      "students": 3000,
+      "desc": "A specialized law university affiliated with the National Academy of Sciences. Produces top legal scholars and practitioners.",
+      "website": ""
+    },
+    {
+      "id": "knutd",
+      "name": "Kyiv National University of Technologies and Design",
+      "abbr": "KNUTD",
+      "color": "#8b0000",
+      "city": "Kyiv",
+      "type": "public",
+      "tuition": 2,
+      "ts": 2,
+      "diff": 3,
+      "dl": "July 31",
+      "fields": [
+        "design",
+        "fashion",
+        "engineering",
+        "cs",
+        "management"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1930,
+      "students": 8000,
+      "desc": "Ukraine's main university for design, fashion, and light industry. Strong in fashion design and textile engineering.",
+      "website": "http://en.knutd.com.ua/"
+    },
+    {
+      "id": "nmu-med",
+      "name": "Kharkiv National Medical University",
+      "abbr": "KhNMU",
+      "color": "#1a5276",
+      "city": "Kharkiv",
+      "type": "public",
+      "tuition": 3,
+      "ts": 3,
+      "diff": 4,
+      "dl": "July 31",
+      "fields": [
+        "medicine",
+        "pharmacy",
+        "dentistry",
+        "nursing"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1804,
+      "students": 8000,
+      "desc": "One of Ukraine's oldest and most respected medical universities. Very popular with international students from India and Africa for English-medium medicine.",
+      "website": "https://ksmu.university/"
+    },
+    {
+      "id": "onmu-med",
+      "name": "Odesa National Medical University",
+      "abbr": "ONMedU",
+      "color": "#006400",
+      "city": "Odesa",
+      "type": "public",
+      "tuition": 3,
+      "ts": 3,
+      "diff": 3,
+      "dl": "July 31",
+      "fields": [
+        "medicine",
+        "dentistry",
+        "pharmacy"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1900,
+      "students": 7000,
+      "desc": "A historic medical university in the Black Sea port city. One of the most internationally diverse medical schools in Ukraine.",
+      "website": ""
+    },
+    {
+      "id": "lpnu-med",
+      "name": "Danylo Halytsky Lviv National Medical University",
+      "abbr": "LNMU",
+      "color": "#8b4513",
+      "city": "Lviv",
+      "type": "public",
+      "tuition": 3,
+      "ts": 3,
+      "diff": 4,
+      "dl": "July 31",
+      "fields": [
+        "medicine",
+        "dentistry",
+        "pharmacy",
+        "nursing"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1784,
+      "students": 6000,
+      "desc": "One of Eastern Europe's oldest medical universities, tracing origins to 1784. Located in historic Lviv; strong in clinical medicine and pharmacy.",
+      "website": ""
+    },
+    {
+      "id": "uipa",
+      "name": "University of State Fiscal Service of Ukraine",
+      "abbr": "UIPA",
+      "color": "#003366",
+      "city": "Irpin",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 2,
+      "dl": "July 31",
+      "fields": [
+        "economics",
+        "finance",
+        "law",
+        "accounting",
+        "management"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1999,
+      "students": 10000,
+      "desc": "Specializes in taxation, customs, and fiscal policy. Trains specialists for Ukraine's tax and customs services.",
+      "website": ""
+    },
+    {
+      "id": "maup",
+      "name": "Interregional Academy of Personnel Management",
+      "abbr": "MAUP",
+      "color": "#228b22",
+      "city": "Kyiv",
+      "type": "private",
+      "tuition": 3,
+      "ts": 3,
+      "diff": 2,
+      "dl": "August 31",
+      "fields": [
+        "management",
+        "law",
+        "economics",
+        "psychology",
+        "social sciences"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1989,
+      "students": 30000,
+      "desc": "Ukraine's largest private university by enrollment. Wide range of evening and distance learning programs targeting working adults.",
+      "website": ""
+    },
+    {
+      "id": "npu-kharkiv",
+      "name": "H.S. Skovoroda Kharkiv National Pedagogical University",
+      "abbr": "KhNPU",
+      "color": "#003087",
+      "city": "Kharkiv",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 2,
+      "dl": "July 31",
+      "fields": [
+        "education",
+        "humanities",
+        "arts",
+        "psychology",
+        "social sciences"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1811,
+      "students": 11000,
+      "desc": "One of Ukraine's oldest pedagogical universities. Trains teachers across all disciplines for schools in eastern Ukraine.",
+      "website": ""
+    },
+    {
+      "id": "knit",
+      "name": "Kremenchuk Mykhailo Ostrohradskyi National University",
+      "abbr": "KrNU",
+      "color": "#8b0000",
+      "city": "Kremenchuk",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 2,
+      "dl": "July 31",
+      "fields": [
+        "engineering",
+        "economics",
+        "cs",
+        "law",
+        "mechanical"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1960,
+      "students": 7000,
+      "desc": "A technical university in the Poltava region serving the automotive and industrial sectors of central Ukraine.",
+      "website": ""
+    },
+    {
+      "id": "kntu",
+      "name": "Central Ukrainian National Technical University",
+      "abbr": "CNTU",
+      "color": "#1a5276",
+      "city": "Kropyvnytskyi",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 2,
+      "dl": "July 31",
+      "fields": [
+        "engineering",
+        "agricultural engineering",
+        "economics",
+        "cs"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1929,
+      "students": 6000,
+      "desc": "The main technical university of central Ukraine. Specializes in agricultural machinery engineering and industrial automation.",
+      "website": ""
+    },
+    {
+      "id": "dsum",
+      "name": "Dnipro State Medical University",
+      "abbr": "DSMU",
+      "color": "#006400",
+      "city": "Dnipro",
+      "type": "public",
+      "tuition": 3,
+      "ts": 3,
+      "diff": 3,
+      "dl": "July 31",
+      "fields": [
+        "medicine",
+        "dentistry",
+        "pharmacy"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1916,
+      "students": 5000,
+      "desc": "One of the oldest medical universities in eastern Ukraine. Offers English-medium medicine at competitive prices for international students.",
+      "website": ""
+    },
+    {
+      "id": "poltava-univ",
+      "name": "Poltava V.G. Korolenko National Pedagogical University",
+      "abbr": "PNPU",
+      "color": "#4a235a",
+      "city": "Poltava",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 2,
+      "dl": "July 31",
+      "fields": [
+        "education",
+        "humanities",
+        "arts",
+        "biology",
+        "geography"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1914,
+      "students": 8000,
+      "desc": "Poltava's main pedagogical university, serving the educational needs of the Poltava region.",
+      "website": ""
+    },
+    {
+      "id": "khmu",
+      "name": "Kherson State University",
+      "abbr": "KSU",
+      "color": "#8b4513",
+      "city": "Kherson",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 2,
+      "dl": "July 31",
+      "fields": [
+        "humanities",
+        "biology",
+        "education",
+        "law",
+        "economics"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1917,
+      "students": 8000,
+      "desc": "The main university of southern Ukraine's Kherson region. Strong in biology and ecological sciences related to the Dnipro delta.",
+      "website": ""
+    },
+    {
+      "id": "uzhnu",
+      "name": "Uzhhorod National University",
+      "abbr": "UzhNU",
+      "color": "#003087",
+      "city": "Uzhhorod",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 2,
+      "dl": "July 31",
+      "fields": [
+        "medicine",
+        "law",
+        "humanities",
+        "natural sciences",
+        "cs"
+      ],
+      "langs": [
+        "Ukrainian",
+        "Hungarian"
+      ],
+      "founded": 1945,
+      "students": 16000,
+      "desc": "Westernmost Ukrainian university, near the Slovakian and Hungarian borders. Has Hungarian-language programs and strong cross-border European connections.",
+      "website": ""
+    },
+    {
+      "id": "odeku",
+      "name": "Odesa State Academy of Civil Engineering and Architecture",
+      "abbr": "ODABA",
+      "color": "#8b0000",
+      "city": "Odesa",
+      "type": "public",
+      "tuition": 2,
+      "ts": 2,
+      "diff": 2,
+      "dl": "July 31",
+      "fields": [
+        "architecture",
+        "civil engineering",
+        "urban planning",
+        "design"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1930,
+      "students": 6000,
+      "desc": "Odesa's specialist university for architecture and construction. Known for its architectural heritage programs and English-language courses.",
+      "website": ""
+    },
+    {
+      "id": "nau-agro",
+      "name": "National University of Life and Environmental Sciences of Ukraine",
+      "abbr": "NUBiP",
+      "color": "#228b22",
+      "city": "Kyiv",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 2,
+      "dl": "July 31",
+      "fields": [
+        "agriculture",
+        "biology",
+        "ecology",
+        "veterinary",
+        "forestry"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1898,
+      "students": 28000,
+      "desc": "Ukraine's main agricultural university on a beautiful forested campus in Kyiv. Strong in agronomy, environmental science, and veterinary medicine.",
+      "website": "http://nubip.edu.ua/en"
+    },
+    {
+      "id": "krok",
+      "name": "University KROK",
+      "abbr": "KROK",
+      "color": "#003366",
+      "city": "Kyiv",
+      "type": "private",
+      "tuition": 3,
+      "ts": 3,
+      "diff": 2,
+      "dl": "August 31",
+      "fields": [
+        "business",
+        "law",
+        "economics",
+        "management",
+        "cs"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1992,
+      "students": 4000,
+      "desc": "A modern private university focused on business and law. Known for practical education and strong employer connections in Kyiv's business community.",
+      "website": ""
+    },
+    {
+      "id": "nung",
+      "name": "Ivano-Frankivsk National Technical University of Oil and Gas",
+      "abbr": "IFNTUOG",
+      "color": "#1a5276",
+      "city": "Ivano-Frankivsk",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 2,
+      "dl": "July 31",
+      "fields": [
+        "engineering",
+        "geology",
+        "petroleum",
+        "mechanical",
+        "economics"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1967,
+      "students": 9000,
+      "desc": "Ukraine's only university specializing in oil and gas engineering. Located near the Carpathian oil fields; graduates work in energy companies across Eastern Europe.",
+      "website": "http://nung.edu.ua/"
+    },
+    {
+      "id": "nuwee-r",
+      "name": "Lutsk National Technical University",
+      "abbr": "LNTU",
+      "color": "#006400",
+      "city": "Lutsk",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 2,
+      "dl": "July 31",
+      "fields": [
+        "engineering",
+        "cs",
+        "economics",
+        "management",
+        "ecology"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1966,
+      "students": 7000,
+      "desc": "A technical university in northwest Ukraine's Volyn region. Focus on automotive engineering and environmental technologies.",
+      "website": "http://lutsk-ntu.com.ua"
+    },
+    {
+      "id": "hneu",
+      "name": "Simon Kuznets Kharkiv National University of Economics",
+      "abbr": "HNEcU",
+      "color": "#4a235a",
+      "city": "Kharkiv",
+      "type": "public",
+      "tuition": 2,
+      "ts": 2,
+      "diff": 3,
+      "dl": "July 31",
+      "fields": [
+        "economics",
+        "management",
+        "finance",
+        "marketing",
+        "accounting"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1930,
+      "students": 12000,
+      "desc": "One of Ukraine's leading economics universities outside Kyiv. Named after Nobel laureate Simon Kuznets who was born in Kharkiv.",
+      "website": "http://www.hneu.edu.ua/"
+    },
+    {
+      "id": "ntu-kpi2",
+      "name": "Sumy State University",
+      "abbr": "SumDU",
+      "color": "#003087",
+      "city": "Sumy",
+      "type": "Public",
+      "tuition": "₴30,000–80,000/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Medicine",
+        "Law",
+        "CS",
+        "Business"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1948,
+      "students": "~14,000",
+      "desc": "Sumy's comprehensive public university — strong in electrical engineering, medicine and informatics, known for an unusually international teaching environment.",
+      "website": ""
+    },
+    {
+      "id": "univ-kherson",
+      "name": "Kherson State University",
+      "abbr": "KhDU",
+      "color": "#CC0000",
+      "city": "Kherson",
+      "type": "Public",
+      "tuition": "₴25,000–70,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Humanities",
+        "Education",
+        "Biology",
+        "Business",
+        "Law"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1917,
+      "students": "~9,000",
+      "desc": "The historic university of Ukraine's southern port — strong in biology, ecology and teacher education before the full-scale invasion displaced many students northward.",
+      "website": ""
+    },
+    {
+      "id": "hnpu",
+      "name": "H.S. Skovoroda Kharkiv National Pedagogical University",
+      "abbr": "HNPU",
+      "color": "#003DA5",
+      "city": "Kharkiv",
+      "type": "Public",
+      "tuition": "₴25,000–70,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Education",
+        "Humanities",
+        "Law",
+        "Arts",
+        "Psychology"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1811,
+      "students": "~15,000",
+      "desc": "Ukraine's oldest teacher education university named after philosopher Hryhoriy Skovoroda — training teachers in humanities, arts and social sciences since 1811.",
+      "website": ""
+    },
+    {
+      "id": "cdu",
+      "name": "Chernivtsi National University",
+      "abbr": "ChNU",
+      "color": "#003087",
+      "city": "Chernivtsi",
+      "type": "Public",
+      "tuition": "₴25,000–70,000/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Humanities",
+        "Science",
+        "Law",
+        "Education",
+        "Business"
+      ],
+      "langs": [
+        "Ukrainian",
+        "Romanian",
+        "German"
+      ],
+      "founded": 1875,
+      "students": "~14,000",
+      "desc": "UNESCO World Heritage campus in former Habsburg Bukovina — Austria's most extravagant university architecture, with strong Romanian studies and unique Central European history.",
+      "website": ""
+    },
+    {
+      "id": "khnure",
+      "name": "Kharkiv National University of Radio Electronics",
+      "abbr": "NURE",
+      "color": "#003DA5",
+      "city": "Kharkiv",
+      "type": "Public",
+      "tuition": "₴25,000–70,000/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Law"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1930,
+      "students": "~12,000",
+      "desc": "Ukraine's leading university for electronics, telecommunications and computer engineering — producing engineers who fill Kharkiv's internationally recognised IT cluster.",
+      "website": ""
+    },
+    {
+      "id": "khnadu",
+      "name": "Kharkiv National Automobile and Highway University",
+      "abbr": "KhNADU",
+      "color": "#CC0000",
+      "city": "Kharkiv",
+      "type": "Public",
+      "tuition": "₴25,000–70,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Law"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1930,
+      "students": "~8,000",
+      "desc": "Ukraine's specialist transport engineering university — training the road and logistics engineers who are critical for Ukraine's wartime supply chain infrastructure.",
+      "website": ""
+    },
+    {
+      "id": "dnpu",
+      "name": "Dnipro University of Technology",
+      "abbr": "NTU",
+      "color": "#003366",
+      "city": "Dnipro",
+      "type": "Public",
+      "tuition": "₴25,000–70,000/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Science",
+        "Law"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1899,
+      "students": "~12,000",
+      "desc": "Ukraine's oldest mining engineering university — now pivoting to IT, renewable energy and materials engineering alongside its traditional geoscience and mining strengths.",
+      "website": ""
+    },
+    {
+      "id": "poltava-u",
+      "name": "Poltava National Technical Yuri Kondratyuk University",
+      "abbr": "PNTUYuK",
+      "color": "#003087",
+      "city": "Poltava",
+      "type": "Public",
+      "tuition": "₴25,000–70,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Architecture",
+        "CS",
+        "Business",
+        "Law"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1930,
+      "students": "~10,000",
+      "desc": "Named after the forgotten genius Yuri Kondratyuk — the Ukrainian who calculated the Apollo moon trajectory. Strong in civil engineering, oil gas extraction and architecture.",
+      "website": ""
+    },
+    {
+      "id": "kh-arts",
+      "name": "Kharkiv National University of Arts",
+      "abbr": "KhNUA",
+      "color": "#000000",
+      "city": "Kharkiv",
+      "type": "Public",
+      "tuition": "₴25,000–70,000/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Arts",
+        "Music",
+        "Architecture",
+        "Education"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1921,
+      "students": "~3,000",
+      "desc": "Eastern Ukraine's leading fine and performing arts conservatory — the most selective arts institution outside Kyiv, with world-class opera and ballet training.",
+      "website": ""
+    },
+    {
+      "id": "khltu",
+      "name": "Lviv Polytechnic National University – 2",
+      "abbr": "LPNU2",
+      "color": "#003DA5",
+      "city": "Lviv",
+      "type": "Public",
+      "tuition": "₴30,000–80,000/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Architecture",
+        "Business",
+        "Law"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1844,
+      "students": "~35,000",
+      "desc": "Ukraine's largest technical university with 18 institutes and 100+ degree programmes — particularly strong in ICT, embedded systems and architectural design.",
+      "website": ""
+    },
+    {
+      "id": "ucu2",
+      "name": "Ukrainian Free University",
+      "abbr": "UFU",
+      "color": "#003087",
+      "city": "Munich",
+      "type": "Private",
+      "tuition": "€5,000–15,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Humanities",
+        "Law",
+        "Social Science",
+        "Education"
+      ],
+      "langs": [
+        "Ukrainian",
+        "German",
+        "English"
+      ],
+      "founded": 1921,
+      "students": "~500",
+      "desc": "Founded in exile in Vienna in 1921, now operating from Munich — an important institution for the Ukrainian diaspora offering Ukrainian-language degrees in the humanities and law.",
+      "website": ""
+    },
+    {
+      "id": "hu-kyiv",
+      "name": "Borys Grinchenko Kyiv Metropolitan University",
+      "abbr": "KUBG",
+      "color": "#CC0000",
+      "city": "Kyiv",
+      "type": "Municipal",
+      "tuition": "₴30,000–80,000/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Education",
+        "Humanities",
+        "Law",
+        "Arts",
+        "Business"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1874,
+      "students": "~14,000",
+      "desc": "Kyiv's municipal university — named after the Ukrainian linguist and educator, strong in teacher education, Ukrainian studies and digital humanities.",
+      "website": ""
+    },
+    {
+      "id": "npu-kyiv",
+      "name": "National Pedagogical Dragomanov University",
+      "abbr": "NPU",
+      "color": "#003366",
+      "city": "Kyiv",
+      "type": "Public",
+      "tuition": "₴30,000–80,000/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Education",
+        "Humanities",
+        "Science",
+        "Law",
+        "Arts"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1834,
+      "students": "~25,000",
+      "desc": "Ukraine's leading teacher education university — training the teachers of tomorrow for Ukrainian schools, with particular strength in Ukrainian language pedagogy.",
+      "website": "https://npu.edu.ua/"
+    },
+    {
+      "id": "kneu2",
+      "name": "State University of Trade and Economics",
+      "abbr": "SUTE",
+      "color": "#CC0000",
+      "city": "Kyiv",
+      "type": "Public",
+      "tuition": "₴30,000–80,000/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Law",
+        "CS",
+        "Economics",
+        "Tourism"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1966,
+      "students": "~20,000",
+      "desc": "Ukraine's specialist commerce and trade university — training accountants, economists and retail managers who form the backbone of Ukraine's private sector.",
+      "website": "https://knute.edu.ua/"
+    },
+    {
+      "id": "uaa",
+      "name": "National Aviation University Kyiv",
+      "abbr": "NAU",
+      "color": "#003087",
+      "city": "Kyiv",
+      "type": "Public",
+      "tuition": "₴30,000–80,000/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Law",
+        "Business",
+        "Architecture"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1933,
+      "students": "~30,000",
+      "desc": "Ukraine's national aviation and aerospace university — training the pilots, aerospace engineers and air traffic controllers who support Ukrainian aviation and space industry.",
+      "website": ""
+    },
+    {
+      "id": "npu3",
+      "name": "National Forestry University of Ukraine",
+      "abbr": "NFUU",
+      "color": "#006400",
+      "city": "Lviv",
+      "type": "Public",
+      "tuition": "₴25,000–70,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Science",
+        "Engineering",
+        "Architecture",
+        "Business",
+        "Environmental Science"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1784,
+      "students": "~8,000",
+      "desc": "Ukraine's historic forestry and wood technology university — managing Carpathian forests, training environmental engineers and architects in sustainable wood construction.",
+      "website": ""
+    },
+    {
+      "id": "ipk",
+      "name": "Ukrainian Catholic University – extended",
+      "abbr": "UCU2",
+      "color": "#003087",
+      "city": "Lviv",
+      "type": "Private",
+      "tuition": "₴40,000–120,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Theology",
+        "Humanities",
+        "Business",
+        "CS",
+        "Social Science"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1994,
+      "students": "~3,000",
+      "desc": "Ukraine's most innovative private university — consistently ranked first among Ukrainian private universities, producing civil society leaders, IT entrepreneurs and theologians.",
+      "website": ""
+    },
+    {
+      "id": "bgu",
+      "name": "Berdiansk State Pedagogical University",
+      "abbr": "BDPU",
+      "color": "#003087",
+      "city": "Zaporizhzhia",
+      "type": "Public",
+      "tuition": "₴20,000–60,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Education",
+        "Humanities",
+        "Arts",
+        "Physical Education"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1932,
+      "students": "~5,000",
+      "desc": "Now evacuated from occupied Berdyansk — operating in Zaporizhzhia, continuing teacher education for the children of internally displaced people from the Azov coast.",
+      "website": "https://www.bdpu.org.ua/"
+    },
+    {
+      "id": "khdu-agro",
+      "name": "Kharkiv National Agrarian University",
+      "abbr": "KHNAU",
+      "color": "#006400",
+      "city": "Kharkiv",
+      "type": "Public",
+      "tuition": "₴25,000–70,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Agriculture",
+        "Science",
+        "Engineering",
+        "Business",
+        "Environmental Science"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1816,
+      "students": "~8,000",
+      "desc": "Ukraine's oldest agrarian university — training agricultural engineers and soil scientists critical for feeding Ukraine and the world from the breadbasket of Europe.",
+      "website": ""
+    },
+    {
+      "id": "pnuep",
+      "name": "Poltava State Agrarian University",
+      "abbr": "PDAU",
+      "color": "#006400",
+      "city": "Poltava",
+      "type": "Public",
+      "tuition": "₴20,000–60,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Agriculture",
+        "Veterinary",
+        "Engineering",
+        "Business",
+        "Science"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1920,
+      "students": "~7,000",
+      "desc": "The farming heartland's university — specialising in crop science, land management and veterinary medicine in Ukraine's most fertile black earth region.",
+      "website": ""
+    },
+    {
+      "id": "odessa-tech",
+      "name": "Odessa Polytechnic National University",
+      "abbr": "ONPU",
+      "color": "#003366",
+      "city": "Odessa",
+      "type": "Public",
+      "tuition": "₴25,000–70,000/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Science",
+        "Architecture"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1918,
+      "students": "~12,000",
+      "desc": "The Black Sea city's technical university — strong in electrical engineering, shipbuilding and automation, with Ukraine's largest student IT campus outside Kyiv.",
+      "website": ""
+    },
+    {
+      "id": "onu2",
+      "name": "Odessa I.I. Mechnikov National University",
+      "abbr": "ONU",
+      "color": "#005691",
+      "city": "Odessa",
+      "type": "Public",
+      "tuition": "₴25,000–70,000/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Humanities",
+        "Law",
+        "Business",
+        "Education"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English",
+        "French"
+      ],
+      "founded": 1865,
+      "students": "~20,000",
+      "desc": "Odessa's classical university named after Nobel biologist Élie Metchnikoff — strong in biology, marine sciences and international relations in the historically cosmopolitan port city.",
+      "website": ""
+    },
+    {
+      "id": "npu-luhanks",
+      "name": "Luhansk National University",
+      "abbr": "LNU",
+      "color": "#003366",
+      "city": "Poltava",
+      "type": "Public",
+      "tuition": "₴25,000–70,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Education",
+        "Humanities",
+        "Law",
+        "Business",
+        "CS"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1923,
+      "students": "~7,000",
+      "desc": "Evacuated from occupied Luhansk and now operating in Poltava — maintaining academic continuity for students from Ukraine's eastern territories under Russian occupation.",
+      "website": ""
+    },
+    {
+      "id": "zhytomyr-u",
+      "name": "Zhytomyr Polytechnic State University",
+      "abbr": "ZHDTU",
+      "color": "#003087",
+      "city": "Zhytomyr",
+      "type": "Public",
+      "tuition": "₴25,000–70,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Architecture",
+        "Agriculture"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1900,
+      "students": "~8,000",
+      "desc": "The Polissia region's technical university — strong in environmental engineering, CS and construction in the historically neglected Polissia wetlands region of northern Ukraine.",
+      "website": ""
+    },
+    {
+      "id": "mkh",
+      "name": "Mykolayiv National University",
+      "abbr": "MNU",
+      "color": "#CC0000",
+      "city": "Mykolayiv",
+      "type": "Public",
+      "tuition": "₴25,000–65,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Education",
+        "Humanities",
+        "Science",
+        "Law",
+        "Business"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1913,
+      "students": "~8,000",
+      "desc": "The Shipbuilding Capital's classical university — continuing to function during wartime despite Mykolayiv's proximity to the front line, with particular strength in ecology and education.",
+      "website": ""
+    },
+    {
+      "id": "dnma",
+      "name": "Dnipro State Medical University",
+      "abbr": "DSMU",
+      "color": "#CC0000",
+      "city": "Dnipro",
+      "type": "Public",
+      "tuition": "₴30,000–100,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Pharmacy",
+        "Nursing",
+        "Dentistry"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1916,
+      "students": "~8,000",
+      "desc": "Eastern Ukraine's main medical university — training doctors with battlefield-relevant surgical skills, accepting international students in English-taught medicine programmes.",
+      "website": ""
+    },
+    {
+      "id": "ifnmu",
+      "name": "Ivano-Frankivsk National Medical University",
+      "abbr": "IFNMU",
+      "color": "#8B1A1A",
+      "city": "Ivano-Frankivsk",
+      "type": "Public",
+      "tuition": "₴30,000–100,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Pharmacy",
+        "Dentistry",
+        "Nursing"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1945,
+      "students": "~6,500",
+      "desc": "Western Ukraine's medical university — significant numbers of international students from India, Middle East and Africa study medicine here in English, with a clinical hospital on campus.",
+      "website": ""
+    },
+    {
+      "id": "bumed",
+      "name": "Bukovinian State Medical University",
+      "abbr": "BSMU",
+      "color": "#003087",
+      "city": "Chernivtsi",
+      "type": "Public",
+      "tuition": "₴30,000–100,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Pharmacy",
+        "Dentistry",
+        "Nursing"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1944,
+      "students": "~5,500",
+      "desc": "Chernivtsi's medical university — training Ukrainian-language and international English-track medical students in a beautiful UNESCO-listed Habsburg campus.",
+      "website": ""
+    },
+    {
+      "id": "umsa",
+      "name": "Ukrainian Medical Stomatological Academy",
+      "abbr": "UMSA",
+      "color": "#CC0000",
+      "city": "Poltava",
+      "type": "Public",
+      "tuition": "₴30,000–100,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Dentistry",
+        "Pharmacy",
+        "Nursing"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1921,
+      "students": "~7,000",
+      "desc": "One of Ukraine's most popular universities for international medical students — English-taught medicine and dentistry, with thousands of students from India and Asia.",
+      "website": ""
+    },
+    {
+      "id": "hmapo",
+      "name": "Shupyk National Healthcare University of Ukraine",
+      "abbr": "NMAPO",
+      "color": "#003366",
+      "city": "Kyiv",
+      "type": "Public",
+      "tuition": "₴50,000–120,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Pharmacy",
+        "Nursing",
+        "Public Health"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1918,
+      "students": "~4,000",
+      "desc": "Ukraine's national postgraduate medical academy — retraining Ukraine's practicing doctors in modern wartime medicine, trauma surgery and oncology.",
+      "website": ""
+    },
+    {
+      "id": "ntuu-kpi3",
+      "name": "National Technical University of Ukraine – Igor Sikorsky KPI",
+      "abbr": "KPI3",
+      "color": "#003DA5",
+      "city": "Kyiv",
+      "type": "Public",
+      "tuition": "₴30,000–90,000/yr",
+      "ts": 1,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science",
+        "Architecture",
+        "Business"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1898,
+      "students": "~23,000",
+      "desc": "The main campus of Ukraine's technical flagship — 19 faculties training the engineers who power Ukraine's military-industrial complex, energy sector and IT industry.",
+      "website": ""
+    },
+    {
+      "id": "upu2",
+      "name": "Ukrainian State University of Railway Transport",
+      "abbr": "UkrDUZT",
+      "color": "#CC0000",
+      "city": "Kharkiv",
+      "type": "Public",
+      "tuition": "₴25,000–70,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Law",
+        "Environmental Science"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1930,
+      "students": "~9,000",
+      "desc": "Ukraine's railway engineering university — training the transport engineers who keep Ukraine's 23,000 km rail network — the wartime lifeline — operational.",
+      "website": "https://kart.edu.ua/"
+    },
+    {
+      "id": "udpu",
+      "name": "Uman State Pedagogical University",
+      "abbr": "UDPU",
+      "color": "#006400",
+      "city": "Uman",
+      "type": "Public",
+      "tuition": "₴20,000–60,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Education",
+        "Humanities",
+        "Arts",
+        "Science",
+        "CS"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1930,
+      "students": "~6,000",
+      "desc": "In the city of Sofiyivka Park — the jewel of Ukrainian landscape architecture. Strong in pedagogy, arts and natural science education.",
+      "website": ""
+    },
+    {
+      "id": "donnu",
+      "name": "Vasyl Stus Donetsk National University",
+      "abbr": "DonNU",
+      "color": "#003087",
+      "city": "Vinnytsia",
+      "type": "Public",
+      "tuition": "₴25,000–70,000/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Humanities",
+        "Law",
+        "Business",
+        "Education"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 1937,
+      "students": "~10,000",
+      "desc": "Evacuated from occupied Donetsk to Vinnytsia — named after the dissident poet Vasyl Stus who died in a Soviet gulag; a university that embodies Ukrainian resistance.",
+      "website": ""
+    },
+    {
+      "id": "tnpu",
+      "name": "Ternopil Volodymyr Hnatiuk National Pedagogical University",
+      "abbr": "TNPU",
+      "color": "#CC0000",
+      "city": "Ternopil",
+      "type": "Public",
+      "tuition": "₴25,000–70,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Education",
+        "Humanities",
+        "Science",
+        "Arts",
+        "Physical Education"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1940,
+      "students": "~9,000",
+      "desc": "Western Ukraine's teacher education hub — training teachers for the whole Ternopil region in humanities, natural sciences and physical education.",
+      "website": "http://www.tnpu.edu.ua"
+    },
+    {
+      "id": "chnu2",
+      "name": "Chernihiv Polytechnic National University",
+      "abbr": "ChNTU",
+      "color": "#005691",
+      "city": "Chernihiv",
+      "type": "Public",
+      "tuition": "₴25,000–70,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Architecture",
+        "Law"
+      ],
+      "langs": [
+        "Ukrainian"
+      ],
+      "founded": 1960,
+      "students": "~8,000",
+      "desc": "Ukraine's northernmost polytechnic, near the Russian and Belarusian borders — continuing to operate despite heavy wartime damage to the city, with strong IT and engineering faculties.",
+      "website": "https://stu.cn.ua/"
+    },
+    {
+      "id": "kma2",
+      "name": "Kyiv-Mohyla Business School",
+      "abbr": "kmbs",
+      "color": "#CC0000",
+      "city": "Kyiv",
+      "type": "Private",
+      "tuition": "₴100,000–300,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Business",
+        "Management",
+        "CS"
+      ],
+      "langs": [
+        "Ukrainian",
+        "English"
+      ],
+      "founded": 2001,
+      "students": "~1,000",
+      "desc": "Ukraine's leading executive MBA school — attached to NaUKMA, training Ukraine's most senior business managers and public sector leaders in a time of national transformation.",
+      "website": ""
+    }
+  ],
+  "cities": {
+    "Kyiv": {
+      "desc": "Ukraine's capital and largest city, home to most of the country's top universities.",
+      "pop": 2900000,
+      "costOfLiving": "medium",
+      "highlights": [
+        "Historic Kyiv-Pechersk Lavra",
+        "Maidan Nezalezhnosti",
+        "Khreshchatyk boulevard",
+        "Andriivskyi Uzviz",
+        "Vibrant café and startup culture"
+      ]
+    },
+    "Lviv": {
+      "desc": "Western Ukraine's cultural capital with a UNESCO-listed old town and strong European connections.",
+      "pop": 730000,
+      "costOfLiving": "low-medium",
+      "highlights": [
+        "UNESCO World Heritage old town",
+        "Coffee culture capital of Ukraine",
+        "Rich Habsburg architecture",
+        "UCU and Franko University campuses",
+        "Vibrant IT hub"
+      ]
+    },
+    "Kharkiv": {
+      "desc": "Ukraine's second-largest city and a major academic center with numerous universities.",
+      "pop": 1400000,
+      "costOfLiving": "low",
+      "highlights": [
+        "Freedom Square — one of Europe's largest",
+        "Major research and academic hub",
+        "Numerous museums and theatres",
+        "Strong IT and engineering sectors"
+      ]
+    },
+    "Odesa": {
+      "desc": "Ukraine's port city on the Black Sea, known for its cosmopolitan culture and beaches.",
+      "pop": 1000000,
+      "costOfLiving": "low-medium",
+      "highlights": [
+        "Potemkin Stairs",
+        "Beautiful beaches",
+        "Historic Opera Theatre",
+        "Maritime heritage",
+        "Vibrant nightlife"
+      ]
+    },
+    "Dnipro": {
+      "desc": "Ukraine's third-largest city, an industrial and aerospace center on the Dnipro River.",
+      "pop": 980000,
+      "costOfLiving": "low",
+      "highlights": [
+        "Space and rocket heritage",
+        "Dnipro River embankment",
+        "Strong industrial base",
+        "Growing IT sector"
+      ]
+    },
+    "Zaporizhzhia": {
+      "region": "Zaporizhzhia Oblast",
+      "pop": "720,000",
+      "climate": "Continental",
+      "cost": "₴5,500–9,000/mo",
+      "desc": "Zaporizhzhia is Ukraine's industrial powerhouse on the Dnieper River — birthplace of the legendary Cossack Sich island (Khortytsia). The city has strong technical and engineering universities, very affordable student living, and a proud Cossack heritage that gives it a unique cultural identity.",
+      "highlights": [
+        "Khortytsia Island — Cossack historical museum complex in the Dnieper",
+        "Dnieper Hydroelectric Station — one of Europe's largest dams",
+        "Zaporizhstal — historic industrial heritage (viewpoint)",
+        "Regional Museum of Zaporizhzhia — local history and Cossack artefacts",
+        "Central Park along the Dnieper riverside"
+      ],
+      "studentLife": "National University Zaporizhzhia and Zaporizhzhia State Medical University are the main institutions. Strong engineering and medical programmes. Very affordable rents.",
+      "transport": "City trams and trolleybuses. Train connections to Kyiv (5h), Dnipro (2h), Kharkiv (5h).",
+      "nightlife": "City centre nightlife along Sobornyi Avenue. More local character than the western cities.",
+      "pros": [
+        "Among Ukraine's most affordable cities",
+        "Strong technical and medical universities",
+        "Unique Cossack historical heritage",
+        "Large industrial city with diverse job market"
+      ],
+      "tags": [
+        "Cossack history",
+        "Industrial",
+        "Affordable",
+        "Engineering"
+      ]
+    },
+    "Vinnytsia": {
+      "region": "Vinnytsia Oblast",
+      "pop": "370,000",
+      "climate": "Humid continental",
+      "cost": "€500–800/mo",
+      "desc": "Vinnytsia is one of Ukraine's most pleasant mid-sized cities — clean, modern, and safe, with one of the world's most spectacular musical fountains on the Southern Buh River. Pirogov National Medical University makes it a destination for international medical students, particularly from India, Morocco, and the Middle East.",
+      "highlights": [
+        "Roshen Fountain — world's largest floating fountain and light show",
+        "Pirogov Clinic and Farmstead — historic estate of the famous surgeon",
+        "Central Park of Culture — riverside green space",
+        "Holy Transfiguration Cathedral — baroque landmark",
+        "Vinnytsia Regional Museum"
+      ],
+      "studentLife": "Pirogov National Medical University attracts international students from 50+ countries, making Vinnytsia surprisingly cosmopolitan for its size. Strong English-speaking international community.",
+      "transport": "City trams, marshrutkas (shared minibuses), and trolleybuses. Train to Kyiv (3h), Lviv (5h).",
+      "nightlife": "Pedestrianised city centre with bars and cafés. Younger, safer scene than major cities.",
+      "pros": [
+        "Major international medical university",
+        "World's largest floating fountain — genuinely spectacular",
+        "Unusually safe and clean for a Ukrainian city",
+        "Strong English-speaking international student community"
+      ],
+      "tags": [
+        "Medical",
+        "International",
+        "Clean",
+        "Safe"
+      ]
+    }
+  },
+  "cityCards": [
+    {
+      "city": "Kyiv",
+      "img": "kyiv.jpg",
+      "tags": [
+        "Capital",
+        "Culture",
+        "Tech"
+      ],
+      "uniCount": 20,
+      "avgTuition": "₴30,000–80,000/yr"
+    },
+    {
+      "city": "Lviv",
+      "img": "lviv.jpg",
+      "tags": [
+        "Historic",
+        "Culture",
+        "IT hub"
+      ],
+      "uniCount": 8,
+      "avgTuition": "₴25,000–70,000/yr"
+    },
+    {
+      "city": "Kharkiv",
+      "img": "kharkiv.jpg",
+      "tags": [
+        "Academic",
+        "Industry",
+        "Research"
+      ],
+      "uniCount": 12,
+      "avgTuition": "₴20,000–60,000/yr"
+    },
+    {
+      "city": "Odesa",
+      "img": "odesa.jpg",
+      "tags": [
+        "Coastal",
+        "Maritime",
+        "Cultural"
+      ],
+      "uniCount": 6,
+      "avgTuition": "₴22,000–65,000/yr"
+    },
+    {
+      "city": "Dnipro",
+      "img": "dnipro.jpg",
+      "tags": [
+        "Industrial",
+        "Engineering",
+        "Space"
+      ],
+      "uniCount": 5,
+      "avgTuition": "₴20,000–55,000/yr"
+    }
+  ],
+  "featuredCities": [
+    "Kyiv",
+    "Lviv",
+    "Kharkiv"
+  ]
+}

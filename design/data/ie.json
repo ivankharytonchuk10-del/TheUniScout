@@ -1,0 +1,448 @@
+{
+  "meta": {
+    "name": "Ireland",
+    "code": "ie",
+    "flag": "ie",
+    "capital": "Dublin",
+    "language": "English / Irish",
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "aboutStudying": "Ireland is the only English-speaking country in the Eurozone, making it a magnet for international students. Its universities rank highly for the humanities, technology and life sciences, and the country hosts the European HQs of Google, Apple, Meta and Pfizer — offering exceptional graduate career prospects. The famously warm Irish welcome makes settling in easy.",
+    "uniCount": 7,
+    "cityCount": 4
+  },
+  "tips": [
+    {
+      "icon": "fa-solid fa-euro-sign",
+      "color": "rgba(39,174,96,.1)",
+      "iconColor": "#27ae60",
+      "title": "EU Free Fees Scheme",
+      "text": "EU/EEA students qualify for the Free Fees Initiative and pay only a Student Contribution of around €3,000/year. Non-EU students pay €10,000–25,000/year. Dublin is expensive (€1,200–1,800/month) so consider Cork or Galway to save significantly."
+    },
+    {
+      "icon": "fa-solid fa-briefcase",
+      "color": "rgba(52,152,219,.1)",
+      "iconColor": "#2980b9",
+      "title": "Tech Career Hub",
+      "text": "Ireland hosts the European headquarters of Google, Meta, Apple, Microsoft, LinkedIn and Pfizer. Graduate employment rates are among the highest in Europe, and the Third Level Graduate Scheme lets you stay and work for up to two years after finishing."
+    },
+    {
+      "icon": "fa-solid fa-language",
+      "color": "rgba(217,124,20,.1)",
+      "iconColor": "#d97c14",
+      "title": "English-Speaking & Eurozone",
+      "text": "Ireland is the only native English-speaking country still in the EU after Brexit. You get globally recognised English-language degrees plus full EU membership benefits. The literary heritage (Joyce, Yeats, Wilde, Beckett) and lively pub culture are legendary."
+    }
+  ],
+  "universities": [
+    {
+      "id": "tcd",
+      "name": "Trinity College Dublin",
+      "abbr": "TCD",
+      "color": "#0C2340",
+      "city": "Dublin",
+      "type": "Public",
+      "tuition": "€3,000–25,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Humanities",
+        "Medicine",
+        "Law",
+        "Science",
+        "Business",
+        "CS"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1592,
+      "students": "~20,000",
+      "desc": "Ireland's oldest and most prestigious university — a global top-100 institution and home to the famous Book of Kells.",
+      "website": "https://www.tcd.ie/"
+    },
+    {
+      "id": "ucd",
+      "name": "University College Dublin",
+      "abbr": "UCD",
+      "color": "#00509E",
+      "city": "Dublin",
+      "type": "Public",
+      "tuition": "€3,000–26,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Business",
+        "Medicine",
+        "Engineering",
+        "Science",
+        "Law",
+        "Humanities"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1854,
+      "students": "~38,000",
+      "desc": "Ireland's largest university and one of Europe's most internationally diverse, with the highly ranked Smurfit Business School.",
+      "website": "https://www.ucd.ie/"
+    },
+    {
+      "id": "ucc",
+      "name": "University College Cork",
+      "abbr": "UCC",
+      "color": "#9D162E",
+      "city": "Cork",
+      "type": "Public",
+      "tuition": "€3,000–24,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Science",
+        "Business",
+        "Humanities",
+        "Law"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1845,
+      "students": "~24,000",
+      "desc": "A research-led university on a beautiful riverside campus, known for food science, medicine and a strong student culture.",
+      "website": "https://www.ucc.ie"
+    },
+    {
+      "id": "nuig",
+      "name": "University of Galway",
+      "abbr": "UoG",
+      "color": "#9A0000",
+      "city": "Galway",
+      "type": "Public",
+      "tuition": "€3,000–22,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Humanities",
+        "Science",
+        "Engineering",
+        "Business"
+      ],
+      "langs": [
+        "English",
+        "Irish"
+      ],
+      "founded": 1845,
+      "students": "~19,000",
+      "desc": "Set in Ireland's vibrant cultural capital on the wild Atlantic coast — strong in medicine, marine science and the arts.",
+      "website": "https://www.universityofgalway.ie/"
+    },
+    {
+      "id": "dcu",
+      "name": "Dublin City University",
+      "abbr": "DCU",
+      "color": "#C8102E",
+      "city": "Dublin",
+      "type": "Public",
+      "tuition": "€3,000–23,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Engineering",
+        "CS",
+        "Humanities",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1989,
+      "students": "~18,000",
+      "desc": "A young, enterprise-focused university with strong industry links and Ireland's leading reputation for employability.",
+      "website": ""
+    },
+    {
+      "id": "ul",
+      "name": "University of Limerick",
+      "abbr": "UL",
+      "color": "#00573F",
+      "city": "Limerick",
+      "type": "Public",
+      "tuition": "€3,000–22,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Science",
+        "Humanities"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1972,
+      "students": "~18,000",
+      "desc": "A modern riverside campus university famous for its cooperative education (paid work placement) programmes.",
+      "website": ""
+    },
+    {
+      "id": "mu",
+      "name": "Maynooth University",
+      "abbr": "MU",
+      "color": "#005596",
+      "city": "Maynooth",
+      "type": "Public",
+      "tuition": "€3,000–20,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Humanities",
+        "Science",
+        "Business",
+        "CS"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1997,
+      "students": "~14,000",
+      "desc": "Ireland's fastest-growing university, set on a historic campus just outside Dublin, with strong humanities and computing.",
+      "website": ""
+    }
+  ],
+  "cities": {
+    "Dublin": {
+      "region": "Leinster",
+      "pop": "545,000 (1.4M metro)",
+      "climate": "Oceanic",
+      "cost": "€1,200–1,800/mo",
+      "desc": "Ireland's vibrant capital — a compact, walkable city packed with history, literature and pubs, and the European HQ of the world's biggest tech firms.",
+      "highlights": [
+        "Trinity College & Book of Kells",
+        "Temple Bar",
+        "Guinness Storehouse",
+        "Dublin Castle",
+        "Phoenix Park"
+      ],
+      "studentLife": "Excellent — two major universities, huge international community, legendary pub culture.",
+      "transport": "LUAS trams, DART trains and buses; very walkable centre.",
+      "nightlife": "World-famous — live trad music, literary pubs and a buzzing club scene.",
+      "pros": [
+        "Tech career capital",
+        "English-speaking",
+        "Rich literary heritage"
+      ],
+      "tags": [
+        "Capital",
+        "Tech",
+        "Literary",
+        "Pubs"
+      ]
+    },
+    "Cork": {
+      "region": "Munster",
+      "pop": "225,000",
+      "climate": "Oceanic",
+      "cost": "€900–1,350/mo",
+      "desc": "Ireland's relaxed and characterful second city — built on islands in the River Lee, famed for its food scene, friendly locals and a much lower cost of living than Dublin.",
+      "highlights": [
+        "English Market",
+        "St Fin Barre's Cathedral",
+        "Blarney Castle nearby",
+        "Shandon Bells",
+        "UCC campus & Glucksman Gallery"
+      ],
+      "studentLife": "Vibrant — UCC gives the city a youthful, creative energy.",
+      "transport": "Compact and walkable; 2.5 hrs to Dublin by train.",
+      "nightlife": "Excellent — a famously sociable city with great live music.",
+      "pros": [
+        "Cheaper than Dublin",
+        "Foodie capital",
+        "Friendly atmosphere"
+      ],
+      "tags": [
+        "Second city",
+        "Food",
+        "Affordable",
+        "Riverside"
+      ]
+    },
+    "Galway": {
+      "region": "Connacht",
+      "pop": "85,000",
+      "climate": "Oceanic",
+      "cost": "€900–1,300/mo",
+      "desc": "Ireland's bohemian cultural capital on the wild Atlantic coast — a colourful, music-filled student city and gateway to Connemara and the Aran Islands.",
+      "highlights": [
+        "Latin Quarter",
+        "Spanish Arch",
+        "Galway Cathedral",
+        "Salthill promenade",
+        "Cliffs of Moher nearby"
+      ],
+      "studentLife": "Outstanding — a small, intensely sociable city dominated by students and artists.",
+      "transport": "Very walkable; 2.5 hrs to Dublin by bus or train.",
+      "nightlife": "Legendary live music — trad sessions in pubs every night.",
+      "pros": [
+        "Cultural capital",
+        "Atlantic coast",
+        "Vibrant arts scene"
+      ],
+      "tags": [
+        "Arts",
+        "Music",
+        "Coastal",
+        "Student life"
+      ]
+    },
+    "Limerick": {
+      "region": "Munster",
+      "pop": "95,000",
+      "climate": "Oceanic",
+      "cost": "€800–1,200/mo",
+      "desc": "A historic Shannon-side city undergoing a creative revival — home to the University of Limerick's renowned campus and one of Ireland's most affordable student destinations.",
+      "highlights": [
+        "King John's Castle",
+        "Hunt Museum",
+        "University of Limerick campus",
+        "Milk Market",
+        "Thomond Park rugby stadium"
+      ],
+      "studentLife": "Strong and growing — UL's co-op programmes attract ambitious students.",
+      "transport": "Compact centre; 2 hrs to Dublin, 1 hr to Cork and Galway.",
+      "nightlife": "Lively student scene with a famous rugby culture.",
+      "pros": [
+        "Most affordable city",
+        "Co-op work placements",
+        "Sporting heritage"
+      ],
+      "tags": [
+        "Affordable",
+        "Historic",
+        "Sport",
+        "Riverside"
+      ]
+    }
+  },
+  "cityCards": [
+    {
+      "city": "Dublin",
+      "region": "Leinster",
+      "gradient": "linear-gradient(135deg,#0C2340,#00509E)",
+      "icon": "fa-solid fa-beer-mug-empty",
+      "desc": "Ireland's vibrant capital — history, literature, pubs and the European HQ of the world's biggest tech firms.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud-rain"
+      ],
+      "stats": [
+        "545,000 residents",
+        "€1,200–1,800/mo",
+        "Oceanic"
+      ],
+      "tags": [
+        "Capital",
+        "Tech",
+        "Literary"
+      ]
+    },
+    {
+      "city": "Cork",
+      "region": "Munster",
+      "gradient": "linear-gradient(135deg,#9D162E,#C8102E)",
+      "icon": "fa-solid fa-utensils",
+      "desc": "Ireland's relaxed second city — a foodie capital with a much lower cost of living than Dublin.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud-rain"
+      ],
+      "stats": [
+        "225,000 residents",
+        "€900–1,350/mo",
+        "Oceanic"
+      ],
+      "tags": [
+        "Second city",
+        "Food",
+        "Affordable"
+      ]
+    },
+    {
+      "city": "Galway",
+      "region": "Connacht",
+      "gradient": "linear-gradient(135deg,#9A0000,#CC3333)",
+      "icon": "fa-solid fa-guitar",
+      "desc": "Ireland's bohemian cultural capital on the wild Atlantic coast — colourful, musical and student-filled.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud-rain"
+      ],
+      "stats": [
+        "85,000 residents",
+        "€900–1,300/mo",
+        "Oceanic"
+      ],
+      "tags": [
+        "Arts",
+        "Music",
+        "Coastal"
+      ]
+    },
+    {
+      "city": "Limerick",
+      "region": "Munster",
+      "gradient": "linear-gradient(135deg,#00573F,#0A8060)",
+      "icon": "fa-solid fa-football",
+      "desc": "A historic Shannon-side city — home to UL and one of Ireland's most affordable student destinations.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud-rain"
+      ],
+      "stats": [
+        "95,000 residents",
+        "€800–1,200/mo",
+        "Oceanic"
+      ],
+      "tags": [
+        "Affordable",
+        "Historic",
+        "Sport"
+      ]
+    }
+  ],
+  "featuredCities": [
+    {
+      "city": "Dublin",
+      "icon": "fa-solid fa-beer-mug-empty",
+      "sub": "Capital"
+    },
+    {
+      "city": "Cork",
+      "icon": "fa-solid fa-utensils",
+      "sub": "Munster"
+    },
+    {
+      "city": "Galway",
+      "icon": "fa-solid fa-guitar",
+      "sub": "Connacht"
+    },
+    {
+      "city": "Limerick",
+      "icon": "fa-solid fa-football",
+      "sub": "Munster"
+    }
+  ]
+}

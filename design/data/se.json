@@ -1,0 +1,1511 @@
+{
+  "meta": {
+    "name": "Sweden",
+    "code": "se",
+    "flag": "se",
+    "capital": "Stockholm",
+    "language": "Swedish / English",
+    "currency": "SEK",
+    "currencySymbol": "kr",
+    "aboutStudying": "Sweden has a long tradition of high-quality, publicly funded higher education. EU/EEA students study for free — no tuition fees at all. Courses are conducted at a high level of English and Swedish degrees are globally respected. The country consistently tops global quality-of-life rankings and its universities lead in sustainability, technology and life sciences.",
+    "uniCount": 50,
+    "cityCount": 5
+  },
+  "tips": [
+    {
+      "icon": "fa-solid fa-euro-sign",
+      "color": "rgba(39,174,96,.1)",
+      "iconColor": "#27ae60",
+      "title": "Free for EU Students",
+      "text": "EU/EEA students pay zero tuition fees at Swedish public universities. Non-EU students pay SEK 80,000–170,000/year (roughly €7,000–15,000). The Swedish government offers Institut Français-style scholarships and universities offer merit-based aid. Cost of living is moderate — Stockholm costs SEK 10,000–14,000/month for a student."
+    },
+    {
+      "icon": "fa-solid fa-snowflake",
+      "color": "rgba(52,152,219,.1)",
+      "iconColor": "#2980b9",
+      "title": "Dark Winters, Bright Summers",
+      "text": "Winters in Sweden are cold and very dark — Stockholm gets barely 7 hours of sunlight in December. However, Sweden compensates with long, light summer evenings, fantastic skiing, and some of the world's most beautiful autumn landscapes. Most students adapt quickly and find the contrast invigorating."
+    },
+    {
+      "icon": "fa-solid fa-leaf",
+      "color": "rgba(39,174,96,.1)",
+      "iconColor": "#27ae60",
+      "title": "Sustainability First",
+      "text": "Sweden is the world leader in sustainability — it aims to be fossil-fuel free by 2045. Swedish universities have embedded environmental thinking into almost every curriculum. The culture of fika (coffee breaks), flat hierarchies and work-life balance makes Sweden one of the most pleasant countries in which to study."
+    }
+  ],
+  "universities": [
+    {
+      "id": "kth",
+      "name": "KTH Royal Institute of Technology",
+      "abbr": "KTH",
+      "color": "#003366",
+      "city": "Stockholm",
+      "type": "Public",
+      "tuition": "Free (EU) / SEK 125,000/yr",
+      "ts": 2,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Architecture",
+        "Science"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1827,
+      "students": "~15,000",
+      "desc": "Scandinavia's leading technical university — ranked top 100 globally and the birthplace of innovations from Bluetooth to Skype.",
+      "website": ""
+    },
+    {
+      "id": "su",
+      "name": "Stockholm University",
+      "abbr": "SU",
+      "color": "#002F6C",
+      "city": "Stockholm",
+      "type": "Public",
+      "tuition": "Free (EU) / SEK 110,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Science",
+        "Humanities",
+        "Law",
+        "Business"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1878,
+      "students": "~35,000",
+      "desc": "Sweden's second-largest university and a world leader in natural sciences, law and social sciences.",
+      "website": ""
+    },
+    {
+      "id": "lu",
+      "name": "Lund University",
+      "abbr": "LU",
+      "color": "#003D8F",
+      "city": "Lund",
+      "type": "Public",
+      "tuition": "Free (EU) / SEK 130,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Engineering",
+        "Law",
+        "Humanities",
+        "Business",
+        "Science"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1666,
+      "students": "~44,000",
+      "desc": "Sweden's highest-ranked university — in the QS world top 100 across almost every subject, with one of Europe's most international campuses.",
+      "website": ""
+    },
+    {
+      "id": "uu",
+      "name": "Uppsala University",
+      "abbr": "UU",
+      "color": "#990000",
+      "city": "Uppsala",
+      "type": "Public",
+      "tuition": "Free (EU) / SEK 120,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Humanities",
+        "Science",
+        "Engineering"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1477,
+      "students": "~48,000",
+      "desc": "Scandinavia's oldest university and a global top-100 institution — Uppsala has produced 8 Nobel laureates and Carl Linnaeus studied here.",
+      "website": ""
+    },
+    {
+      "id": "gu",
+      "name": "University of Gothenburg",
+      "abbr": "GU",
+      "color": "#003D6B",
+      "city": "Gothenburg",
+      "type": "Public",
+      "tuition": "Free (EU) / SEK 110,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Business",
+        "Humanities",
+        "Science",
+        "Arts",
+        "Law"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1891,
+      "students": "~39,000",
+      "desc": "Sweden's second most comprehensive university, known for outstanding humanities and marine research.",
+      "website": ""
+    },
+    {
+      "id": "chalmers",
+      "name": "Chalmers University of Technology",
+      "abbr": "Chalmers",
+      "color": "#007B8F",
+      "city": "Gothenburg",
+      "type": "Private",
+      "tuition": "Free (EU) / SEK 150,000/yr",
+      "ts": 3,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Architecture",
+        "Science"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1829,
+      "students": "~11,000",
+      "desc": "One of Europe's leading technical universities — a QS world top-80 institution producing many of Sweden's top engineers.",
+      "website": ""
+    },
+    {
+      "id": "liu",
+      "name": "Linköping University",
+      "abbr": "LiU",
+      "color": "#003366",
+      "city": "Linköping",
+      "type": "Public",
+      "tuition": "Free (EU) / SEK 105,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Medicine",
+        "CS",
+        "Business",
+        "Humanities"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1975,
+      "students": "~28,000",
+      "desc": "A modern problem-based learning university that consistently rises in global rankings, with a major presence in Swedish industry.",
+      "website": "https://liu.se"
+    },
+    {
+      "id": "umu",
+      "name": "Umeå University",
+      "abbr": "UmU",
+      "color": "#003B7A",
+      "city": "Umeå",
+      "type": "Public",
+      "tuition": "Free (EU) / SEK 100,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Science",
+        "Humanities",
+        "Arts",
+        "Engineering"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1965,
+      "students": "~35,000",
+      "desc": "One of Sweden's larger comprehensive universities — a young, dynamic campus in northern Sweden's cultural capital.",
+      "website": "http://www.umu.se/"
+    },
+    {
+      "id": "ki",
+      "name": "Karolinska Institutet",
+      "abbr": "KI",
+      "color": "#990000",
+      "city": "Stockholm",
+      "type": "Public",
+      "tuition": "Free (EU) / SEK 160,000/yr",
+      "ts": 2,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Medicine",
+        "Science"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1810,
+      "students": "~6,000",
+      "desc": "One of the world's most respected medical universities — the institution responsible for awarding the Nobel Prize in Physiology or Medicine.",
+      "website": "https://ki.se"
+    },
+    {
+      "id": "hhs",
+      "name": "Stockholm School of Economics",
+      "abbr": "SSE",
+      "color": "#003D6B",
+      "city": "Stockholm",
+      "type": "Private",
+      "tuition": "SEK 195,000/yr",
+      "ts": 4,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Business"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1909,
+      "students": "~2,100",
+      "desc": "Scandinavia's leading business school — consistently ranked in the top 30 European MBAs and producing Sweden's top business leaders.",
+      "website": "https://www.hhs.se/"
+    },
+    {
+      "id": "mah",
+      "name": "Malmö University",
+      "abbr": "MAU",
+      "color": "#00534C",
+      "city": "Malmö",
+      "type": "Public",
+      "tuition": "Free (EU) / SEK 95,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Humanities",
+        "Business",
+        "CS",
+        "Architecture",
+        "Engineering"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1998,
+      "students": "~24,000",
+      "desc": "A young, urban university with a strong focus on social sustainability, urban planning and digital media.",
+      "website": ""
+    },
+    {
+      "id": "su_law",
+      "name": "Stockholm University – Law Faculty",
+      "abbr": "SU-Law",
+      "color": "#002F6C",
+      "city": "Stockholm",
+      "type": "Public",
+      "tuition": "Free (EU) / SEK 110,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Law"
+      ],
+      "langs": [
+        "Swedish",
+        "English"
+      ],
+      "founded": 1878,
+      "students": "~4,000",
+      "desc": "Sweden's most prestigious law faculty, producing the majority of Sweden's judges, attorneys and senior officials.",
+      "website": ""
+    },
+    {
+      "id": "slu",
+      "name": "Swedish University of Agricultural Sciences",
+      "abbr": "SLU",
+      "color": "#007E3A",
+      "city": "Uppsala",
+      "type": "Public",
+      "tuition": "Free (EU) / SEK 100,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Engineering"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1977,
+      "students": "~5,000",
+      "desc": "The world's leading university for sustainable agriculture, forestry and ecology — uniquely placed across four campuses.",
+      "website": ""
+    },
+    {
+      "id": "kau",
+      "name": "Karlstad University",
+      "abbr": "KaU",
+      "color": "#004C8C",
+      "city": "Karlstad",
+      "type": "Public",
+      "tuition": "Free (EU) / SEK 90,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Humanities",
+        "Engineering",
+        "Science",
+        "Law"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1999,
+      "students": "~16,000",
+      "desc": "A smaller comprehensive university in western Sweden offering many English-taught programmes in a safe, pleasant city.",
+      "website": ""
+    },
+    {
+      "id": "oru",
+      "name": "Örebro University",
+      "abbr": "ORU",
+      "color": "#CC0000",
+      "city": "Örebro",
+      "type": "Public",
+      "tuition": "Free (EU) / SEK 90,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Law",
+        "Medicine",
+        "Humanities",
+        "CS"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1999,
+      "students": "~17,000",
+      "desc": "A dynamic modern university in the heart of Sweden, with growing international recognition in law and business.",
+      "website": ""
+    },
+    {
+      "id": "mid",
+      "name": "Mid Sweden University",
+      "abbr": "MIUN",
+      "color": "#E4000F",
+      "city": "Sundsvall",
+      "type": "Public",
+      "tuition": "Free (EU) / SEK 85,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Science",
+        "Humanities"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1993,
+      "students": "~15,000",
+      "desc": "A dual-campus university in central Sweden with specialist programmes in ecotourism, sports and digital media.",
+      "website": ""
+    },
+    {
+      "id": "hv",
+      "name": "University West",
+      "abbr": "HV",
+      "color": "#00539B",
+      "city": "Trollhättan",
+      "type": "Public",
+      "tuition": "Free (EU) / SEK 85,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Humanities"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1990,
+      "students": "~15,000",
+      "desc": "Sweden's university for work-integrated learning — a unique model where all programmes include real workplace experience.",
+      "website": ""
+    },
+    {
+      "id": "hh",
+      "name": "Halmstad University",
+      "abbr": "HH",
+      "color": "#008EAA",
+      "city": "Halmstad",
+      "type": "Public",
+      "tuition": "Free (EU) / SEK 85,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "CS",
+        "Humanities"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1983,
+      "students": "~11,000",
+      "desc": "A small coastal university focused on innovation and health research, with a pleasant student environment.",
+      "website": ""
+    },
+    {
+      "id": "lnu",
+      "name": "Linnaeus University",
+      "abbr": "LNU",
+      "color": "#5C1A74",
+      "city": "Växjö",
+      "type": "Public",
+      "tuition": "Free (EU) / SEK 90,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Engineering",
+        "Science",
+        "Humanities",
+        "CS"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 2010,
+      "students": "~31,000",
+      "desc": "A modern university formed from two merged institutions, with a strong international focus and large study-abroad programme.",
+      "website": ""
+    },
+    {
+      "id": "hb",
+      "name": "University of Borås",
+      "abbr": "HB",
+      "color": "#004F98",
+      "city": "Borås",
+      "type": "Public",
+      "tuition": "Free (EU) / SEK 85,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Engineering",
+        "Arts",
+        "Humanities"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1977,
+      "students": "~12,000",
+      "desc": "Specialist in textiles, library science and nursing — a compact, internationally recognised professional university.",
+      "website": ""
+    },
+    {
+      "id": "hiig",
+      "name": "University of Gävle",
+      "abbr": "HiG",
+      "color": "#004B87",
+      "city": "Gävle",
+      "type": "Public",
+      "tuition": "Free (EU) / SEK 85,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Humanities",
+        "Science"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1977,
+      "students": "~15,000",
+      "desc": "A growing university in central Sweden with a strong emphasis on sustainable development and construction engineering.",
+      "website": ""
+    },
+    {
+      "id": "dau",
+      "name": "Dalarna University",
+      "abbr": "DU",
+      "color": "#003776",
+      "city": "Falun",
+      "type": "Public",
+      "tuition": "Free (EU) / SEK 85,000/yr",
+      "ts": 2,
+      "diff": 1,
+      "dl": "Open",
+      "fields": [
+        "Business",
+        "Humanities",
+        "Engineering"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1977,
+      "students": "~16,000",
+      "desc": "A dual-campus university in the scenic Dalarna region, with many online and distance programmes.",
+      "website": ""
+    },
+    {
+      "id": "sh",
+      "name": "Södertörn University",
+      "abbr": "SH",
+      "color": "#006D5B",
+      "city": "Stockholm",
+      "type": "Public",
+      "tuition": "Free (EU) / SEK 95,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Humanities",
+        "Business",
+        "Law",
+        "Science"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1996,
+      "students": "~12,000",
+      "desc": "A progressive social sciences university in southern Stockholm, focusing on Baltic and Eastern European studies.",
+      "website": ""
+    },
+    {
+      "id": "rh",
+      "name": "Red Cross University College",
+      "abbr": "RKH",
+      "color": "#CC0000",
+      "city": "Stockholm",
+      "type": "Private",
+      "tuition": "Free (EU) / SEK 90,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Humanities"
+      ],
+      "langs": [
+        "Swedish"
+      ],
+      "founded": 1867,
+      "students": "~1,200",
+      "desc": "A specialist nursing and humanitarian studies college with a proud 150-year tradition connected to the Red Cross movement.",
+      "website": ""
+    },
+    {
+      "id": "jth",
+      "name": "Jönköping University",
+      "abbr": "JU",
+      "color": "#003366",
+      "city": "Jönköping",
+      "type": "Private",
+      "tuition": "SEK 110,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Engineering",
+        "Humanities"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1994,
+      "students": "~12,000",
+      "desc": "Sweden's leading private university with an outstanding reputation for entrepreneurship and the Jönköping International Business School.",
+      "website": "http://www.hj.se/"
+    },
+    {
+      "id": "ikh",
+      "name": "Stockholm School of Economics – Executive",
+      "abbr": "SSE Exec",
+      "color": "#003D6B",
+      "city": "Stockholm",
+      "type": "Private",
+      "tuition": "SEK 250,000+/yr",
+      "ts": 5,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Business"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1909,
+      "students": "~500",
+      "desc": "Executive education arm of SSE — one of Scandinavia's most prestigious and expensive MBA and executive programmes.",
+      "website": ""
+    },
+    {
+      "id": "gih",
+      "name": "Swedish School of Sport and Health Sciences",
+      "abbr": "GIH",
+      "color": "#006633",
+      "city": "Stockholm",
+      "type": "Public",
+      "tuition": "Free (EU)",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Science",
+        "Humanities"
+      ],
+      "langs": [
+        "Swedish"
+      ],
+      "founded": 1813,
+      "students": "~1,500",
+      "desc": "One of the world's oldest sport and physical education universities — a unique specialist institution in central Stockholm.",
+      "website": "http://www.gih.se"
+    },
+    {
+      "id": "cbs_swed",
+      "name": "Stockholm Business School",
+      "abbr": "SBS",
+      "color": "#003366",
+      "city": "Stockholm",
+      "type": "Public",
+      "tuition": "Free (EU)",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 2012,
+      "students": "~1,200",
+      "desc": "Part of Stockholm University, SBS offers internationally focused business programmes in one of Europe's most connected capitals.",
+      "website": "https://www.hhs.se/"
+    },
+    {
+      "id": "konstfack",
+      "name": "Konstfack University of Arts",
+      "abbr": "Konstfack",
+      "color": "#CC0000",
+      "city": "Stockholm",
+      "type": "Public",
+      "tuition": "Free (EU)",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Arts",
+        "Architecture",
+        "Humanities"
+      ],
+      "langs": [
+        "Swedish",
+        "English"
+      ],
+      "founded": 1844,
+      "students": "~1,400",
+      "desc": "Sweden's leading arts and design university, with outstanding programmes in ceramics, jewellery, textiles and industrial design.",
+      "website": "http://www.konstfack.se"
+    },
+    {
+      "id": "kth_arch",
+      "name": "KTH School of Architecture",
+      "abbr": "KTH-Arch",
+      "color": "#003366",
+      "city": "Stockholm",
+      "type": "Public",
+      "tuition": "Free (EU)",
+      "ts": 2,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Architecture"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1827,
+      "students": "~1,200",
+      "desc": "Scandinavia's top architecture school, affiliated with KTH Royal Institute of Technology and consistently ranked globally.",
+      "website": ""
+    },
+    {
+      "id": "cbs_stock",
+      "name": "Stockholm College of Osteopathic Medicine",
+      "abbr": "SKOM",
+      "color": "#005F8A",
+      "city": "Stockholm",
+      "type": "Private",
+      "tuition": "SEK 150,000/yr",
+      "ts": 4,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine"
+      ],
+      "langs": [
+        "Swedish"
+      ],
+      "founded": 1974,
+      "students": "~800",
+      "desc": "A specialist healthcare college offering degrees in osteopathy, physiotherapy and manual medicine.",
+      "website": ""
+    },
+    {
+      "id": "ersta_sk",
+      "name": "Ersta Sköndal Bräcke University College",
+      "abbr": "ESB",
+      "color": "#004080",
+      "city": "Stockholm",
+      "type": "Private",
+      "tuition": "Free (EU)",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Humanities",
+        "Medicine"
+      ],
+      "langs": [
+        "Swedish"
+      ],
+      "founded": 1866,
+      "students": "~3,000",
+      "desc": "A Christian-inspired healthcare and social work college with a long tradition of training nurses and social workers.",
+      "website": ""
+    },
+    {
+      "id": "nackademin",
+      "name": "Nackademin University of Applied Sciences",
+      "abbr": "Nackademin",
+      "color": "#009EE3",
+      "city": "Stockholm",
+      "type": "Private",
+      "tuition": "SEK 90,000/yr",
+      "ts": 3,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "CS",
+        "Engineering",
+        "Business"
+      ],
+      "langs": [
+        "Swedish"
+      ],
+      "founded": 1994,
+      "students": "~3,000",
+      "desc": "A vocational higher education institution specialising in IT, security and technical programmes in Stockholm.",
+      "website": ""
+    },
+    {
+      "id": "blekinge",
+      "name": "Blekinge Institute of Technology",
+      "abbr": "BTH",
+      "color": "#003D7A",
+      "city": "Karlskrona",
+      "type": "Public",
+      "tuition": "Free (EU)",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1989,
+      "students": "~9,000",
+      "desc": "A specialist technical university with a strong global reputation in software engineering and game development.",
+      "website": ""
+    },
+    {
+      "id": "hs",
+      "name": "University of Skövde",
+      "abbr": "HiS",
+      "color": "#003D5C",
+      "city": "Skövde",
+      "type": "Public",
+      "tuition": "Free (EU)",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "CS",
+        "Engineering",
+        "Business",
+        "Science"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1977,
+      "students": "~8,000",
+      "desc": "A compact university known across Europe for game development and bioinformatics, in a safe Swedish city.",
+      "website": ""
+    },
+    {
+      "id": "lu_medic",
+      "name": "Lund University – Medical Faculty",
+      "abbr": "LU-Med",
+      "color": "#003D8F",
+      "city": "Lund",
+      "type": "Public",
+      "tuition": "Free (EU)",
+      "ts": 2,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Medicine",
+        "Science"
+      ],
+      "langs": [
+        "Swedish"
+      ],
+      "founded": 1666,
+      "students": "~8,000",
+      "desc": "Sweden's top medical faculty and one of Europe's leading academic medical centres — home to pioneering research.",
+      "website": ""
+    },
+    {
+      "id": "ki_biosc",
+      "name": "Karolinska Institutet – Biomedical Sciences",
+      "abbr": "KI-Bio",
+      "color": "#990000",
+      "city": "Stockholm",
+      "type": "Public",
+      "tuition": "Free (EU)",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Science",
+        "Medicine"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1810,
+      "students": "~2,000",
+      "desc": "One of the world's top environments for biomedical research — KI's focus on translational science is globally renowned.",
+      "website": ""
+    },
+    {
+      "id": "highlandU",
+      "name": "Kristianstad University",
+      "abbr": "HKR",
+      "color": "#004994",
+      "city": "Kristianstad",
+      "type": "Public",
+      "tuition": "Free (EU)",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Engineering",
+        "Science",
+        "Humanities"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1977,
+      "students": "~11,000",
+      "desc": "A modern university in southern Sweden with a particularly strong food and meal science programme.",
+      "website": ""
+    },
+    {
+      "id": "lu_tech",
+      "name": "Lund University – Faculty of Engineering",
+      "abbr": "LTH",
+      "color": "#003D8F",
+      "city": "Lund",
+      "type": "Public",
+      "tuition": "Free (EU)",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Architecture"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1961,
+      "students": "~9,000",
+      "desc": "The Faculty of Engineering at Lund — LTH is Sweden's top engineering school and one of Europe's most respected.",
+      "website": ""
+    },
+    {
+      "id": "kth_ict",
+      "name": "KTH – School of EECS",
+      "abbr": "KTH-EECS",
+      "color": "#003366",
+      "city": "Stockholm",
+      "type": "Public",
+      "tuition": "Free (EU)",
+      "ts": 2,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "CS"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1827,
+      "students": "~5,000",
+      "desc": "KTH's School of Electrical Engineering and Computer Science — ranked top 10 in Europe for CS and IT.",
+      "website": ""
+    },
+    {
+      "id": "umu_med",
+      "name": "Umeå University – Medical Faculty",
+      "abbr": "UmU-Med",
+      "color": "#003B7A",
+      "city": "Umeå",
+      "type": "Public",
+      "tuition": "Free (EU)",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Science"
+      ],
+      "langs": [
+        "Swedish"
+      ],
+      "founded": 1965,
+      "students": "~5,000",
+      "desc": "Northern Sweden's only medical faculty, with strong research in cancer, Alzheimer's and infectious diseases.",
+      "website": ""
+    },
+    {
+      "id": "su_soc",
+      "name": "Stockholm University – Social Science",
+      "abbr": "SU-Soc",
+      "color": "#002F6C",
+      "city": "Stockholm",
+      "type": "Public",
+      "tuition": "Free (EU)",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Humanities",
+        "Business",
+        "Science"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1878,
+      "students": "~6,000",
+      "desc": "One of Sweden's top faculties for psychology, sociology and criminology — located on SU's leafy Frescati campus.",
+      "website": ""
+    },
+    {
+      "id": "liu_tech",
+      "name": "Linköping University – Institute of Technology",
+      "abbr": "LiTH",
+      "color": "#003366",
+      "city": "Linköping",
+      "type": "Public",
+      "tuition": "Free (EU)",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "CS"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1975,
+      "students": "~10,000",
+      "desc": "Sweden's third-largest engineering school and a major centre for computer science, materials science and aerospace.",
+      "website": ""
+    },
+    {
+      "id": "chalmers_arch",
+      "name": "Chalmers – Architecture and Civil Engineering",
+      "abbr": "ACE",
+      "color": "#007B8F",
+      "city": "Gothenburg",
+      "type": "Private",
+      "tuition": "Free (EU)",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Architecture",
+        "Engineering"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1829,
+      "students": "~3,000",
+      "desc": "Chalmers' architecture and civil engineering school — ranked among the top 50 architecture schools in the world.",
+      "website": ""
+    },
+    {
+      "id": "gu_arts",
+      "name": "University of Gothenburg – Academy of Music and Drama",
+      "abbr": "HDK",
+      "color": "#003D6B",
+      "city": "Gothenburg",
+      "type": "Public",
+      "tuition": "Free (EU)",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Arts",
+        "Humanities"
+      ],
+      "langs": [
+        "Swedish"
+      ],
+      "founded": 1800,
+      "students": "~700",
+      "desc": "One of Scandinavia's leading arts academies for music, drama, film and opera performance.",
+      "website": ""
+    },
+    {
+      "id": "uu_eng",
+      "name": "Uppsala University – Faculty of Science and Technology",
+      "abbr": "UU-SciTech",
+      "color": "#990000",
+      "city": "Uppsala",
+      "type": "Public",
+      "tuition": "Free (EU)",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Science",
+        "Engineering",
+        "CS"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1477,
+      "students": "~10,000",
+      "desc": "Uppsala's technical faculty — home to Sweden's best physics and chemistry research programmes.",
+      "website": ""
+    },
+    {
+      "id": "sfu",
+      "name": "Sophiahemmet University College",
+      "abbr": "SHM",
+      "color": "#9B1B30",
+      "city": "Stockholm",
+      "type": "Private",
+      "tuition": "Free (EU)",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Humanities"
+      ],
+      "langs": [
+        "Swedish"
+      ],
+      "founded": 1884,
+      "students": "~1,800",
+      "desc": "A specialist nursing and radiotherapy university college with a 140-year tradition of compassionate healthcare education.",
+      "website": "http://www.sophiahemmethogskola.se/"
+    },
+    {
+      "id": "nordica",
+      "name": "Nordica University College of Art",
+      "abbr": "Nordica",
+      "color": "#005B4A",
+      "city": "Gothenburg",
+      "type": "Private",
+      "tuition": "SEK 100,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Arts"
+      ],
+      "langs": [
+        "Swedish",
+        "English"
+      ],
+      "founded": 2001,
+      "students": "~600",
+      "desc": "A boutique private arts college in Gothenburg specialising in contemporary fine arts and digital media.",
+      "website": ""
+    }
+  ],
+  "cities": {
+    "Stockholm": {
+      "region": "Stockholm County",
+      "pop": "975,000 (2.4M metro)",
+      "climate": "Humid continental",
+      "cost": "SEK 11,000–15,000/mo",
+      "desc": "Scandinavia's largest city and Europe's fastest-growing capital — spread across 14 islands, home to 5 world top-200 universities and an extraordinarily high quality of life.",
+      "highlights": [
+        "Gamla Stan old town",
+        "Vasa Museum",
+        "Djurgården island",
+        "ABBA Museum",
+        "Stockholm archipelago (30,000 islands)"
+      ],
+      "studentLife": "Outstanding — KTH and Stockholm University campuses are among Europe's most vibrant.",
+      "transport": "Excellent metro (Tunnelbana), buses, trams and ferries; Arlanda airport 40 min by train.",
+      "nightlife": "Expensive but world-class — legendary clubs, jazz bars, outdoor summer terraces.",
+      "pros": [
+        "World-class quality of life",
+        "Top global universities",
+        "Free tuition EU students"
+      ],
+      "tags": [
+        "Capital",
+        "Archipelago",
+        "Innovation",
+        "Design"
+      ]
+    },
+    "Uppsala": {
+      "region": "Uppsala County",
+      "pop": "233,000",
+      "climate": "Humid continental",
+      "cost": "SEK 8,500–12,000/mo",
+      "desc": "Scandinavia's oldest and most academic city — dominated by Uppsala University and SLU, with a medieval cathedral, countless student nations and a fiercely proud academic tradition.",
+      "highlights": [
+        "Uppsala Cathedral (tallest in Scandinavia)",
+        "Uppsala Castle",
+        "Linnaean Garden & Museum",
+        "Student Nations (student clubs)",
+        "Old Uppsala burial mounds"
+      ],
+      "studentLife": "Legendary — the Student Nation system is unlike anywhere else in the world.",
+      "transport": "Pendeltåg commuter trains to Stockholm (40 min) every 10 minutes.",
+      "nightlife": "Driven entirely by student nations — incredibly lively and affordable.",
+      "pros": [
+        "Scandinavia's oldest university",
+        "Unique student nation culture",
+        "30 min to Stockholm"
+      ],
+      "tags": [
+        "Academic",
+        "Historic",
+        "Student life",
+        "Affordable"
+      ]
+    },
+    "Gothenburg": {
+      "region": "Västra Götaland",
+      "pop": "590,000",
+      "climate": "Oceanic",
+      "cost": "SEK 9,000–12,000/mo",
+      "desc": "Sweden's second city and the home of Volvo and Chalmers — a vibrant port city with excellent universities, a lively arts scene and Scandinavia's best food.",
+      "highlights": [
+        "Liseberg amusement park",
+        "Gothenburg Museum of Art",
+        "Feskekörka fish market",
+        "Archipelago day trips",
+        "Avenyn boulevard"
+      ],
+      "studentLife": "Excellent — two major universities, huge student population, very liveable city.",
+      "transport": "Extensive tram and bus network; ferry to Denmark (3 hrs); direct trains to Stockholm.",
+      "nightlife": "More intimate than Stockholm — cosy bars, live music and summer island hopping.",
+      "pros": [
+        "Chalmers — world top engineering",
+        "Excellent food scene",
+        "Cheaper than Stockholm"
+      ],
+      "tags": [
+        "Second city",
+        "Engineering",
+        "Arts",
+        "Port"
+      ]
+    },
+    "Lund": {
+      "region": "Skåne County",
+      "pop": "91,000",
+      "climate": "Oceanic",
+      "cost": "SEK 7,500–10,000/mo",
+      "desc": "A quintessential Swedish university town — compact, cycling-friendly and completely dominated by Lund University, which is Sweden's highest-ranked institution and one of Europe's finest.",
+      "highlights": [
+        "Lund Cathedral (12th century)",
+        "Kulturen open-air museum",
+        "Lund Botanical Garden",
+        "AF-borgen student union",
+        "Malmö (15 min by train)"
+      ],
+      "studentLife": "Exceptional — 43,000 students in a town of 91,000 creates a uniquely intense student culture.",
+      "transport": "15 min to Malmö; 40 min to Copenhagen by Øresund Bridge; excellent local buses.",
+      "nightlife": "Student union-focused nightlife — AF-borgen is legendary; also easy to reach Malmö or Copenhagen.",
+      "pros": [
+        "Sweden's best university",
+        "Compact and walkable",
+        "15 min from Copenhagen"
+      ],
+      "tags": [
+        "Academic",
+        "Compact",
+        "Near Copenhagen",
+        "Historic"
+      ]
+    },
+    "Linköping": {
+      "region": "Östergötland",
+      "pop": "166,000",
+      "climate": "Humid continental",
+      "cost": "SEK 8,000–11,000/mo",
+      "desc": "A growing university city in southern Sweden — home to Linköping University and major aerospace companies including Saab, with an outstanding student quality of life.",
+      "highlights": [
+        "Gamla Linköping open-air museum",
+        "Linköping Cathedral",
+        "Saab factory and museum",
+        "Tinnerö nature reserve",
+        "University campus lakes"
+      ],
+      "studentLife": "Excellent — problem-based learning at LiU creates an unusually collaborative student atmosphere.",
+      "transport": "Hourly trains to Stockholm (2 hrs) and Gothenburg; excellent local buses.",
+      "nightlife": "Lively student scene around Corson; improving food and music venues.",
+      "pros": [
+        "LiU — rising fast in rankings",
+        "Major tech employers nearby",
+        "Affordable living"
+      ],
+      "tags": [
+        "Tech",
+        "Affordable",
+        "Growing",
+        "Aerospace"
+      ]
+    }
+  },
+  "cityCards": [
+    {
+      "city": "Stockholm",
+      "region": "Stockholm County",
+      "gradient": "linear-gradient(135deg,#003366,#006699)",
+      "icon": "fa-solid fa-crown",
+      "desc": "Scandinavia's capital — 14 islands, 5 top universities, extraordinary quality of life and free tuition for EU students.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-snowflake"
+      ],
+      "stats": [
+        "975,000 residents",
+        "SEK 11,000–15,000/mo",
+        "Humid continental"
+      ],
+      "tags": [
+        "Capital",
+        "Archipelago",
+        "Innovation"
+      ]
+    },
+    {
+      "city": "Uppsala",
+      "region": "Uppsala County",
+      "gradient": "linear-gradient(135deg,#990000,#CC3300)",
+      "icon": "fa-solid fa-graduation-cap",
+      "desc": "Scandinavia's oldest and most academic city — the unique student nation system and Uppsala University make this unmissable.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-snowflake"
+      ],
+      "stats": [
+        "233,000 residents",
+        "SEK 8,500–12,000/mo",
+        "Humid continental"
+      ],
+      "tags": [
+        "Academic",
+        "Historic",
+        "Student life"
+      ]
+    },
+    {
+      "city": "Gothenburg",
+      "region": "Västra Götaland",
+      "gradient": "linear-gradient(135deg,#003D6B,#0066AA)",
+      "icon": "fa-solid fa-ship",
+      "desc": "Sweden's second city — Chalmers, Volvo headquarters, Scandinavia's best food and an excellent student life.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-snowflake"
+      ],
+      "stats": [
+        "590,000 residents",
+        "SEK 9,000–12,000/mo",
+        "Oceanic"
+      ],
+      "tags": [
+        "Engineering",
+        "Port",
+        "Arts"
+      ]
+    },
+    {
+      "city": "Lund",
+      "region": "Skåne County",
+      "gradient": "linear-gradient(135deg,#003D8F,#0055BB)",
+      "icon": "fa-solid fa-book",
+      "desc": "Sweden's top university in a compact medieval town — 15 minutes from Copenhagen.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-snowflake"
+      ],
+      "stats": [
+        "91,000 residents",
+        "SEK 7,500–10,000/mo",
+        "Oceanic"
+      ],
+      "tags": [
+        "Academic",
+        "Compact",
+        "Near Copenhagen"
+      ]
+    },
+    {
+      "city": "Linköping",
+      "region": "Östergötland",
+      "gradient": "linear-gradient(135deg,#003366,#005599)",
+      "icon": "fa-solid fa-plane",
+      "desc": "Rising aerospace and tech university city — Saab and Linköping University together make this a unique destination.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-snowflake"
+      ],
+      "stats": [
+        "166,000 residents",
+        "SEK 8,000–11,000/mo",
+        "Humid continental"
+      ],
+      "tags": [
+        "Tech",
+        "Aerospace",
+        "Affordable"
+      ]
+    }
+  ],
+  "featuredCities": [
+    {
+      "city": "Stockholm",
+      "icon": "fa-solid fa-crown",
+      "sub": "Capital"
+    },
+    {
+      "city": "Uppsala",
+      "icon": "fa-solid fa-graduation-cap",
+      "sub": "Academic"
+    },
+    {
+      "city": "Gothenburg",
+      "icon": "fa-solid fa-ship",
+      "sub": "West Sweden"
+    },
+    {
+      "city": "Lund",
+      "icon": "fa-solid fa-book",
+      "sub": "Skåne"
+    },
+    {
+      "city": "Linköping",
+      "icon": "fa-solid fa-plane",
+      "sub": "Östergötland"
+    }
+  ]
+}

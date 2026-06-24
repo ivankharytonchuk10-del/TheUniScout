@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Admissions Assistant · UniScout</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Montserrat', sans-serif; min-height: 100vh; color: #222; background: #f0f2f8; }
+        body::before, body::after { content:''; position:fixed; inset:-10%; z-index:-1; pointer-events:none; }
+        body::before { background: radial-gradient(circle 460px at 20% 30%, rgba(217,124,20,.05), transparent 70%), radial-gradient(circle 540px at 84% 72%, rgba(245,146,32,.04), transparent 72%); animation: auraDrift 30s ease-in-out infinite; }
+        body::after { background: radial-gradient(circle 420px at 74% 22%, rgba(217,124,20,.045), transparent 72%), radial-gradient(circle 480px at 26% 82%, rgba(245,146,32,.035), transparent 70%); animation: auraDrift 38s ease-in-out infinite reverse; animation-delay:-9s; }
+        @keyframes auraDrift { 0% { opacity:.55; transform:translate(0,0) scale(1); } 50% { opacity:1; transform:translate(2.5%,-2%) scale(1.08); } 100% { opacity:.55; transform:translate(0,0) scale(1); } }
+        @media (prefers-reduced-motion: reduce) { body::before, body::after { animation:none; opacity:.4; } }
+
+        /* ── Header ── */
+        .af__header { background:#fff; border-bottom:1px solid #e8eaf0; padding:0 24px; height:60px; display:flex; align-items:center; position:sticky; top:0; z-index:100; box-shadow:0 2px 8px rgba(0,0,0,.05); }
+        .af__header__inner { max-width:900px; margin:0 auto; width:100%; display:flex; align-items:center; justify-content:space-between; }
+        .af__back { color:#555; text-decoration:none; font-size:.82rem; font-weight:600; display:flex; align-items:center; gap:6px; transition:color .15s; }
+        .af__back:hover { color:#27ae60; }
+        .af__brand { display:flex; align-items:center; gap:8px; font-weight:800; font-size:1rem; color:#1a1a2e; }
+        .af__brand img { height:26px; }
+
+        .af__wrap { max-width:900px; margin:0 auto; padding:26px 20px 80px; }
+
+        /* ── Hero ── */
+        .af__hero { background:linear-gradient(135deg,#0f2744,#1a3a5c); border-radius:18px; padding:28px 30px; color:#fff; margin-bottom:22px; position:relative; overflow:hidden; box-shadow:0 10px 32px rgba(0,0,0,.18); }
+        .af__hero::after { content:''; position:absolute; inset:0; background:radial-gradient(ellipse 60% 80% at 100% 0%, rgba(39,174,96,.22), transparent 65%); pointer-events:none; }
+        .af__hero__tag { display:inline-flex; align-items:center; gap:7px; background:rgba(255,255,255,.12); border:1px solid rgba(255,255,255,.2); border-radius:20px; padding:5px 13px; font-size:11px; font-weight:700; letter-spacing:.5px; text-transform:uppercase; margin-bottom:12px; }
+        .af__hero__tag i { color:#4ade80; }
+        .af__hero h1 { font-size:24px; font-weight:800; letter-spacing:-.3px; margin-bottom:8px; position:relative; }
+        .af__hero p { font-size:13px; color:rgba(255,255,255,.8); line-height:1.6; max-width:560px; position:relative; }
+
+        /* ── Progress ── */
+        .af__progress { display:flex; gap:6px; margin-bottom:22px; flex-wrap:wrap; }
+        .af__progress__step { flex:1; min-width:90px; background:#fff; border:1px solid #e8eaf0; border-radius:10px; padding:9px 11px; font-size:10.5px; font-weight:700; color:#999; display:flex; align-items:center; gap:7px; transition:all .2s; }
+        .af__progress__step.done { border-color:#27ae60; color:#27ae60; background:rgba(39,174,96,.06); }
+        .af__progress__step i { font-size:12px; }
+
+        /* ── Section card ── */
+        .af__card { background:#fff; border:1px solid #e8eaf0; border-radius:16px; padding:24px 26px; margin-bottom:18px; box-shadow:0 2px 12px rgba(0,0,0,.04); }
+        .af__card__head { display:flex; align-items:center; gap:12px; margin-bottom:20px; }
+        .af__card__num { width:34px; height:34px; border-radius:10px; background:linear-gradient(135deg,#27ae60,#1e9e74); color:#fff; display:flex; align-items:center; justify-content:center; font-weight:800; font-size:14px; flex-shrink:0; }
+        .af__card__title { font-size:15.5px; font-weight:800; color:#1a1a2e; }
+        .af__card__sub { font-size:11.5px; color:#888; margin-top:1px; }
+
+        .af__grid { display:grid; grid-template-columns:1fr 1fr; gap:15px; }
+        .af__field { display:flex; flex-direction:column; gap:6px; }
+        .af__field--full { grid-column:1 / -1; }
+        .af__label { font-size:11.5px; font-weight:700; color:#555; display:flex; align-items:center; gap:6px; }
+        .af__label .opt { font-weight:400; color:#aaa; font-size:10.5px; }
+        .af__req { color:#e74c3c; }
+        .af__input, .af__select { width:100%; padding:10px 13px; background:#f7f8fc; border:1.5px solid #e3e6ef; border-radius:10px; font-size:13px; font-family:inherit; color:#222; outline:none; transition:border-color .18s, box-shadow .18s; }
+        .af__input:focus, .af__select:focus { border-color:#27ae60; box-shadow:0 0 0 3px rgba(39,174,96,.12); background:#fff; }
+        .af__input::placeholder { color:#aab; }
+        .af__input.invalid, .af__select.invalid { border-color:#e74c3c; box-shadow:0 0 0 3px rgba(231,76,60,.1); }
+        textarea.af__input { resize:vertical; min-height:90px; line-height:1.6; }
+
+        /* ── File / document rows ── */
+        .af__doc { display:flex; align-items:center; gap:12px; padding:11px 14px; background:#f7f8fc; border:1.5px dashed #d4d8e6; border-radius:11px; }
+        .af__doc.has-file { border-style:solid; border-color:#27ae60; background:rgba(39,174,96,.05); }
+        .af__doc__ico { width:34px; height:34px; border-radius:9px; background:#eef0f7; color:#7a8195; display:flex; align-items:center; justify-content:center; flex-shrink:0; font-size:14px; }
+        .af__doc.has-file .af__doc__ico { background:rgba(39,174,96,.15); color:#27ae60; }
+        .af__doc__body { flex:1; min-width:0; }
+        .af__doc__name { font-size:12.5px; font-weight:700; color:#333; }
+        .af__doc__hint { font-size:10.5px; color:#999; }
+        .af__doc__hint .req { color:#e74c3c; font-weight:700; }
+        .af__doc__file { font-size:10.5px; color:#27ae60; font-weight:700; margin-top:2px; display:none; }
+        .af__doc.has-file .af__doc__file { display:block; }
+        .af__doc__btn { font-size:11px; font-weight:700; color:#27ae60; background:rgba(39,174,96,.1); border:1px solid rgba(39,174,96,.25); border-radius:8px; padding:7px 13px; cursor:pointer; white-space:nowrap; transition:background .15s; }
+        .af__doc__btn:hover { background:rgba(39,174,96,.18); }
+        .af__doc input[type=file] { display:none; }
+        .af__docs { display:flex; flex-direction:column; gap:10px; }
+
+        /* ── University selection ── */
+        .af__uni__row { display:grid; grid-template-columns:1fr 1fr 150px 38px; gap:10px; align-items:end; margin-bottom:10px; }
+        .af__uni__del { width:38px; height:40px; border-radius:9px; border:1px solid #f0d0cc; background:#fdf0ee; color:#e74c3c; cursor:pointer; font-size:13px; transition:background .15s; }
+        .af__uni__del:hover { background:#fbe2de; }
+        .af__add__uni { display:inline-flex; align-items:center; gap:8px; background:rgba(39,174,96,.1); border:1.5px dashed rgba(39,174,96,.4); color:#27ae60; border-radius:11px; padding:11px 18px; font-size:12.5px; font-weight:700; font-family:inherit; cursor:pointer; transition:background .15s; margin-top:4px; }
+        .af__add__uni:hover { background:rgba(39,174,96,.18); }
+        .af__saved__pick { display:flex; flex-wrap:wrap; gap:7px; margin-bottom:14px; }
+        .af__saved__chip { font-size:11px; font-weight:700; background:#eef0f7; border:1px solid #e3e6ef; border-radius:20px; padding:5px 12px; cursor:pointer; color:#555; transition:all .15s; }
+        .af__saved__chip:hover { border-color:#27ae60; color:#27ae60; background:rgba(39,174,96,.06); }
+
+        /* ── Generate button ── */
+        .af__generate { width:100%; padding:16px; border:none; border-radius:14px; background:linear-gradient(135deg,#27ae60,#1e9e74); color:#fff; font-size:15px; font-weight:800; font-family:inherit; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:10px; box-shadow:0 8px 24px rgba(39,174,96,.35); transition:transform .15s, box-shadow .15s; }
+        .af__generate:hover { transform:translateY(-2px); box-shadow:0 12px 30px rgba(39,174,96,.45); }
+        .af__generate:active { transform:translateY(0); }
+
+        .af__form__err { display:none; background:rgba(231,76,60,.08); border:1px solid rgba(231,76,60,.25); color:#c0392b; border-radius:11px; padding:13px 16px; font-size:12.5px; font-weight:600; margin-bottom:16px; line-height:1.6; }
+        .af__form__err.show { display:block; }
+        .af__form__err ul { margin:6px 0 0 18px; }
+
+        /* ══ REPORT ══ */
+        .af__report { display:none; }
+        .af__report.show { display:block; animation:afFade .4s ease; }
+        @keyframes afFade { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:translateY(0); } }
+
+        .af__report__hero { background:linear-gradient(135deg,#27ae60,#1e9e74); color:#fff; border-radius:18px; padding:28px 30px; margin-bottom:20px; box-shadow:0 10px 30px rgba(39,174,96,.3); }
+        .af__report__hero h2 { font-size:22px; font-weight:800; margin-bottom:6px; display:flex; align-items:center; gap:10px; }
+        .af__report__ref { font-size:12px; background:rgba(255,255,255,.18); border-radius:8px; padding:6px 12px; display:inline-block; margin-top:10px; font-weight:700; letter-spacing:.5px; }
+
+        .af__assess { display:flex; flex-direction:column; gap:12px; }
+        .af__uni__card { border:1px solid #e8eaf0; border-left:4px solid #ccc; border-radius:13px; padding:16px 18px; }
+        .af__uni__card__top { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:8px; }
+        .af__uni__card__name { font-size:14.5px; font-weight:800; color:#1a1a2e; }
+        .af__uni__card__prog { font-size:11.5px; color:#888; margin-top:1px; }
+        .af__status { font-size:11px; font-weight:800; padding:5px 12px; border-radius:20px; white-space:nowrap; text-transform:uppercase; letter-spacing:.4px; }
+        .af__status--eligible   { background:rgba(39,174,96,.14); color:#1e9e74; }
+        .af__status--potential  { background:rgba(243,156,18,.16); color:#d68910; }
+        .af__status--missing    { background:rgba(52,152,219,.14); color:#2471a3; }
+        .af__status--no         { background:rgba(231,76,60,.13); color:#c0392b; }
+        .af__uni__reasons { list-style:none; display:flex; flex-direction:column; gap:5px; margin-top:8px; }
+        .af__uni__reasons li { font-size:12px; color:#555; display:flex; align-items:flex-start; gap:8px; line-height:1.5; }
+        .af__uni__reasons li i { margin-top:2px; font-size:11px; flex-shrink:0; }
+        .ok-i { color:#27ae60; } .warn-i { color:#f39c12; } .bad-i { color:#e74c3c; }
+
+        .af__checklist { display:flex; flex-direction:column; gap:8px; }
+        .af__check__group { border:1px solid #e8eaf0; border-radius:12px; padding:14px 16px; }
+        .af__check__group h4 { font-size:13px; font-weight:800; color:#1a1a2e; margin-bottom:9px; }
+        .af__check__item { display:flex; align-items:center; gap:9px; font-size:12px; padding:4px 0; color:#444; }
+        .af__check__item i { font-size:13px; }
+
+        .af__summary__box { background:#0f2744; color:#dfe7f0; border-radius:14px; padding:20px 22px; font-size:12.5px; line-height:1.7; white-space:pre-wrap; font-family:'Montserrat',sans-serif; max-height:420px; overflow:auto; border:1px solid rgba(255,255,255,.08); }
+        .af__email__actions { display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; }
+        .af__email__btn { display:inline-flex; align-items:center; gap:8px; padding:11px 18px; border-radius:11px; font-size:12.5px; font-weight:700; font-family:inherit; cursor:pointer; border:none; transition:opacity .15s, transform .15s; }
+        .af__email__btn--send { background:linear-gradient(135deg,#27ae60,#1e9e74); color:#fff; box-shadow:0 4px 14px rgba(39,174,96,.3); }
+        .af__email__btn--copy { background:#eef0f7; color:#444; border:1px solid #e3e6ef; }
+        .af__email__btn:hover { transform:translateY(-1px); opacity:.95; }
+        .af__email__sent { font-size:11.5px; color:#27ae60; font-weight:700; margin-top:8px; display:none; }
+        .af__email__sent.show { display:block; }
+
+        .af__report__actions { display:flex; gap:10px; flex-wrap:wrap; margin-top:6px; }
+        .af__report__back { display:inline-flex; align-items:center; gap:8px; padding:12px 20px; border-radius:11px; background:#fff; border:1px solid #e3e6ef; color:#555; font-size:12.5px; font-weight:700; font-family:inherit; cursor:pointer; text-decoration:none; }
+        .af__report__back:hover { border-color:#27ae60; color:#27ae60; }
+
+        @media (max-width:680px) {
+            .af__grid { grid-template-columns:1fr; }
+            .af__uni__row { grid-template-columns:1fr 1fr; }
+            .af__uni__del { grid-column:2; justify-self:end; }
+        }
+    </style>
+</head>
+<body>
+
+<header class="af__header">
+    <div class="af__header__inner">
+        <a href="mainPage.html" class="af__back"><i class="fa-solid fa-arrow-left"></i> Back to UniScout</a>
+        <div class="af__brand"><img src="logo2.png" alt="UniScout"> UniScout</div>
+    </div>
+</header>
+
+<div class="af__wrap">
+
+    <!-- ══ FORM ══ -->
+    <div id="afForm">
+        <div class="af__hero">
+            <div class="af__hero__tag"><i class="fa-solid fa-robot"></i> AI Admissions Assistant</div>
+            <h1>Apply to multiple universities at once</h1>
+            <p>Fill in your details once. Our assistant validates your documents, checks your profile against each university's requirements, and generates a complete application report with an email-ready summary.</p>
+        </div>
+
+        <div class="af__progress" id="afProgress"></div>
+
+        <div class="af__form__err" id="afErr"></div>
+
+        <!-- 1 Personal -->
+        <div class="af__card">
+            <div class="af__card__head">
+                <div class="af__card__num">1</div>
+                <div><div class="af__card__title">Personal Information</div><div class="af__card__sub">Tell us who you are</div></div>
+            </div>
+            <div class="af__grid">
+                <div class="af__field"><label class="af__label">Full Name <span class="af__req">*</span></label><input class="af__input" id="pFullName" data-req placeholder="e.g. Ivan Petrov"></div>
+                <div class="af__field"><label class="af__label">Date of Birth <span class="af__req">*</span></label><input class="af__input" id="pDob" data-req type="date"></div>
+                <div class="af__field"><label class="af__label">Nationality <span class="af__req">*</span></label><input class="af__input" id="pNationality" data-req placeholder="e.g. Ukrainian"></div>
+                <div class="af__field"><label class="af__label">Email Address <span class="af__req">*</span></label><input class="af__input" id="pEmail" data-req type="email" placeholder="you@email.com"></div>
+                <div class="af__field"><label class="af__label">Phone Number <span class="af__req">*</span></label><input class="af__input" id="pPhone" data-req placeholder="+34 600 000 000"></div>
+                <div class="af__field"><label class="af__label">Country of Residence <span class="af__req">*</span></label><input class="af__input" id="pResidence" data-req placeholder="e.g. Spain"></div>
+            </div>
+        </div>
+
+        <!-- 2 Academic -->
+        <div class="af__card">
+            <div class="af__card__head">
+                <div class="af__card__num">2</div>
+                <div><div class="af__card__title">Academic Information</div><div class="af__card__sub">Your educational background</div></div>
+            </div>
+            <div class="af__grid">
+                <div class="af__field"><label class="af__label">Current School / Institution <span class="af__req">*</span></label><input class="af__input" id="aSchool" data-req placeholder="e.g. IES San Isidro"></div>
+                <div class="af__field"><label class="af__label">Graduation Year <span class="af__req">*</span></label><input class="af__input" id="aGradYear" data-req type="number" min="1980" max="2035" placeholder="e.g. 2025"></div>
+                <div class="af__field"><label class="af__label">GPA / Average Grade <span class="af__req">*</span></label><input class="af__input" id="aGpa" data-req type="number" step="0.01" placeholder="e.g. 8.4"></div>
+                <div class="af__field"><label class="af__label">Grade Scale <span class="af__req">*</span></label>
+                    <select class="af__select" id="aScale">
+                        <option value="10">Out of 10</option>
+                        <option value="4">GPA out of 4.0</option>
+                        <option value="100">Percentage (0–100)</option>
+                        <option value="20">Out of 20 (French)</option>
+                    </select>
+                </div>
+                <div class="af__field af__field--full"><label class="af__label">Standardized Test Scores <span class="opt">(optional — SAT, ACT…)</span></label><input class="af__input" id="aTests" placeholder="e.g. SAT 1380"></div>
+                <div class="af__field af__field--full"><label class="af__label">Subject Grades <span class="opt">(optional — one per line, e.g. "Mathematics: 95")</span></label><textarea class="af__input" id="aSubjects" rows="4" placeholder="Mathematics: 95&#10;Physics: 88&#10;Computer Science: 92&#10;English: 85"></textarea></div>
+            </div>
+            <div class="af__docs" style="margin-top:14px">
+                <div class="af__doc" data-doc="transcripts">
+                    <div class="af__doc__ico"><i class="fa-solid fa-file-lines"></i></div>
+                    <div class="af__doc__body">
+                        <div class="af__doc__name">Academic Transcripts <span class="af__req">*</span></div>
+                        <div class="af__doc__hint"><span class="req">Required</span> · PDF of your grades</div>
+                        <div class="af__doc__file"></div>
+                    </div>
+                    <label class="af__doc__btn">Upload<input type="file" accept=".pdf,.jpg,.png,.doc,.docx"></label>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3 Language -->
+        <div class="af__card">
+            <div class="af__card__head">
+                <div class="af__card__num">3</div>
+                <div><div class="af__card__title">Language Proficiency</div><div class="af__card__sub">Provide at least one proof of English</div></div>
+            </div>
+            <div class="af__grid">
+                <div class="af__field"><label class="af__label">IELTS Score <span class="opt">(0–9)</span></label><input class="af__input" id="lIelts" type="number" step="0.5" min="0" max="9" placeholder="e.g. 6.5"></div>
+                <div class="af__field"><label class="af__label">TOEFL Score <span class="opt">(0–120)</span></label><input class="af__input" id="lToefl" type="number" min="0" max="120" placeholder="e.g. 95"></div>
+                <div class="af__field af__field--full"><label class="af__label">Other Language Certificates <span class="opt">(optional)</span></label><input class="af__input" id="lOther" placeholder="e.g. Cambridge C1 Advanced, DELF B2"></div>
+            </div>
+        </div>
+
+        <!-- 4 Documents -->
+        <div class="af__card">
+            <div class="af__card__head">
+                <div class="af__card__num">4</div>
+                <div><div class="af__card__title">Supporting Documents</div><div class="af__card__sub">Upload your application documents</div></div>
+            </div>
+            <div class="af__docs">
+                <div class="af__doc" data-doc="passport">
+                    <div class="af__doc__ico"><i class="fa-solid fa-passport"></i></div>
+                    <div class="af__doc__body"><div class="af__doc__name">Passport / ID Copy <span class="af__req">*</span></div><div class="af__doc__hint"><span class="req">Required</span></div><div class="af__doc__file"></div></div>
+                    <label class="af__doc__btn">Upload<input type="file" accept=".pdf,.jpg,.png"></label>
+                </div>
+                <div class="af__doc" data-doc="motivation">
+                    <div class="af__doc__ico"><i class="fa-solid fa-pen-fancy"></i></div>
+                    <div class="af__doc__body"><div class="af__doc__name">Motivation Letter / Personal Statement <span class="af__req">*</span></div><div class="af__doc__hint"><span class="req">Required</span></div><div class="af__doc__file"></div></div>
+                    <label class="af__doc__btn">Upload<input type="file" accept=".pdf,.doc,.docx"></label>
+                </div>
+                <div class="af__doc" data-doc="cv">
+                    <div class="af__doc__ico"><i class="fa-solid fa-file-user"></i></div>
+                    <div class="af__doc__body"><div class="af__doc__name">CV / Resume <span class="opt">(recommended)</span></div><div class="af__doc__hint">Boosts your application</div><div class="af__doc__file"></div></div>
+                    <label class="af__doc__btn">Upload<input type="file" accept=".pdf,.doc,.docx"></label>
+                </div>
+                <div class="af__doc" data-doc="recommendations">
+                    <div class="af__doc__ico"><i class="fa-solid fa-envelope-open-text"></i></div>
+                    <div class="af__doc__body"><div class="af__doc__name">Recommendation Letters <span class="opt">(recommended)</span></div><div class="af__doc__hint">1–2 letters preferred</div><div class="af__doc__file"></div></div>
+                    <label class="af__doc__btn">Upload<input type="file" accept=".pdf,.doc,.docx" multiple></label>
+                </div>
+                <div class="af__doc" data-doc="cambridge">
+                    <div class="af__doc__ico"><i class="fa-solid fa-language"></i></div>
+                    <div class="af__doc__body"><div class="af__doc__name">Cambridge Certificate <span class="opt">(English proof)</span></div><div class="af__doc__hint">e.g. C1 Advanced / C2 Proficiency</div><div class="af__doc__file"></div></div>
+                    <label class="af__doc__btn">Upload<input type="file" accept=".pdf,.jpg,.png"></label>
+                </div>
+            </div>
+        </div>
+
+        <!-- 5 Preferences -->
+        <div class="af__card">
+            <div class="af__card__head">
+                <div class="af__card__num">5</div>
+                <div><div class="af__card__title">Study Preferences</div><div class="af__card__sub">What and where you want to study</div></div>
+            </div>
+            <div class="af__grid">
+                <div class="af__field"><label class="af__label">Intended Major <span class="af__req">*</span></label><input class="af__input" id="sMajor" data-req placeholder="e.g. Computer Science"></div>
+                <div class="af__field"><label class="af__label">Preferred Degree Level <span class="af__req">*</span></label>
+                    <select class="af__select" id="sDegree">
+                        <option value="Bachelor's">Bachelor's</option>
+                        <option value="Master's">Master's</option>
+                        <option value="PhD">PhD</option>
+                    </select>
+                </div>
+                <div class="af__field"><label class="af__label">Desired Start Date <span class="af__req">*</span></label><input class="af__input" id="sStart" data-req type="month"></div>
+                <div class="af__field af__field--full"><label class="af__label">Achievements <span class="opt">(one per line — awards, titles, honours)</span></label><textarea class="af__input" id="sAchievements" rows="3" placeholder="Chess Grand Master&#10;National Maths Olympiad Finalist&#10;Student Council President"></textarea></div>
+                <div class="af__field af__field--full"><label class="af__label">Extracurricular Activities <span class="opt">(one per line — clubs, sports, projects)</span></label><textarea class="af__input" id="sActivities" rows="3" placeholder="Football&#10;Art Club&#10;Volunteering&#10;Coding Club"></textarea></div>
+            </div>
+        </div>
+
+        <!-- 6 University Selection -->
+        <div class="af__card">
+            <div class="af__card__head">
+                <div class="af__card__num">6</div>
+                <div><div class="af__card__title">University Selection</div><div class="af__card__sub">Add one or more universities — each gets its own assessment</div></div>
+            </div>
+            <div class="af__saved__pick" id="afSavedPick"></div>
+            <div id="afUniList"></div>
+            <button type="button" class="af__add__uni" id="afAddUni"><i class="fa-solid fa-plus"></i> Add another university</button>
+        </div>
+
+        <button type="button" class="af__generate" id="afGenerate"><i class="fa-solid fa-wand-magic-sparkles"></i> Generate Application &amp; Report</button>
+    </div>
+
+    <!-- ══ REPORT ══ -->
+    <div class="af__report" id="afReport"></div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="data/app_data.js"></script>
+<script>
+'use strict';
+
+/* ── Session ── */
+var SESSION_KEY = 'uniscout_session';
+function getSession() {
+    try { return JSON.parse(localStorage.getItem(SESSION_KEY)) || JSON.parse(sessionStorage.getItem(SESSION_KEY)) || null; } catch(e) { return null; }
+}
+var user = getSession();
+if (!user) { window.location.href = 'log-in.html'; }
+
+// ── Elite-only page: send non-Elite users back to the Apply page with an upgrade prompt ──
+(function () {
+    var base = (location.protocol === 'file:') ? 'http://localhost:4242'
+             : (/^(localhost|127\.0\.0\.1)$/.test(location.hostname) && location.port !== '4242'
+                ? 'http://localhost:4242' : location.origin);
+    fetch(base + '/api/subscription/status?userId=' + encodeURIComponent(user.id) +
+          '&email=' + encodeURIComponent(user.email || '') + '&username=' + encodeURIComponent(user.username || ''))
+        .then(function (r) { return r.json(); })
+        .then(function (d) { if (!d || !d.elite) window.location.replace('mainPage.html?upgrade=apply'); })
+        .catch(function () { /* backend unreachable — allow (the Apply button already gates) */ });
+}());
+
+var FORM_APPS_KEY = 'us_form_apps_' + user.id;
+function getFormApps() { try { return JSON.parse(localStorage.getItem(FORM_APPS_KEY) || '[]'); } catch(e) { return []; } }
+function setFormApps(d) { localStorage.setItem(FORM_APPS_KEY, JSON.stringify(d)); }
+
+function esc(s) { return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+/* Prefill from session */
+if (user.username && !document.getElementById('pFullName').value) document.getElementById('pFullName').value = user.username;
+if (user.email) document.getElementById('pEmail').value = user.email;
+
+/* ── Known universities (for difficulty/tuition lookup + saved quick-pick) ── */
+function allKnownUnis() {
+    var list = [];
+    if (typeof UNI !== 'undefined' && UNI.length) list = list.concat(UNI);
+    if (typeof UNI_DB !== 'undefined' && UNI_DB.length) list = list.concat(UNI_DB);
+    return list;
+}
+function lookupUni(name) {
+    var q = (name || '').trim().toLowerCase();
+    if (!q) return null;
+    var list = allKnownUnis();
+    return list.find(function(u){ return (u.name||'').toLowerCase() === q; }) ||
+           list.find(function(u){ return (u.name||'').toLowerCase().indexOf(q) !== -1 || q.indexOf((u.abbr||'###').toLowerCase()) !== -1; }) ||
+           null;
+}
+
+/* ── Documents state ── */
+document.querySelectorAll('.af__doc input[type=file]').forEach(function(inp){
+    inp.addEventListener('change', function(){
+        var doc = inp.closest('.af__doc');
+        var fileEl = doc.querySelector('.af__doc__file');
+        if (inp.files && inp.files.length) {
+            doc.classList.add('has-file');
+            fileEl.innerHTML = '<i class="fa-solid fa-check"></i> ' +
+                (inp.files.length > 1 ? inp.files.length + ' files selected' : esc(inp.files[0].name));
+        } else {
+            doc.classList.remove('has-file');
+            fileEl.textContent = '';
+        }
+        updateProgress();
+    });
+});
+function docPresent(key) {
+    var doc = document.querySelector('.af__doc[data-doc="'+key+'"]');
+    return !!(doc && doc.classList.contains('has-file'));
+}
+
+/* ── University rows ── */
+var uniListEl = document.getElementById('afUniList');
+function uniRowHtml() {
+    return '<div class="af__uni__row">' +
+        '<div class="af__field"><label class="af__label">University Name</label><input class="af__input afu-name" placeholder="e.g. University of Amsterdam"></div>' +
+        '<div class="af__field"><label class="af__label">Program Name</label><input class="af__input afu-prog" placeholder="e.g. Computer Science"></div>' +
+        '<div class="af__field"><label class="af__label">Degree</label><select class="af__select afu-deg"><option>Bachelor\'s</option><option>Master\'s</option><option>PhD</option></select></div>' +
+        '<button type="button" class="af__uni__del" title="Remove"><i class="fa-solid fa-trash"></i></button>' +
+    '</div>';
+}
+function addUniRow(name, prog) {
+    var wrap = document.createElement('div');
+    wrap.innerHTML = uniRowHtml();
+    var row = wrap.firstChild;
+    if (name) row.querySelector('.afu-name').value = name;
+    if (prog) row.querySelector('.afu-prog').value = prog;
+    var deg = document.getElementById('sDegree');
+    if (deg) row.querySelector('.afu-deg').value = deg.value;
+    row.querySelector('.af__uni__del').addEventListener('click', function(){
+        if (uniListEl.children.length > 1) row.remove(); else { row.querySelector('.afu-name').value=''; row.querySelector('.afu-prog').value=''; }
+        updateProgress();
+    });
+    row.querySelectorAll('input,select').forEach(function(el){ el.addEventListener('input', updateProgress); });
+    uniListEl.appendChild(row);
+    updateProgress();
+}
+document.getElementById('afAddUni').addEventListener('click', function(){ addUniRow(); });
+addUniRow();
+
+/* Saved universities quick-pick */
+(function(){
+    var savedIds = [];
+    try { savedIds = JSON.parse(localStorage.getItem('us_saved_' + user.id) || '[]'); } catch(e){}
+    var pick = document.getElementById('afSavedPick');
+    var known = allKnownUnis();
+    var found = savedIds.map(function(id){ return known.find(function(u){ return u.id === id; }); }).filter(Boolean);
+    if (!found.length) { pick.innerHTML = '<span style="font-size:11px;color:#aaa;">Tip: bookmark universities in Explore to add them here in one click.</span>'; return; }
+    pick.innerHTML = '<span style="font-size:11px;color:#888;font-weight:700;align-self:center;">Your saved universities:</span>' +
+        found.map(function(u){ return '<span class="af__saved__chip" data-name="'+esc(u.name)+'">'+esc(u.name)+'</span>'; }).join('');
+    pick.querySelectorAll('.af__saved__chip').forEach(function(chip){
+        chip.addEventListener('click', function(){
+            var last = uniListEl.lastElementChild;
+            if (last && !last.querySelector('.afu-name').value) last.querySelector('.afu-name').value = chip.dataset.name;
+            else addUniRow(chip.dataset.name, '');
+            updateProgress();
+        });
+    });
+}());
+
+/* ── Progress tracker ── */
+var STEPS = [
+    { label:'Personal',   icon:'fa-user',          check:function(){ return secComplete(['pFullName','pDob','pNationality','pEmail','pPhone','pResidence']); } },
+    { label:'Academic',   icon:'fa-graduation-cap', check:function(){ return secComplete(['aSchool','aGradYear','aGpa']) && docPresent('transcripts'); } },
+    { label:'Language',   icon:'fa-language',       check:function(){ return !!(val('lIelts')||val('lToefl')||val('lOther')); } },
+    { label:'Documents',  icon:'fa-folder-open',    check:function(){ return docPresent('passport') && docPresent('motivation'); } },
+    { label:'Preferences',icon:'fa-sliders',        check:function(){ return secComplete(['sMajor','sStart']); } },
+    { label:'Universities',icon:'fa-building-columns', check:function(){ return getUniSelections().length > 0; } }
+];
+function val(id){ var e=document.getElementById(id); return e ? e.value.trim() : ''; }
+function secComplete(ids){ return ids.every(function(id){ return !!val(id); }); }
+function renderProgress() {
+    document.getElementById('afProgress').innerHTML = STEPS.map(function(s,i){
+        return '<div class="af__progress__step" data-i="'+i+'"><i class="fa-solid '+s.icon+'"></i> '+s.label+'</div>';
+    }).join('');
+}
+function updateProgress() {
+    if (!STEPS) return;
+    STEPS.forEach(function(s,i){
+        var el = document.querySelector('.af__progress__step[data-i="'+i+'"]');
+        if (!el) return;
+        var done = s.check();
+        el.classList.toggle('done', done);
+        el.querySelector('i').className = 'fa-solid ' + (done ? 'fa-circle-check' : s.icon);
+    });
+}
+renderProgress();
+document.querySelectorAll('#afForm input, #afForm select').forEach(function(el){ el.addEventListener('input', updateProgress); });
+updateProgress();
+
+function getUniSelections() {
+    var rows = [];
+    uniListEl.querySelectorAll('.af__uni__row').forEach(function(row){
+        var name = row.querySelector('.afu-name').value.trim();
+        var prog = row.querySelector('.afu-prog').value.trim();
+        var deg  = row.querySelector('.afu-deg').value;
+        if (name) rows.push({ name:name, program:prog || (val('sMajor') || 'General Programme'), degree:deg });
+    });
+    return rows;
+}
+
+/* ── Grade normalisation to percentage ── */
+function gpaToPct(gpa, scale) {
+    var n = parseFloat(gpa); if (isNaN(n)) return null;
+    if (scale === '4')   return Math.min(100, (n/4)*100);
+    if (scale === '10')  return Math.min(100, (n/10)*100);
+    if (scale === '20')  return Math.min(100, (n/20)*100);
+    return Math.min(100, n); // percentage
+}
+
+/* ── Per-university eligibility assessment ── */
+function assess(uni, profile) {
+    var ref = lookupUni(uni.name);
+    var diff = ref && ref.diff ? ref.diff : 3; // 1..5 selectivity, default Competitive
+    var reqGpa   = [0,50,60,70,80,88][diff];
+    var reqIelts = [0,5.5,6.0,6.5,7.0,7.5][diff];
+    var reqToefl = [0,60,72,88,100,110][diff];
+
+    var reasons = [], missing = [];
+
+    // GPA
+    var gpaOk = false, gpaNear = false;
+    if (profile.pct == null) { reasons.push(['warn','Add your GPA / average grade to verify academic eligibility.']); missing.push('Valid GPA / average grade'); }
+    else if (profile.pct >= reqGpa) { gpaOk = true; reasons.push(['ok','Academic average meets the requirement (~'+reqGpa+'%+ expected).']); }
+    else if (profile.pct >= reqGpa - 10) { gpaNear = true; reasons.push(['warn','Academic average is slightly below the typical '+reqGpa+'% — borderline.']); }
+    else { reasons.push(['bad','Academic average is below the typical '+reqGpa+'% requirement.']); missing.push('Higher academic average (or strong compensating factors)'); }
+
+    // Language
+    var langOk = false;
+    if (profile.ielts >= reqIelts && profile.ielts > 0) { langOk = true; reasons.push(['ok','IELTS '+profile.ielts+' meets the language requirement.']); }
+    else if (profile.toefl >= reqToefl && profile.toefl > 0) { langOk = true; reasons.push(['ok','TOEFL '+profile.toefl+' meets the language requirement.']); }
+    else if (profile.otherCert) { langOk = true; reasons.push(['ok','Language certificate provided ('+esc(profile.otherCert)+').']); }
+    else if (profile.docs && profile.docs.cambridge) { langOk = true; reasons.push(['ok','Cambridge English certificate attached.']); }
+    else if (profile.ielts > 0 || profile.toefl > 0) { reasons.push(['warn','Language score is below the required level (IELTS '+reqIelts+' / TOEFL '+reqToefl+').']); missing.push('Higher English score (IELTS '+reqIelts+' / TOEFL '+reqToefl+')'); }
+    else { reasons.push(['warn','No English proficiency proof provided.']); missing.push('English proof (IELTS '+reqIelts+', TOEFL '+reqToefl+', or equivalent)'); }
+
+    // Documents
+    var docMiss = [];
+    if (!profile.docs.transcripts) docMiss.push('Academic transcripts');
+    if (!profile.docs.passport)    docMiss.push('Passport / ID copy');
+    if (!profile.docs.motivation)  docMiss.push('Motivation letter');
+    if (docMiss.length) { reasons.push(['bad','Missing required documents: '+docMiss.join(', ')+'.']); missing = missing.concat(docMiss); }
+    else reasons.push(['ok','All mandatory documents provided.']);
+
+    // Budget
+    if (profile.budget && ref && ref.tuition) {
+        var t = String(ref.tuition).replace(/[,\s]/g,'').match(/\d+/);
+        if (t && parseInt(t[0],10) > profile.budget) reasons.push(['warn','Tuition may exceed your stated budget — check scholarships.']);
+    }
+
+    var docsOk = docMiss.length === 0;
+    var status;
+    if (gpaOk && langOk && docsOk) status = 'eligible';
+    else if (!docsOk && (gpaOk || gpaNear) && (langOk || profile.ielts>0 || profile.toefl>0 || profile.otherCert)) status = 'missing';
+    else if ((gpaOk || gpaNear) && docsOk) status = 'potential';
+    else if (profile.pct != null && profile.pct < reqGpa - 10 && !gpaNear) status = 'no';
+    else status = 'missing';
+
+    return { status:status, reasons:reasons, missing:missing, reqGpa:reqGpa, reqIelts:reqIelts, reqToefl:reqToefl };
+}
+
+var STATUS_META = {
+    eligible:  { label:'Eligible',             cls:'af__status--eligible',  border:'#27ae60' },
+    potential: { label:'Potentially Eligible', cls:'af__status--potential', border:'#f39c12' },
+    missing:   { label:'Missing Requirements', cls:'af__status--missing',   border:'#3498db' },
+    no:        { label:'Not Eligible',         cls:'af__status--no',        border:'#e74c3c' }
+};
+
+/* ── Validation ── */
+function validate() {
+    var errs = [];
+    document.querySelectorAll('[data-req]').forEach(function(el){ el.classList.remove('invalid'); });
+
+    document.querySelectorAll('[data-req]').forEach(function(el){
+        if (!el.value.trim()) { el.classList.add('invalid'); }
+    });
+    var reqLabels = { pFullName:'Full name', pDob:'Date of birth', pNationality:'Nationality', pEmail:'Email', pPhone:'Phone number', pResidence:'Country of residence', aSchool:'Current school', aGradYear:'Graduation year', aGpa:'GPA / average', sMajor:'Intended major', sStart:'Desired start date' };
+    Object.keys(reqLabels).forEach(function(id){ if (!val(id)) errs.push(reqLabels[id]); });
+
+    var email = val('pEmail');
+    if (email && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) errs.push('A valid email address');
+
+    if (!docPresent('transcripts')) errs.push('Academic transcripts (upload)');
+    if (!docPresent('passport'))    errs.push('Passport / ID copy (upload)');
+    if (!docPresent('motivation'))  errs.push('Motivation letter (upload)');
+
+    if (!val('lIelts') && !val('lToefl') && !val('lOther')) errs.push('At least one language proof (IELTS, TOEFL or certificate)');
+
+    if (getUniSelections().length === 0) errs.push('At least one university (name required)');
+
+    return errs;
+}
+
+/* ── Application lifecycle status ── */
+var APP_STATUS_META = {
+    draft:       { label:'Draft',        color:'#8a909c' },
+    submitted:   { label:'Submitted',    color:'#2980b9' },
+    review:      { label:'Under Review',  color:'#d97c14' },
+    interview:   { label:'Interview',     color:'#9b59b6' },
+    accepted:    { label:'Accepted',      color:'#27ae60' },
+    rejected:    { label:'Rejected',      color:'#e74c3c' },
+    waitlisted:  { label:'Waitlisted',    color:'#f39c12' },
+    enrolled:    { label:'Enrolled',      color:'#16a085' },
+};
+function statusMeta(s) { return APP_STATUS_META[s] || APP_STATUS_META.submitted; }
+
+/* Parse "Subject: grade" lines into [{name, grade}] */
+function parseSubjects(text) {
+    return (text || '').split('\n').map(function(l){ return l.trim(); }).filter(Boolean).map(function(l) {
+        var idx = l.search(/[:\-–]/);
+        var name = idx === -1 ? l : l.slice(0, idx).trim();
+        var grade = idx === -1 ? '' : l.slice(idx + 1).trim();
+        return name ? { name: name, grade: grade } : null;
+    }).filter(Boolean);
+}
+
+/* ── Build profile ── */
+function buildProfile() {
+    return {
+        fullName: val('pFullName'), dob: val('pDob'), nationality: val('pNationality'),
+        email: val('pEmail'), phone: val('pPhone'), residence: val('pResidence'),
+        school: val('aSchool'), gradYear: val('aGradYear'), gpa: val('aGpa'), scale: val('aScale'),
+        pct: gpaToPct(val('aGpa'), val('aScale')), tests: val('aTests'),
+        ielts: parseFloat(val('lIelts'))||0, toefl: parseFloat(val('lToefl'))||0, otherCert: val('lOther'),
+        major: val('sMajor'), degree: val('sDegree'), start: val('sStart'),
+        activities: val('sActivities'), achievements: val('sAchievements'),
+        subjects: parseSubjects(val('aSubjects')),
+        docs: { transcripts:docPresent('transcripts'), passport:docPresent('passport'), motivation:docPresent('motivation'), cv:docPresent('cv'), recommendations:docPresent('recommendations'), cambridge:docPresent('cambridge') }
+    };
+}
+
+/* ── Generate ── */
+document.getElementById('afGenerate').addEventListener('click', function(){
+    var errs = validate();
+    var errBox = document.getElementById('afErr');
+    if (errs.length) {
+        errBox.innerHTML = '<i class="fa-solid fa-triangle-exclamation"></i> Please complete the following before we can process your application:' +
+            '<ul>' + errs.map(function(e){ return '<li>'+esc(e)+'</li>'; }).join('') + '</ul>';
+        errBox.classList.add('show');
+        errBox.scrollIntoView({ behavior:'smooth', block:'center' });
+        return;
+    }
+    errBox.classList.remove('show');
+
+    var profile = buildProfile();
+    var unis = getUniSelections();
+    var assessments = unis.map(function(u){ return { uni:u, result:assess(u, profile) }; });
+    var ref = 'UNISCOUT-' + Date.now().toString(36).toUpperCase().slice(-6) + '-' + Math.floor(Math.random()*900+100);
+
+    // persist (keeps roadmap / deadline counts working)
+    var apps = getFormApps();
+    apps.push({ ref:ref, ts:Date.now(), name:profile.fullName, email:profile.email,
+                universities:unis, statuses:assessments.map(function(a){ return a.result.status; }),
+                status:'submitted' });
+    setFormApps(apps);
+
+    renderReport(profile, assessments, ref, 'submitted');
+});
+
+/* ── Missing documents (global) ── */
+function globalMissingDocs(p) {
+    var m = [];
+    if (!p.docs.transcripts) m.push('Academic transcripts');
+    if (!p.docs.passport)    m.push('Passport / ID copy');
+    if (!p.docs.motivation)  m.push('Motivation letter');
+    if (!p.docs.cv)             m.push('CV / Resume (recommended)');
+    if (!p.docs.recommendations)m.push('Recommendation letters (recommended)');
+    return m;
+}
+
+function renderReport(p, assessments, ref, appStatus) {
+    appStatus = appStatus || 'submitted';
+    var sm = statusMeta(appStatus);
+    var statusCount = { eligible:0, potential:0, missing:0, no:0 };
+    assessments.forEach(function(a){ statusCount[a.result.status]++; });
+
+    // Assessment cards
+    var assessHtml = assessments.map(function(a){
+        var m = STATUS_META[a.result.status];
+        var reasons = a.result.reasons.map(function(r){
+            var icon = r[0]==='ok' ? '<i class="fa-solid fa-circle-check ok-i"></i>' : r[0]==='warn' ? '<i class="fa-solid fa-triangle-exclamation warn-i"></i>' : '<i class="fa-solid fa-circle-xmark bad-i"></i>';
+            return '<li>'+icon+'<span>'+r[1]+'</span></li>';
+        }).join('');
+        return '<div class="af__uni__card" style="border-left-color:'+m.border+'">' +
+            '<div class="af__uni__card__top">' +
+                '<div><div class="af__uni__card__name">'+esc(a.uni.name)+'</div><div class="af__uni__card__prog">'+esc(a.uni.program)+' · '+esc(a.uni.degree)+'</div></div>' +
+                '<span class="af__status '+m.cls+'">'+m.label+'</span>' +
+            '</div>' +
+            '<ul class="af__uni__reasons">'+reasons+'</ul>' +
+        '</div>';
+    }).join('');
+
+    // Checklist per university
+    var checklist = assessments.map(function(a){
+        var items = [
+            ['Academic transcripts', p.docs.transcripts],
+            ['Passport / ID copy', p.docs.passport],
+            ['Motivation letter', p.docs.motivation],
+            ['CV / Resume', p.docs.cv],
+            ['Recommendation letters', p.docs.recommendations],
+            ['English proficiency proof', !!(p.ielts||p.toefl||p.otherCert||(p.docs&&p.docs.cambridge))]
+        ];
+        a.result.missing.forEach(function(mi){ items.push([mi, false]); });
+        var seen = {};
+        var rows = items.filter(function(it){ if(seen[it[0]])return false; seen[it[0]]=true; return true; }).map(function(it){
+            return '<div class="af__check__item">'+(it[1]?'<i class="fa-solid fa-square-check ok-i"></i>':'<i class="fa-regular fa-square warn-i"></i>')+' '+esc(it[0])+'</div>';
+        }).join('');
+        return '<div class="af__check__group"><h4>'+esc(a.uni.name)+'</h4>'+rows+'</div>';
+    }).join('');
+
+    var gMiss = globalMissingDocs(p);
+    var nextActions = [];
+    if (gMiss.length) nextActions.push('Upload the missing documents: ' + gMiss.join(', ') + '.');
+    if (statusCount.missing) nextActions.push('Resolve the missing requirements listed for each university.');
+    if (statusCount.no) nextActions.push('Consider replacing "Not Eligible" choices with better-matched universities, or strengthen your profile.');
+    if (statusCount.eligible) nextActions.push('Submit to your "Eligible" universities — your profile already meets their requirements.');
+    nextActions.push('Download your application PDF below and submit it to each university\'s admissions office.');
+
+    var html =
+        '<div class="af__report__hero">' +
+            '<h2><i class="fa-solid fa-circle-check"></i> Application Processed</h2>' +
+            '<p style="font-size:13px;color:rgba(255,255,255,.85)">Thank you, '+esc(p.fullName)+'. We\'ve assessed your profile against your '+assessments.length+' selected universit'+(assessments.length===1?'y':'ies')+'.</p>' +
+            '<div class="af__report__ref"><i class="fa-solid fa-hashtag"></i> Reference: '+ref+'</div>' +
+            ' <span class="af__report__ref" style="background:'+sm.color+';margin-left:6px"><i class="fa-solid fa-circle-dot"></i> '+sm.label+'</span>' +
+        '</div>' +
+
+        '<div class="af__card"><div class="af__card__head"><div class="af__card__num"><i class="fa-solid fa-user"></i></div><div><div class="af__card__title">Student Profile Summary</div></div></div>' +
+            '<div class="af__grid" style="gap:10px">' +
+                profRow('Full name', p.fullName) + profRow('Email', p.email) +
+                profRow('Nationality', p.nationality) + profRow('Residence', p.residence) +
+                profRow('School', p.school) + profRow('Graduation', p.gradYear) +
+                profRow('Average', p.gpa + ' / ' + p.scale + (p.pct!=null?' ('+Math.round(p.pct)+'%)':'')) +
+                profRow('English', (p.ielts?('IELTS '+p.ielts):'') + (p.toefl?(' TOEFL '+p.toefl):'') + (p.otherCert?(' '+p.otherCert):'') || '—') +
+                profRow('Intended major', p.major) + profRow('Degree level', p.degree) +
+                profRow('Start date', p.start) +
+            '</div></div>' +
+
+        '<div class="af__card"><div class="af__card__head"><div class="af__card__num"><i class="fa-solid fa-clipboard-check"></i></div><div><div class="af__card__title">Eligibility Assessment</div><div class="af__card__sub">'+statusCount.eligible+' eligible · '+statusCount.potential+' potential · '+statusCount.missing+' need documents · '+statusCount.no+' not eligible</div></div></div>' +
+            '<div class="af__assess">'+assessHtml+'</div></div>' +
+
+        (gMiss.length ? '<div class="af__card"><div class="af__card__head"><div class="af__card__num"><i class="fa-solid fa-folder-open"></i></div><div><div class="af__card__title">Missing Documents</div></div></div>' +
+            '<ul class="af__uni__reasons">'+gMiss.map(function(d){return '<li><i class="fa-solid fa-circle-xmark bad-i"></i><span>'+esc(d)+'</span></li>';}).join('')+'</ul></div>' : '') +
+
+        '<div class="af__card"><div class="af__card__head"><div class="af__card__num"><i class="fa-solid fa-list-check"></i></div><div><div class="af__card__title">Application Checklist</div><div class="af__card__sub">Per university</div></div></div>' +
+            '<div class="af__checklist">'+checklist+'</div></div>' +
+
+        '<div class="af__card"><div class="af__card__head"><div class="af__card__num"><i class="fa-solid fa-forward"></i></div><div><div class="af__card__title">Recommended Next Actions</div></div></div>' +
+            '<ul class="af__uni__reasons">'+nextActions.map(function(n){return '<li><i class="fa-solid fa-arrow-right" style="color:#27ae60"></i><span>'+esc(n)+'</span></li>';}).join('')+'</ul></div>' +
+
+        '<div class="af__card"><div class="af__card__head"><div class="af__card__num"><i class="fa-solid fa-file-pdf"></i></div><div><div class="af__card__title">Application Summary PDF</div><div class="af__card__sub">'+(assessments.length>1?'A separate, tailored PDF for each university':'A clean, submission-ready PDF of your application')+'</div></div></div>' +
+            '<p style="font-size:13px;color:#555;margin:0 0 14px;line-height:1.6">'+(assessments.length>1?'You applied to '+assessments.length+' universities, so each gets its own version addressed to that university. Download each below.':'Download your application as a polished cover summary — the documents you attached are listed and submitted separately alongside it.')+'</p>' +
+            '<div class="af__email__actions" style="flex-wrap:wrap">' +
+                assessments.map(function(a,i){ return '<button class="af__email__btn af__email__btn--send" data-dl="'+i+'"><i class="fa-solid fa-download"></i> '+(assessments.length>1?('For '+esc(a.uni.name)):'Download Application PDF')+'</button>'; }).join('') +
+            '</div>' +
+        '</div>' +
+
+        '<div class="af__report__actions">' +
+            '<button class="af__report__back" id="afNewApp"><i class="fa-solid fa-rotate-left"></i> Start a new application</button>' +
+            '<a class="af__report__back" href="mainPage.html"><i class="fa-solid fa-house"></i> Back to UniScout</a>' +
+        '</div>';
+
+    var report = document.getElementById('afReport');
+    report.innerHTML = html;
+    document.getElementById('afForm').style.display = 'none';
+    report.classList.add('show');
+    window.scrollTo({ top:0, behavior:'smooth' });
+
+    document.querySelectorAll('[data-dl]').forEach(function(b){
+        b.addEventListener('click', function(){ downloadApplicationPdf(p, assessments[+b.dataset.dl].uni, appStatus); });
+    });
+    document.getElementById('afNewApp').addEventListener('click', function(){ window.location.reload(); });
+}
+
+function profRow(label, value) {
+    return '<div class="af__field"><label class="af__label" style="color:#999;font-size:10.5px;text-transform:uppercase;letter-spacing:.5px">'+esc(label)+'</label>' +
+        '<div style="font-size:13px;font-weight:700;color:#1a1a2e">'+esc(value || '—')+'</div></div>';
+}
+
+/* ── Professional admissions dossier (cover summary; supporting docs stay separate) ── */
+function downloadApplicationPdf(p, uni, appStatus) {
+    if (!window.jspdf || !window.jspdf.jsPDF) { alert('PDF library not loaded — check your connection and try again.'); return; }
+    var doc = new window.jspdf.jsPDF({ unit: 'pt', format: 'a4' });
+    var PW = 595, M = 54, W = PW - M * 2, BOTTOM = 778, y = 0;
+    var ORANGE = [217, 124, 20], INK = [26, 29, 38], SLATE = [90, 96, 108], LINE = [223, 227, 234];
+
+    function pageBreak(h) { if (y + (h || 0) > BOTTOM) { doc.addPage(); y = 56; footer(); } }
+    function setC(c) { doc.setTextColor(c[0], c[1], c[2]); }
+    function section(t) {
+        y += 24; pageBreak(46);
+        doc.setFont('helvetica', 'bold'); doc.setFontSize(11.5); setC(ORANGE);
+        doc.text(t.toUpperCase(), M, y); y += 8;
+        doc.setDrawColor(LINE[0], LINE[1], LINE[2]); doc.setLineWidth(1); doc.line(M, y, M + W, y); y += 17;
+        doc.setFont('helvetica', 'normal'); doc.setFontSize(10.5); setC(INK);
+    }
+    function field(label, value, x, w) {
+        if (value == null || value === '') return;
+        x = x || M; w = w || W; pageBreak(16);
+        doc.setFont('helvetica', 'bold'); setC(SLATE); doc.text(label + ':', x, y);
+        var lw = doc.getTextWidth(label + ':') + 5;
+        doc.setFont('helvetica', 'normal'); setC(INK);
+        var lines = doc.splitTextToSize(String(value), w - lw);
+        doc.text(lines[0], x + lw, y);
+        for (var i = 1; i < lines.length; i++) { y += 14; pageBreak(14); doc.text(lines[i], x + lw, y); }
+        y += 16;
+    }
+    function paragraph(txt, color) {
+        doc.setFont('helvetica', 'normal'); doc.setFontSize(10.5); setC(color || INK);
+        doc.splitTextToSize(txt, W).forEach(function(l) { pageBreak(14); doc.text(l, M, y); y += 14.5; });
+    }
+    function bullet(txt) {
+        doc.setFont('helvetica', 'normal'); doc.setFontSize(10.5); setC(INK);
+        var lines = doc.splitTextToSize(txt, W - 16); pageBreak(14);
+        setC(ORANGE); doc.text('•', M, y); setC(INK);
+        lines.forEach(function(l, i) { if (i) { y += 14; pageBreak(14); } doc.text(l, M + 14, y); }); y += 15;
+    }
+    function checkItem(txt) {
+        pageBreak(16);
+        doc.setDrawColor(39, 174, 96); doc.setLineWidth(1.7);
+        doc.line(M, y - 3, M + 3.5, y + 1); doc.line(M + 3.5, y + 1, M + 9, y - 6);
+        doc.setLineWidth(1); doc.setFont('helvetica', 'normal'); doc.setFontSize(10.5); setC(INK);
+        doc.text(txt, M + 16, y); y += 17;
+    }
+    function footer() {
+        doc.setFont('helvetica', 'normal'); doc.setFontSize(8.5); setC([170, 174, 184]);
+        doc.text('Generated by UniScout', M, 812);
+        doc.text(new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }), M + W, 812, { align: 'right' });
+    }
+
+    // ── Branded header band ──
+    doc.setFillColor(ORANGE[0], ORANGE[1], ORANGE[2]); doc.rect(0, 0, PW, 88, 'F');
+    doc.setFillColor(245, 146, 32); doc.rect(0, 84, PW, 4, 'F');
+    doc.setFont('helvetica', 'bold'); doc.setFontSize(22); doc.setTextColor(255, 255, 255);
+    doc.text('UNISCOUT', M, 44);
+    doc.setFont('helvetica', 'normal'); doc.setFontSize(12.5); doc.setTextColor(255, 245, 232);
+    doc.text('Applicant Summary', M, 64);
+    var sm = (typeof statusMeta === 'function') ? statusMeta(appStatus) : { label: 'Submitted', color: '#2980b9' };
+    doc.setFont('helvetica', 'bold'); doc.setFontSize(10); doc.setTextColor(255, 255, 255);
+    doc.text(sm.label.toUpperCase(), M + W, 50, { align: 'right' });
+    y = 116; footer();
+
+    // ── Applicant summary card (this version is addressed to ONE university) ──
+    var grade = p.pct != null ? (Math.round(p.pct) + '%') : (p.gpa ? (p.gpa + ' / ' + p.scale) : '—');
+    var programme = uni ? ((uni.degree ? uni.degree + ' — ' : '') + (uni.program || p.major || '—'))
+                        : ((p.degree ? p.degree + ' — ' : '') + (p.major || '—'));
+    field('Applicant', p.fullName);
+    field('Target University', uni ? uni.name : '—');
+    field('Target Programme', programme);
+    field('Average Grade', grade);
+    field('Application Status', sm.label);
+
+    // ── Highlights ──
+    var acts = (p.activities || '').split('\n').map(function(s){ return s.trim(); }).filter(Boolean);
+    var achs = (p.achievements || '').split('\n').map(function(s){ return s.trim(); }).filter(Boolean);
+    var lang = (p.ielts ? ('IELTS ' + p.ielts) : '') + (p.toefl ? ((p.ielts ? ', ' : '') + 'TOEFL ' + p.toefl) : '') + (p.otherCert ? ((p.ielts || p.toefl ? ', ' : '') + p.otherCert) : '');
+    var strengths = (p.subjects && p.subjects.length)
+        ? p.subjects.slice().sort(function(a, b){ return (parseFloat(b.grade) || 0) - (parseFloat(a.grade) || 0); }).slice(0, 3).map(function(s){ return s.name; }).join(', ')
+        : (p.major || '');
+    section('Highlights');
+    field('English Qualification', lang || (p.docs.cambridge ? 'Cambridge Certificate (attached)' : 'Not provided'));
+    if (achs.length) field('Key Achievement', achs[0]);
+    if (acts.length) field('Major Activities', acts.slice(0, 3).join(', '));
+    if (strengths) field('Academic Strengths', strengths);
+
+    // ── Student information ──
+    section('Student Information');
+    field('Name', p.fullName);
+    field('Date of Birth', p.dob);
+    field('Nationality', p.nationality);
+    field('Email', p.email);
+    field('Phone', p.phone);
+    field('Country of Residence', p.residence);
+
+    // ── Academic breakdown ──
+    section('Academic Breakdown');
+    field('School', p.school);
+    field('Graduation Year', p.gradYear);
+    field('Overall Average', grade);
+    if (p.tests) field('Test Scores', p.tests);
+    if (p.subjects && p.subjects.length) {
+        y += 4; doc.setFont('helvetica', 'bold'); doc.setFontSize(10); setC(SLATE);
+        pageBreak(16); doc.text('Subject', M, y); doc.text('Grade', M + W, y, { align: 'right' }); y += 6;
+        doc.setDrawColor(LINE[0], LINE[1], LINE[2]); doc.line(M, y, M + W, y); y += 14;
+        doc.setFont('helvetica', 'normal'); setC(INK);
+        p.subjects.forEach(function(s) {
+            pageBreak(16); doc.text(s.name, M, y);
+            if (s.grade) doc.text(String(s.grade), M + W, y, { align: 'right' });
+            y += 16;
+        });
+    }
+
+    // ── Achievements ──
+    section('Achievements');
+    if (achs.length) achs.forEach(bullet); else paragraph('Not provided.', SLATE);
+
+    // ── Extracurriculars ──
+    section('Extracurricular Activities');
+    if (acts.length) acts.forEach(bullet); else paragraph('Not provided.', SLATE);
+
+    // ── Submitted documents ──
+    section('Submitted Documents');
+    var any = false;
+    if (p.docs.transcripts)     { checkItem('Academic Transcript'); any = true; }
+    if (p.docs.passport)        { checkItem('Passport / ID Copy'); any = true; }
+    if (p.docs.motivation)      { checkItem('Motivation Letter / Personal Statement'); any = true; }
+    if (p.docs.cv)              { checkItem('CV / Resume'); any = true; }
+    if (p.docs.recommendations) { checkItem('Recommendation Letters'); any = true; }
+    if (p.docs.cambridge)       { checkItem('Cambridge Certificate'); any = true; }
+    if (!any) paragraph('No documents attached.', SLATE);
+    y += 6; paragraph('This summary is a cover sheet. The documents listed above are submitted as separate files alongside it.', SLATE);
+
+    var uniPart = uni && uni.name ? '-' + uni.name.replace(/[^a-z0-9]+/gi, '-') : '';
+    var fname = 'UniScout-Application-' + (p.fullName || 'Student').replace(/[^a-z0-9]+/gi, '-') + uniPart + '.pdf';
+    doc.save(fname);
+}
+
+/* Pre-fill university from URL param (?uni=name) */
+(function(){
+    var pre = new URLSearchParams(window.location.search).get('uni');
+    if (!pre) return;
+    var known = allKnownUnis();
+    var match = known.find(function(u){ return u.id === pre; }) || known.find(function(u){ return (u.name||'').toLowerCase().indexOf(pre.toLowerCase())!==-1; });
+    var name = match ? match.name : pre;
+    var first = uniListEl.querySelector('.afu-name');
+    if (first && !first.value) { first.value = name; updateProgress(); }
+})();
+</script>
+</body>
+</html>

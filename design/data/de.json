@@ -1,0 +1,3300 @@
+{
+  "meta": {
+    "name": "Germany",
+    "code": "de",
+    "flag": "de",
+    "capital": "Berlin",
+    "language": "German",
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "aboutStudying": "German public universities charge no tuition fees for undergraduate study — only a small semester contribution (€150–350). With world-leading research institutions and strong industry links, Germany is the most popular study destination in continental Europe after France.",
+    "uniCount": 109,
+    "cityCount": 7
+  },
+  "tips": [
+    {
+      "icon": "fa-solid fa-passport",
+      "color": "rgba(0,0,0,.07)",
+      "iconColor": "#333",
+      "title": "Visa & Residence",
+      "text": "EU citizens study freely. Non-EU students need a national visa and must register at the Ausländerbehörde (immigration office) within 90 days of arrival. A blocked account of ~€11,208/year is required for visa purposes."
+    },
+    {
+      "icon": "fa-solid fa-euro-sign",
+      "color": "rgba(52,152,219,.1)",
+      "iconColor": "rgb(52,152,219)",
+      "title": "Cost of Living",
+      "text": "Budget €800–1,400/month in most cities. Munich and Frankfurt are most expensive; Leipzig and Dresden are cheapest. Student dining halls (Mensa) serve hot meals for €2–3.50."
+    },
+    {
+      "icon": "fa-solid fa-language",
+      "color": "rgba(39,174,96,.1)",
+      "iconColor": "rgb(39,174,96)",
+      "title": "Language",
+      "text": "Most bachelor's programmes are in German. Over 1,500 master's programmes are available fully in English. A B2 German certificate (TestDaF or DSH) is required for German-taught programmes."
+    }
+  ],
+  "universities": [
+    {
+      "id": "lmu",
+      "name": "Ludwig Maximilian University Munich",
+      "abbr": "LMU",
+      "color": "#007A33",
+      "city": "Munich",
+      "type": "Public",
+      "tuition": "€150/semester",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Humanities",
+        "Business"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1472,
+      "students": "~52,000",
+      "desc": "One of Germany's most prestigious research universities with 42 Nobel laureates among its alumni and faculty, excelling across medicine, sciences and humanities.",
+      "website": ""
+    },
+    {
+      "id": "tum",
+      "name": "Technical University of Munich",
+      "abbr": "TUM",
+      "color": "#005B8E",
+      "city": "Munich",
+      "type": "Public",
+      "tuition": "€150/semester",
+      "ts": 1,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science",
+        "Business",
+        "Architecture"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1868,
+      "students": "~50,000",
+      "desc": "Germany's #1 technical university — ranked among the top 5 in Europe for engineering, informatics and natural sciences, with a powerful industry network (BMW, Siemens, MAN).",
+      "website": ""
+    },
+    {
+      "id": "heidelberg",
+      "name": "Heidelberg University",
+      "abbr": "UHei",
+      "color": "#C8102E",
+      "city": "Heidelberg",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Science",
+        "Humanities",
+        "Law"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1386,
+      "students": "~29,000",
+      "desc": "Germany's oldest university, consistently ranked #1 in the country — a compact, beautiful medieval city devoted almost entirely to academic life.",
+      "website": ""
+    },
+    {
+      "id": "fu-berlin",
+      "name": "Freie Universität Berlin",
+      "abbr": "FUB",
+      "color": "#336699",
+      "city": "Berlin",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Humanities",
+        "Law",
+        "Social Science",
+        "Medicine"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1948,
+      "students": "~38,000",
+      "desc": "One of Germany's elite research universities, founded during the Cold War division of Berlin, with exceptional humanities, social sciences and area studies.",
+      "website": ""
+    },
+    {
+      "id": "hu-berlin",
+      "name": "Humboldt University Berlin",
+      "abbr": "HUB",
+      "color": "#005B7F",
+      "city": "Berlin",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Science",
+        "Humanities",
+        "Medicine",
+        "Law",
+        "Business"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1810,
+      "students": "~36,000",
+      "desc": "Birthplace of the modern research university model — Wilhelm von Humboldt's 1810 institution that gave the world the Humboldt educational ideal.",
+      "website": ""
+    },
+    {
+      "id": "tu-berlin",
+      "name": "Technical University Berlin",
+      "abbr": "TUB",
+      "color": "#CC0000",
+      "city": "Berlin",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science",
+        "Architecture",
+        "Business"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1879,
+      "students": "~34,000",
+      "desc": "Germany's international technical university — nearly 30% of students are international, with a prime location in Berlin's startup and tech ecosystem.",
+      "website": ""
+    },
+    {
+      "id": "hamburg",
+      "name": "University of Hamburg",
+      "abbr": "UHH",
+      "color": "#E2001A",
+      "city": "Hamburg",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Law",
+        "Business",
+        "Science",
+        "Humanities",
+        "Medicine"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1919,
+      "students": "~43,000",
+      "desc": "North Germany's largest university in Europe's third-largest port city, offering a cosmopolitan academic environment with strong law, economics and marine sciences.",
+      "website": ""
+    },
+    {
+      "id": "frankfurt",
+      "name": "Goethe University Frankfurt",
+      "abbr": "GUF",
+      "color": "#006633",
+      "city": "Frankfurt",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Law",
+        "Business",
+        "Medicine",
+        "Science",
+        "Humanities"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1914,
+      "students": "~46,000",
+      "desc": "Named after Frankfurt's most famous son, this university has a particular strength in economics and finance given its location in Europe's banking capital.",
+      "website": ""
+    },
+    {
+      "id": "cologne",
+      "name": "University of Cologne",
+      "abbr": "UKoeln",
+      "color": "#CC0000",
+      "city": "Cologne",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Law",
+        "Business",
+        "Medicine",
+        "Science",
+        "Humanities"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1388,
+      "students": "~51,000",
+      "desc": "One of Germany's oldest and largest universities with particular strength in economics, law and medicine, in the heart of a vibrant Rhineland city.",
+      "website": ""
+    },
+    {
+      "id": "rwth",
+      "name": "RWTH Aachen University",
+      "abbr": "RWTH",
+      "color": "#009BBB",
+      "city": "Cologne",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science",
+        "Architecture",
+        "Business"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1870,
+      "students": "~46,000",
+      "desc": "Germany's top engineering university by research output — closer to Aachen — consistently ranked among Europe's top 3 for engineering and technology.",
+      "website": ""
+    },
+    {
+      "id": "freiburg",
+      "name": "Albert Ludwig University Freiburg",
+      "abbr": "UFR",
+      "color": "#A51C30",
+      "city": "Heidelberg",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Medicine",
+        "Humanities",
+        "Law",
+        "Theology"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1457,
+      "students": "~25,000",
+      "desc": "A beautiful medieval university city on the edge of the Black Forest, with exceptional natural sciences, environmental research and a very high quality of student life.",
+      "website": ""
+    },
+    {
+      "id": "tu-munich2",
+      "name": "Munich Business School",
+      "abbr": "MBS",
+      "color": "#004B87",
+      "city": "Munich",
+      "type": "Private",
+      "tuition": "€12,000–24,000/yr",
+      "ts": 4,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business"
+      ],
+      "langs": [
+        "English",
+        "German"
+      ],
+      "founded": 1991,
+      "students": "~800",
+      "desc": "Munich's leading private business school with an international English-taught MBA and bachelor's programme in the heart of Bavaria's economic powerhouse.",
+      "website": ""
+    },
+    {
+      "id": "mannheim",
+      "name": "University of Mannheim",
+      "abbr": "UNIMANN",
+      "color": "#003DA5",
+      "city": "Mannheim",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Business",
+        "Law",
+        "Social Science",
+        "CS"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1907,
+      "students": "~12,000",
+      "desc": "Germany's #1 business school — consistently ranked first for economics and business studies, with a beautiful Renaissance palace campus.",
+      "website": "https://www.uni-mannheim.de/"
+    },
+    {
+      "id": "stuttgart",
+      "name": "University of Stuttgart",
+      "abbr": "USTUTT",
+      "color": "#004B87",
+      "city": "Stuttgart",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science",
+        "Architecture",
+        "Business"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1829,
+      "students": "~25,000",
+      "desc": "In the heart of Germany's automotive industry — adjacent to Mercedes-Benz and Porsche, with world-class aerospace, civil and electrical engineering.",
+      "website": "https://www.uni-stuttgart.de"
+    },
+    {
+      "id": "tu-dresden",
+      "name": "TU Dresden",
+      "abbr": "TUD",
+      "color": "#003087",
+      "city": "Dresden",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science",
+        "Architecture",
+        "Medicine"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1828,
+      "students": "~33,000",
+      "desc": "East Germany's flagship technical university — ranked among Germany's elite, with excellence in engineering, informatics and natural sciences in a city of Baroque masterpieces.",
+      "website": "https://tu-dresden.de/"
+    },
+    {
+      "id": "kit",
+      "name": "Karlsruhe Institute of Technology",
+      "abbr": "KIT",
+      "color": "#009BBB",
+      "city": "Karlsruhe",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science",
+        "Architecture",
+        "Business"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1825,
+      "students": "~24,000",
+      "desc": "One of Germany's elite technical universities — merged research centre and university, ranked top 5 in Europe for natural sciences and engineering.",
+      "website": "https://www.kit.edu/"
+    },
+    {
+      "id": "bonn",
+      "name": "University of Bonn",
+      "abbr": "UBonn",
+      "color": "#C8102E",
+      "city": "Bonn",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Science",
+        "Medicine",
+        "Law",
+        "Humanities",
+        "Agriculture"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1818,
+      "students": "~35,000",
+      "desc": "One of Germany's most research-intensive universities — 11 Nobel laureates, world-leading mathematics, physics and law in the former federal capital.",
+      "website": ""
+    },
+    {
+      "id": "munster",
+      "name": "University of Münster",
+      "abbr": "WWU",
+      "color": "#005F3C",
+      "city": "Münster",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Law",
+        "Medicine",
+        "Theology",
+        "Science",
+        "Humanities"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1780,
+      "students": "~44,000",
+      "desc": "One of Germany's largest universities in Germany's most student-friendly city — world-leading for law, Catholic theology and chemistry.",
+      "website": ""
+    },
+    {
+      "id": "mainz",
+      "name": "Johannes Gutenberg University Mainz",
+      "abbr": "JGU",
+      "color": "#CC0000",
+      "city": "Mainz",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Medicine",
+        "Humanities",
+        "Law",
+        "Business"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1477,
+      "students": "~33,000",
+      "desc": "Named after Gutenberg, inventor of the printing press — a comprehensive research university in the Rhineland wine city, strong in chemistry, medicine and the humanities.",
+      "website": ""
+    },
+    {
+      "id": "erlangen",
+      "name": "Friedrich-Alexander University Erlangen-Nürnberg",
+      "abbr": "FAU",
+      "color": "#003DA5",
+      "city": "Erlangen",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Engineering",
+        "Science",
+        "Law",
+        "Business"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1743,
+      "students": "~40,000",
+      "desc": "One of Bavaria's largest research universities — strong in medicine, engineering and economics with campuses in both Erlangen and Nuremberg.",
+      "website": ""
+    },
+    {
+      "id": "hannover",
+      "name": "Leibniz University Hannover",
+      "abbr": "LUH",
+      "color": "#006633",
+      "city": "Hannover",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science",
+        "Architecture",
+        "Law"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1831,
+      "students": "~28,000",
+      "desc": "Named after Gottfried Wilhelm Leibniz — a strong technical university with particular excellence in engineering, CS and natural sciences.",
+      "website": ""
+    },
+    {
+      "id": "bochum",
+      "name": "Ruhr University Bochum",
+      "abbr": "RUB",
+      "color": "#003087",
+      "city": "Bochum",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Medicine",
+        "Law",
+        "Science",
+        "Humanities"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1962,
+      "students": "~43,000",
+      "desc": "The largest university in Germany's industrial Ruhr region — comprehensive research with world-class materials science and engineering.",
+      "website": ""
+    },
+    {
+      "id": "kiel",
+      "name": "Kiel University",
+      "abbr": "CAU",
+      "color": "#C8102E",
+      "city": "Kiel",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Medicine",
+        "Law",
+        "Economics",
+        "Humanities"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1665,
+      "students": "~27,000",
+      "desc": "Germany's leading marine sciences university on the Baltic Sea — Nobel laureates in medicine and economics, world's foremost oceanographic research institute.",
+      "website": ""
+    },
+    {
+      "id": "marburg",
+      "name": "Philipps University Marburg",
+      "abbr": "UMR",
+      "color": "#8B0000",
+      "city": "Marburg",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Science",
+        "Law",
+        "Humanities",
+        "Pharmacy"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1527,
+      "students": "~22,000",
+      "desc": "Germany's first Protestant university — a perfectly preserved medieval town entirely built around academic life, with world-leading pharmacy and pharmaceutical chemistry.",
+      "website": ""
+    },
+    {
+      "id": "jena",
+      "name": "Friedrich Schiller University Jena",
+      "abbr": "FSU",
+      "color": "#003087",
+      "city": "Jena",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Medicine",
+        "Law",
+        "Humanities",
+        "Business"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1558,
+      "students": "~19,000",
+      "desc": "One of Thuringia's most historic universities — home of the Zeiss optical tradition, with exceptional chemistry, photonics and pharmaceutical sciences.",
+      "website": ""
+    },
+    {
+      "id": "halle",
+      "name": "Martin Luther University Halle-Wittenberg",
+      "abbr": "MLU",
+      "color": "#CC0000",
+      "city": "Halle",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Humanities",
+        "Agriculture"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1502,
+      "students": "~21,000",
+      "desc": "Named after the Reformation leader who began his challenge to Rome nearby — Germany's oldest continuously operating Protestant university with strong medicine and humanities.",
+      "website": ""
+    },
+    {
+      "id": "greifswald",
+      "name": "University of Greifswald",
+      "abbr": "UGreif",
+      "color": "#005F3C",
+      "city": "Greifswald",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Humanities",
+        "Theology"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1456,
+      "students": "~12,000",
+      "desc": "One of northern Germany's oldest universities on the Baltic coast — the cheapest student city in Germany, with surprisingly strong medicine and humanities research.",
+      "website": ""
+    },
+    {
+      "id": "rostock",
+      "name": "University of Rostock",
+      "abbr": "UROstock",
+      "color": "#003087",
+      "city": "Rostock",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Medicine",
+        "Law",
+        "Science",
+        "Agriculture"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1419,
+      "students": "~15,000",
+      "desc": "The world's oldest maritime university on the Baltic coast — with world-leading naval architecture and maritime engineering.",
+      "website": ""
+    },
+    {
+      "id": "potsdam",
+      "name": "University of Potsdam",
+      "abbr": "UPotsdam",
+      "color": "#004B87",
+      "city": "Potsdam",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Law",
+        "Humanities",
+        "Business",
+        "Social Science"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1991,
+      "students": "~21,000",
+      "desc": "In Potsdam, Prussia's royal residence — 30 minutes from Berlin, with beautiful palace campus grounds and strong law, linguistics and cognitive science.",
+      "website": "https://www.uni-potsdam.de/"
+    },
+    {
+      "id": "konstanz",
+      "name": "University of Konstanz",
+      "abbr": "UKonstanz",
+      "color": "#005F3C",
+      "city": "Konstanz",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Science",
+        "Law",
+        "Business",
+        "Social Science",
+        "Humanities"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1966,
+      "students": "~12,000",
+      "desc": "Repeatedly named Germany's most innovative university — a reform institution on Lake Constance at the Swiss border, consistently top-3 in the German Excellence Initiative.",
+      "website": "https://www.uni-konstanz.de/"
+    },
+    {
+      "id": "bayreuth",
+      "name": "University of Bayreuth",
+      "abbr": "UBayreuth",
+      "color": "#8B0000",
+      "city": "Bayreuth",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Law",
+        "Business",
+        "Engineering",
+        "Humanities"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1975,
+      "students": "~13,000",
+      "desc": "Wagner's city and Germany's leading university for African studies — internationally recognised for ecological research, law and economics.",
+      "website": "https://www.uni-bayreuth.de/"
+    },
+    {
+      "id": "regensburg",
+      "name": "University of Regensburg",
+      "abbr": "UR",
+      "color": "#003DA5",
+      "city": "Regensburg",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Humanities",
+        "Business"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1962,
+      "students": "~21,000",
+      "desc": "A comprehensive research university in UNESCO World Heritage Regensburg — Bavaria's medieval marvel city, with strong medicine, law and economics.",
+      "website": "https://www.uni-regensburg.de/"
+    },
+    {
+      "id": "passau",
+      "name": "University of Passau",
+      "abbr": "UniPassau",
+      "color": "#004B87",
+      "city": "Passau",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Law",
+        "Business",
+        "CS",
+        "Humanities"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1978,
+      "students": "~13,000",
+      "desc": "Consistently ranked top for law, business informatics and European studies. At the confluence of three rivers where Germany meets Austria.",
+      "website": ""
+    },
+    {
+      "id": "saarland",
+      "name": "Saarland University",
+      "abbr": "UdS",
+      "color": "#CC0000",
+      "city": "Saarbrücken",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "CS",
+        "Engineering",
+        "Medicine",
+        "Law",
+        "Humanities"
+      ],
+      "langs": [
+        "German",
+        "English",
+        "French"
+      ],
+      "founded": 1948,
+      "students": "~17,000",
+      "desc": "Germany's most Franco-German university on the French border — world-leading in computer science and AI, with programmes in German, French and English.",
+      "website": ""
+    },
+    {
+      "id": "tu-chemnitz",
+      "name": "Chemnitz University of Technology",
+      "abbr": "TUC",
+      "color": "#003087",
+      "city": "Chemnitz",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Science",
+        "Humanities"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1836,
+      "students": "~10,000",
+      "desc": "Saxony's technical university — known for smart systems, automotive engineering and textiles technology in a city reinventing itself as a European Capital of Culture.",
+      "website": ""
+    },
+    {
+      "id": "bielefeld",
+      "name": "Bielefeld University",
+      "abbr": "UniBI",
+      "color": "#005F3C",
+      "city": "Bielefeld",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Social Science",
+        "Humanities",
+        "Law",
+        "Business"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1969,
+      "students": "~24,000",
+      "desc": "A research-intensive reform university in East Westphalia — famous for interdisciplinary social sciences and strong in sociology, biology and mathematics.",
+      "website": ""
+    },
+    {
+      "id": "paderborn",
+      "name": "Paderborn University",
+      "abbr": "UPB",
+      "color": "#003DA5",
+      "city": "Paderborn",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "CS",
+        "Engineering",
+        "Business",
+        "Science",
+        "Humanities"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1972,
+      "students": "~21,000",
+      "desc": "Germany's university for computer science and digital transformation — world-class research in mathematics, informatics and electrical engineering in Charlemagne's coronation city.",
+      "website": ""
+    },
+    {
+      "id": "duisburg-essen",
+      "name": "University of Duisburg-Essen",
+      "abbr": "UDE",
+      "color": "#CC0000",
+      "city": "Essen",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Medicine",
+        "Business",
+        "Science",
+        "Law"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1972,
+      "students": "~43,000",
+      "desc": "The Ruhr region's second major university — a diverse inclusive institution with strong engineering, medicine and social sciences.",
+      "website": ""
+    },
+    {
+      "id": "osnabrück",
+      "name": "University of Osnabrück",
+      "abbr": "UOS",
+      "color": "#004B87",
+      "city": "Osnabrück",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Law",
+        "Business",
+        "Science",
+        "Humanities",
+        "CS"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1974,
+      "students": "~13,000",
+      "desc": "In the Peace of Westphalia city where the Thirty Years' War ended — known for European peace studies, law and cognitive science.",
+      "website": ""
+    },
+    {
+      "id": "oldenburg",
+      "name": "Carl von Ossietzky University Oldenburg",
+      "abbr": "UOL",
+      "color": "#005F3C",
+      "city": "Oldenburg",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Medicine",
+        "Humanities",
+        "Business",
+        "Engineering"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1974,
+      "students": "~15,000",
+      "desc": "Named after Nobel Peace Prize laureate Carl von Ossietzky — strong in hearing science, environmental studies and physics in Germany's wind energy heartland.",
+      "website": ""
+    },
+    {
+      "id": "bremen",
+      "name": "University of Bremen",
+      "abbr": "UBremen",
+      "color": "#CC0000",
+      "city": "Bremen",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Social Science",
+        "Law",
+        "Business"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1971,
+      "students": "~22,000",
+      "desc": "A research excellence university — Bremen is Germany's aerospace and logistics hub with world-class marine geoscience and systems engineering.",
+      "website": ""
+    },
+    {
+      "id": "tu-darmstadt",
+      "name": "TU Darmstadt",
+      "abbr": "TUDA",
+      "color": "#003087",
+      "city": "Darmstadt",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science",
+        "Architecture",
+        "Business"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1877,
+      "students": "~28,000",
+      "desc": "Germany's original autonomous technical university — consistently top-5 for engineering and informatics, with key industry partnerships (Merck, Software AG, Deutsche Telekom).",
+      "website": ""
+    },
+    {
+      "id": "tu-braunschweig",
+      "name": "TU Braunschweig",
+      "abbr": "TUBS",
+      "color": "#004B87",
+      "city": "Braunschweig",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science",
+        "Architecture",
+        "Business"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1745,
+      "students": "~20,000",
+      "desc": "Germany's oldest technical university in the city where Volkswagen Research is headquartered — renowned for aeronautical engineering and sustainable mobility.",
+      "website": ""
+    },
+    {
+      "id": "dusseldorf",
+      "name": "Heinrich Heine University Düsseldorf",
+      "abbr": "HHU",
+      "color": "#C8102E",
+      "city": "Düsseldorf",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Business",
+        "Humanities"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1965,
+      "students": "~34,000",
+      "desc": "In the fashion and art capital of Germany — named after the poet, with world-leading pharmaceutical chemistry, medicine and law in one of Germany's most stylish cities.",
+      "website": ""
+    },
+    {
+      "id": "wuppertal",
+      "name": "University of Wuppertal",
+      "abbr": "BUW",
+      "color": "#005F3C",
+      "city": "Wuppertal",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Business",
+        "Education",
+        "Arts"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1972,
+      "students": "~24,000",
+      "desc": "Innovative university in the city of the Schwebebahn suspended railway — strong in safety engineering, electrical engineering and art education.",
+      "website": "http://www.uni-wuppertal.de"
+    },
+    {
+      "id": "siegen",
+      "name": "University of Siegen",
+      "abbr": "USiegen",
+      "color": "#003087",
+      "city": "Siegen",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Social Science",
+        "Arts"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1972,
+      "students": "~20,000",
+      "desc": "A well-rounded technical-social science university in the hilly Siegerland — strong in electrical and mechanical engineering and media studies.",
+      "website": "https://www.uni-siegen.de/"
+    },
+    {
+      "id": "kassel",
+      "name": "University of Kassel",
+      "abbr": "UKassel",
+      "color": "#CC0000",
+      "city": "Kassel",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Architecture",
+        "Science",
+        "Arts",
+        "Business"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1971,
+      "students": "~24,000",
+      "desc": "In the city of the Brothers Grimm and the world-famous documenta art exhibition — strong in architecture, design, organic farming and sustainable engineering.",
+      "website": "https://www.uni-kassel.de"
+    },
+    {
+      "id": "tu-ilmenau",
+      "name": "TU Ilmenau",
+      "abbr": "TUI",
+      "color": "#004B87",
+      "city": "Ilmenau",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science",
+        "Business"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1894,
+      "students": "~7,000",
+      "desc": "The compact technical university in Thuringia's forest — an elite specialist institution for electrical engineering, informatics and mechanical engineering.",
+      "website": "https://www.tu-ilmenau.de"
+    },
+    {
+      "id": "rptu",
+      "name": "RPTU Kaiserslautern-Landau",
+      "abbr": "RPTU",
+      "color": "#C8102E",
+      "city": "Kaiserslautern",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science",
+        "Business",
+        "Law"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1970,
+      "students": "~15,000",
+      "desc": "Rhineland-Palatinate's technical university — known for mathematics, engineering and informatics, located in the middle of a unique US military community.",
+      "website": ""
+    },
+    {
+      "id": "tu-hamburg",
+      "name": "Hamburg University of Technology",
+      "abbr": "TUHH",
+      "color": "#003DA5",
+      "city": "Hamburg",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science",
+        "Architecture"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1978,
+      "students": "~8,000",
+      "desc": "Hamburg's specialist technical university — compact and international with very strong links to Hamburg's aviation (Airbus) and logistics industries.",
+      "website": ""
+    },
+    {
+      "id": "leuphana",
+      "name": "Leuphana University Lüneburg",
+      "abbr": "Leuphana",
+      "color": "#006633",
+      "city": "Lüneburg",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Social Science",
+        "Humanities",
+        "Science",
+        "Law"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1946,
+      "students": "~9,000",
+      "desc": "Germany's most innovative small university — awarded the German Sustainability Award for its reform model, with a unique interdisciplinary bachelor's programme.",
+      "website": ""
+    },
+    {
+      "id": "tu-bergakademie",
+      "name": "TU Bergakademie Freiberg",
+      "abbr": "TUBAF",
+      "color": "#8B4513",
+      "city": "Freiberg",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Business"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1765,
+      "students": "~5,000",
+      "desc": "The world's oldest mining and metallurgy university — specialising in geosciences, materials science and energy, supplying engineers to the global mining industry.",
+      "website": ""
+    },
+    {
+      "id": "hertie",
+      "name": "Hertie School",
+      "abbr": "Hertie",
+      "color": "#002060",
+      "city": "Berlin",
+      "type": "Private",
+      "tuition": "€16,000–24,000/yr",
+      "ts": 4,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Law",
+        "Business",
+        "Social Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 2003,
+      "students": "~700",
+      "desc": "Germany's leading public policy school — a small globally connected graduate institution in Berlin training future public sector and NGO leaders entirely in English.",
+      "website": ""
+    },
+    {
+      "id": "bucerius",
+      "name": "Bucerius Law School",
+      "abbr": "Bucerius",
+      "color": "#003087",
+      "city": "Hamburg",
+      "type": "Private",
+      "tuition": "€10,000–16,000/yr",
+      "ts": 4,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Law"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 2000,
+      "students": "~700",
+      "desc": "Germany's only fully private law school — funded by Die Zeit newspaper, producing Germany's most sought-after commercial law graduates in an intense 4-year programme.",
+      "website": ""
+    },
+    {
+      "id": "whu",
+      "name": "WHU – Otto Beisheim School of Management",
+      "abbr": "WHU",
+      "color": "#003DA5",
+      "city": "Vallendar",
+      "type": "Private",
+      "tuition": "€15,000–30,000/yr",
+      "ts": 5,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Business"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1984,
+      "students": "~2,500",
+      "desc": "Germany's #1 private business school — consistently top 5 in Europe for management education with an exceptionally strong alumni network in German corporate life.",
+      "website": ""
+    },
+    {
+      "id": "esmt",
+      "name": "ESMT Berlin",
+      "abbr": "ESMT",
+      "color": "#C8102E",
+      "city": "Berlin",
+      "type": "Private",
+      "tuition": "€25,000–45,000/yr",
+      "ts": 5,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Business"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 2002,
+      "students": "~1,000",
+      "desc": "Germany's international MBA school — founded by 25 German corporations, delivering the most internationally diverse MBA programme in continental Europe.",
+      "website": ""
+    },
+    {
+      "id": "jacobs",
+      "name": "Jacobs University Bremen",
+      "abbr": "Jacobs",
+      "color": "#004B87",
+      "city": "Bremen",
+      "type": "Private",
+      "tuition": "€15,000–22,000/yr",
+      "ts": 4,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "CS",
+        "Engineering",
+        "Science",
+        "Business",
+        "Social Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 2001,
+      "students": "~1,500",
+      "desc": "Germany's most international private university — with 115 nationalities on a residential campus in Bremen, offering English-only degrees in science, engineering and business.",
+      "website": ""
+    },
+    {
+      "id": "hm-munich",
+      "name": "Munich University of Applied Sciences",
+      "abbr": "HM",
+      "color": "#005B8E",
+      "city": "Munich",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "CS",
+        "Architecture",
+        "Design"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1971,
+      "students": "~18,000",
+      "desc": "Bavaria's largest Fachhochschule — one of Germany's most practically-oriented universities with outstanding placement rates in Munich's thriving technology economy.",
+      "website": ""
+    },
+    {
+      "id": "fu-hagen",
+      "name": "FernUniversität in Hagen",
+      "abbr": "FernUni",
+      "color": "#003087",
+      "city": "Hagen",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Law",
+        "Business",
+        "CS",
+        "Humanities",
+        "Mathematics"
+      ],
+      "langs": [
+        "German"
+      ],
+      "founded": 1974,
+      "students": "~75,000",
+      "desc": "Germany's only state distance-learning university — with 75,000 enrolled students it's the largest German-language university, allowing full degrees to be earned entirely online.",
+      "website": ""
+    },
+    {
+      "id": "tu-cottbus",
+      "name": "BTU Cottbus-Senftenberg",
+      "abbr": "BTU",
+      "color": "#005F3C",
+      "city": "Cottbus",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science",
+        "Architecture",
+        "Business"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1991,
+      "students": "~8,000",
+      "desc": "Brandenburg's technical university in Germany's energy transition region — specialising in renewable energies, power engineering and environmental planning.",
+      "website": ""
+    },
+    {
+      "id": "ulm",
+      "name": "Ulm University",
+      "abbr": "UniUlm",
+      "color": "#003366",
+      "city": "Ulm",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Engineering",
+        "CS",
+        "Mathematics",
+        "Physics"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1967,
+      "students": "~10,000",
+      "desc": "Einstein's birth city — a research-intensive university particularly strong in quantum physics, biomedical engineering and medical informatics at the gateway to the Swabian Alps.",
+      "website": "https://www.uni-ulm.de/en/"
+    },
+    {
+      "id": "augsburg",
+      "name": "University of Augsburg",
+      "abbr": "UniAug",
+      "color": "#003DA5",
+      "city": "Augsburg",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Law",
+        "Science",
+        "Engineering",
+        "Humanities"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1970,
+      "students": "~20,000",
+      "desc": "Bavaria's third university city — strong in law, economics and resource engineering, in the city of the Fuggers banking dynasty and the Peace of Augsburg.",
+      "website": "http://www.uni-augsburg.de/"
+    },
+    {
+      "id": "bamberg",
+      "name": "University of Bamberg",
+      "abbr": "UniBa",
+      "color": "#8B1A1A",
+      "city": "Bamberg",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Humanities",
+        "Social Science",
+        "Business",
+        "CS",
+        "Engineering"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1647,
+      "students": "~14,000",
+      "desc": "In the UNESCO World Heritage town — a focused university renowned for information science, heritage conservation and archaeoinformatics in one of Germany's most beautiful Baroque towns.",
+      "website": "https://www.uni-bamberg.de/"
+    },
+    {
+      "id": "eichstatt",
+      "name": "Catholic University of Eichstätt-Ingolstadt",
+      "abbr": "KU",
+      "color": "#CC0000",
+      "city": "Ingolstadt",
+      "type": "Private",
+      "tuition": "€420/semester",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Theology",
+        "Business",
+        "Social Work",
+        "Journalism",
+        "Humanities"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1980,
+      "students": "~5,500",
+      "desc": "Germany's only Catholic state university — strong in social work, journalism and business ethics, in the beautiful Baroque town of Eichstätt near the Audi headquarters.",
+      "website": "http://www.ku-eichstaett.de"
+    },
+    {
+      "id": "hagen2",
+      "name": "University of Bamberg – online",
+      "abbr": "UniBA2",
+      "color": "#003087",
+      "city": "Bamberg",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "CS",
+        "Business",
+        "Humanities",
+        "Social Science",
+        "Law"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1999,
+      "students": "~8,000",
+      "desc": "Bamberg's digital branch offering flexible online modules alongside campus study — ideal for students combining work and study.",
+      "website": ""
+    },
+    {
+      "id": "erfurt",
+      "name": "University of Erfurt",
+      "abbr": "UniErf",
+      "color": "#CC0000",
+      "city": "Erfurt",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Humanities",
+        "Education",
+        "Law",
+        "Social Science",
+        "Theology"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1392,
+      "students": "~6,500",
+      "desc": "Thuringia's classical humanities university — Martin Luther studied here. Particularly strong in history, education, religious studies and philosophy.",
+      "website": ""
+    },
+    {
+      "id": "trier",
+      "name": "University of Trier",
+      "abbr": "UniTrier",
+      "color": "#CC0000",
+      "city": "Trier",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Humanities",
+        "Law",
+        "Business",
+        "Social Science",
+        "CS"
+      ],
+      "langs": [
+        "German",
+        "English",
+        "French"
+      ],
+      "founded": 1473,
+      "students": "~12,000",
+      "desc": "In Germany's oldest city — Karl Marx's birthplace, with particular strength in Roman history, classics, law and an unusually strong French-language profile.",
+      "website": ""
+    },
+    {
+      "id": "giessen",
+      "name": "Justus Liebig University Giessen",
+      "abbr": "JLU",
+      "color": "#8B1A1A",
+      "city": "Giessen",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Agriculture",
+        "Law",
+        "Humanities",
+        "Science"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1607,
+      "students": "~28,000",
+      "desc": "Named after the father of modern chemistry Justus von Liebig — world-leading in nutrition science, veterinary medicine and agricultural research, with a cutting-edge interdisciplinary research focus.",
+      "website": ""
+    },
+    {
+      "id": "frankfurt-uas",
+      "name": "Frankfurt University of Applied Sciences",
+      "abbr": "FRA-UAS",
+      "color": "#CC0000",
+      "city": "Frankfurt",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Architecture",
+        "Social Work"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1971,
+      "students": "~15,000",
+      "desc": "Frankfurt's practical university — strong in applied engineering, social work and IT in Europe's financial capital, with excellent industry placement rates.",
+      "website": ""
+    },
+    {
+      "id": "hw-berlin",
+      "name": "HTW Berlin",
+      "abbr": "HTW",
+      "color": "#CC0000",
+      "city": "Berlin",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Arts",
+        "Design"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1994,
+      "students": "~14,000",
+      "desc": "Berlin's university for applied sciences — excellent for game development, industrial design, environmental engineering and logistics in the city startup ecosystem.",
+      "website": ""
+    },
+    {
+      "id": "beuth",
+      "name": "Berlin University of Applied Sciences – BHT",
+      "abbr": "BHT",
+      "color": "#003366",
+      "city": "Berlin",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Architecture",
+        "Business",
+        "Science"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1971,
+      "students": "~12,000",
+      "desc": "Berliner Hochschule für Technik — one of Berlin's largest applied sciences universities, with strong engineering, medical technology and architecture faculties.",
+      "website": ""
+    },
+    {
+      "id": "hochschule-muenchen",
+      "name": "Munich University of Applied Sciences",
+      "abbr": "HM2",
+      "color": "#003087",
+      "city": "Munich",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Architecture",
+        "Design"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1971,
+      "students": "~18,000",
+      "desc": "Bavaria's largest Fachhochschule — placing engineers at BMW, Siemens and MAN in a university designed entirely around Bavarian industrial needs.",
+      "website": ""
+    },
+    {
+      "id": "hochschule-dusseldorf",
+      "name": "Düsseldorf University of Applied Sciences",
+      "abbr": "HSD",
+      "color": "#C8102E",
+      "city": "Düsseldorf",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Design",
+        "CS",
+        "Business",
+        "Social Work"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1971,
+      "students": "~12,000",
+      "desc": "NRW's fashion capital's applied sciences university — excellent for graphic design, media engineering and social work, with strong ties to Düsseldorf's art and fashion industry.",
+      "website": ""
+    },
+    {
+      "id": "cologne-uas",
+      "name": "Cologne University of Applied Sciences",
+      "abbr": "TH Köln",
+      "color": "#CC0000",
+      "city": "Cologne",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Architecture",
+        "Social Work"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1971,
+      "students": "~26,000",
+      "desc": "Germany's largest university of applied sciences — a sprawling practical institution with five campuses covering everything from journalism to chemical engineering.",
+      "website": ""
+    },
+    {
+      "id": "hs-reutlingen",
+      "name": "Reutlingen University",
+      "abbr": "HsRT",
+      "color": "#003087",
+      "city": "Reutlingen",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Business",
+        "CS",
+        "Design",
+        "Healthcare"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1855,
+      "students": "~5,000",
+      "desc": "Baden-Württemberg's international applied sciences university — particularly strong in international management, textile engineering and sustainable design.",
+      "website": ""
+    },
+    {
+      "id": "hs-esslingen",
+      "name": "Esslingen University of Applied Sciences",
+      "abbr": "HsEss",
+      "color": "#003366",
+      "city": "Esslingen",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1971,
+      "students": "~7,000",
+      "desc": "In the heart of Baden-Württemberg's engineering corridor — strong in mechanical engineering, automotive technology and information technology between Stuttgart and Daimler.",
+      "website": ""
+    },
+    {
+      "id": "hs-heilbronn",
+      "name": "Heilbronn University of Applied Sciences",
+      "abbr": "HsHN",
+      "color": "#CC0000",
+      "city": "Heilbronn",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "CS",
+        "Healthcare"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1961,
+      "students": "~8,000",
+      "desc": "In Germany's wine country by the Neckar River — known for medical engineering, logistics and business informatics, with significant financial support from local entrepreneurs.",
+      "website": ""
+    },
+    {
+      "id": "hs-aalen",
+      "name": "Aalen University of Applied Sciences",
+      "abbr": "HsAalen",
+      "color": "#003087",
+      "city": "Aalen",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Optics"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1962,
+      "students": "~6,500",
+      "desc": "In Swabia's optics and photonics cluster — Germany's leading applied university for precision optics, lasers and photonic engineering, home to the Carl Zeiss Foundation.",
+      "website": "http://www.hs-aalen.de/"
+    },
+    {
+      "id": "hs-pforzheim",
+      "name": "Pforzheim University",
+      "abbr": "HsPforzheim",
+      "color": "#CC0000",
+      "city": "Pforzheim",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Design",
+        "Engineering",
+        "Business"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1877,
+      "students": "~7,000",
+      "desc": "Germany's jewellery and design university — world-famous for industrial and communication design, and the goldsmithing tradition of the 'gold city'.",
+      "website": "http://www.hs-pforzheim.de"
+    },
+    {
+      "id": "hs-offenburg",
+      "name": "Offenburg University of Applied Sciences",
+      "abbr": "HS-OG",
+      "color": "#003366",
+      "city": "Offenburg",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Media"
+      ],
+      "langs": [
+        "German",
+        "English",
+        "French"
+      ],
+      "founded": 1964,
+      "students": "~4,000",
+      "desc": "At the French border — particularly strong in electrical engineering, mechanical engineering and media technology, with a genuinely bilingual Franco-German campus culture.",
+      "website": "https://www.hs-offenburg.de/"
+    },
+    {
+      "id": "hs-furtwangen",
+      "name": "Furtwangen University",
+      "abbr": "HFU",
+      "color": "#003087",
+      "city": "Furtwangen",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "CS",
+        "Engineering",
+        "Business",
+        "Healthcare"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1850,
+      "students": "~7,000",
+      "desc": "In the Black Forest clockmaking capital — strong in medical informatics, digital health and embedded systems, with Germany's oldest horological tradition in computer science.",
+      "website": "https://www.hs-furtwangen.de/"
+    },
+    {
+      "id": "hs-neu-ulm",
+      "name": "Neu-Ulm University of Applied Sciences",
+      "abbr": "HNU",
+      "color": "#003366",
+      "city": "Neu-Ulm",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "CS",
+        "Healthcare",
+        "Engineering"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1998,
+      "students": "~4,000",
+      "desc": "A young Bavarian applied sciences university on the Danube — specialising in business informatics, supply chain and health management.",
+      "website": ""
+    },
+    {
+      "id": "hs-kempten",
+      "name": "Kempten University of Applied Sciences",
+      "abbr": "HS Kempten",
+      "color": "#CC0000",
+      "city": "Kempten",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "CS",
+        "Tourism",
+        "Social Work"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1977,
+      "students": "~6,500",
+      "desc": "Allgäu's university at the gateway to the Alps — strong in tourism management, mechanical engineering and business, in Germany's dairy and cheese heartland.",
+      "website": ""
+    },
+    {
+      "id": "hs-weingarten",
+      "name": "Ravensburg-Weingarten University of Applied Sciences",
+      "abbr": "RWU",
+      "color": "#003087",
+      "city": "Ravensburg",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Social Work",
+        "Arts"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1964,
+      "students": "~4,500",
+      "desc": "In the Bodensee technology region — strong in embedded systems, social work and mechanical engineering near the Austrian border and Switzerland's innovation cluster.",
+      "website": ""
+    },
+    {
+      "id": "hs-flensburg",
+      "name": "Flensburg University of Applied Sciences",
+      "abbr": "HS Flensburg",
+      "color": "#003DA5",
+      "city": "Flensburg",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Healthcare",
+        "Education"
+      ],
+      "langs": [
+        "German",
+        "Danish",
+        "English"
+      ],
+      "founded": 1886,
+      "students": "~4,000",
+      "desc": "On the Danish border — uniquely bilingual German-Danish institution, strong in renewable energy technology and maritime engineering at the northern tip of Germany.",
+      "website": ""
+    },
+    {
+      "id": "hs-stralsund",
+      "name": "University of Applied Sciences Stralsund",
+      "abbr": "HSTRALS",
+      "color": "#003366",
+      "city": "Stralsund",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Tourism"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1991,
+      "students": "~3,500",
+      "desc": "On the UNESCO Stralsund Hanseatic waterfront — strong in maritime engineering, tourism and IT in one of northern Germany's most scenic cities.",
+      "website": ""
+    },
+    {
+      "id": "hs-wismar",
+      "name": "Hochschule Wismar",
+      "abbr": "HS Wismar",
+      "color": "#003087",
+      "city": "Wismar",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Architecture",
+        "Business",
+        "CS",
+        "Design"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1908,
+      "students": "~5,500",
+      "desc": "In another UNESCO Hanseatic city — excellent for architecture, civil engineering and marine engineering on the Baltic coast.",
+      "website": ""
+    },
+    {
+      "id": "hs-niederrhein",
+      "name": "Hochschule Niederrhein",
+      "abbr": "HSNR",
+      "color": "#CC0000",
+      "city": "Krefeld",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Design",
+        "Health Sciences"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1971,
+      "students": "~14,000",
+      "desc": "NRW's textile university — world-famous for textile and clothing technology, food sciences and health services management between Cologne and Düsseldorf.",
+      "website": ""
+    },
+    {
+      "id": "hs-bochum",
+      "name": "Bochum University of Applied Sciences",
+      "abbr": "HS Bochum",
+      "color": "#003366",
+      "city": "Bochum",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Architecture"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1972,
+      "students": "~8,000",
+      "desc": "The Ruhr's practical engineering university — focused on civil engineering, electrical engineering and architecture, embedded in Germany's former industrial heartland.",
+      "website": ""
+    },
+    {
+      "id": "hs-hamm",
+      "name": "Hamm-Lippstadt University of Applied Sciences",
+      "abbr": "HSHL",
+      "color": "#CC0000",
+      "city": "Hamm",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 2009,
+      "students": "~6,000",
+      "desc": "One of Germany's newest applied sciences universities — designed from scratch for digital transformation, with a strong focus on sustainability, CS and engineering.",
+      "website": ""
+    },
+    {
+      "id": "hs-emden",
+      "name": "Emden/Leer University of Applied Sciences",
+      "abbr": "HS Emden",
+      "color": "#003087",
+      "city": "Emden",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Social Work",
+        "Maritime"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1973,
+      "students": "~4,000",
+      "desc": "In the North Sea wind energy capital — uniquely specialised in offshore wind engineering, maritime technology and social work at the German-Dutch border.",
+      "website": ""
+    },
+    {
+      "id": "hs-osnabrück",
+      "name": "Osnabrück University of Applied Sciences",
+      "abbr": "HS OS",
+      "color": "#003366",
+      "city": "Osnabrück",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Agriculture",
+        "CS",
+        "Business",
+        "Design"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1971,
+      "students": "~13,000",
+      "desc": "One of Germany's largest applied sciences universities — particularly strong in agri-food technology, landscape architecture and wood engineering in the Osnabrück farming region.",
+      "website": ""
+    },
+    {
+      "id": "hs-merseburg",
+      "name": "Merseburg University of Applied Sciences",
+      "abbr": "HS Merseburg",
+      "color": "#CC0000",
+      "city": "Merseburg",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Social Work",
+        "Chemistry"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1954,
+      "students": "~3,000",
+      "desc": "Central Germany's chemical engineering university — in the former GDR industrial city of Merseburg, pivoting to green chemistry and sustainable energy engineering.",
+      "website": ""
+    },
+    {
+      "id": "hs-mittweida",
+      "name": "Mittweida University of Applied Sciences",
+      "abbr": "HSMW",
+      "color": "#003087",
+      "city": "Mittweida",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Arts",
+        "Social Work"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1867,
+      "students": "~6,000",
+      "desc": "Saxony's original polytechnic — particularly strong in electrical engineering, computer science and music/media production in a small but historic Saxon university town.",
+      "website": ""
+    },
+    {
+      "id": "hs-zwickau",
+      "name": "West Saxon University of Applied Sciences Zwickau",
+      "abbr": "WHZ",
+      "color": "#CC0000",
+      "city": "Zwickau",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Health Sciences",
+        "Architecture"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1897,
+      "students": "~4,500",
+      "desc": "In the birthplace of the Trabant and Robert Schumann — strong in automotive engineering, health sciences and architecture in Saxony's historic car manufacturing city.",
+      "website": ""
+    },
+    {
+      "id": "hochschule-ansbach",
+      "name": "Ansbach University of Applied Sciences",
+      "abbr": "HS Ansbach",
+      "color": "#003366",
+      "city": "Ansbach",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "CS",
+        "Engineering",
+        "Multimedia"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1996,
+      "students": "~4,500",
+      "desc": "Franconia's young applied sciences university — strong in interactive media, user experience design and logistics in the heart of Bavaria's agricultural region.",
+      "website": "http://www.hs-ansbach.de"
+    },
+    {
+      "id": "hs-coburg",
+      "name": "Coburg University of Applied Sciences",
+      "abbr": "HS Coburg",
+      "color": "#8B1A1A",
+      "city": "Coburg",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Architecture",
+        "Engineering",
+        "Business",
+        "Design",
+        "Social Work"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1871,
+      "students": "~4,500",
+      "desc": "In the city of the German princes — strong in sustainable architecture, industrial design and social work in one of Franconia's most charming historic towns.",
+      "website": "http://www.hs-coburg.de/"
+    },
+    {
+      "id": "hs-landshut",
+      "name": "Landshut University of Applied Sciences",
+      "abbr": "HaW Landshut",
+      "color": "#003087",
+      "city": "Landshut",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Social Work"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1978,
+      "students": "~5,000",
+      "desc": "In the medieval ducal residence city of Landshut — strong in electrical engineering, healthcare informatics and social work between Munich and Regensburg.",
+      "website": "https://www.haw-landshut.de/studium/im-studium/bibliothek.html"
+    },
+    {
+      "id": "hs-deggendorf",
+      "name": "Deggendorf Institute of Technology",
+      "abbr": "DIT",
+      "color": "#003366",
+      "city": "Deggendorf",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Healthcare"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1994,
+      "students": "~7,500",
+      "desc": "Bavaria's innovation-focused applied sciences university — Germany's most international Fachhochschule by student percentage, with campuses in Germany and Thailand.",
+      "website": "https://www.th-deg.de/"
+    },
+    {
+      "id": "hs-amberg",
+      "name": "OTH Amberg-Weiden",
+      "abbr": "OTH-AW",
+      "color": "#CC0000",
+      "city": "Amberg",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Nursing"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1994,
+      "students": "~4,000",
+      "desc": "East Bavaria's applied sciences university — strong in IT security, industrial engineering and nursing in the Czech border region.",
+      "website": ""
+    },
+    {
+      "id": "hs-hof",
+      "name": "Hof University of Applied Sciences",
+      "abbr": "HS Hof",
+      "color": "#003087",
+      "city": "Hof",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Textiles"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1994,
+      "students": "~5,000",
+      "desc": "Northern Bavaria's applied sciences university — world-known for its textile and polymer engineering, CS and logistics in Germany's northernmost Bavarian university city.",
+      "website": ""
+    },
+    {
+      "id": "hochschule-wuerzburg",
+      "name": "University of Applied Sciences Würzburg-Schweinfurt",
+      "abbr": "FHWS",
+      "color": "#8B0000",
+      "city": "Würzburg",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Design",
+        "Social Work"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1971,
+      "students": "~9,000",
+      "desc": "Franconian wine country's practical university — strong in information management, electrical engineering and product design in the city of Franconian wine and Baroque residences.",
+      "website": ""
+    },
+    {
+      "id": "hs-aschaffenburg",
+      "name": "Aschaffenburg University of Applied Sciences",
+      "abbr": "HS Aschaffenburg",
+      "color": "#CC0000",
+      "city": "Aschaffenburg",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1995,
+      "students": "~3,500",
+      "desc": "Bavarian gateway to the Rhine-Main region — compact and practical, strong in mechatronics, electrical engineering and business management.",
+      "website": ""
+    },
+    {
+      "id": "hs-ingolstadt",
+      "name": "Ingolstadt School of Management",
+      "abbr": "THI",
+      "color": "#003366",
+      "city": "Ingolstadt",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Management"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1994,
+      "students": "~6,500",
+      "desc": "In Audi's city — particularly strong in automotive engineering, mobility management and digital transformation, with Audi AG as a major research and placement partner.",
+      "website": ""
+    },
+    {
+      "id": "khm",
+      "name": "Academy of Media Arts Cologne",
+      "abbr": "KHM",
+      "color": "#000000",
+      "city": "Cologne",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Arts",
+        "CS",
+        "Media"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1990,
+      "students": "~500",
+      "desc": "Germany's most avant-garde media arts school — world-leading for experimental film, interactive art and audio-visual media; the artistic counterpart to MIT's Media Lab.",
+      "website": ""
+    },
+    {
+      "id": "hmt-berlin",
+      "name": "University of the Arts Berlin",
+      "abbr": "UdK",
+      "color": "#000000",
+      "city": "Berlin",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Arts",
+        "Music",
+        "Architecture",
+        "Design",
+        "Education"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1696,
+      "students": "~4,000",
+      "desc": "One of Europe's largest universities of the arts — training concert pianists, fashion designers, filmmakers and architects in Berlin's most creative neighbourhood.",
+      "website": ""
+    },
+    {
+      "id": "hfm-munich",
+      "name": "University of Music and Performing Arts Munich",
+      "abbr": "HMTM",
+      "color": "#005B8E",
+      "city": "Munich",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Music",
+        "Arts",
+        "Education"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1846,
+      "students": "~1,500",
+      "desc": "One of Europe's top conservatories — training orchestral soloists, opera singers and conductors, with a direct pipeline into the Bavarian State Opera and Munich Philharmonic.",
+      "website": ""
+    },
+    {
+      "id": "bucerius2",
+      "name": "University of Freiburg – European Campus Freiburg",
+      "abbr": "UCF",
+      "color": "#A51C30",
+      "city": "Freiburg",
+      "type": "Public",
+      "tuition": "€170/semester",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Law",
+        "Social Science",
+        "Humanities",
+        "Business"
+      ],
+      "langs": [
+        "German",
+        "English",
+        "French"
+      ],
+      "founded": 1457,
+      "students": "~2,500",
+      "desc": "Freiburg's satellite campus in Germany's greenest city — offering trilingual programmes at the intersection of German, French and Swiss academic cultures.",
+      "website": ""
+    },
+    {
+      "id": "goethe-bs",
+      "name": "Frankfurt School of Finance & Management",
+      "abbr": "FS",
+      "color": "#CC0000",
+      "city": "Frankfurt",
+      "type": "Private",
+      "tuition": "€18,000–36,000/yr",
+      "ts": 4,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Business",
+        "Finance",
+        "CS"
+      ],
+      "langs": [
+        "English",
+        "German"
+      ],
+      "founded": 1957,
+      "students": "~3,000",
+      "desc": "Europe's financial capital's specialist business school — particularly strong in banking, fintech and quantitative finance, ranking alongside INSEAD in European MBA tables.",
+      "website": ""
+    }
+  ],
+  "cities": {
+    "Berlin": {
+      "region": "Berlin (city-state)",
+      "pop": "3.6 million",
+      "climate": "Continental",
+      "cost": "€900–1,400/mo",
+      "desc": "Berlin is the student capital of Europe — a city still rebuilding its identity after 40 years of division, with an energy that combines raw creativity, political intensity and the world's most dynamic nightlife. Three elite universities, dozens of art schools and a booming tech startup scene make it irresistible for ambitious students.",
+      "highlights": [
+        "Brandenburg Gate — the symbol of German reunification",
+        "East Side Gallery — the longest surviving stretch of the Berlin Wall",
+        "Museum Island — UNESCO-listed complex of five world-class museums",
+        "Hackescher Markt — creative neighbourhood with independent galleries and cafes",
+        "Tempelhof Field — vast former airport, now a public park and creative hub"
+      ],
+      "studentLife": "Berlin has 180,000 students across 4 major universities and dozens of applied sciences institutions. Rent is rising but still far below London or Paris — typically €500–800/month for a room in a shared flat (WG). Student transport semester ticket costs ~€29/month.",
+      "transport": "U-Bahn (9 lines), S-Bahn (15 lines), trams, buses and an excellent bike infrastructure. Semester ticket for all public transport costs ~€29/month — the best deal in any major European city.",
+      "nightlife": "Berghain (world's most famous club), KitKatClub, Tresor for techno; Prenzlauer Berg for craft beer bars; Kreuzberg for multicultural street life. Berlin nightlife starts after midnight and can last all weekend.",
+      "pros": [
+        "Most affordable major capital in Western Europe",
+        "World's best club and electronic music culture",
+        "Huge tech and startup scene — 'Silicon Allee'",
+        "History and art everywhere — 170 museums in the city"
+      ],
+      "tags": [
+        "Startup scene",
+        "Nightlife",
+        "History",
+        "Affordable"
+      ]
+    },
+    "Munich": {
+      "region": "Bavaria",
+      "pop": "1.5 million",
+      "climate": "Continental alpine",
+      "cost": "€1,100–1,800/mo",
+      "desc": "Munich combines German efficiency, Bavarian warmth, and Alpine beauty into one of the world's most liveable cities. LMU and TUM are two of Europe's great research universities. It's Germany's most expensive city, but also its most economically dynamic — with BMW, Siemens and MAN just minutes from campus.",
+      "highlights": [
+        "Marienplatz & Glockenspiel — the historic heart of the city",
+        "English Garden — 917 acres of parkland larger than Central Park, with river surfing",
+        "Deutsches Museum — the world's largest science and technology museum",
+        "Viktualienmarkt — the famous daily open-air food market",
+        "Nymphenburg Palace — breathtaking Baroque royal palace"
+      ],
+      "studentLife": "80,000+ students with world-class TUM and LMU. Maxvorstadt is the 'museum quarter' and university heartland. Schwabing is the bohemian student neighbourhood. A room costs €700–1,100/month in a city competing with Zurich.",
+      "transport": "U-Bahn, S-Bahn, trams and buses — all integrated in a zone system. Student semester ticket: ~€200 for 6 months. Munich is very cycle-friendly.",
+      "nightlife": "Glockenbachviertel for LGBT+ bars, Gärtnerplatz for outdoor beer gardens and bars, Schwabing for student pubs. Traditional beer hall culture (Hofbräuhaus, Augustiner) is genuinely fun.",
+      "pros": [
+        "BMW, Siemens, Allianz HQ — unrivalled graduate employment",
+        "Alps and skiing 1 hour away by train",
+        "TUM ranked #1 in Germany for engineering and tech",
+        "Oktoberfest is literally on campus (well, nearby)"
+      ],
+      "tags": [
+        "Research",
+        "Automotive",
+        "Alps",
+        "Quality of life"
+      ]
+    },
+    "Hamburg": {
+      "region": "Hamburg (city-state)",
+      "pop": "1.9 million",
+      "climate": "Oceanic",
+      "cost": "€950–1,450/mo",
+      "desc": "Hamburg is Germany's gateway to the world — Europe's third-largest port, a city of 2,500 bridges (more than Venice), a renowned red-light district that is also strangely charming, and a music scene that shaped the Beatles. The University of Hamburg is a comprehensive research institution in a genuinely cosmopolitan northern city.",
+      "highlights": [
+        "Speicherstadt — UNESCO-listed red-brick warehouse district and design museum hub",
+        "Miniatur Wunderland — the world's largest model railway (genuinely spectacular)",
+        "Elbphilharmonie — spectacular wave-shaped concert hall on the harbour",
+        "Reeperbahn — the legendary entertainment and nightlife street",
+        "Planten un Blomen — beautiful inner-city botanical garden and park"
+      ],
+      "studentLife": "70,000 students across multiple institutions. The Grindel area near the university is classic student territory. Hamburg has a strong international business school presence.",
+      "transport": "U-Bahn, S-Bahn, buses and HVV ferry services across the Alster lakes and Elbe river. Monthly pass ~€95. Hamburg is compact enough to cycle everywhere.",
+      "nightlife": "Reeperbahn for clubs and live music venues, Schanzenviertel for alternative bars and street food, Hafencity for waterfront cocktail bars. Hamburg has one of Germany's best live music scenes.",
+      "pros": [
+        "Germany's wealthiest city — exceptional media, maritime and logistics careers",
+        "UNESCO Speicherstadt as a daily backdrop",
+        "Beatles birthplace with legendary live music heritage",
+        "Gateway to Scandinavia — ferries to Norway and Denmark"
+      ],
+      "tags": [
+        "Cosmopolitan",
+        "Port city",
+        "Music",
+        "Maritime"
+      ]
+    },
+    "Heidelberg": {
+      "region": "Baden-Württemberg",
+      "pop": "160,000 (metro 700K)",
+      "climate": "Oceanic",
+      "cost": "€800–1,200/mo",
+      "desc": "Heidelberg is Germany's most famous university city — a perfectly preserved Baroque old town on the Neckar river, beneath a ruined medieval castle, with 30% of its population being students. The University of Heidelberg, founded in 1386, is Germany's oldest and most prestigious. Writers, philosophers and romantics have been drawn here for centuries.",
+      "highlights": [
+        "Heidelberg Castle — dramatic red-sandstone ruins towering over the city",
+        "Alte Brücke (Old Bridge) — iconic 18th century bridge across the Neckar",
+        "Philosophenweg (Philosopher's Walk) — scenic hillside path with panoramic views",
+        "Hauptstraße — one of Germany's longest pedestrian shopping streets",
+        "Student Jail (Studentenkarzer) — historic detention facility used until 1914"
+      ],
+      "studentLife": "30,000 students in a city of 160,000 — Heidelberg's entire character is defined by its university. Student dorms, cheap Mensa meals, research culture. Perfect for immersive academic study.",
+      "transport": "Tram and bus network. Excellent cycling infrastructure along the Neckar river. Frankfurt is 1 hour by train. Stuttgart 40 minutes.",
+      "nightlife": "Untere Straße for traditional student pubs (Kneipen), Bergbahn for drinks with a view, and a small but genuine jazz and live music scene.",
+      "pros": [
+        "Germany's oldest and most prestigious university",
+        "Most beautiful university city in the country",
+        "Close to Frankfurt (tech) and Stuttgart (automotive) career hubs",
+        "Genuinely immersive academic culture"
+      ],
+      "tags": [
+        "Historic",
+        "Research",
+        "Romantic",
+        "Student city"
+      ]
+    },
+    "Frankfurt": {
+      "region": "Hesse",
+      "pop": "770,000 (metro 5.6M)",
+      "climate": "Oceanic",
+      "cost": "€1,050–1,600/mo",
+      "desc": "Frankfurt is Europe's financial capital — the city of the ECB, Deutsche Bank and the Eurozone's monetary policy. Its skyline of glass towers is unique in Germany, and its position as a transport hub (Europe's busiest airport) makes it the most internationally connected city in continental Europe for students seeking finance, consulting or international business careers.",
+      "highlights": [
+        "Römerberg — beautifully restored medieval city square and town hall",
+        "Museumsufer — 12 world-class museums along the Main river",
+        "ECB (European Central Bank) Tower — a symbol of European economic power",
+        "Sachsenhausen — the traditional apple-wine tavern district",
+        "Palmengarten — beautiful 22-hectare botanical garden"
+      ],
+      "studentLife": "80,000 students in the metro area. Goethe University is a major research institution. The Bockenheim neighbourhood is the traditional student area.",
+      "transport": "U-Bahn, S-Bahn, trams and buses with an airport connection by S-Bahn (11 minutes from central station). Monthly pass ~€85. One of Germany's best-connected hubs.",
+      "nightlife": "Sachsenhausen for apple wine bars (Ebbelwei), Berger Straße for diverse nightlife, Bahnhofsviertel for edgy clubs and international food.",
+      "pros": [
+        "Europe's financial capital — ECB, Deutsche Bank, all major banks",
+        "Frankfurt Airport — most connections worldwide from any German city",
+        "Highest average salaries in Germany",
+        "Easy day trips to Heidelberg, the Rhine Valley and Black Forest"
+      ],
+      "tags": [
+        "Finance",
+        "International",
+        "Careers",
+        "Well-connected"
+      ]
+    },
+    "Cologne": {
+      "region": "North Rhine-Westphalia",
+      "pop": "1.1 million (metro 3.6M)",
+      "climate": "Oceanic",
+      "cost": "€850–1,300/mo",
+      "desc": "Cologne is Germany's most vibrant Rhineland city — home to its iconic double-spired Gothic cathedral, a legendary carnival culture, a diverse creative scene, and the friendliest people in the country. Its university is one of Germany's largest, and the city is Germany's media and advertising capital.",
+      "highlights": [
+        "Cologne Cathedral (Dom) — Gothic masterpiece 632 years in the making, now a UNESCO site",
+        "Museum Ludwig — one of the world's top modern art collections",
+        "Rhine riverfront promenades and old town Altstadt",
+        "Cologne Carnival — the most famous street festival in Germany (February)",
+        "Belgian Quarter (Belgisches Viertel) — hip, creative neighbourhood with galleries and design shops"
+      ],
+      "studentLife": "90,000 students across the University of Cologne and multiple applied sciences institutions. The Studentenviertel around the university is lively and affordable.",
+      "transport": "KVB U-Bahn and tram network (26 lines). Monthly pass ~€85. Excellent cycling infrastructure. 20 minutes to Düsseldorf, 1 hour to Frankfurt.",
+      "nightlife": "Altstadt for traditional Kölsch beer bars, Ehrenfeld for alternative clubs, Südstadt for craft cocktail bars. Cologne's Carnival in February is unmissable.",
+      "pros": [
+        "Germany's media and advertising capital — creative careers",
+        "Warmest, friendliest culture of any major German city",
+        "Iconic Gothic cathedral as a daily landmark",
+        "Gateway to the Rhine Valley wine region"
+      ],
+      "tags": [
+        "Culture",
+        "Media",
+        "Carnival",
+        "Rhineland"
+      ]
+    },
+    "Dresden": {
+      "region": "Saxony",
+      "pop": "560,000",
+      "climate": "Humid continental",
+      "cost": "€700–1,100/mo",
+      "desc": "Dresden rose from the ashes of WWII to become one of Germany's most beautiful cities. The baroque skyline on the Elbe, world-class museums, and a thriving tech scene make it an underrated gem for students who want culture, affordability, and real German academic tradition.",
+      "highlights": [
+        "Frauenkirche — rebuilt baroque church, symbol of reconciliation",
+        "Zwinger Palace — baroque masterpiece housing world-class museums",
+        "Semperoper — one of Europe's finest opera houses",
+        "Neustadt — bohemian quarter with galleries and street art",
+        "Elbe riverfront — walks with panoramic views of the baroque skyline"
+      ],
+      "studentLife": "TU Dresden is one of Germany's largest universities with 30,000+ students. The Neustadt district is the student and artist hub. Rent is among the lowest of any major German city.",
+      "transport": "Excellent tram network covering the whole city. Bike-friendly with dedicated cycling lanes. Central station connects to Berlin (2h), Prague (2h15), Leipzig (1h15).",
+      "nightlife": "Neustadt is the social heart — indie bars, alternative clubs, outdoor spaces along the Elbe. More underground and alternative scene compared to Berlin, but genuinely vibrant.",
+      "pros": [
+        "Most affordable of Germany's major cities",
+        "Stunning baroque architecture at every turn",
+        "Strong technical university with global reputation",
+        "Growing tech and semiconductor industry"
+      ],
+      "tags": [
+        "Baroque",
+        "Affordable",
+        "Tech",
+        "History"
+      ]
+    }
+  },
+  "cityCards": [
+    {
+      "city": "Berlin",
+      "region": "City-State",
+      "gradient": "linear-gradient(135deg,#1a1a1a,#555)",
+      "icon": "fa-solid fa-tv",
+      "desc": "Europe's student capital — raw, creative and cheap, with the world's greatest nightlife and three elite universities.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-snowflake"
+      ],
+      "stats": [
+        "3.6 million residents",
+        "€900–1,400/mo student cost",
+        "Continental"
+      ],
+      "tags": [
+        "Startup scene",
+        "Nightlife",
+        "History"
+      ]
+    },
+    {
+      "city": "Munich",
+      "region": "Bavaria",
+      "gradient": "linear-gradient(135deg,#005B8E,#4A86C8)",
+      "icon": "fa-solid fa-beer-mug-empty",
+      "desc": "Bavarian elegance meets world-class research — home to TUM and LMU, the Alps, and BMW headquarters.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-mountain"
+      ],
+      "stats": [
+        "1.5 million residents",
+        "€1,100–1,800/mo student cost",
+        "Alpine continental"
+      ],
+      "tags": [
+        "Research",
+        "Automotive",
+        "Alps"
+      ]
+    },
+    {
+      "city": "Hamburg",
+      "region": "City-State",
+      "gradient": "linear-gradient(135deg,#7d0026,#cc3333)",
+      "icon": "fa-solid fa-ship",
+      "desc": "Europe's third-largest port — cosmopolitan, maritime and legendary for music (the Beatles started here).",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud"
+      ],
+      "stats": [
+        "1.9 million residents",
+        "€950–1,450/mo student cost",
+        "Oceanic"
+      ],
+      "tags": [
+        "Cosmopolitan",
+        "Port city",
+        "Music"
+      ]
+    },
+    {
+      "city": "Heidelberg",
+      "region": "Baden-Württemberg",
+      "gradient": "linear-gradient(135deg,#A51C30,#d4890a)",
+      "icon": "fa-solid fa-landmark",
+      "desc": "Germany's most romantic university city — perfect Baroque old town, ruined castle and 30% student population.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-sun"
+      ],
+      "stats": [
+        "160,000 residents",
+        "€800–1,200/mo student cost",
+        "Oceanic"
+      ],
+      "tags": [
+        "Historic",
+        "Research",
+        "Student city"
+      ]
+    },
+    {
+      "city": "Frankfurt",
+      "region": "Hesse",
+      "gradient": "linear-gradient(135deg,#006633,#009966)",
+      "icon": "fa-solid fa-chart-line",
+      "desc": "Europe's financial capital — ECB, all major banks, and the most internationally connected airport in continental Europe.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-building"
+      ],
+      "stats": [
+        "770,000 residents",
+        "€1,050–1,600/mo student cost",
+        "Oceanic"
+      ],
+      "tags": [
+        "Finance",
+        "International",
+        "Careers"
+      ]
+    },
+    {
+      "city": "Cologne",
+      "region": "NRW",
+      "gradient": "linear-gradient(135deg,#CC0000,#FF6600)",
+      "icon": "fa-solid fa-church",
+      "desc": "Germany's warmest city — Gothic cathedral, Kölsch beer, Germany's media capital and Europe's most famous carnival.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud-sun"
+      ],
+      "stats": [
+        "1.1 million residents",
+        "€850–1,300/mo student cost",
+        "Oceanic"
+      ],
+      "tags": [
+        "Culture",
+        "Media",
+        "Carnival"
+      ]
+    }
+  ],
+  "featuredCities": [
+    {
+      "city": "Berlin",
+      "icon": "fa-solid fa-tv",
+      "sub": "Capital"
+    },
+    {
+      "city": "Munich",
+      "icon": "fa-solid fa-beer-mug-empty",
+      "sub": "Bavaria"
+    },
+    {
+      "city": "Hamburg",
+      "icon": "fa-solid fa-ship",
+      "sub": "North Sea"
+    },
+    {
+      "city": "Heidelberg",
+      "icon": "fa-solid fa-landmark",
+      "sub": "Baden-W."
+    },
+    {
+      "city": "Frankfurt",
+      "icon": "fa-solid fa-chart-line",
+      "sub": "Hesse"
+    },
+    {
+      "city": "Cologne",
+      "icon": "fa-solid fa-church",
+      "sub": "NRW"
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniScout — Subscription</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="earth.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Sora:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Fraunces:ital,opsz,wght@1,9..144,400;1,9..144,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="welcome.css">
+</head>
+<body>
+
+    <!-- NAV -->
+    <nav class="nav nav--solid" id="nav">
+        <a href="index.html" class="nav__brand"><img src="logo2.png" alt="UniScout">UniScout</a>
+        <div class="nav__links" id="navLinks">
+            <a href="index.html#features">Features</a>
+            <a href="subscription.html">Subscription</a>
+            <a href="index.html#explore">Explore</a>
+            <a href="log-in.html">Sign in</a>
+            <a href="log-in.html" class="nav__cta"><i class="fa-solid fa-arrow-right-to-bracket"></i> Get started</a>
+        </div>
+        <button class="nav__burger" id="burger" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+    </nav>
+
+    <!-- PRICING -->
+    <section class="sec wrap" style="padding-top:140px">
+        <div class="sec__head reveal">
+            <span class="tag">Subscription</span>
+            <h2 class="display">Start free, go <span class="accent-serif grad-text">Elite</span> when you're ready</h2>
+            <p>Explore every university for free. Unlock unlimited AI matching and the application assistant whenever you mean business.</p>
+        </div>
+        <div class="pricing">
+            <div class="plan reveal" data-d="1">
+                <div class="plan__name"><i class="fa-solid fa-compass"></i> Free</div>
+                <p class="plan__desc">Everything you need to discover and shortlist universities.</p>
+                <div class="plan__price"><span class="amt">€0</span><span class="per">/ forever</span></div>
+                <p class="plan__bill">No card required</p>
+                <ul class="plan__feats">
+                    <li><i class="fa-solid fa-check"></i> Explore all universities &amp; cities</li>
+                    <li><i class="fa-solid fa-check"></i> Compare side by side</li>
+                    <li><i class="fa-solid fa-check"></i> Save your favourites</li>
+                    <li><i class="fa-solid fa-check"></i> Deadline tracker</li>
+                    <li class="off"><i class="fa-solid fa-xmark"></i> Limited AI matching</li>
+                </ul>
+                <a href="log-in.html" class="btn btn--ghost" id="freeBtn"><i class="fa-solid fa-rocket"></i> Get started free</a>
+            </div>
+            <div class="plan plan--feat reveal" data-d="2">
+                <span class="plan__badge">★ Most popular</span>
+                <div class="plan__name"><i class="fa-solid fa-crown"></i> Elite</div>
+                <p class="plan__desc">The full UniScout experience — AI-powered, end to end.</p>
+                <div class="plan__price"><span class="amt grad-text">€15</span><span class="per">/ year</span></div>
+                <p class="plan__bill">Billed yearly · cancel anytime</p>
+                <ul class="plan__feats">
+                    <li><i class="fa-solid fa-check"></i> Everything in Free</li>
+                    <li><i class="fa-solid fa-check"></i> Unlimited AI matching &amp; fit scores</li>
+                    <li><i class="fa-solid fa-check"></i> Application assistant — PDF packages</li>
+                    <li><i class="fa-solid fa-check"></i> Personalised city &amp; budget insights</li>
+                    <li><i class="fa-solid fa-check"></i> Priority news &amp; deadline alerts</li>
+                    <li><i class="fa-solid fa-check"></i> Elite badge &amp; title</li>
+                </ul>
+                <button class="btn btn--primary" id="goEliteBtn"><i class="fa-solid fa-crown"></i> Go Elite — €15/year</button>
+            </div>
+        </div>
+        <p class="pricing__note"><i class="fa-solid fa-shield-halved"></i> Secure Stripe checkout · Cancel anytime · Student-friendly pricing</p>
+    </section>
+
+    <!-- WHAT ELITE UNLOCKS -->
+    <section class="sec sec--tight wrap" id="elite">
+        <div class="sec__head reveal">
+            <span class="tag">What Elite unlocks</span>
+            <h2 class="display">A serious edge for <span class="accent-serif grad-text">serious</span> applicants</h2>
+        </div>
+        <div class="bento">
+            <div class="fcard reveal" data-d="1">
+                <div class="fcard__ico g-violet"><i class="fa-solid fa-magnifying-glass-dollar"></i></div>
+                <h3>Unlimited AI matching</h3>
+                <p>Score every university by fit, as many times as you like, with the full reasoning behind each result.</p>
+            </div>
+            <div class="fcard reveal" data-d="2">
+                <div class="fcard__ico g-green"><i class="fa-solid fa-file-pdf"></i></div>
+                <h3>Application assistant</h3>
+                <p>Turn your profile into a professional, submission-ready PDF package — one per university.</p>
+            </div>
+            <div class="fcard reveal" data-d="3">
+                <div class="fcard__ico g-orange"><i class="fa-solid fa-city"></i></div>
+                <h3>City &amp; budget insights</h3>
+                <p>Personalised living-cost and city guidance so there are no financial surprises.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="sec wrap" id="faq">
+        <div class="sec__head reveal">
+            <span class="tag">Billing &amp; plans</span>
+            <h2 class="display">Subscription <span class="accent-serif grad-text">questions</span></h2>
+        </div>
+        <div class="faq reveal">
+            <details class="faq__item">
+                <summary class="faq__q">How much is Elite? <i class="fa-solid fa-plus"></i></summary>
+                <p class="faq__a">Elite is <strong>€15 per year</strong> — that's it. One simple yearly price for the full experience, no hidden fees.</p>
+            </details>
+            <details class="faq__item">
+                <summary class="faq__q">Do I need an account to subscribe? <i class="fa-solid fa-plus"></i></summary>
+                <p class="faq__a">Yes — Elite is tied to your UniScout account so your matches and applications stay with you. If you're not signed in, the Go Elite button will take you to sign in first, then bring you back to checkout.</p>
+            </details>
+            <details class="faq__item">
+                <summary class="faq__q">Is payment secure? <i class="fa-solid fa-plus"></i></summary>
+                <p class="faq__a">Payments are handled by <strong>Stripe</strong>, an industry-leading, PCI-compliant payment provider. UniScout never sees or stores your card details.</p>
+            </details>
+            <details class="faq__item">
+                <summary class="faq__q">Can I cancel? <i class="fa-solid fa-plus"></i></summary>
+                <p class="faq__a">Anytime, from your account's billing portal. You keep Elite until the end of your billing period — no lock-in.</p>
+            </details>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer wrap">
+        <div class="footer__grid">
+            <div class="footer__brand">
+                <a href="index.html" class="nav__brand"><img src="logo2.png" alt="">UniScout</a>
+                <p>Your AI-powered guide to discovering, comparing and applying to universities around the world.</p>
+                <div class="footer__socials">
+                    <a href="#" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer__col">
+                <h4>Product</h4>
+                <a href="index.html#features">Features</a>
+                <a href="subscription.html">Subscription</a>
+                <a href="index.html#explore">Explore</a>
+                <a href="index.html#faq">FAQ</a>
+            </div>
+            <div class="footer__col">
+                <h4>Company</h4>
+                <a href="index.html#why">Why UniScout</a>
+                <a href="#">Privacy</a>
+                <a href="#">Cookie policy</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <span><b>UniScout.</b> Scout your future.</span>
+            <span>© <span id="year"></span> UniScout · All rights reserved</span>
+        </div>
+    </footer>
+
+    <button class="scrolltop" id="scrollTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <script src="welcome.js"></script>
+    <script>
+    /* ── Elite checkout — mirrors the payment flow in mainPage.js ── */
+    (function () {
+        var SESSION_KEY = 'uniscout_session';
+        function getSession() {
+            try { return JSON.parse(localStorage.getItem(SESSION_KEY)) || JSON.parse(sessionStorage.getItem(SESSION_KEY)) || null; } catch (e) { return null; }
+        }
+        var user = getSession();
+
+        // Resolve where the payment backend lives (same logic as mainPage.js)
+        var PAY_API_BASE = (function () {
+            if (location.protocol === 'file:') return 'http://localhost:4242';
+            var isLocal = /^(localhost|127\.0\.0\.1)$/.test(location.hostname);
+            if (isLocal && location.port !== '4242') return 'http://localhost:4242';
+            return location.origin;
+        }());
+
+        function payFetch(path, opts) {
+            return fetch(PAY_API_BASE + path, opts).then(function (r) {
+                return r.text().then(function (t) {
+                    var data = {};
+                    if (t) { try { data = JSON.parse(t); } catch (e) { data = { _parseError: true }; } }
+                    return { ok: r.ok, status: r.status, data: data };
+                });
+            });
+        }
+
+        var PAY_SERVER_HINT = 'The payment server is not reachable at ' + PAY_API_BASE + '.\n\n' +
+            '1) Start it:  cd server && npm start   (needs server/.env with your Stripe keys)\n' +
+            '2) Open the site through it:  ' + PAY_API_BASE + '/index.html';
+
+        var btn = document.getElementById('goEliteBtn');
+        var freeBtn = document.getElementById('freeBtn');
+        if (freeBtn) freeBtn.href = user ? 'mainPage.html' : 'log-in.html';
+
+        function setBtn(elite) {
+            btn.dataset.elite = elite ? '1' : '0';
+            btn.disabled = false;
+            btn.innerHTML = elite
+                ? '<i class="fa-solid fa-gear"></i> Manage subscription'
+                : '<i class="fa-solid fa-crown"></i> Go Elite — €15/year';
+        }
+
+        // Verify current status from the backend and repaint the button.
+        function refreshElite() {
+            if (!user) return;
+            payFetch('/api/subscription/status?userId=' + encodeURIComponent(user.id) +
+                '&email=' + encodeURIComponent(user.email || '') +
+                '&username=' + encodeURIComponent(user.username || ''))
+                .then(function (res) { if (res.ok && !res.data._parseError) setBtn(!!res.data.elite); })
+                .catch(function () { /* backend offline — keep default */ });
+        }
+
+        function startCheckout() {
+            btn.disabled = true;
+            btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Redirecting to checkout…';
+            payFetch('/api/checkout', {
+                method: 'POST',
+                headers: { 'content-type': 'application/json' },
+                body: JSON.stringify({ userId: user.id, email: user.email, username: user.username })
+            }).then(function (res) {
+                if (res.ok && res.data.url) { window.location.href = res.data.url; return; }
+                if (res.status === 409) { openPortal(); return; }      // already subscribed
+                if (res.data._parseError || res.status === 404) { alert(PAY_SERVER_HINT); }
+                else { alert('Could not start checkout: ' + (res.data.message || res.data.error || ('HTTP ' + res.status))); }
+                setBtn(false);
+            }).catch(function () { alert(PAY_SERVER_HINT); setBtn(false); });
+        }
+
+        function openPortal() {
+            payFetch('/api/portal', {
+                method: 'POST',
+                headers: { 'content-type': 'application/json' },
+                body: JSON.stringify({ userId: user.id })
+            }).then(function (res) {
+                if (res.ok && res.data.url) { window.location.href = res.data.url; return; }
+                alert('No billing profile found yet. Subscribe first to manage your plan.');
+            }).catch(function () { alert(PAY_SERVER_HINT); });
+        }
+
+        btn.addEventListener('click', function () {
+            if (!user) {                                   // not signed in → sign in, then continue to Stripe
+                try { sessionStorage.setItem('us_after_login', 'subscription'); } catch (e) {}
+                window.location.href = 'log-in.html?next=subscription';
+                return;
+            }
+            if (btn.dataset.elite === '1') openPortal(); else startCheckout();
+        });
+
+        // Returned here right after signing in (log-in.html?next=subscription) → go straight to checkout.
+        if (user && /[?&]autocheckout=1\b/.test(location.search)) {
+            startCheckout();
+        } else {
+            refreshElite();
+        }
+    })();
+    </script>
+</body>
+</html>

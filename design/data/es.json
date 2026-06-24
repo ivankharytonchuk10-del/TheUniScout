@@ -1,0 +1,2895 @@
+{
+  "meta": {
+    "name": "Spain",
+    "code": "es",
+    "flag": "es",
+    "capital": "Madrid",
+    "language": "Spanish",
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "aboutStudying": "Spain offers world-class public universities at very affordable tuition — typically €700–2,500/year. With a vibrant culture, Mediterranean lifestyle and one of the largest Erasmus communities in Europe, it's a top destination for international students.",
+    "uniCount": 93,
+    "cityCount": 7
+  },
+  "tips": [
+    {
+      "icon": "fa-solid fa-passport",
+      "color": "rgba(228,155,20,.1)",
+      "iconColor": "rgb(228,155,20)",
+      "title": "Visa Requirements",
+      "text": "EU citizens enter freely. Non-EU students need a student visa — apply at least 3 months before your programme starts at the nearest Spanish consulate."
+    },
+    {
+      "icon": "fa-solid fa-euro-sign",
+      "color": "rgba(52,152,219,.1)",
+      "iconColor": "rgb(52,152,219)",
+      "title": "Cost of Living",
+      "text": "Budget €600–€1,600/month depending on city. Salamanca and Granada are cheapest; Madrid and Barcelona the priciest. Student discounts are widespread."
+    },
+    {
+      "icon": "fa-solid fa-language",
+      "color": "rgba(39,174,96,.1)",
+      "iconColor": "rgb(39,174,96)",
+      "title": "Language Options",
+      "text": "Most public universities teach in Spanish. Many private schools and some public ones offer English-taught degrees — check each university's language offerings."
+    }
+  ],
+  "universities": [
+    {
+      "id": "ucm",
+      "name": "Universidad Complutense de Madrid",
+      "abbr": "UCM",
+      "color": "#8B1A1A",
+      "city": "Madrid",
+      "type": "Public",
+      "tuition": "€1,000–1,800/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Arts",
+        "Business"
+      ],
+      "langs": [
+        "Spanish"
+      ],
+      "founded": 1499,
+      "students": "~87,000",
+      "desc": "Spain's largest and one of the world's oldest universities, with a vast campus covering virtually every discipline.",
+      "website": ""
+    },
+    {
+      "id": "uam",
+      "name": "Universidad Autónoma de Madrid",
+      "abbr": "UAM",
+      "color": "#2A5CAA",
+      "city": "Madrid",
+      "type": "Public",
+      "tuition": "€1,000–1,700/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Science",
+        "Medicine",
+        "Humanities",
+        "Business"
+      ],
+      "langs": [
+        "Spanish"
+      ],
+      "founded": 1968,
+      "students": "~30,000",
+      "desc": "Research-intensive autonomous university renowned for excellence in science, medicine and humanities.",
+      "website": ""
+    },
+    {
+      "id": "upm",
+      "name": "Universidad Politécnica de Madrid",
+      "abbr": "UPM",
+      "color": "#004B87",
+      "city": "Madrid",
+      "type": "Public",
+      "tuition": "€1,200–2,100/yr",
+      "ts": 1,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "Architecture",
+        "CS",
+        "Science"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1971,
+      "students": "~35,000",
+      "desc": "Spain's leading technical university with top-ranked engineering, architecture and computer science programmes.",
+      "website": ""
+    },
+    {
+      "id": "uc3m",
+      "name": "Universidad Carlos III de Madrid",
+      "abbr": "UC3M",
+      "color": "#003DA5",
+      "city": "Madrid",
+      "type": "Public",
+      "tuition": "€1,100–1,900/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Law",
+        "Business",
+        "Engineering",
+        "CS"
+      ],
+      "langs": [
+        "Spanish",
+        "English",
+        "Bilingual"
+      ],
+      "founded": 1989,
+      "students": "~19,000",
+      "desc": "Modern public university highly regarded for law, business and engineering, with strong English-taught and bilingual programmes.",
+      "website": ""
+    },
+    {
+      "id": "ie",
+      "name": "IE University",
+      "abbr": "IE",
+      "color": "#1A1A2E",
+      "city": "Madrid",
+      "type": "Private",
+      "tuition": "€15,000–35,000/yr",
+      "ts": 5,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Law",
+        "Architecture",
+        "CS"
+      ],
+      "langs": [
+        "English",
+        "Bilingual"
+      ],
+      "founded": 1973,
+      "students": "~12,000",
+      "desc": "Elite private institution with globally ranked business and law degrees, delivered entirely in English or bilingually.",
+      "website": ""
+    },
+    {
+      "id": "urjc",
+      "name": "Universidad Rey Juan Carlos",
+      "abbr": "URJC",
+      "color": "#9B1B30",
+      "city": "Madrid",
+      "type": "Public",
+      "tuition": "€900–1,600/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Law",
+        "Business",
+        "Engineering",
+        "CS"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1996,
+      "students": "~45,000",
+      "desc": "Large public university in the Madrid metropolitan area with accessible entry requirements covering law, communication and engineering.",
+      "website": ""
+    },
+    {
+      "id": "ub",
+      "name": "Universidad de Barcelona",
+      "abbr": "UB",
+      "color": "#005691",
+      "city": "Barcelona",
+      "type": "Public",
+      "tuition": "€1,000–1,800/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Arts",
+        "Business"
+      ],
+      "langs": [
+        "Spanish",
+        "Catalan"
+      ],
+      "founded": 1450,
+      "students": "~63,000",
+      "desc": "Catalonia's flagship university with a long history and a wide range of programmes in the vibrant heart of Barcelona.",
+      "website": ""
+    },
+    {
+      "id": "uab",
+      "name": "Universidad Autónoma de Barcelona",
+      "abbr": "UAB",
+      "color": "#006400",
+      "city": "Barcelona",
+      "type": "Public",
+      "tuition": "€1,000–1,700/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Science",
+        "Medicine",
+        "Humanities",
+        "Business"
+      ],
+      "langs": [
+        "Spanish",
+        "Catalan",
+        "English"
+      ],
+      "founded": 1968,
+      "students": "~41,000",
+      "desc": "Research powerhouse near Barcelona known for sciences, medicine and social sciences, with a strong international profile.",
+      "website": ""
+    },
+    {
+      "id": "upf",
+      "name": "Universidad Pompeu Fabra",
+      "abbr": "UPF",
+      "color": "#CC2529",
+      "city": "Barcelona",
+      "type": "Public",
+      "tuition": "€1,500–2,400/yr",
+      "ts": 2,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Law",
+        "Business",
+        "CS",
+        "Medicine"
+      ],
+      "langs": [
+        "Spanish",
+        "Catalan",
+        "English"
+      ],
+      "founded": 1990,
+      "students": "~14,000",
+      "desc": "Compact elite university consistently ranked among Spain's best for law, economics and journalism in central Barcelona.",
+      "website": ""
+    },
+    {
+      "id": "upc",
+      "name": "Universidad Politécnica de Cataluña",
+      "abbr": "UPC",
+      "color": "#0057A8",
+      "city": "Barcelona",
+      "type": "Public",
+      "tuition": "€1,200–2,000/yr",
+      "ts": 2,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "Architecture",
+        "CS",
+        "Science"
+      ],
+      "langs": [
+        "Spanish",
+        "Catalan",
+        "English"
+      ],
+      "founded": 1971,
+      "students": "~30,000",
+      "desc": "Catalonia's top technical university for engineering, architecture and CS, with strong links to Barcelona's tech industry.",
+      "website": ""
+    },
+    {
+      "id": "esade",
+      "name": "ESADE Business School",
+      "abbr": "ESADE",
+      "color": "#002060",
+      "city": "Barcelona",
+      "type": "Private",
+      "tuition": "€15,000–30,000/yr",
+      "ts": 5,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Law"
+      ],
+      "langs": [
+        "English",
+        "Bilingual"
+      ],
+      "founded": 1958,
+      "students": "~4,500",
+      "desc": "World-renowned private school ranked among Europe's top MBA programmes, with a focus on responsible leadership.",
+      "website": "http://www.esade.edu/web/eng"
+    },
+    {
+      "id": "uv",
+      "name": "Universidad de Valencia",
+      "abbr": "UV",
+      "color": "#C8600A",
+      "city": "Valencia",
+      "type": "Public",
+      "tuition": "€750–1,300/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Business",
+        "Arts"
+      ],
+      "langs": [
+        "Spanish",
+        "Catalan"
+      ],
+      "founded": 1499,
+      "students": "~55,000",
+      "desc": "One of Spain's oldest universities offering a broad curriculum in a vibrant Mediterranean city with low living costs.",
+      "website": "https://www.uv.es/"
+    },
+    {
+      "id": "upv",
+      "name": "Universidad Politécnica de Valencia",
+      "abbr": "UPV",
+      "color": "#E5007A",
+      "city": "Valencia",
+      "type": "Public",
+      "tuition": "€850–1,500/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "Architecture",
+        "CS",
+        "Business"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1968,
+      "students": "~38,000",
+      "desc": "Top technical university in Valencia with excellent engineering, architecture and informatics departments.",
+      "website": "https://www.upv.es/"
+    },
+    {
+      "id": "us",
+      "name": "Universidad de Sevilla",
+      "abbr": "US",
+      "color": "#009A44",
+      "city": "Sevilla",
+      "type": "Public",
+      "tuition": "€700–1,200/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Engineering",
+        "Arts"
+      ],
+      "langs": [
+        "Spanish"
+      ],
+      "founded": 1505,
+      "students": "~70,000",
+      "desc": "Andalusia's largest and most prestigious university, rich in history and offering extensive programmes in medicine, law and arts.",
+      "website": "https://www.us.es/"
+    },
+    {
+      "id": "ug",
+      "name": "Universidad de Granada",
+      "abbr": "UGR",
+      "color": "#6B0F1A",
+      "city": "Granada",
+      "type": "Public",
+      "tuition": "€700–1,100/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Humanities",
+        "Science"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1531,
+      "students": "~55,000",
+      "desc": "Historic university in one of Spain's most beautiful student cities, known for humanities, sciences and its welcoming atmosphere.",
+      "website": ""
+    },
+    {
+      "id": "usal",
+      "name": "Universidad de Salamanca",
+      "abbr": "USAL",
+      "color": "#A0001E",
+      "city": "Salamanca",
+      "type": "Public",
+      "tuition": "€800–1,200/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Law",
+        "Medicine",
+        "Humanities",
+        "Science"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1218,
+      "students": "~26,000",
+      "desc": "One of Europe's oldest universities and a living monument to scholarship, offering law, medicine and humanities at very low cost.",
+      "website": ""
+    },
+    {
+      "id": "ehu",
+      "name": "Universidad del País Vasco (EHU)",
+      "abbr": "EHU",
+      "color": "#007A7A",
+      "city": "Bilbao",
+      "type": "Public",
+      "tuition": "€750–1,300/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Medicine",
+        "Science",
+        "Law"
+      ],
+      "langs": [
+        "Spanish",
+        "Basque"
+      ],
+      "founded": 1968,
+      "students": "~45,000",
+      "desc": "The main public university of the Basque Country, renowned for bilingual education in Spanish and Basque and strong research output.",
+      "website": ""
+    },
+    {
+      "id": "deusto",
+      "name": "Universidad de Deusto",
+      "abbr": "UD",
+      "color": "#8B0000",
+      "city": "Bilbao",
+      "type": "Private",
+      "tuition": "€5,000–12,000/yr",
+      "ts": 3,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Law",
+        "Business",
+        "Engineering",
+        "Humanities"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1886,
+      "students": "~10,000",
+      "desc": "Prestigious Jesuit private university known for law, business and social sciences, with English-taught options and low-barrier entry.",
+      "website": ""
+    },
+    {
+      "id": "unizar",
+      "name": "Universidad de Zaragoza",
+      "abbr": "UNIZAR",
+      "color": "#8B1A1A",
+      "city": "Zaragoza",
+      "type": "Public",
+      "tuition": "€700–1,300/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Medicine",
+        "Law",
+        "Humanities"
+      ],
+      "langs": [
+        "Spanish"
+      ],
+      "founded": 1542,
+      "students": "~35,000",
+      "desc": "Aragon's flagship university with five centuries of history — respected throughout Spain for engineering, sciences and medicine at very affordable costs.",
+      "website": ""
+    },
+    {
+      "id": "uva",
+      "name": "Universidad de Valladolid",
+      "abbr": "UVA",
+      "color": "#002B80",
+      "city": "Valladolid",
+      "type": "Public",
+      "tuition": "€700–1,200/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Law",
+        "Business",
+        "Humanities"
+      ],
+      "langs": [
+        "Spanish"
+      ],
+      "founded": 1241,
+      "students": "~22,000",
+      "desc": "One of Spain's oldest universities — strong in engineering and science in one of Spain's most architecturally rich cities.",
+      "website": ""
+    },
+    {
+      "id": "uma",
+      "name": "Universidad de Málaga",
+      "abbr": "UMA",
+      "color": "#004B87",
+      "city": "Málaga",
+      "type": "Public",
+      "tuition": "€700–1,200/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Business",
+        "CS",
+        "Medicine",
+        "Law"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1972,
+      "students": "~37,000",
+      "desc": "A growing modern university on the Costa del Sol — increasingly recognised for CS and engineering in Spain's fastest-growing tech hub.",
+      "website": ""
+    },
+    {
+      "id": "ua",
+      "name": "Universidad de Alicante",
+      "abbr": "UA",
+      "color": "#E5007A",
+      "city": "Alicante",
+      "type": "Public",
+      "tuition": "€650–1,200/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Law",
+        "Business",
+        "Science",
+        "Engineering",
+        "Humanities"
+      ],
+      "langs": [
+        "Spanish",
+        "Catalan",
+        "English"
+      ],
+      "founded": 1979,
+      "students": "~27,000",
+      "desc": "Set on Spain's sunny Costa Blanca — one of Spain's most internationally diverse universities, popular with Erasmus students for its beach lifestyle and low costs.",
+      "website": ""
+    },
+    {
+      "id": "um",
+      "name": "Universidad de Murcia",
+      "abbr": "UMU",
+      "color": "#8B0000",
+      "city": "Murcia",
+      "type": "Public",
+      "tuition": "€700–1,200/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Business",
+        "Humanities"
+      ],
+      "langs": [
+        "Spanish"
+      ],
+      "founded": 1272,
+      "students": "~32,000",
+      "desc": "One of Spain's oldest public universities, strong in medicine, law and tourism studies in the warm agricultural city of Murcia.",
+      "website": ""
+    },
+    {
+      "id": "uniovi",
+      "name": "Universidad de Oviedo",
+      "abbr": "UniOvi",
+      "color": "#004B87",
+      "city": "Oviedo",
+      "type": "Public",
+      "tuition": "€700–1,200/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Engineering",
+        "Science",
+        "Law",
+        "Business"
+      ],
+      "langs": [
+        "Spanish"
+      ],
+      "founded": 1608,
+      "students": "~23,000",
+      "desc": "Asturias's public university with strengths in medicine, mining engineering and geology in the charming pre-Romanesque capital — gateway to Spain's green north.",
+      "website": ""
+    },
+    {
+      "id": "usc",
+      "name": "Universidad de Santiago de Compostela",
+      "abbr": "USC",
+      "color": "#6B0F1A",
+      "city": "Santiago de Compostela",
+      "type": "Public",
+      "tuition": "€700–1,200/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Humanities",
+        "Engineering"
+      ],
+      "langs": [
+        "Spanish",
+        "Galician"
+      ],
+      "founded": 1495,
+      "students": "~26,000",
+      "desc": "One of the world's most symbolic university cities — the Camino de Santiago ends at its cathedral. Strong in medicine and humanities with a magnificent Baroque campus.",
+      "website": ""
+    },
+    {
+      "id": "ull",
+      "name": "Universidad de La Laguna",
+      "abbr": "ULL",
+      "color": "#009A44",
+      "city": "La Laguna",
+      "type": "Public",
+      "tuition": "€700–1,200/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Science",
+        "Medicine",
+        "Law",
+        "Humanities",
+        "Engineering"
+      ],
+      "langs": [
+        "Spanish"
+      ],
+      "founded": 1792,
+      "students": "~23,000",
+      "desc": "Spain's oldest colonial university on Tenerife — near Mount Teide and world-class astrophysics observatories in an eternal spring climate on the Canary Islands.",
+      "website": ""
+    },
+    {
+      "id": "uca",
+      "name": "Universidad de Cádiz",
+      "abbr": "UCA",
+      "color": "#005691",
+      "city": "Cádiz",
+      "type": "Public",
+      "tuition": "€700–1,100/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Medicine",
+        "Engineering",
+        "Law",
+        "Science",
+        "Business"
+      ],
+      "langs": [
+        "Spanish"
+      ],
+      "founded": 1979,
+      "students": "~19,000",
+      "desc": "In one of Europe's oldest cities on the Atlantic coast — affordable and relaxed, with a strong focus on maritime engineering and marine biology.",
+      "website": "https://www.uca.es"
+    },
+    {
+      "id": "ucor",
+      "name": "Universidad de Córdoba",
+      "abbr": "UCO",
+      "color": "#6B4226",
+      "city": "Córdoba",
+      "type": "Public",
+      "tuition": "€700–1,100/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Science",
+        "Engineering",
+        "Medicine",
+        "Humanities",
+        "Business"
+      ],
+      "langs": [
+        "Spanish"
+      ],
+      "founded": 1972,
+      "students": "~18,000",
+      "desc": "In the stunning UNESCO World Heritage city of Córdoba — compact and affordable, with strengths in agriculture, veterinary science and environmental engineering.",
+      "website": "https://www.uco.es"
+    },
+    {
+      "id": "uex",
+      "name": "Universidad de Extremadura",
+      "abbr": "UEX",
+      "color": "#005F3C",
+      "city": "Badajoz",
+      "type": "Public",
+      "tuition": "€700–1,100/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Science",
+        "Engineering",
+        "Medicine",
+        "Humanities",
+        "Arts"
+      ],
+      "langs": [
+        "Spanish"
+      ],
+      "founded": 1973,
+      "students": "~23,000",
+      "desc": "Spain's most affordable university region — dual-campus across Badajoz and Cáceres, offering nursing, agriculture and fine arts at some of Spain's lowest fees.",
+      "website": "https://www.unex.es"
+    },
+    {
+      "id": "uclm",
+      "name": "Universidad de Castilla-La Mancha",
+      "abbr": "UCLM",
+      "color": "#A0001E",
+      "city": "Toledo",
+      "type": "Public",
+      "tuition": "€700–1,200/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Law",
+        "Business",
+        "Humanities"
+      ],
+      "langs": [
+        "Spanish"
+      ],
+      "founded": 1985,
+      "students": "~26,000",
+      "desc": "A multi-campus university spread across Don Quixote's La Mancha region with campuses in Toledo, Albacete, Cuenca and Ciudad Real.",
+      "website": "https://www.uclm.es/"
+    },
+    {
+      "id": "uc",
+      "name": "Universidad de Cantabria",
+      "abbr": "UC",
+      "color": "#003366",
+      "city": "Santander",
+      "type": "Public",
+      "tuition": "€700–1,200/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Medicine",
+        "Business",
+        "Humanities"
+      ],
+      "langs": [
+        "Spanish"
+      ],
+      "founded": 1972,
+      "students": "~12,000",
+      "desc": "Compact public university in the elegant Cantabrian capital of Santander — known for civil and industrial engineering, physics and an outdoor mountain-and-sea campus setting.",
+      "website": ""
+    },
+    {
+      "id": "urv",
+      "name": "Universitat Rovira i Virgili",
+      "abbr": "URV",
+      "color": "#CC0000",
+      "city": "Tarragona",
+      "type": "Public",
+      "tuition": "€700–1,400/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Business",
+        "Law",
+        "Humanities"
+      ],
+      "langs": [
+        "Spanish",
+        "Catalan"
+      ],
+      "founded": 1991,
+      "students": "~15,000",
+      "desc": "Catalonia's youngest public university in the Roman city of Tarragona — strong in chemical engineering, nutrition and oenology (wine science) in the Priorat wine country.",
+      "website": ""
+    },
+    {
+      "id": "udg",
+      "name": "Universitat de Girona",
+      "abbr": "UdG",
+      "color": "#003366",
+      "city": "Girona",
+      "type": "Public",
+      "tuition": "€700–1,400/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Engineering",
+        "Business",
+        "Humanities",
+        "Tourism"
+      ],
+      "langs": [
+        "Spanish",
+        "Catalan",
+        "English"
+      ],
+      "founded": 1991,
+      "students": "~16,000",
+      "desc": "In one of Catalonia's most beautiful medieval cities — Girona is internationally oriented, attracting students for tourism management and environmental science.",
+      "website": ""
+    },
+    {
+      "id": "uji",
+      "name": "Universitat Jaume I",
+      "abbr": "UJI",
+      "color": "#005691",
+      "city": "Castellón",
+      "type": "Public",
+      "tuition": "€700–1,300/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Business",
+        "CS",
+        "Law",
+        "Humanities"
+      ],
+      "langs": [
+        "Spanish",
+        "Catalan",
+        "English"
+      ],
+      "founded": 1991,
+      "students": "~14,000",
+      "desc": "A young, forward-thinking university on Valencia's northern coast — particularly strong in translation studies, CS and chemical engineering in a friendly, compact city.",
+      "website": ""
+    },
+    {
+      "id": "una",
+      "name": "Universidad de Navarra",
+      "abbr": "UNAV",
+      "color": "#A0001E",
+      "city": "Pamplona",
+      "type": "Private",
+      "tuition": "€8,000–14,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Business",
+        "Humanities",
+        "CS"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1952,
+      "students": "~12,000",
+      "desc": "Spain's most prestigious private university — consistently ranked #1 in Spain for medicine and law, with IESE Business School world-ranked for MBA programmes.",
+      "website": ""
+    },
+    {
+      "id": "comillas",
+      "name": "Universidad Pontificia Comillas",
+      "abbr": "COMILLAS",
+      "color": "#1A1A2E",
+      "city": "Madrid",
+      "type": "Private",
+      "tuition": "€8,000–18,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Law",
+        "Business",
+        "Humanities",
+        "CS"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1890,
+      "students": "~8,000",
+      "desc": "Elite Jesuit university in Madrid — the ICAI School of Engineering and ICADE Business & Law School are among the most prestigious and employer-valued in Spain.",
+      "website": ""
+    },
+    {
+      "id": "ceu",
+      "name": "Universidad CEU San Pablo",
+      "abbr": "CEU",
+      "color": "#003087",
+      "city": "Madrid",
+      "type": "Private",
+      "tuition": "€7,000–15,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Business",
+        "Humanities",
+        "Architecture"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1949,
+      "students": "~12,000",
+      "desc": "One of Madrid's leading private universities — highly regarded for medicine, architecture and journalism with a strong alumni network across Spanish business and public life.",
+      "website": ""
+    },
+    {
+      "id": "udc",
+      "name": "Universidad de A Coruña",
+      "abbr": "UDC",
+      "color": "#003366",
+      "city": "A Coruña",
+      "type": "Public",
+      "tuition": "€700–1,200/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Architecture",
+        "Law",
+        "Business",
+        "Science"
+      ],
+      "langs": [
+        "Spanish",
+        "Galician"
+      ],
+      "founded": 1989,
+      "students": "~19,000",
+      "desc": "Galicia's coastal public university — strong in naval and civil engineering, architecture and maritime studies in a charming Atlantic city.",
+      "website": ""
+    },
+    {
+      "id": "uvigo",
+      "name": "Universidad de Vigo",
+      "abbr": "UVIGO",
+      "color": "#005F3C",
+      "city": "Vigo",
+      "type": "Public",
+      "tuition": "€700–1,200/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Business",
+        "Law",
+        "Humanities"
+      ],
+      "langs": [
+        "Spanish",
+        "Galician"
+      ],
+      "founded": 1990,
+      "students": "~22,000",
+      "desc": "In Galicia's economic capital and Spain's largest fishing port — strong in marine biology, fisheries engineering and telecoms, and an ideal base for working across Portugal.",
+      "website": ""
+    },
+    {
+      "id": "uib",
+      "name": "Universitat de les Illes Balears",
+      "abbr": "UIB",
+      "color": "#009A44",
+      "city": "Palma",
+      "type": "Public",
+      "tuition": "€700–1,300/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Tourism",
+        "Science",
+        "Law",
+        "Business",
+        "Humanities"
+      ],
+      "langs": [
+        "Spanish",
+        "Catalan"
+      ],
+      "founded": 1978,
+      "students": "~12,000",
+      "desc": "Set in Palma, Mallorca — the only public university in the Balearic Islands, known for tourism management and environmental science in a Mediterranean island setting.",
+      "website": ""
+    },
+    {
+      "id": "ujaen",
+      "name": "Universidad de Jaén",
+      "abbr": "UJaen",
+      "color": "#C8600A",
+      "city": "Jaén",
+      "type": "Public",
+      "tuition": "€700–1,100/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Humanities",
+        "Business",
+        "Law"
+      ],
+      "langs": [
+        "Spanish"
+      ],
+      "founded": 1993,
+      "students": "~15,000",
+      "desc": "Amid the world's largest olive grove in the UNESCO landscape of Jaén province — strong in environmental engineering and olive oil technology, among the cheapest universities in Andalusia.",
+      "website": ""
+    },
+    {
+      "id": "ufv",
+      "name": "Universidad Francisco de Vitoria",
+      "abbr": "UFV",
+      "color": "#8B1A1A",
+      "city": "Madrid",
+      "type": "Private",
+      "tuition": "€8,000–14,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Law",
+        "Medicine",
+        "Humanities",
+        "CS"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1993,
+      "students": "~7,000",
+      "desc": "A modern Catholic private university on the outskirts of Madrid — growing quickly with English-taught degrees and strong networks in medicine, law and communication.",
+      "website": ""
+    },
+    {
+      "id": "unirioja",
+      "name": "Universidad de La Rioja",
+      "abbr": "UNIRIOJA",
+      "color": "#B31B1B",
+      "city": "Logroño",
+      "type": "Public",
+      "tuition": "€700–1,100/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Science",
+        "Engineering",
+        "Business",
+        "Humanities",
+        "Law"
+      ],
+      "langs": [
+        "Spanish"
+      ],
+      "founded": 1992,
+      "students": "~9,000",
+      "desc": "Spain's wine capital's own university — compact and affordable, with a surprising depth in food technology, oenology and engineering in the beautiful Rioja wine region.",
+      "website": "https://www.unirioja.es/"
+    },
+    {
+      "id": "upo",
+      "name": "Universidad Pablo de Olavide",
+      "abbr": "UPO",
+      "color": "#006A4E",
+      "city": "Sevilla",
+      "type": "Public",
+      "tuition": "€700–1,200/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Law",
+        "Business",
+        "Humanities",
+        "Social Science",
+        "Environmental Science"
+      ],
+      "langs": [
+        "Spanish"
+      ],
+      "founded": 1997,
+      "students": "~12,000",
+      "desc": "Andalusia's newest public university on the outskirts of Seville — innovative and compact, strong in social sciences and environmental studies.",
+      "website": "https://www.upo.es"
+    },
+    {
+      "id": "uned",
+      "name": "UNED (National Distance Education University)",
+      "abbr": "UNED",
+      "color": "#003366",
+      "city": "Madrid",
+      "type": "Public",
+      "tuition": "€500–900/yr",
+      "ts": 1,
+      "diff": 1,
+      "dl": "Open access",
+      "fields": [
+        "Law",
+        "Business",
+        "Humanities",
+        "Engineering",
+        "CS"
+      ],
+      "langs": [
+        "Spanish"
+      ],
+      "founded": 1972,
+      "students": "~200,000",
+      "desc": "Spain's largest university and Europe's second-largest, offering fully online degrees across all disciplines at the lowest tuition in Spain.",
+      "website": ""
+    },
+    {
+      "id": "ub2",
+      "name": "Universitat de Lleida",
+      "abbr": "UdL",
+      "color": "#8B1A1A",
+      "city": "Lleida",
+      "type": "Public",
+      "tuition": "€700–1,400/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Medicine",
+        "Engineering",
+        "Law",
+        "Business",
+        "Agriculture"
+      ],
+      "langs": [
+        "Spanish",
+        "Catalan"
+      ],
+      "founded": 1300,
+      "students": "~12,000",
+      "desc": "One of Catalonia's oldest institutions reborn in 1991 — strong in agri-food science, veterinary medicine and teacher training in the fertile Lleida plains.",
+      "website": "http://www.udl.cat/ca/"
+    },
+    {
+      "id": "uclm2",
+      "name": "Universidad Miguel Hernández",
+      "abbr": "UMH",
+      "color": "#E5007A",
+      "city": "Alicante",
+      "type": "Public",
+      "tuition": "€650–1,100/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Medicine",
+        "Engineering",
+        "Business",
+        "Law",
+        "Optics"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1996,
+      "students": "~15,000",
+      "desc": "A young, agile public university near the coast — notably strong in optics, biomedical engineering and fine arts in the sunny province of Alicante.",
+      "website": "https://www.umh.es"
+    },
+    {
+      "id": "ub3",
+      "name": "Universitat de Vic – UCC",
+      "abbr": "UVic",
+      "color": "#003DA5",
+      "city": "Barcelona",
+      "type": "Private",
+      "tuition": "€6,000–10,000/yr",
+      "ts": 3,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Medicine",
+        "Business",
+        "Education",
+        "Humanities",
+        "CS"
+      ],
+      "langs": [
+        "Spanish",
+        "Catalan",
+        "English"
+      ],
+      "founded": 1997,
+      "students": "~8,000",
+      "desc": "A small Catalan private university known for health sciences, teacher education and an intimate campus environment near Vic.",
+      "website": ""
+    },
+    {
+      "id": "ie2",
+      "name": "IESE Business School",
+      "abbr": "IESE",
+      "color": "#002060",
+      "city": "Barcelona",
+      "type": "Private",
+      "tuition": "€35,000–60,000/yr",
+      "ts": 5,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Business"
+      ],
+      "langs": [
+        "English",
+        "Spanish"
+      ],
+      "founded": 1958,
+      "students": "~2,000",
+      "desc": "Consistently ranked among the world's top 5 MBA programmes — IESE's case-method approach and alumni network span every continent.",
+      "website": ""
+    },
+    {
+      "id": "esic",
+      "name": "ESIC Business & Marketing School",
+      "abbr": "ESIC",
+      "color": "#CC0000",
+      "city": "Madrid",
+      "type": "Private",
+      "tuition": "€8,000–16,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Marketing",
+        "CS"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1965,
+      "students": "~15,000",
+      "desc": "Spain's leading specialist for business, marketing and e-commerce — popular with students seeking practical industry skills and strong placement networks.",
+      "website": ""
+    },
+    {
+      "id": "uah",
+      "name": "Universidad de Alcalá",
+      "abbr": "UAH",
+      "color": "#9B1B30",
+      "city": "Madrid",
+      "type": "Public",
+      "tuition": "€1,000–1,700/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Pharmacy",
+        "Law",
+        "Humanities",
+        "Engineering"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1293,
+      "students": "~24,000",
+      "desc": "One of Europe's oldest universities in the UNESCO World Heritage city of Alcalá — Cervantes' birthplace, with strong medicine and pharmacy programmes.",
+      "website": ""
+    },
+    {
+      "id": "uned2",
+      "name": "Universidad Rey Juan Carlos II",
+      "abbr": "URJC2",
+      "color": "#8B0000",
+      "city": "Madrid",
+      "type": "Public",
+      "tuition": "€900–1,600/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Communication",
+        "Business",
+        "Law",
+        "CS",
+        "Health Sciences"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1996,
+      "students": "~46,000",
+      "desc": "One of Madrid's largest public universities — known for communication, film and media degrees alongside business and law in a multi-campus setup.",
+      "website": ""
+    },
+    {
+      "id": "nebrija",
+      "name": "Universidad Nebrija",
+      "abbr": "Nebrija",
+      "color": "#003366",
+      "city": "Madrid",
+      "type": "Private",
+      "tuition": "€10,000–16,000/yr",
+      "ts": 4,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Law",
+        "Business",
+        "Engineering",
+        "CS",
+        "Linguistics"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1995,
+      "students": "~7,000",
+      "desc": "A modern private university in Madrid renowned for its aviation school, linguistics programmes and strong English-language business degrees.",
+      "website": ""
+    },
+    {
+      "id": "ucam",
+      "name": "Universidad Católica de Murcia",
+      "abbr": "UCAM",
+      "color": "#CC0000",
+      "city": "Murcia",
+      "type": "Private",
+      "tuition": "€5,000–10,000/yr",
+      "ts": 3,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Medicine",
+        "Sports Science",
+        "Business",
+        "Law",
+        "Nursing"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1996,
+      "students": "~18,000",
+      "desc": "A growing Catholic private university strong in sports science, physiotherapy and medicine — popular with student-athletes from across Europe.",
+      "website": ""
+    },
+    {
+      "id": "uniri",
+      "name": "Universidad Internacional de la Rioja",
+      "abbr": "UNIR",
+      "color": "#B31B1B",
+      "city": "Logroño",
+      "type": "Private",
+      "tuition": "€3,000–8,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Law",
+        "Business",
+        "Education",
+        "CS",
+        "Psychology"
+      ],
+      "langs": [
+        "Spanish"
+      ],
+      "founded": 2008,
+      "students": "~25,000",
+      "desc": "Spain's leading fully-online private university — flexible programmes designed for working professionals, with competitive fees and strong digital learning infrastructure.",
+      "website": ""
+    },
+    {
+      "id": "esb",
+      "name": "EAE Business School",
+      "abbr": "EAE",
+      "color": "#E5007A",
+      "city": "Barcelona",
+      "type": "Private",
+      "tuition": "€12,000–22,000/yr",
+      "ts": 4,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Marketing",
+        "Finance",
+        "CS"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1958,
+      "students": "~4,000",
+      "desc": "A prestigious private business school in Madrid and Barcelona delivering practical MBA and master's programmes with strong industry partnerships.",
+      "website": ""
+    },
+    {
+      "id": "uax",
+      "name": "Universidad Alfonso X El Sabio",
+      "abbr": "UAX",
+      "color": "#003087",
+      "city": "Madrid",
+      "type": "Private",
+      "tuition": "€7,000–14,000/yr",
+      "ts": 3,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Medicine",
+        "Architecture",
+        "Engineering",
+        "Business",
+        "Law"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1993,
+      "students": "~12,000",
+      "desc": "A private Madrid university named after Spain's scholar-king — known for medicine, architecture and engineering in a leafy campus.",
+      "website": ""
+    },
+    {
+      "id": "uvic2",
+      "name": "Universitat Ramon Llull",
+      "abbr": "URL",
+      "color": "#002060",
+      "city": "Barcelona",
+      "type": "Private",
+      "tuition": "€8,000–20,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Law",
+        "Engineering",
+        "Architecture",
+        "Humanities"
+      ],
+      "langs": [
+        "Spanish",
+        "Catalan",
+        "English"
+      ],
+      "founded": 1990,
+      "students": "~17,000",
+      "desc": "Barcelona's major private university federation — home to ESADE, La Salle and Blanquerna, offering elite business, law and communication programmes.",
+      "website": ""
+    },
+    {
+      "id": "usal2",
+      "name": "Universidad Pontificia de Salamanca",
+      "abbr": "UPSA",
+      "color": "#A0001E",
+      "city": "Salamanca",
+      "type": "Private",
+      "tuition": "€5,000–10,000/yr",
+      "ts": 3,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Theology",
+        "Law",
+        "Business",
+        "Communication",
+        "Psychology"
+      ],
+      "langs": [
+        "Spanish"
+      ],
+      "founded": 1134,
+      "students": "~8,000",
+      "desc": "One of Spain's oldest ecclesiastical universities — a living piece of medieval Salamanca offering theology, communication, law and psychology.",
+      "website": ""
+    },
+    {
+      "id": "esne",
+      "name": "ESNE – Universidad de Diseño",
+      "abbr": "ESNE",
+      "color": "#CC0000",
+      "city": "Madrid",
+      "type": "Private",
+      "tuition": "€9,000–13,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Architecture",
+        "Arts",
+        "CS",
+        "Business"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1989,
+      "students": "~3,000",
+      "desc": "Spain's leading design and creativity university — top-ranked for animation, graphic design, UX/UI and fashion design, with campuses in Madrid and Barcelona.",
+      "website": ""
+    },
+    {
+      "id": "eu",
+      "name": "EU Business School",
+      "abbr": "EU",
+      "color": "#003DA5",
+      "city": "Barcelona",
+      "type": "Private",
+      "tuition": "€14,000–22,000/yr",
+      "ts": 4,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Hospitality",
+        "Sports Management"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1973,
+      "students": "~3,000",
+      "desc": "An international English-only private business school with campuses in Barcelona, Madrid, Geneva and Munich — popular with international students.",
+      "website": "https://www.euruni.edu"
+    },
+    {
+      "id": "unia",
+      "name": "Universidad Internacional de Andalucía",
+      "abbr": "UNIA",
+      "color": "#006A4E",
+      "city": "Sevilla",
+      "type": "Public",
+      "tuition": "€600–1,200/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Humanities",
+        "Social Science",
+        "Business",
+        "Law"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1994,
+      "students": "~3,500",
+      "desc": "Andalusia's public international university — specialising in postgraduate and continuing education across four Andalusian campuses with an emphasis on innovation.",
+      "website": "https://www.unia.es"
+    },
+    {
+      "id": "ulpgc",
+      "name": "Universidad de Las Palmas de Gran Canaria",
+      "abbr": "ULPGC",
+      "color": "#009A44",
+      "city": "Las Palmas",
+      "type": "Public",
+      "tuition": "€700–1,200/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Medicine",
+        "Business",
+        "Science",
+        "Tourism"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1989,
+      "students": "~22,000",
+      "desc": "The Canary Islands' Atlantic university — known for marine sciences, tourism management and engineering in an island setting with year-round sunshine.",
+      "website": "https://www.ulpgc.es/"
+    },
+    {
+      "id": "unirioja2",
+      "name": "Universidad CEU Cardenal Herrera",
+      "abbr": "CEU-CH",
+      "color": "#E5007A",
+      "city": "Valencia",
+      "type": "Private",
+      "tuition": "€6,000–12,000/yr",
+      "ts": 3,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Medicine",
+        "Dentistry",
+        "Law",
+        "Business",
+        "Architecture"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1999,
+      "students": "~10,000",
+      "desc": "The CEU group's Valencia campus — particularly strong in health sciences with a renowned dentistry school and competitive medicine programme.",
+      "website": "https://www.uchceu.es"
+    },
+    {
+      "id": "ub4",
+      "name": "Universitat Internacional de Catalunya",
+      "abbr": "UIC",
+      "color": "#005691",
+      "city": "Barcelona",
+      "type": "Private",
+      "tuition": "€8,000–16,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Architecture",
+        "Law",
+        "Business",
+        "Engineering"
+      ],
+      "langs": [
+        "Spanish",
+        "Catalan",
+        "English"
+      ],
+      "founded": 1997,
+      "students": "~6,000",
+      "desc": "A small private Catalan university delivering premium medicine, architecture and business programmes in a modern Barcelona campus.",
+      "website": ""
+    },
+    {
+      "id": "uam2",
+      "name": "Universitat Abat Oliba CEU",
+      "abbr": "UAO",
+      "color": "#8B1A1A",
+      "city": "Barcelona",
+      "type": "Private",
+      "tuition": "€8,000–14,000/yr",
+      "ts": 3,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Law",
+        "Business",
+        "Communication",
+        "Humanities",
+        "Psychology"
+      ],
+      "langs": [
+        "Spanish",
+        "Catalan"
+      ],
+      "founded": 2003,
+      "students": "~4,000",
+      "desc": "A small Catholic private university in Barcelona known for its close-knit community and strong placement rates in law and communication.",
+      "website": ""
+    },
+    {
+      "id": "mondragon",
+      "name": "Universidad de Mondragón",
+      "abbr": "MU",
+      "color": "#007A7A",
+      "city": "Bilbao",
+      "type": "Private",
+      "tuition": "€5,000–10,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Humanities",
+        "Education",
+        "CS"
+      ],
+      "langs": [
+        "Spanish",
+        "Basque",
+        "English"
+      ],
+      "founded": 1997,
+      "students": "~6,000",
+      "desc": "A cooperative university rooted in the Basque cooperative movement — internationally recognised for its participatory business model and innovative engineering programmes.",
+      "website": ""
+    },
+    {
+      "id": "uji2",
+      "name": "Universitat de les Illes Balears 2",
+      "abbr": "UIB2",
+      "color": "#CC2529",
+      "city": "Palma",
+      "type": "Public",
+      "tuition": "€700–1,300/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Tourism",
+        "Science",
+        "Humanities",
+        "Education",
+        "Law"
+      ],
+      "langs": [
+        "Spanish",
+        "Catalan"
+      ],
+      "founded": 1978,
+      "students": "~12,500",
+      "desc": "The Balearic Islands' main public university — strong in tourism, environmental science and teacher training in a Mediterranean island paradise.",
+      "website": ""
+    },
+    {
+      "id": "uib2",
+      "name": "IE Law School",
+      "abbr": "IELW",
+      "color": "#1A1A2E",
+      "city": "Madrid",
+      "type": "Private",
+      "tuition": "€20,000–35,000/yr",
+      "ts": 5,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Law"
+      ],
+      "langs": [
+        "English",
+        "Spanish"
+      ],
+      "founded": 2002,
+      "students": "~1,500",
+      "desc": "IE University's elite law school — offering LLM and JD programmes entirely in English, with an alumni network spanning international law firms on six continents.",
+      "website": ""
+    },
+    {
+      "id": "upna",
+      "name": "Universidad Pública de Navarra",
+      "abbr": "UPNA",
+      "color": "#8B0000",
+      "city": "Pamplona",
+      "type": "Public",
+      "tuition": "€800–1,400/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Law",
+        "Science",
+        "Agriculture"
+      ],
+      "langs": [
+        "Spanish",
+        "Basque"
+      ],
+      "founded": 1987,
+      "students": "~10,000",
+      "desc": "Navarra's public university — practical and modern, with strong links to the regional agri-food industry and a growing CS and engineering faculty.",
+      "website": ""
+    },
+    {
+      "id": "ual",
+      "name": "Universidad de Almería",
+      "abbr": "UAL",
+      "color": "#C8600A",
+      "city": "Almería",
+      "type": "Public",
+      "tuition": "€700–1,100/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Science",
+        "Engineering",
+        "Business",
+        "Humanities",
+        "Law"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1993,
+      "students": "~15,000",
+      "desc": "Andalusia's sunniest university city on the Mediterranean coast — strong in agriculture, biotechnology and environmental engineering with very affordable fees.",
+      "website": ""
+    },
+    {
+      "id": "uhuelva",
+      "name": "Universidad de Huelva",
+      "abbr": "UHU",
+      "color": "#CC0000",
+      "city": "Huelva",
+      "type": "Public",
+      "tuition": "€700–1,100/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Science",
+        "Engineering",
+        "Business",
+        "Law",
+        "Humanities"
+      ],
+      "langs": [
+        "Spanish"
+      ],
+      "founded": 1993,
+      "students": "~12,000",
+      "desc": "Andalusia's Atlantic coast university — strong in mining, energy and environmental sciences near the Doñana National Park.",
+      "website": ""
+    },
+    {
+      "id": "uburgos",
+      "name": "Universidad de Burgos",
+      "abbr": "UBU",
+      "color": "#003366",
+      "city": "Burgos",
+      "type": "Public",
+      "tuition": "€700–1,200/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Business",
+        "Law",
+        "Humanities"
+      ],
+      "langs": [
+        "Spanish"
+      ],
+      "founded": 1994,
+      "students": "~10,000",
+      "desc": "A young public university in the Camino de Santiago city of Burgos — strong in food technology, engineering and economics with affordable living costs.",
+      "website": ""
+    },
+    {
+      "id": "uab2",
+      "name": "Universidad de Alcalá 2",
+      "abbr": "UCLM3",
+      "color": "#005691",
+      "city": "Toledo",
+      "type": "Public",
+      "tuition": "€700–1,200/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Tourism",
+        "Humanities",
+        "Business",
+        "Engineering",
+        "Science"
+      ],
+      "langs": [
+        "Spanish"
+      ],
+      "founded": 1994,
+      "students": "~10,500",
+      "desc": "Castile-La Mancha's multi-campus university in Toledo — a UNESCO World Heritage city, offering an eclectic mix of humanities, tourism and engineering.",
+      "website": ""
+    },
+    {
+      "id": "ub5",
+      "name": "Universitat Oberta de Catalunya",
+      "abbr": "UOC",
+      "color": "#CC2529",
+      "city": "Barcelona",
+      "type": "Public",
+      "tuition": "€900–2,500/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "CS",
+        "Business",
+        "Law",
+        "Humanities",
+        "Engineering"
+      ],
+      "langs": [
+        "Spanish",
+        "Catalan",
+        "English"
+      ],
+      "founded": 1994,
+      "students": "~75,000",
+      "desc": "Catalonia's fully-online public university — the most internationally recognised distance-learning institution in the Spanish-speaking world, with an entirely digital campus.",
+      "website": ""
+    },
+    {
+      "id": "usc2",
+      "name": "IQS Universitat Ramon Llull",
+      "abbr": "IQS",
+      "color": "#003DA5",
+      "city": "Barcelona",
+      "type": "Private",
+      "tuition": "€10,000–18,000/yr",
+      "ts": 4,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Business",
+        "Pharmacy"
+      ],
+      "langs": [
+        "Spanish",
+        "Catalan",
+        "English"
+      ],
+      "founded": 1905,
+      "students": "~3,000",
+      "desc": "A specialist Jesuit technical university for chemistry, engineering and management — IQS graduates are among Spain's most sought-after by multinational companies.",
+      "website": ""
+    },
+    {
+      "id": "unav2",
+      "name": "Blanquerna – Universitat Ramon Llull",
+      "abbr": "BLAN",
+      "color": "#005F3C",
+      "city": "Barcelona",
+      "type": "Private",
+      "tuition": "€8,000–14,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Communication",
+        "Psychology",
+        "Health Sciences",
+        "Law",
+        "Education"
+      ],
+      "langs": [
+        "Spanish",
+        "Catalan"
+      ],
+      "founded": 1990,
+      "students": "~5,000",
+      "desc": "Barcelona's leading private school for communication, journalism and health sciences — Blanquerna graduates are the backbone of Catalan media.",
+      "website": ""
+    },
+    {
+      "id": "uvig2",
+      "name": "Escola Superior de Disseny – ESDi",
+      "abbr": "ESDi",
+      "color": "#CC0000",
+      "city": "Barcelona",
+      "type": "Private",
+      "tuition": "€8,500–13,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Arts",
+        "Architecture",
+        "CS"
+      ],
+      "langs": [
+        "Spanish",
+        "Catalan",
+        "English"
+      ],
+      "founded": 1995,
+      "students": "~2,000",
+      "desc": "Barcelona's specialist design university — top-ranked for industrial design, interior design and digital communication in the creative capital of southern Europe.",
+      "website": ""
+    },
+    {
+      "id": "ceu3",
+      "name": "Universidad San Jorge",
+      "abbr": "USJ",
+      "color": "#8B1A1A",
+      "city": "Zaragoza",
+      "type": "Private",
+      "tuition": "€6,000–12,000/yr",
+      "ts": 3,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Communication",
+        "Medicine",
+        "Architecture",
+        "Business",
+        "Law"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 2005,
+      "students": "~4,000",
+      "desc": "Aragon's private university focused on communication sciences, health sciences and architecture in a modern campus in Zaragoza.",
+      "website": "https://www.usj.es/"
+    },
+    {
+      "id": "uam3",
+      "name": "Universidad Europea de Madrid",
+      "abbr": "UEM",
+      "color": "#003087",
+      "city": "Madrid",
+      "type": "Private",
+      "tuition": "€9,000–18,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Engineering",
+        "Business",
+        "Law",
+        "Architecture"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1989,
+      "students": "~20,000",
+      "desc": "One of Madrid's largest private universities — offering medicine, engineering and business with a strong sports-and-health focus and English bilingual tracks.",
+      "website": "https://universidadeuropea.com/"
+    },
+    {
+      "id": "uf",
+      "name": "Universidad Francisco de Vitoria 2",
+      "abbr": "UFV2",
+      "color": "#003DA5",
+      "city": "Madrid",
+      "type": "Private",
+      "tuition": "€8,000–14,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Law",
+        "Medicine",
+        "Communication",
+        "Humanities"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1993,
+      "students": "~7,000",
+      "desc": "A humanist private university that integrates ethics and leadership into all degree programmes — popular with students seeking a values-driven education.",
+      "website": ""
+    },
+    {
+      "id": "uic2",
+      "name": "CUNEF Universidad",
+      "abbr": "CUNEF",
+      "color": "#002060",
+      "city": "Madrid",
+      "type": "Private",
+      "tuition": "€10,000–16,000/yr",
+      "ts": 4,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Business",
+        "Law",
+        "Finance",
+        "Economics"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1973,
+      "students": "~4,000",
+      "desc": "Madrid's elite private school for business and law — consistently producing the most sought-after graduates in Spanish investment banking and commercial law.",
+      "website": "https://www.cunef.edu/"
+    },
+    {
+      "id": "uclm4",
+      "name": "Universidad de Castilla-La Mancha (Ciudad Real)",
+      "abbr": "UCLM2",
+      "color": "#A0001E",
+      "city": "Ciudad Real",
+      "type": "Public",
+      "tuition": "€700–1,200/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Business",
+        "Humanities",
+        "Law"
+      ],
+      "langs": [
+        "Spanish"
+      ],
+      "founded": 1985,
+      "students": "~8,000",
+      "desc": "One of UCLM's main campuses in Don Quijote country — practical engineering, environmental science and social work degrees at Spain's most affordable tuition.",
+      "website": ""
+    },
+    {
+      "id": "uvic3",
+      "name": "Universitat de Barcelona – IL3",
+      "abbr": "IL3",
+      "color": "#005691",
+      "city": "Barcelona",
+      "type": "Public",
+      "tuition": "€1,500–4,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Humanities",
+        "CS",
+        "Education",
+        "Law"
+      ],
+      "langs": [
+        "Spanish",
+        "Catalan"
+      ],
+      "founded": 1995,
+      "students": "~12,000",
+      "desc": "UB's lifelong learning institute offering continuing education, master's programmes and professional certificates for working adults.",
+      "website": ""
+    },
+    {
+      "id": "ub6",
+      "name": "ELISAVA – Escola Superior de Disseny",
+      "abbr": "ELISA",
+      "color": "#CC2529",
+      "city": "Barcelona",
+      "type": "Private",
+      "tuition": "€10,000–14,000/yr",
+      "ts": 4,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Architecture",
+        "Arts",
+        "Engineering"
+      ],
+      "langs": [
+        "Spanish",
+        "Catalan",
+        "English"
+      ],
+      "founded": 1961,
+      "students": "~2,500",
+      "desc": "Barcelona's oldest and most prestigious design and engineering school — known for product design, interaction design and collaborative creative projects.",
+      "website": ""
+    },
+    {
+      "id": "ub7",
+      "name": "BAU – Escola Superior de Disseny",
+      "abbr": "BAU",
+      "color": "#003DA5",
+      "city": "Barcelona",
+      "type": "Private",
+      "tuition": "€9,000–13,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Arts",
+        "Architecture",
+        "Humanities"
+      ],
+      "langs": [
+        "Spanish",
+        "Catalan",
+        "English"
+      ],
+      "founded": 1985,
+      "students": "~2,000",
+      "desc": "A creative private design school in Barcelona offering degrees in graphic design, art direction and fashion — internationally recognised for its vibrant student projects.",
+      "website": ""
+    },
+    {
+      "id": "uib3",
+      "name": "ESERP Business & Law School",
+      "abbr": "ESERP",
+      "color": "#8B0000",
+      "city": "Barcelona",
+      "type": "Private",
+      "tuition": "€8,000–14,000/yr",
+      "ts": 3,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Law",
+        "CS"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1978,
+      "students": "~3,000",
+      "desc": "A practical private school for business and law in Barcelona and Madrid — known for its hands-on curriculum and strong graduate placement rates.",
+      "website": ""
+    },
+    {
+      "id": "usal3",
+      "name": "Universidad de Navarra – Tecnun",
+      "abbr": "TECNUN",
+      "color": "#A0001E",
+      "city": "Pamplona",
+      "type": "Private",
+      "tuition": "€9,000–14,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Architecture"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1960,
+      "students": "~3,000",
+      "desc": "The engineering campus of the University of Navarra — consistently ranked Spain's best engineering school, particularly strong in industrial and biomedical engineering.",
+      "website": ""
+    },
+    {
+      "id": "uvic4",
+      "name": "Centro Universitario de Tecnología y Arte Digital – U-tad",
+      "abbr": "U-tad",
+      "color": "#003366",
+      "city": "Madrid",
+      "type": "Private",
+      "tuition": "€10,000–16,000/yr",
+      "ts": 4,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "CS",
+        "Arts",
+        "Engineering"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 2009,
+      "students": "~2,000",
+      "desc": "Spain's most specialised school for video game development, animation and digital arts — producing graduates who work for EA, Ubisoft and Netflix.",
+      "website": ""
+    },
+    {
+      "id": "upo2",
+      "name": "Universidad de Deusto – San Sebastián",
+      "abbr": "UDSS",
+      "color": "#8B0000",
+      "city": "Bilbao",
+      "type": "Private",
+      "tuition": "€6,000–12,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Law",
+        "Business",
+        "Humanities",
+        "Psychology",
+        "Tourism"
+      ],
+      "langs": [
+        "Spanish",
+        "Basque",
+        "English"
+      ],
+      "founded": 1886,
+      "students": "~5,000",
+      "desc": "Deusto's San Sebastián campus in the heart of the Basque gourmet capital — known for law, psychology and tourism management.",
+      "website": ""
+    },
+    {
+      "id": "uex2",
+      "name": "Universidad de Huelva – Campus del Carmen",
+      "abbr": "UHU2",
+      "color": "#005F3C",
+      "city": "Huelva",
+      "type": "Public",
+      "tuition": "€700–1,100/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Science",
+        "Business",
+        "Education",
+        "Engineering",
+        "Law"
+      ],
+      "langs": [
+        "Spanish"
+      ],
+      "founded": 1993,
+      "students": "~7,000",
+      "desc": "Huelva's second campus specialising in maritime engineering, primary education and social work on Spain's less-visited Atlantic coast.",
+      "website": ""
+    },
+    {
+      "id": "umal",
+      "name": "Universidad de Málaga – Campus Teatinos",
+      "abbr": "UMA2",
+      "color": "#004B87",
+      "city": "Málaga",
+      "type": "Public",
+      "tuition": "€700–1,200/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "CS",
+        "Engineering",
+        "Business",
+        "Tourism",
+        "Science"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1972,
+      "students": "~15,000",
+      "desc": "UMA's main science and technology campus — growing rapidly as Málaga becomes Spain's Silicon Coast, with a booming CS and data science department.",
+      "website": ""
+    },
+    {
+      "id": "iese2",
+      "name": "ICADE – Universidad Pontificia Comillas",
+      "abbr": "ICADE",
+      "color": "#1A1A2E",
+      "city": "Madrid",
+      "type": "Private",
+      "tuition": "€10,000–20,000/yr",
+      "ts": 4,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Law",
+        "Business",
+        "Engineering"
+      ],
+      "langs": [
+        "Spanish",
+        "English"
+      ],
+      "founded": 1956,
+      "students": "~6,000",
+      "desc": "Comillas's acclaimed law and business faculty — ICADE E-1 (business + law double degree) is the most prestigious combined qualification in Spain's corporate world.",
+      "website": ""
+    }
+  ],
+  "cities": {
+    "Madrid": {
+      "region": "Community of Madrid",
+      "pop": "3.4 million",
+      "climate": "Semi-arid continental",
+      "cost": "€900–1,400/mo",
+      "desc": "Spain's pulsating capital is where culture, politics, and youth collide. Three world-class universities, 50+ museums, and a nightlife scene that never stops make Madrid one of Europe's top student destinations.",
+      "highlights": [
+        "Prado Museum — world's finest collection of Spanish painting",
+        "Retiro Park — 350-acre green lung in the city centre",
+        "Malasaña — bohemian student neighbourhood full of indie bars",
+        "Gran Vía — Madrid's Broadway: theatres, shops and buzz",
+        "Mercado de San Miguel — best tapas market in Spain"
+      ],
+      "studentLife": "Madrid is home to over 200,000 students. The Erasmus community is one of the largest in Europe, accommodation costs €450–800/month for a room, and the city genuinely embraces young people.",
+      "transport": "13-line Metro, EMT buses, and Cercanías suburban trains. A young person's monthly travel pass costs just €20 for under-26 — the cheapest in any European capital.",
+      "nightlife": "Malasaña for indie bars and live music, Huertas for cocktail lounges, Lavapiés for multicultural late-night spots. Clubs open at 2 AM and run until 7 AM.",
+      "pros": [
+        "Best job market in all of Spain",
+        "Largest student community in the country",
+        "Cheapest monthly transit in any European capital",
+        "Museums, galleries & cultural events every weekend"
+      ],
+      "tags": [
+        "Capital",
+        "Cosmopolitan",
+        "Museums",
+        "Nightlife"
+      ]
+    },
+    "Barcelona": {
+      "region": "Catalonia",
+      "pop": "1.7 million",
+      "climate": "Mediterranean",
+      "cost": "€950–1,500/mo",
+      "desc": "Europe's most visually stunning city offers Gaudí masterpieces, a working Mediterranean beach, and a startup ecosystem second only to London in Southern Europe. Barcelona is bilingual — Spanish and Catalan — and internationally minded.",
+      "highlights": [
+        "Sagrada Família — Gaudí's unfinished 140-year masterpiece",
+        "Gothic Quarter — 2,000 years of layered history",
+        "Barceloneta Beach — the city's sandy backyard",
+        "Park Güell — Gaudí's mosaic hilltop garden",
+        "Palau de la Música — UNESCO-listed concert hall"
+      ],
+      "studentLife": "Barcelona has 7 universities and over 120,000 students. Gràcia and El Raval are the go-to student neighbourhoods. Many programmes are offered in English.",
+      "transport": "TMB Metro (12 lines), buses, FGC trains and a Bicing bike-share. A T-Jove 3-month travel pass costs around €40.",
+      "nightlife": "Barceloneta clubs right by the sea, Rambla del Poblenou for alternative bars, Eixample for rooftop cocktail terraces. Barcelona's nights end at 6 AM.",
+      "pros": [
+        "Mediterranean beach 20 min from university",
+        "Strong English-taught degree programmes",
+        "Top EU hub for tech startups & design studios",
+        "Gaudí architecture is genuinely all around you"
+      ],
+      "tags": [
+        "Beach",
+        "Architecture",
+        "Startup hub",
+        "Bilingual"
+      ]
+    },
+    "Valencia": {
+      "region": "Valencian Community",
+      "pop": "810,000",
+      "climate": "Warm Mediterranean",
+      "cost": "€700–1,100/mo",
+      "desc": "Valencia is Spain's underrated gem — 300 sunny days per year, an awe-inspiring City of Arts & Sciences, a booming tech scene, and a food culture built around the original paella. Significantly cheaper than Madrid or Barcelona.",
+      "highlights": [
+        "City of Arts & Sciences — futuristic architecture complex",
+        "Turia Gardens — 9km of park built inside a former river bed",
+        "Mercado Central — one of Europe's most beautiful indoor markets",
+        "Malvarrosa Beach — 3km of sandy beach reachable by bike",
+        "Barrio del Carmen — bohemian historic quarter"
+      ],
+      "studentLife": "Home to UPV and Universitat de València — combined student population of ~100,000. Russafa is Valencia's creative student area. Bikes are everywhere.",
+      "transport": "City bus network and exceptional cycling infrastructure. Valenbisi bike-share (€25/year). Monthly bus pass: €25. Valencia is the best cycling city in Spain.",
+      "nightlife": "Ruzafa neighbourhood for craft cocktail bars and indie concerts. Marina district for summer clubs. Quieter and more relaxed than Madrid.",
+      "pros": [
+        "Most affordable of Spain's top student cities",
+        "Best cycling infrastructure in the country",
+        "300 sunny days and a proper beach",
+        "Home of paella, horchata, and Las Fallas festival"
+      ],
+      "tags": [
+        "Coastal",
+        "Affordable",
+        "Paella",
+        "Warm climate"
+      ]
+    },
+    "Sevilla": {
+      "region": "Andalusia",
+      "pop": "685,000",
+      "climate": "Hot semi-arid",
+      "cost": "€650–1,000/mo",
+      "desc": "Sevilla is Spain distilled into one city — flamenco, intricate Moorish architecture, Holy Week processions, and the deepest gastronomy culture in the country. Consistently ranked one of Europe's top Erasmus destinations.",
+      "highlights": [
+        "Real Alcázar — breathtaking Moorish royal palace",
+        "La Giralda — iconic bell tower with panoramic city views",
+        "Barrio Santa Cruz — medieval Jewish quarter of winding alleys",
+        "Triana — the soul of flamenco, across the Guadalquivir river",
+        "Parque de María Luisa — romantic riverside park"
+      ],
+      "studentLife": "The University of Sevilla has 70,000+ students. Social life revolves around outdoor terraces and Friday tapas bars. Triana is the hub for Erasmus students. Rent: €300–500/month.",
+      "transport": "Extensive bus network, a tram line, and excellent cycling paths along the river. Monthly travel pass: ~€35.",
+      "nightlife": "La Alameda de Hércules for outdoor bars, Triana for authentic flamenco tablaos, Calle Betis along the Guadalquivir for magical summer evenings.",
+      "pros": [
+        "Richest Moorish and Spanish heritage in Europe",
+        "Cheapest rent among Spain's major cities",
+        "Extraordinary food, flamenco, and festival culture",
+        "Strong Erasmus community and very welcoming locals"
+      ],
+      "tags": [
+        "Flamenco",
+        "History",
+        "Hot summers",
+        "Affordable"
+      ]
+    },
+    "Granada": {
+      "region": "Andalusia",
+      "pop": "232,000",
+      "climate": "Continental Mediterranean",
+      "cost": "€600–900/mo",
+      "desc": "Granada is a compact, passionate city where one of the world's greatest palaces — the Alhambra — watches over flamenco cave bars and a university that produces more students per capita than almost anywhere else in Spain. The free-tapas-with-every-drink culture is real.",
+      "highlights": [
+        "Alhambra Palace & Generalife — UNESCO World Heritage",
+        "Albaicín district — Moorish hilltop neighbourhood",
+        "Free tapas bars — every drink comes with a free tapa. Always.",
+        "Sierra Nevada — Spain's top ski resort, 45 minutes by bus",
+        "Sacromonte caves — authentic flamenco in hillside venues"
+      ],
+      "studentLife": "The University of Granada has 55,000 students in a city of 232,000 — a 1:4 ratio. Life is affordable, social, and centred around plazas and tapas bars.",
+      "transport": "Compact enough to walk or cycle almost everywhere. City buses cover the hillside neighbourhoods. Direct bus to the Sierra Nevada ski resort in winter.",
+      "nightlife": "The Albaicín for cave flamenco venues. Calle Pedro Antonio for student bars. Calle Elvira for mixed crowds. The tapas culture means evenings turn into long social adventures.",
+      "pros": [
+        "Cheapest city on this entire list",
+        "Highest student-to-resident ratio in Spain",
+        "Free tapas with every single drink",
+        "Ski resort 45 min away, beach 1h from the city"
+      ],
+      "tags": [
+        "Student city",
+        "Alhambra",
+        "Cheap",
+        "Mountains"
+      ]
+    },
+    "Bilbao": {
+      "region": "Basque Country",
+      "pop": "346,000",
+      "climate": "Oceanic",
+      "cost": "€800–1,200/mo",
+      "desc": "Bilbao is Europe's greatest urban regeneration story. Once an industrial port city, today it's a world-class cultural destination. Expect serious rain, exceptional food (pintxos are a way of life), and a fierce, proud Basque identity.",
+      "highlights": [
+        "Guggenheim Museum Bilbao — Frank Gehry's titanium masterpiece",
+        "Casco Viejo (Siete Calles) — the vibrant old town with pintxos bars",
+        "Mercado de la Ribera — Europe's largest covered food market",
+        "San Mamés Stadium — Athletic Club's iconic cathedral of football",
+        "Nervión Riverfront — the regenerated waterfront walkway"
+      ],
+      "studentLife": "The University of the Basque Country (EHU/UPV) is a major research university. Bilbao's compact size (everything is walkable) and low crime rate make it ideal for students.",
+      "transport": "Efficient 2-line Metro, tram, and Bilbobus network. Most of the city is walkable. The Bilbao Card offers unlimited transport plus museum discounts.",
+      "nightlife": "The Casco Viejo's Siete Calles for pintxos bar-hopping (txikiteo). Pozas street and Ledesma for late bars. A smaller club scene but rich live music culture.",
+      "pros": [
+        "World-class architecture, design and food culture",
+        "Genuinely the best gastronomy in all of Spain",
+        "Very safe, compact and walkable for students",
+        "Strong research universities with international links"
+      ],
+      "tags": [
+        "Guggenheim",
+        "Pintxos",
+        "Basque culture",
+        "Rainy"
+      ]
+    },
+    "Salamanca": {
+      "region": "Castile and León",
+      "pop": "143,000",
+      "climate": "Continental semi-arid",
+      "cost": "€550–850/mo",
+      "desc": "Salamanca is the original university city. Founded in 1218, the University of Salamanca is one of the four oldest universities in the world. The entire city centre — built in golden sandstone — is a UNESCO World Heritage Site.",
+      "highlights": [
+        "University of Salamanca façade — intricate Plateresque stonework from 1529",
+        "Plaza Mayor — widely considered the most beautiful square in Spain",
+        "Catedral Nueva & Vieja — two cathedrals in one building complex",
+        "Casa de las Conchas — shell-covered 15th century palace",
+        "The Frog on the Façade — find it for good luck on your exams!"
+      ],
+      "studentLife": "26,000 university students in a city of 143,000. Plaza Mayor is the social centre of everything. Famous as the top destination for learning Castilian Spanish.",
+      "transport": "Small enough to walk everywhere — the old town is pedestrianised and compact. Direct trains to Madrid (1h 30min AVE high-speed) and Valladolid.",
+      "nightlife": "Gran Vía de Salamanca for bars, Calle Prior for clubs, Plaza Mayor terraces in summer. The student population means the city has a lively nightlife far beyond its size.",
+      "pros": [
+        "Cheapest city on the entire list by a significant margin",
+        "Most historic university in Spain (founded 1218)",
+        "Entire city centre is UNESCO World Heritage",
+        "Best place in the world to learn authentic Castilian Spanish"
+      ],
+      "tags": [
+        "Oldest uni",
+        "UNESCO",
+        "Student city",
+        "Budget"
+      ]
+    }
+  },
+  "cityCards": [
+    {
+      "city": "Madrid",
+      "region": "Community of Madrid",
+      "gradient": "linear-gradient(135deg,#c0392b,#e67e22)",
+      "icon": "fa-solid fa-landmark",
+      "desc": "Spain's vibrant capital — world-class museums, buzzing nightlife, and the country's best job market.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-sun"
+      ],
+      "stats": [
+        "3.4 million residents",
+        "€900–1,400/mo student cost",
+        "Semi-arid continental"
+      ],
+      "tags": [
+        "Capital",
+        "Cosmopolitan",
+        "Museums",
+        "Nightlife"
+      ]
+    },
+    {
+      "city": "Barcelona",
+      "region": "Catalonia",
+      "gradient": "linear-gradient(135deg,#1565c0,#0097a7)",
+      "icon": "fa-solid fa-umbrella-beach",
+      "desc": "Europe's most creative city — Gaudí architecture, beach life and a thriving startup scene.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-water"
+      ],
+      "stats": [
+        "1.7 million residents",
+        "€950–1,500/mo student cost",
+        "Mediterranean"
+      ],
+      "tags": [
+        "Beach",
+        "Architecture",
+        "Startup hub",
+        "Bilingual"
+      ]
+    },
+    {
+      "city": "Valencia",
+      "region": "Valencian Community",
+      "gradient": "linear-gradient(135deg,#e65100,#f9a825)",
+      "icon": "fa-solid fa-leaf",
+      "desc": "Home of paella and sunshine — Valencia balances culture and coastal life at very affordable prices.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-sun"
+      ],
+      "stats": [
+        "810,000 residents",
+        "€700–1,100/mo student cost",
+        "Mediterranean"
+      ],
+      "tags": [
+        "Coastal",
+        "Affordable",
+        "Paella",
+        "Warm climate"
+      ]
+    },
+    {
+      "city": "Sevilla",
+      "region": "Andalusia",
+      "gradient": "linear-gradient(135deg,#ad1457,#e53935)",
+      "icon": "fa-solid fa-fan",
+      "desc": "Flamenco, tapas and orange trees — Sevilla is Andalusia's beating heart and one of Spain's most beautiful cities.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-fire"
+      ],
+      "stats": [
+        "685,000 residents",
+        "€650–1,000/mo student cost",
+        "Hot semi-arid"
+      ],
+      "tags": [
+        "Flamenco",
+        "History",
+        "Hot summers",
+        "Affordable"
+      ]
+    },
+    {
+      "city": "Granada",
+      "region": "Andalusia",
+      "gradient": "linear-gradient(135deg,#4a148c,#7b1fa2)",
+      "icon": "fa-solid fa-mountain",
+      "desc": "A compact student city with the Alhambra on the hill — amazing culture, nightlife, and the cheapest tapas in Spain.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-mountain"
+      ],
+      "stats": [
+        "232,000 residents",
+        "€600–900/mo student cost",
+        "Continental Mediterranean"
+      ],
+      "tags": [
+        "Student city",
+        "Alhambra",
+        "Cheap",
+        "Mountains"
+      ]
+    },
+    {
+      "city": "Bilbao",
+      "region": "Basque Country",
+      "gradient": "linear-gradient(135deg,#1b5e20,#00796b)",
+      "icon": "fa-solid fa-palette",
+      "desc": "Transformed by the Guggenheim, Bilbao is a design-forward city with a rich culinary scene and proud Basque identity.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud-rain"
+      ],
+      "stats": [
+        "346,000 residents",
+        "€800–1,200/mo student cost",
+        "Oceanic"
+      ],
+      "tags": [
+        "Guggenheim",
+        "Pintxos",
+        "Basque culture",
+        "Rainy"
+      ]
+    },
+    {
+      "city": "Salamanca",
+      "region": "Castile and León",
+      "gradient": "linear-gradient(135deg,#bf360c,#d4890a)",
+      "icon": "fa-solid fa-book-open",
+      "desc": "Home to one of Europe's oldest universities — Salamanca's golden sandstone old town is a UNESCO World Heritage Site.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-snowflake"
+      ],
+      "stats": [
+        "143,000 residents",
+        "€550–850/mo student cost",
+        "Continental semi-arid"
+      ],
+      "tags": [
+        "Oldest uni",
+        "UNESCO",
+        "Student city",
+        "Budget"
+      ]
+    }
+  ],
+  "featuredCities": [
+    {
+      "city": "Madrid",
+      "icon": "fa-solid fa-landmark",
+      "sub": "Capital"
+    },
+    {
+      "city": "Barcelona",
+      "icon": "fa-solid fa-umbrella-beach",
+      "sub": "Catalonia"
+    },
+    {
+      "city": "Valencia",
+      "icon": "fa-solid fa-leaf",
+      "sub": "Coastal"
+    },
+    {
+      "city": "Sevilla",
+      "icon": "fa-solid fa-fan",
+      "sub": "Andalusia"
+    },
+    {
+      "city": "Granada",
+      "icon": "fa-solid fa-mountain",
+      "sub": "Andalusia"
+    },
+    {
+      "city": "Bilbao",
+      "icon": "fa-solid fa-palette",
+      "sub": "Basque"
+    }
+  ]
+}

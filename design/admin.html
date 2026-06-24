@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniScout Admin</title>
+    <link rel="icon" type="image/avif" href="Gogo.avif">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+
+<div class="adm__login__screen" id="admLoginScreen">
+    <div class="adm__login__card">
+        <div class="adm__login__logo">
+            <div class="adm__login__icon"><img src="Gogo.avif" alt="UniScout"></div>
+            <div class="adm__login__brand">UniScout <span>Admin</span></div>
+        </div>
+        <p class="adm__login__sub">Sign in to access the admin panel</p>
+
+        <div class="adm__field">
+            <label class="adm__label">Username</label>
+            <div class="adm__input__wrap">
+                <i class="fa-solid fa-user adm__input__icon"></i>
+                <input class="adm__input" type="text" id="admUser" placeholder="admin" autocomplete="username">
+            </div>
+            <span class="adm__field__err" id="admUserErr"></span>
+        </div>
+
+        <div class="adm__field">
+            <label class="adm__label">Password</label>
+            <div class="adm__input__wrap">
+                <i class="fa-solid fa-lock adm__input__icon"></i>
+                <input class="adm__input" type="password" id="admPw" placeholder="••••••••" autocomplete="current-password">
+                <button class="adm__eye" id="admPwEye" type="button"><i class="fa-solid fa-eye-slash"></i></button>
+            </div>
+            <span class="adm__field__err" id="admPwErr"></span>
+        </div>
+
+        <div class="adm__login__err" id="admLoginErr"></div>
+
+        <button class="adm__login__btn" id="admLoginBtn">
+            <i class="fa-solid fa-right-to-bracket"></i> Sign In
+        </button>
+
+        <a class="adm__back__link" href="mainPage.html">
+            <i class="fa-solid fa-arrow-left"></i> Back to UniScout
+        </a>
+    </div>
+</div>
+
+<!-- ══════════════════════ ADMIN PANEL ══════════════════════ -->
+<div class="adm__panel" id="admPanel" style="display:none;">
+
+    <!-- Sidebar -->
+    <aside class="adm__sidebar" id="admSidebar">
+        <div class="adm__sidebar__brand">
+            <div class="adm__sidebar__icon"><img src="Gogo.avif" alt="UniScout"></div>
+            <div>
+                <div class="adm__sidebar__title">UniScout</div>
+                <div class="adm__sidebar__sub">Admin Panel</div>
+            </div>
+        </div>
+
+        <nav class="adm__nav">
+            <button class="adm__nav__item adm__nav__item--active" data-tab="overview">
+                <i class="fa-solid fa-gauge-high"></i><span>Overview</span>
+            </button>
+            <button class="adm__nav__item" data-tab="users">
+                <i class="fa-solid fa-users"></i><span>Users</span>
+                <span class="adm__nav__badge" id="navBadgeUsers">0</span>
+            </button>
+            <button class="adm__nav__item" data-tab="messages">
+                <i class="fa-solid fa-comments"></i><span>Messages</span>
+                <span class="adm__nav__badge" id="navBadgeMessages">0</span>
+            </button>
+            <button class="adm__nav__item" data-tab="saved">
+                <i class="fa-solid fa-bookmark"></i><span>Saved Unis</span>
+            </button>
+            <button class="adm__nav__item" data-tab="universities">
+                <i class="fa-solid fa-graduation-cap"></i><span>Universities</span>
+                <span class="adm__nav__badge" id="navBadgeUnis">0</span>
+            </button>
+            <button class="adm__nav__item" data-tab="cities">
+                <i class="fa-solid fa-city"></i><span>Cities</span>
+            </button>
+            <button class="adm__nav__item" data-tab="settings">
+                <i class="fa-solid fa-gear"></i><span>Settings</span>
+            </button>
+        </nav>
+
+        <div class="adm__sidebar__footer">
+            <div class="adm__admin__badge">
+                <div class="adm__admin__avatar">A</div>
+                <div>
+                    <div class="adm__admin__name">admin</div>
+                    <div class="adm__admin__role">Super Admin</div>
+                </div>
+            </div>
+            <button class="adm__logout__btn" id="admLogout" title="Sign Out">
+                <i class="fa-solid fa-right-from-bracket"></i>
+            </button>
+        </div>
+    </aside>
+
+    <!-- Main content -->
+    <main class="adm__main">
+
+        <!-- Topbar -->
+        <div class="adm__topbar">
+            <button class="adm__menu__btn" id="admMenuBtn"><i class="fa-solid fa-bars"></i></button>
+            <div class="adm__topbar__title" id="admPageTitle">Overview</div>
+            <div class="adm__topbar__right">
+                <div class="adm__topbar__time" id="admClock"></div>
+                <button class="adm__refresh__btn" id="admRefresh" title="Refresh data">
+                    <i class="fa-solid fa-rotate-right"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- ── TAB: OVERVIEW ── -->
+        <section class="adm__tab" id="tabOverview">
+            <div class="adm__stat__grid">
+                <div class="adm__stat__card adm__stat__card--blue">
+                    <div class="adm__stat__icon"><i class="fa-solid fa-users"></i></div>
+                    <div class="adm__stat__body">
+                        <div class="adm__stat__num" id="ovTotalUsers">0</div>
+                        <div class="adm__stat__label">Total Users</div>
+                    </div>
+                </div>
+                <div class="adm__stat__card adm__stat__card--orange">
+                    <div class="adm__stat__icon"><i class="fa-solid fa-comments"></i></div>
+                    <div class="adm__stat__body">
+                        <div class="adm__stat__num" id="ovTotalMessages">0</div>
+                        <div class="adm__stat__label">Chat Messages</div>
+                    </div>
+                </div>
+                <div class="adm__stat__card adm__stat__card--green">
+                    <div class="adm__stat__icon"><i class="fa-solid fa-bookmark"></i></div>
+                    <div class="adm__stat__body">
+                        <div class="adm__stat__num" id="ovTotalSaved">0</div>
+                        <div class="adm__stat__label">Saved Universities</div>
+                    </div>
+                </div>
+                <div class="adm__stat__card adm__stat__card--purple">
+                    <div class="adm__stat__icon"><i class="fa-solid fa-calendar-day"></i></div>
+                    <div class="adm__stat__body">
+                        <div class="adm__stat__num" id="ovTodayUsers">0</div>
+                        <div class="adm__stat__label">Joined Today</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="adm__section__grid">
+                <div class="adm__card">
+                    <div class="adm__card__head">
+                        <span><i class="fa-solid fa-clock-rotate-left"></i> Recent Users</span>
+                    </div>
+                    <div class="adm__recent__list" id="ovRecentUsers"></div>
+                </div>
+                <div class="adm__card">
+                    <div class="adm__card__head">
+                        <span><i class="fa-solid fa-fire"></i> Most Active Chats</span>
+                    </div>
+                    <div class="adm__recent__list" id="ovActiveChats"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── TAB: USERS ── -->
+        <section class="adm__tab" id="tabUsers" style="display:none;">
+            <div class="adm__card">
+                <div class="adm__card__head">
+                    <span><i class="fa-solid fa-users"></i> All Users</span>
+                    <div class="adm__search__wrap">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input class="adm__search" type="text" id="usersSearch" placeholder="Search users…">
+                    </div>
+                </div>
+                <div class="adm__table__wrap">
+                    <table class="adm__table">
+                        <thead>
+                            <tr>
+                                <th>User</th>
+                                <th>ID</th>
+                                <th>Joined</th>
+                                <th>Provider</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="usersTableBody"></tbody>
+                    </table>
+                </div>
+                <div class="adm__table__empty" id="usersEmpty" style="display:none;">
+                    <i class="fa-solid fa-users-slash"></i>
+                    <p>No users found</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── TAB: MESSAGES ── -->
+        <section class="adm__tab" id="tabMessages" style="display:none;">
+            <div class="adm__card">
+                <div class="adm__card__head">
+                    <span><i class="fa-solid fa-comments"></i> Community Messages</span>
+                    <div class="adm__search__wrap">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input class="adm__search" type="text" id="msgsSearch" placeholder="Search messages…">
+                    </div>
+                </div>
+                <div class="adm__msg__list" id="msgsList"></div>
+                <div class="adm__table__empty" id="msgsEmpty" style="display:none;">
+                    <i class="fa-solid fa-comment-slash"></i>
+                    <p>No messages yet</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── TAB: SAVED ── -->
+        <section class="adm__tab" id="tabSaved" style="display:none;">
+            <div class="adm__card">
+                <div class="adm__card__head">
+                    <span><i class="fa-solid fa-bookmark"></i> Saved Universities (per user)</span>
+                </div>
+                <div class="adm__saved__list" id="savedList"></div>
+                <div class="adm__table__empty" id="savedEmpty" style="display:none;">
+                    <i class="fa-solid fa-bookmark-slash"></i>
+                    <p>No saved universities found</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── TAB: UNIVERSITIES ── -->
+        <section class="adm__tab" id="tabUniversities" style="display:none;">
+            <div class="adm__card">
+                <div class="adm__card__head">
+                    <span><i class="fa-solid fa-graduation-cap"></i> All Universities</span>
+                    <div class="adm__filter__row">
+                        <button class="adm__add__btn" id="addUniBtn"><i class="fa-solid fa-circle-plus"></i> Add University</button>
+                        <select class="adm__select" id="unisCountryFilter">
+                            <option value="all">All Countries</option>
+                            <option value="es">&#127466;&#127480; Spain</option>
+                            <option value="uk">&#127468;&#127463; United Kingdom</option>
+                            <option value="fr">&#127467;&#127479; France</option>
+                            <option value="de">&#127465;&#127466; Germany</option>
+                            <option value="it">&#127470;&#127481; Italy</option>
+                            <option value="pt">&#127477;&#127481; Portugal</option>
+                            <option value="us">&#127482;&#127480; United States</option>
+                            <option value="ch">&#127464;&#127469; Switzerland</option>
+                            <option value="ua">&#127482;&#127462; Ukraine</option>
+                        </select>
+                        <div class="adm__search__wrap">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input class="adm__search" type="text" id="unisSearch" placeholder="Search universities…">
+                        </div>
+                    </div>
+                </div>
+                <div class="adm__table__wrap">
+                    <table class="adm__table">
+                        <thead>
+                            <tr>
+                                <th>University</th>
+                                <th>Country</th>
+                                <th>City</th>
+                                <th>Type</th>
+                                <th>Tuition</th>
+                                <th>Official website</th>
+                                <th>Fields</th>
+                                <th>Difficulty</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="unisTableBody"></tbody>
+                    </table>
+                </div>
+                <div class="adm__table__empty" id="unisEmpty" style="display:none;">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <p>No universities found</p>
+                </div>
+                <div class="adm__pagination" id="unisPagination"></div>
+            </div>
+        </section>
+
+        <!-- ── TAB: CITIES ── -->
+        <section class="adm__tab" id="tabCities" style="display:none;">
+            <div class="adm__card">
+                <div class="adm__card__head">
+                    <span><i class="fa-solid fa-city"></i> All Cities</span>
+                    <div class="adm__filter__row">
+                        <select class="adm__select" id="citiesCountryFilter">
+                            <option value="all">All Countries</option>
+                            <option value="es">&#127466;&#127480; Spain</option>
+                            <option value="uk">&#127468;&#127463; United Kingdom</option>
+                            <option value="fr">&#127467;&#127479; France</option>
+                            <option value="de">&#127465;&#127466; Germany</option>
+                            <option value="it">&#127470;&#127481; Italy</option>
+                            <option value="pt">&#127477;&#127481; Portugal</option>
+                            <option value="us">&#127482;&#127480; United States</option>
+                            <option value="ch">&#127464;&#127469; Switzerland</option>
+                            <option value="ua">&#127482;&#127462; Ukraine</option>
+                        </select>
+                        <div class="adm__search__wrap">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input class="adm__search" type="text" id="citiesSearch" placeholder="Search cities…">
+                        </div>
+                    </div>
+                </div>
+                <div class="adm__table__wrap">
+                    <table class="adm__table">
+                        <thead>
+                            <tr>
+                                <th>City</th>
+                                <th>Country</th>
+                                <th>Region</th>
+                                <th>Population</th>
+                                <th>Climate</th>
+                                <th>Monthly Cost</th>
+                                <th>Tags</th>
+                            </tr>
+                        </thead>
+                        <tbody id="citiesTableBody"></tbody>
+                    </table>
+                </div>
+                <div class="adm__table__empty" id="citiesEmpty" style="display:none;">
+                    <i class="fa-solid fa-city"></i>
+                    <p>No cities found</p>
+                </div>
+                <div class="adm__pagination" id="citiesPagination"></div>
+            </div>
+        </section>
+
+        <!-- ── TAB: SETTINGS ── -->
+        <section class="adm__tab" id="tabSettings" style="display:none;">
+            <div class="adm__settings__grid">
+                <div class="adm__card">
+                    <div class="adm__card__head"><span><i class="fa-solid fa-key"></i> Change Admin Password</span></div>
+                    <div class="adm__settings__body">
+                        <div class="adm__field">
+                            <label class="adm__label">Current Password</label>
+                            <div class="adm__input__wrap">
+                                <i class="fa-solid fa-lock adm__input__icon"></i>
+                                <input class="adm__input" type="password" id="settOldPw" placeholder="••••••••">
+                            </div>
+                        </div>
+                        <div class="adm__field">
+                            <label class="adm__label">New Password</label>
+                            <div class="adm__input__wrap">
+                                <i class="fa-solid fa-lock-open adm__input__icon"></i>
+                                <input class="adm__input" type="password" id="settNewPw" placeholder="••••••••">
+                            </div>
+                        </div>
+                        <div class="adm__field">
+                            <label class="adm__label">Confirm New Password</label>
+                            <div class="adm__input__wrap">
+                                <i class="fa-solid fa-lock-open adm__input__icon"></i>
+                                <input class="adm__input" type="password" id="settConfPw" placeholder="••••••••">
+                            </div>
+                        </div>
+                        <div class="adm__settings__err" id="settErr"></div>
+                        <button class="adm__settings__btn" id="settSaveBtn">
+                            <i class="fa-solid fa-floppy-disk"></i> Update Password
+                        </button>
+                    </div>
+                </div>
+
+                <div class="adm__card">
+                    <div class="adm__card__head"><span><i class="fa-solid fa-database"></i> Data Management</span></div>
+                    <div class="adm__settings__body">
+                        <p class="adm__settings__desc">Export or clear application data stored in the browser.</p>
+                        <div class="adm__data__btns">
+                            <button class="adm__data__btn adm__data__btn--blue" id="exportUsersBtn">
+                                <i class="fa-solid fa-file-export"></i> Export Users (JSON)
+                            </button>
+                            <button class="adm__data__btn adm__data__btn--blue" id="exportMsgsBtn">
+                                <i class="fa-solid fa-file-export"></i> Export Messages (JSON)
+                            </button>
+                            <button class="adm__data__btn adm__data__btn--red" id="clearMsgsBtn">
+                                <i class="fa-solid fa-trash"></i> Clear All Messages
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<!-- Add University Modal -->
+<div class="adm__modal__overlay" id="addUniOverlay">
+    <div class="adm__modal">
+        <div class="adm__modal__head">
+            <div class="adm__modal__title"><i class="fa-solid fa-graduation-cap"></i> Add University</div>
+            <button class="adm__modal__close" id="addUniClose"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="adm__modal__body">
+            <p class="adm__modal__hint"><i class="fa-solid fa-wand-magic-sparkles"></i> Just enter the essentials — UniScout auto-generates the full description and details.</p>
+            <div class="adm__modal__grid">
+                <div class="adm__field adm__field--full">
+                    <label class="adm__label">University Name *</label>
+                    <input class="adm__input adm__input--plain" type="text" id="nuName" placeholder="e.g. University of Vienna">
+                </div>
+                <div class="adm__field">
+                    <label class="adm__label">Country *</label>
+                    <select class="adm__select" id="nuCountry">
+                        <option value="es">🇪🇸 Spain</option>
+                        <option value="uk">🇬🇧 United Kingdom</option>
+                        <option value="fr">🇫🇷 France</option>
+                        <option value="de">🇩🇪 Germany</option>
+                        <option value="it">🇮🇹 Italy</option>
+                        <option value="pt">🇵🇹 Portugal</option>
+                        <option value="us">🇺🇸 United States</option>
+                        <option value="ch">🇨🇭 Switzerland</option>
+                        <option value="ua">🇺🇦 Ukraine</option>
+                    </select>
+                </div>
+                <div class="adm__field">
+                    <label class="adm__label">City / Place *</label>
+                    <input class="adm__input adm__input--plain" type="text" id="nuCity" placeholder="e.g. Vienna">
+                </div>
+                <div class="adm__field">
+                    <label class="adm__label">Type</label>
+                    <select class="adm__select" id="nuType">
+                        <option value="Public">Public</option>
+                        <option value="Private">Private</option>
+                    </select>
+                </div>
+                <div class="adm__field">
+                    <label class="adm__label">Tuition</label>
+                    <input class="adm__input adm__input--plain" type="text" id="nuTuition" placeholder="e.g. €1,500/yr">
+                </div>
+                <div class="adm__field adm__field--full">
+                    <label class="adm__label">Official Website</label>
+                    <input class="adm__input adm__input--plain" type="text" id="nuWebsite" placeholder="e.g. www.univie.ac.at">
+                </div>
+            </div>
+            <div class="adm__modal__err" id="addUniErr"></div>
+        </div>
+        <div class="adm__modal__foot">
+            <button class="adm__modal__cancel" id="addUniCancel">Cancel</button>
+            <button class="adm__modal__save" id="addUniSave"><i class="fa-solid fa-floppy-disk"></i> Add University</button>
+        </div>
+    </div>
+</div>
+
+<!-- Toast -->
+<div class="adm__toast" id="admToast">
+    <i class="fa-solid fa-circle-check"></i>
+    <span id="admToastMsg"></span>
+</div>
+
+<!-- Confirm Dialog -->
+<div class="adm__confirm__overlay" id="admConfirmOverlay">
+    <div class="adm__confirm__box">
+        <div class="adm__confirm__icon"><i class="fa-solid fa-triangle-exclamation"></i></div>
+        <div class="adm__confirm__title" id="admConfirmTitle">Are you sure?</div>
+        <div class="adm__confirm__body" id="admConfirmBody"></div>
+        <div class="adm__confirm__btns">
+            <button class="adm__confirm__cancel" id="admConfirmCancel">Cancel</button>
+            <button class="adm__confirm__ok" id="admConfirmOk">Confirm</button>
+        </div>
+    </div>
+</div>
+
+<script src="data/app_data.js"></script>
+<script src="admin.js"></script>
+</body>
+</html>

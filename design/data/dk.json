@@ -1,0 +1,473 @@
+{
+  "meta": {
+    "name": "Denmark",
+    "code": "dk",
+    "flag": "dk",
+    "capital": "Copenhagen",
+    "language": "Danish / English",
+    "currency": "DKK",
+    "currencySymbol": "kr",
+    "aboutStudying": "Denmark offers free tuition for EU/EEA students and a generous state grant (SU) for those who work part-time. Danish universities are world-renowned for design, engineering and life sciences, and almost every Master's programme is taught in English. The famous Danish 'hygge' culture and excellent work-life balance make it one of Europe's happiest study destinations.",
+    "uniCount": 8,
+    "cityCount": 4
+  },
+  "tips": [
+    {
+      "icon": "fa-solid fa-euro-sign",
+      "color": "rgba(39,174,96,.1)",
+      "iconColor": "#27ae60",
+      "title": "Free for EU Students",
+      "text": "EU/EEA students pay no tuition fees in Denmark. If you take a part-time job (which most students do), you can also claim the Danish state education grant (SU) of around DKK 6,800/month. Non-EU students pay DKK 45,000–120,000/year."
+    },
+    {
+      "icon": "fa-solid fa-bicycle",
+      "color": "rgba(52,152,219,.1)",
+      "iconColor": "#2980b9",
+      "title": "Cycling Capital",
+      "text": "Copenhagen is the world's most bike-friendly city — over 60% of residents cycle to work or study daily. A bike is essential and far cheaper than public transport. The flat terrain and superb cycle lanes make getting around effortless year-round."
+    },
+    {
+      "icon": "fa-solid fa-mug-hot",
+      "color": "rgba(217,124,20,.1)",
+      "iconColor": "#d97c14",
+      "title": "Hygge & Balance",
+      "text": "Danish study culture values group work, flat hierarchies and balance over competition. The concept of 'hygge' (cosy contentment) permeates everything. Expect to call professors by their first name and to enjoy genuinely sociable, low-stress academics."
+    }
+  ],
+  "universities": [
+    {
+      "id": "ku",
+      "name": "University of Copenhagen",
+      "abbr": "KU",
+      "color": "#901A1E",
+      "city": "Copenhagen",
+      "type": "Public",
+      "tuition": "Free (EU) / DKK 75,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Science",
+        "Law",
+        "Humanities",
+        "Business"
+      ],
+      "langs": [
+        "English",
+        "Danish"
+      ],
+      "founded": 1479,
+      "students": "~38,000",
+      "desc": "Denmark's oldest and highest-ranked university — a global top-100 institution and home to numerous Nobel laureates.",
+      "website": ""
+    },
+    {
+      "id": "dtu",
+      "name": "Technical University of Denmark",
+      "abbr": "DTU",
+      "color": "#990000",
+      "city": "Copenhagen",
+      "type": "Public",
+      "tuition": "Free (EU) / DKK 110,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science",
+        "Architecture"
+      ],
+      "langs": [
+        "English",
+        "Danish"
+      ],
+      "founded": 1829,
+      "students": "~13,000",
+      "desc": "One of Europe's leading engineering universities — consistently ranked among the top technical schools on the continent.",
+      "website": ""
+    },
+    {
+      "id": "au",
+      "name": "Aarhus University",
+      "abbr": "AU",
+      "color": "#003D73",
+      "city": "Aarhus",
+      "type": "Public",
+      "tuition": "Free (EU) / DKK 70,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Medicine",
+        "Science",
+        "Humanities",
+        "Law"
+      ],
+      "langs": [
+        "English",
+        "Danish"
+      ],
+      "founded": 1928,
+      "students": "~38,000",
+      "desc": "A QS top-100 university set on a beautiful park campus, with the highly ranked Aarhus BSS business school.",
+      "website": "https://www.au.dk/"
+    },
+    {
+      "id": "aau",
+      "name": "Aalborg University",
+      "abbr": "AAU",
+      "color": "#211A52",
+      "city": "Aalborg",
+      "type": "Public",
+      "tuition": "Free (EU) / DKK 65,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Humanities",
+        "Science"
+      ],
+      "langs": [
+        "English",
+        "Danish"
+      ],
+      "founded": 1974,
+      "students": "~21,000",
+      "desc": "World-leader in problem-based learning — every programme is built around real-world project work with industry.",
+      "website": "https://www.aau.dk"
+    },
+    {
+      "id": "sdu",
+      "name": "University of Southern Denmark",
+      "abbr": "SDU",
+      "color": "#003C71",
+      "city": "Odense",
+      "type": "Public",
+      "tuition": "Free (EU) / DKK 65,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Medicine",
+        "Humanities",
+        "Science"
+      ],
+      "langs": [
+        "English",
+        "Danish"
+      ],
+      "founded": 1966,
+      "students": "~27,000",
+      "desc": "A modern multi-campus university with a strong reputation for robotics, engineering and health sciences.",
+      "website": "https://www.sdu.dk/"
+    },
+    {
+      "id": "cbs",
+      "name": "Copenhagen Business School",
+      "abbr": "CBS",
+      "color": "#003D6B",
+      "city": "Copenhagen",
+      "type": "Public",
+      "tuition": "Free (EU) / DKK 100,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Business"
+      ],
+      "langs": [
+        "English",
+        "Danish"
+      ],
+      "founded": 1917,
+      "students": "~22,000",
+      "desc": "One of the largest and most respected business schools in Europe, with triple-crown accreditation and global rankings.",
+      "website": "https://www.cbs.dk/"
+    },
+    {
+      "id": "ruc",
+      "name": "Roskilde University",
+      "abbr": "RUC",
+      "color": "#CE0037",
+      "city": "Roskilde",
+      "type": "Public",
+      "tuition": "Free (EU) / DKK 60,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Humanities",
+        "Science",
+        "Business",
+        "CS"
+      ],
+      "langs": [
+        "English",
+        "Danish"
+      ],
+      "founded": 1972,
+      "students": "~8,000",
+      "desc": "A progressive, interdisciplinary university built entirely on project-based and group learning.",
+      "website": ""
+    },
+    {
+      "id": "itu",
+      "name": "IT University of Copenhagen",
+      "abbr": "ITU",
+      "color": "#E2001A",
+      "city": "Copenhagen",
+      "type": "Public",
+      "tuition": "Free (EU) / DKK 95,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "CS",
+        "Engineering",
+        "Business"
+      ],
+      "langs": [
+        "English",
+        "Danish"
+      ],
+      "founded": 1999,
+      "students": "~2,500",
+      "desc": "A specialist IT university producing many of Scandinavia's top software engineers and game developers.",
+      "website": ""
+    }
+  ],
+  "cities": {
+    "Copenhagen": {
+      "region": "Capital Region",
+      "pop": "660,000",
+      "climate": "Oceanic",
+      "cost": "DKK 9,000–13,000/mo",
+      "desc": "Consistently ranked among the world's most liveable cities — Copenhagen pairs Scandinavian design, cycling culture and waterfront living with two of Denmark's best universities.",
+      "highlights": [
+        "Nyhavn harbour",
+        "Tivoli Gardens",
+        "The Little Mermaid",
+        "Christiania free town",
+        "Designmuseum Danmark"
+      ],
+      "studentLife": "Outstanding — large international student body, bike everywhere, harbour swimming in summer.",
+      "transport": "World-class metro, cycling network and S-trains; airport 15 min from centre.",
+      "nightlife": "Sophisticated bar and club scene around Vesterbro and Nørrebro.",
+      "pros": [
+        "World's happiest capital",
+        "Free tuition for EU",
+        "Cycling paradise"
+      ],
+      "tags": [
+        "Design",
+        "Cycling",
+        "Hygge",
+        "Waterfront"
+      ]
+    },
+    "Aarhus": {
+      "region": "Central Jutland",
+      "pop": "285,000",
+      "climate": "Oceanic",
+      "cost": "DKK 7,000–10,000/mo",
+      "desc": "Denmark's second city and a true student capital — younger, cheaper and more relaxed than Copenhagen, with a famously vibrant cultural scene.",
+      "highlights": [
+        "ARoS Art Museum rainbow walkway",
+        "Den Gamle By open-air museum",
+        "University Park",
+        "Aarhus Street Food",
+        "Moesgaard Museum"
+      ],
+      "studentLife": "Exceptional — one in seven residents is a student; huge social and music scene.",
+      "transport": "New light rail, extensive buses and a compact, walkable centre.",
+      "nightlife": "Lively and affordable — the Latin Quarter is packed with student bars.",
+      "pros": [
+        "Cheaper than Copenhagen",
+        "Massive student population",
+        "European Capital of Culture 2017"
+      ],
+      "tags": [
+        "Student city",
+        "Culture",
+        "Affordable",
+        "Arts"
+      ]
+    },
+    "Odense": {
+      "region": "Southern Denmark",
+      "pop": "180,000",
+      "climate": "Oceanic",
+      "cost": "DKK 6,500–9,500/mo",
+      "desc": "The birthplace of Hans Christian Andersen — a charming, green and very affordable city with a fast-growing robotics and engineering sector.",
+      "highlights": [
+        "Hans Christian Andersen House",
+        "Odense Zoo",
+        "Brandts art centre",
+        "Funen Village",
+        "University of Southern Denmark robotics labs"
+      ],
+      "studentLife": "Relaxed and friendly — a manageable city ideal for focused study.",
+      "transport": "New light rail and excellent cycling; 75 min to Copenhagen by train.",
+      "nightlife": "Modest but pleasant — cosy bars in the historic centre.",
+      "pros": [
+        "Very affordable",
+        "Robotics hub",
+        "Fairytale charm"
+      ],
+      "tags": [
+        "Affordable",
+        "Robotics",
+        "Green",
+        "Historic"
+      ]
+    },
+    "Aalborg": {
+      "region": "North Jutland",
+      "pop": "120,000",
+      "climate": "Oceanic",
+      "cost": "DKK 6,000–9,000/mo",
+      "desc": "A reinvented industrial city in northern Denmark — now a buzzing, affordable student town built around Aalborg University's project-based learning model.",
+      "highlights": [
+        "Utzon Center (by the Sydney Opera architect)",
+        "Aalborg waterfront",
+        "Lindholm Høje Viking burial site",
+        "Kunsten art museum",
+        "Jomfru Ane Gade nightlife street"
+      ],
+      "studentLife": "Strong — AAU's group-work culture creates tight student communities.",
+      "transport": "Compact and bike-friendly; airport and trains south to the rest of Denmark.",
+      "nightlife": "Famous for Jomfru Ane Gade, one of Scandinavia's longest bar streets.",
+      "pros": [
+        "Cheapest Danish student city",
+        "Innovative learning model",
+        "Friendly locals"
+      ],
+      "tags": [
+        "Affordable",
+        "Innovation",
+        "Nightlife",
+        "Waterfront"
+      ]
+    }
+  },
+  "cityCards": [
+    {
+      "city": "Copenhagen",
+      "region": "Capital Region",
+      "gradient": "linear-gradient(135deg,#901A1E,#C8102E)",
+      "icon": "fa-solid fa-bicycle",
+      "desc": "One of the world's most liveable cities — design, cycling and two of Denmark's best universities.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud"
+      ],
+      "stats": [
+        "660,000 residents",
+        "DKK 9,000–13,000/mo",
+        "Oceanic"
+      ],
+      "tags": [
+        "Design",
+        "Cycling",
+        "Hygge"
+      ]
+    },
+    {
+      "city": "Aarhus",
+      "region": "Central Jutland",
+      "gradient": "linear-gradient(135deg,#003D73,#0066BB)",
+      "icon": "fa-solid fa-palette",
+      "desc": "Denmark's vibrant second city — younger, cheaper and a true student capital.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud"
+      ],
+      "stats": [
+        "285,000 residents",
+        "DKK 7,000–10,000/mo",
+        "Oceanic"
+      ],
+      "tags": [
+        "Student city",
+        "Culture",
+        "Affordable"
+      ]
+    },
+    {
+      "city": "Odense",
+      "region": "Southern Denmark",
+      "gradient": "linear-gradient(135deg,#003C71,#0080A8)",
+      "icon": "fa-solid fa-robot",
+      "desc": "Hans Christian Andersen's hometown — affordable, green and a growing robotics hub.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud"
+      ],
+      "stats": [
+        "180,000 residents",
+        "DKK 6,500–9,500/mo",
+        "Oceanic"
+      ],
+      "tags": [
+        "Affordable",
+        "Robotics",
+        "Historic"
+      ]
+    },
+    {
+      "city": "Aalborg",
+      "region": "North Jutland",
+      "gradient": "linear-gradient(135deg,#211A52,#3D2E8C)",
+      "icon": "fa-solid fa-industry",
+      "desc": "A reinvented industrial city, now a buzzing and affordable student town.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud"
+      ],
+      "stats": [
+        "120,000 residents",
+        "DKK 6,000–9,000/mo",
+        "Oceanic"
+      ],
+      "tags": [
+        "Affordable",
+        "Innovation",
+        "Nightlife"
+      ]
+    }
+  ],
+  "featuredCities": [
+    {
+      "city": "Copenhagen",
+      "icon": "fa-solid fa-bicycle",
+      "sub": "Capital"
+    },
+    {
+      "city": "Aarhus",
+      "icon": "fa-solid fa-palette",
+      "sub": "Jutland"
+    },
+    {
+      "city": "Odense",
+      "icon": "fa-solid fa-robot",
+      "sub": "Funen"
+    },
+    {
+      "city": "Aalborg",
+      "icon": "fa-solid fa-industry",
+      "sub": "North Jutland"
+    }
+  ]
+}

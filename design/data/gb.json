@@ -1,0 +1,2949 @@
+{
+  "meta": {
+    "name": "United Kingdom",
+    "code": "gb",
+    "flag": "gb",
+    "capital": "London",
+    "language": "English",
+    "currency": "GBP",
+    "currencySymbol": "£",
+    "aboutStudying": "The UK has the world's second-largest concentration of top-ranked universities after the USA. Tuition is higher than mainland Europe but financial support (student loans, scholarships) is available. With programmes taught entirely in English and globally recognised degrees, it remains the top destination for international students worldwide.",
+    "uniCount": 99,
+    "cityCount": 7
+  },
+  "tips": [
+    {
+      "icon": "fa-solid fa-passport",
+      "color": "rgba(0,0,102,.1)",
+      "iconColor": "rgb(0,0,102)",
+      "title": "Visa & Right to Study",
+      "text": "EU students now need a Student Visa (Tier 4). You must have a CAS (Confirmation of Acceptance for Studies) from your university. Apply at least 3 months before your course. Post-Brexit, EU students pay the same fees as international students."
+    },
+    {
+      "icon": "fa-solid fa-sterling-sign",
+      "color": "rgba(52,152,219,.1)",
+      "iconColor": "rgb(52,152,219)",
+      "title": "Cost of Living",
+      "text": "The UK is expensive. London costs £1,500–2,500/month for a student; regional cities like Manchester or Edinburgh are more manageable at £900–1,400. Student loans cover tuition and maintenance for UK/Irish students. International scholarships include Chevening and Commonwealth."
+    },
+    {
+      "icon": "fa-solid fa-language",
+      "color": "rgba(39,174,96,.1)",
+      "iconColor": "rgb(39,174,96)",
+      "title": "All in English",
+      "text": "All degrees are taught in English — the UK is the only country where language is never a barrier for Anglophone students. IELTS 6.0–7.5 is required for non-native speakers. This makes UK degrees globally portable and employers worldwide recognise them instantly."
+    }
+  ],
+  "universities": [
+    {
+      "id": "oxford",
+      "name": "University of Oxford",
+      "abbr": "Oxford",
+      "color": "#003087",
+      "city": "Oxford",
+      "type": "Public",
+      "tuition": "£9,250–30,000/yr",
+      "ts": 3,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Humanities",
+        "Medicine",
+        "Law",
+        "Science",
+        "Business"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1096,
+      "students": "~24,000",
+      "desc": "Consistently ranked #1 or #2 in the world — 28 UK Prime Ministers, 70 Nobel laureates and a tutorial system unchanged since the medieval period.",
+      "website": "https://ox.ac.uk/"
+    },
+    {
+      "id": "cambridge",
+      "name": "University of Cambridge",
+      "abbr": "Cantab",
+      "color": "#003091",
+      "city": "Cambridge",
+      "type": "Public",
+      "tuition": "£9,250–38,000/yr",
+      "ts": 3,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Science",
+        "Medicine",
+        "Engineering",
+        "Humanities",
+        "Law"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1209,
+      "students": "~24,000",
+      "desc": "The world's top science university — 121 Nobel laureates, Isaac Newton's apple tree still grows in Trinity College garden.",
+      "website": "https://www.cam.ac.uk/"
+    },
+    {
+      "id": "imperial",
+      "name": "Imperial College London",
+      "abbr": "Imperial",
+      "color": "#003E74",
+      "city": "London",
+      "type": "Public",
+      "tuition": "£9,250–40,000/yr",
+      "ts": 4,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "Medicine",
+        "Science",
+        "CS",
+        "Business"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1907,
+      "students": "~19,000",
+      "desc": "The world's leading specialist university for science and engineering, consistently ranked top 10 globally, with a South Kensington campus next to the Victoria & Albert Museum.",
+      "website": "https://www.imperial.ac.uk/"
+    },
+    {
+      "id": "ucl",
+      "name": "University College London",
+      "abbr": "UCL",
+      "color": "#002248",
+      "city": "London",
+      "type": "Public",
+      "tuition": "£9,250–35,000/yr",
+      "ts": 3,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "Medicine",
+        "Law",
+        "Science",
+        "Humanities"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1826,
+      "students": "~42,000",
+      "desc": "London's largest university — founded on the radical principle of admitting anyone regardless of religion or gender in 1826. Home to the Bartlett School of Architecture and ranked #9 in the world.",
+      "website": "https://www.ucl.ac.uk"
+    },
+    {
+      "id": "lse",
+      "name": "London School of Economics",
+      "abbr": "LSE",
+      "color": "#CC0000",
+      "city": "London",
+      "type": "Public",
+      "tuition": "£9,250–23,000/yr",
+      "ts": 3,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Law",
+        "Business",
+        "Social Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1895,
+      "students": "~12,000",
+      "desc": "The world's leading social science institution — 37 world leaders and 18 Nobel laureates among alumni. The most internationally diverse major university anywhere.",
+      "website": ""
+    },
+    {
+      "id": "kcl",
+      "name": "King's College London",
+      "abbr": "KCL",
+      "color": "#8B0000",
+      "city": "London",
+      "type": "Public",
+      "tuition": "£9,250–32,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Humanities",
+        "Science",
+        "Business"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1829,
+      "students": "~33,000",
+      "desc": "One of England's oldest universities, set on the Thames — world-leading for law, medicine (incl. psychiatry), and war studies, with five campuses across central London.",
+      "website": ""
+    },
+    {
+      "id": "edinburgh",
+      "name": "University of Edinburgh",
+      "abbr": "UoE",
+      "color": "#041E42",
+      "city": "Edinburgh",
+      "type": "Public",
+      "tuition": "Free (Scottish)",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Humanities",
+        "CS"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1583,
+      "students": "~40,000",
+      "desc": "Scotland's most prestigious university, free for Scottish students — ranked top 20 in the world for medicine, law and the social sciences, set in one of Europe's most beautiful historic capitals.",
+      "website": ""
+    },
+    {
+      "id": "manchester",
+      "name": "University of Manchester",
+      "abbr": "UoM",
+      "color": "#660099",
+      "city": "Manchester",
+      "type": "Public",
+      "tuition": "£9,250–24,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "Medicine",
+        "Science",
+        "Business",
+        "Law"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1824,
+      "students": "~45,000",
+      "desc": "The birthplace of the Industrial Revolution — 25 Nobel laureates and home to graphene discovery (2004). The Russell Group's largest university by student number.",
+      "website": ""
+    },
+    {
+      "id": "birmingham",
+      "name": "University of Birmingham",
+      "abbr": "UoB",
+      "color": "#003087",
+      "city": "Birmingham",
+      "type": "Public",
+      "tuition": "£9,250–22,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Engineering",
+        "Law",
+        "Science",
+        "Business"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1900,
+      "students": "~38,000",
+      "desc": "A founding Russell Group university — strong in medicine, engineering and commerce. Birmingham's central campus is one of the most attractive in the UK.",
+      "website": ""
+    },
+    {
+      "id": "bristol",
+      "name": "University of Bristol",
+      "abbr": "UoB2",
+      "color": "#CC0000",
+      "city": "Manchester",
+      "type": "Public",
+      "tuition": "£9,250–22,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Medicine",
+        "Law",
+        "Arts"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1909,
+      "students": "~28,000",
+      "desc": "Consistently in the UK top 10 — Bristol has a creative, vibrant atmosphere, strong graduate employment rates and an exceptional engineering and medicine school.",
+      "website": ""
+    },
+    {
+      "id": "qmul",
+      "name": "Queen Mary University London",
+      "abbr": "QMUL",
+      "color": "#004B87",
+      "city": "London",
+      "type": "Public",
+      "tuition": "£9,250–20,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Engineering",
+        "Science",
+        "Humanities"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1785,
+      "students": "~28,000",
+      "desc": "Part of the Russell Group — with a strong medical school (Barts), an excellent law school and one of the most diverse student bodies of any UK university.",
+      "website": ""
+    },
+    {
+      "id": "st-andrews",
+      "name": "University of St Andrews",
+      "abbr": "StA",
+      "color": "#00539C",
+      "city": "Edinburgh",
+      "type": "Public",
+      "tuition": "Free (Scottish)",
+      "ts": 1,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Science",
+        "Humanities",
+        "Medicine",
+        "Arts"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1413,
+      "students": "~9,500",
+      "desc": "Scotland's oldest university (1413) — Prince William and Catherine Middleton met here. Consistently top 5 in the UK, with exceptionally high student satisfaction and a stunning coastal location.",
+      "website": ""
+    },
+    {
+      "id": "durham",
+      "name": "Durham University",
+      "abbr": "Durham",
+      "color": "#7A003C",
+      "city": "Durham",
+      "type": "Public",
+      "tuition": "£9,250–22,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Humanities",
+        "Law",
+        "Science",
+        "Business",
+        "Engineering"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1832,
+      "students": "~20,000",
+      "desc": "The UK's third-oldest collegiate university — set in a UNESCO World Heritage city with a Norman cathedral, Durham combines medieval collegiate life with consistently top-10 rankings for student satisfaction.",
+      "website": ""
+    },
+    {
+      "id": "warwick",
+      "name": "University of Warwick",
+      "abbr": "Warwick",
+      "color": "#3E0052",
+      "city": "Coventry",
+      "type": "Public",
+      "tuition": "£9,250–23,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Law",
+        "Science",
+        "Economics"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1965,
+      "students": "~27,000",
+      "desc": "Warwick is the UK's leading campus university — a self-contained innovation ecosystem close to Birmingham. Its business school and economics department are consistently top-5 in the country.",
+      "website": ""
+    },
+    {
+      "id": "exeter",
+      "name": "University of Exeter",
+      "abbr": "Exeter",
+      "color": "#003C3C",
+      "city": "Exeter",
+      "type": "Public",
+      "tuition": "£9,250–21,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Business",
+        "Medicine",
+        "Law",
+        "Science",
+        "Humanities"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1955,
+      "students": "~23,000",
+      "desc": "Ranked consistently in the UK top 10, Exeter combines outstanding academic performance with a beautiful campus and exceptional student satisfaction. Its business school is triple-accredited worldwide.",
+      "website": ""
+    },
+    {
+      "id": "nottingham",
+      "name": "University of Nottingham",
+      "abbr": "UoN",
+      "color": "#003B5C",
+      "city": "Nottingham",
+      "type": "Public",
+      "tuition": "£9,250–20,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Engineering",
+        "Science",
+        "Business",
+        "Law"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1881,
+      "students": "~35,000",
+      "desc": "A global Russell Group university with campuses in the UK, China and Malaysia. Nottingham pioneered MRI brain scanning and is home to one of the UK's most international campuses.",
+      "website": ""
+    },
+    {
+      "id": "leeds",
+      "name": "University of Leeds",
+      "abbr": "Leeds",
+      "color": "#003366",
+      "city": "Leeds",
+      "type": "Public",
+      "tuition": "£9,250–21,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "Medicine",
+        "Business",
+        "Law",
+        "Arts"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1904,
+      "students": "~40,000",
+      "desc": "One of the UK's largest Russell Group universities — Leeds has the country's biggest students union and a thriving city campus. Its school of medicine and engineering rank in the national top 5.",
+      "website": "https://leeds.ac.uk/"
+    },
+    {
+      "id": "sheffield",
+      "name": "University of Sheffield",
+      "abbr": "UoS",
+      "color": "#006555",
+      "city": "Sheffield",
+      "type": "Public",
+      "tuition": "£9,250–20,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "Medicine",
+        "Science",
+        "Business",
+        "Law"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1905,
+      "students": "~29,000",
+      "desc": "Home to the world's number 1 student union and ranked top 10 in the UK — Sheffield's engineering and chemistry departments are internationally acclaimed. The city offers exceptional affordability.",
+      "website": "https://www.sheffield.ac.uk/"
+    },
+    {
+      "id": "glasgow",
+      "name": "University of Glasgow",
+      "abbr": "UofG",
+      "color": "#003865",
+      "city": "Glasgow",
+      "type": "Public",
+      "tuition": "Free (Scottish)",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Humanities",
+        "Engineering"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1451,
+      "students": "~39,000",
+      "desc": "Scotland's oldest university (1451) — free for Scottish students and consistently ranked in the UK and world top 100 for medicine, science and the arts. A founding member of the Universitas 21 global network.",
+      "website": "https://gla.ac.uk/"
+    },
+    {
+      "id": "bath",
+      "name": "University of Bath",
+      "abbr": "Bath",
+      "color": "#1A3A5C",
+      "city": "Bath",
+      "type": "Public",
+      "tuition": "£9,250–20,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Science",
+        "Architecture",
+        "Law"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1966,
+      "students": "~18,000",
+      "desc": "Consistently in the UK top 10, Bath has the highest-ranked business school for graduate employment and a beautiful Georgian city campus. Its placement year programme is among the UK's most successful.",
+      "website": "https://www.bath.ac.uk/"
+    },
+    {
+      "id": "lancaster",
+      "name": "Lancaster University",
+      "abbr": "LU",
+      "color": "#B5121B",
+      "city": "Lancaster",
+      "type": "Public",
+      "tuition": "£9,250–18,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Business",
+        "Science",
+        "Law",
+        "Humanities",
+        "Engineering"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1964,
+      "students": "~14,000",
+      "desc": "Consistently ranked in the UK top 10 and regularly in the world top 100. Lancaster has an award-winning campus and is particularly strong in business, management and the social sciences.",
+      "website": ""
+    },
+    {
+      "id": "york",
+      "name": "University of York",
+      "abbr": "UoY",
+      "color": "#00627D",
+      "city": "York",
+      "type": "Public",
+      "tuition": "£9,250–19,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Science",
+        "Humanities",
+        "Medicine",
+        "Business",
+        "Law"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1963,
+      "students": "~20,000",
+      "desc": "A Russell Group member set in the medieval city of York, consistently in the UK top 10 for student satisfaction. Particularly strong in chemistry, history, biological sciences and computer science.",
+      "website": ""
+    },
+    {
+      "id": "cardiff",
+      "name": "Cardiff University",
+      "abbr": "Cardiff",
+      "color": "#8B1A1A",
+      "city": "Cardiff",
+      "type": "Public",
+      "tuition": "£9,250–22,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Engineering",
+        "Science",
+        "Business"
+      ],
+      "langs": [
+        "English",
+        "Welsh"
+      ],
+      "founded": 1883,
+      "students": "~32,000",
+      "desc": "Wales's leading research university — Russell Group member consistently in the UK top 20, with world-leading research in medicine, engineering and the social sciences.",
+      "website": ""
+    },
+    {
+      "id": "qub",
+      "name": "Queen's University Belfast",
+      "abbr": "QUB",
+      "color": "#002F6C",
+      "city": "Belfast",
+      "type": "Public",
+      "tuition": "£4,630–17,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Engineering",
+        "Science",
+        "Business"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1845,
+      "students": "~24,000",
+      "desc": "Northern Ireland's leading Russell Group university — exceptional research in medicine, engineering and law at some of the UK's most affordable fees.",
+      "website": ""
+    },
+    {
+      "id": "southampton",
+      "name": "University of Southampton",
+      "abbr": "Soton",
+      "color": "#005C84",
+      "city": "Southampton",
+      "type": "Public",
+      "tuition": "£9,250–22,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Medicine",
+        "CS",
+        "Business"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1952,
+      "students": "~27,000",
+      "desc": "Russell Group research university with world-leading strengths in engineering, electronics and oceanography — home of web science research with Tim Berners-Lee.",
+      "website": ""
+    },
+    {
+      "id": "newcastle",
+      "name": "Newcastle University",
+      "abbr": "NCL",
+      "color": "#002B4E",
+      "city": "Newcastle",
+      "type": "Public",
+      "tuition": "£9,250–22,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Engineering",
+        "Science",
+        "Law",
+        "Architecture"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1963,
+      "students": "~28,000",
+      "desc": "Russell Group university in one of the UK's most vibrant student cities — internationally recognised for medicine, architecture and engineering.",
+      "website": ""
+    },
+    {
+      "id": "liverpool",
+      "name": "University of Liverpool",
+      "abbr": "LivU",
+      "color": "#00395D",
+      "city": "Liverpool",
+      "type": "Public",
+      "tuition": "£9,250–21,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Engineering",
+        "Law",
+        "Science",
+        "Business"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1881,
+      "students": "~23,000",
+      "desc": "Russell Group member with a world-leading veterinary school and strong medicine programmes — in the UK's most iconic music city, birthplace of The Beatles.",
+      "website": ""
+    },
+    {
+      "id": "reading",
+      "name": "University of Reading",
+      "abbr": "UoR",
+      "color": "#001C64",
+      "city": "Reading",
+      "type": "Public",
+      "tuition": "£9,250–21,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Business",
+        "Arts",
+        "Humanities",
+        "Engineering"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1926,
+      "students": "~20,000",
+      "desc": "Known for meteorology, agriculture and food science — Reading has a beautiful green campus 25 minutes from London and consistent top-25 rankings.",
+      "website": ""
+    },
+    {
+      "id": "surrey",
+      "name": "University of Surrey",
+      "abbr": "Surrey",
+      "color": "#4A1486",
+      "city": "Guildford",
+      "type": "Public",
+      "tuition": "£9,250–20,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Science",
+        "CS",
+        "Law"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1966,
+      "students": "~16,000",
+      "desc": "Consistently in the UK top 15 for graduate employment — Surrey's placement year programme and engineering degrees are among the most industry-connected in the country.",
+      "website": ""
+    },
+    {
+      "id": "sussex",
+      "name": "University of Sussex",
+      "abbr": "Sussex",
+      "color": "#006978",
+      "city": "Brighton",
+      "type": "Public",
+      "tuition": "£9,250–20,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Humanities",
+        "Law",
+        "Business",
+        "Social Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1961,
+      "students": "~19,000",
+      "desc": "Research-intensive campus university in Brighton — known for international relations, life sciences and a progressive atmosphere next to the UK's most vibrant seaside city.",
+      "website": ""
+    },
+    {
+      "id": "uea",
+      "name": "University of East Anglia",
+      "abbr": "UEA",
+      "color": "#00539B",
+      "city": "Norwich",
+      "type": "Public",
+      "tuition": "£9,250–20,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Humanities",
+        "Medicine",
+        "Business",
+        "Arts"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1963,
+      "students": "~17,000",
+      "desc": "Home to the world-famous creative writing programme and globally respected climate science research — innovative campus in the cathedral city of Norwich.",
+      "website": ""
+    },
+    {
+      "id": "loughborough",
+      "name": "Loughborough University",
+      "abbr": "Lboro",
+      "color": "#5B0068",
+      "city": "Loughborough",
+      "type": "Public",
+      "tuition": "£9,250–20,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Business",
+        "Architecture",
+        "Arts"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1966,
+      "students": "~18,000",
+      "desc": "Ranked #1 in the UK for student experience more times than any other university — world-class for sports science, engineering and design. Home to dozens of Olympic athletes.",
+      "website": ""
+    },
+    {
+      "id": "heriotwatt",
+      "name": "Heriot-Watt University",
+      "abbr": "HWU",
+      "color": "#003D2B",
+      "city": "Edinburgh",
+      "type": "Public",
+      "tuition": "Free (Scottish)",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Architecture",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1821,
+      "students": "~12,000",
+      "desc": "Scotland's specialist science, engineering and business university with campuses in Dubai and Malaysia — free for Scottish students, ranked top 300 globally.",
+      "website": "https://www.hw.ac.uk/"
+    },
+    {
+      "id": "aberdeen",
+      "name": "University of Aberdeen",
+      "abbr": "AbdnU",
+      "color": "#FFC72C",
+      "city": "Aberdeen",
+      "type": "Public",
+      "tuition": "Free (Scottish)",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Engineering",
+        "Humanities"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1495,
+      "students": "~15,000",
+      "desc": "Scotland's third-oldest university (1495) — free for Scottish students, with internationally recognised expertise in energy, medicine and law in Europe's oil capital.",
+      "website": "https://abdn.ac.uk/"
+    },
+    {
+      "id": "dundee",
+      "name": "University of Dundee",
+      "abbr": "DundU",
+      "color": "#003865",
+      "city": "Dundee",
+      "type": "Public",
+      "tuition": "Free (Scottish)",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Engineering",
+        "Arts",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1881,
+      "students": "~16,000",
+      "desc": "Consistently voted Scotland's top city for students — world-leading medical school, a comics museum and the cheapest student rents in Scotland.",
+      "website": "http://www.dundee.ac.uk/"
+    },
+    {
+      "id": "strathclyde",
+      "name": "University of Strathclyde",
+      "abbr": "UStrath",
+      "color": "#C8102E",
+      "city": "Glasgow",
+      "type": "Public",
+      "tuition": "Free (Scottish)",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Science",
+        "CS",
+        "Law"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1796,
+      "students": "~22,000",
+      "desc": "Glasgow's technical university — regularly named UK Entrepreneurial University of the Year, with world-class engineering and a major business school in the heart of Glasgow.",
+      "website": "https://www.strath.ac.uk/"
+    },
+    {
+      "id": "leicester",
+      "name": "University of Leicester",
+      "abbr": "UoLeic",
+      "color": "#7B1C1C",
+      "city": "Leicester",
+      "type": "Public",
+      "tuition": "£9,250–19,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Science",
+        "Law",
+        "Engineering",
+        "Business"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1921,
+      "students": "~18,000",
+      "desc": "Where DNA fingerprinting was discovered in 1984 — Leicester has internationally renowned genetics and space science departments in one of the UK's most multicultural cities.",
+      "website": ""
+    },
+    {
+      "id": "brunel",
+      "name": "Brunel University London",
+      "abbr": "Brunel",
+      "color": "#0055A5",
+      "city": "London",
+      "type": "Public",
+      "tuition": "£9,250–20,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Law",
+        "CS",
+        "Arts"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1966,
+      "students": "~14,000",
+      "desc": "A London university with a strong placement year culture and industry connections — particularly respected for engineering, media and sports science.",
+      "website": ""
+    },
+    {
+      "id": "goldsmiths",
+      "name": "Goldsmiths, University of London",
+      "abbr": "Gold",
+      "color": "#C8A100",
+      "city": "London",
+      "type": "Public",
+      "tuition": "£9,250–18,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Arts",
+        "Humanities",
+        "Social Science",
+        "CS",
+        "Business"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1891,
+      "students": "~10,000",
+      "desc": "Britain's most creative university — alumni include Damien Hirst and the majority of Turner Prize artists. Internationally renowned for art, music, media and cultural studies.",
+      "website": ""
+    },
+    {
+      "id": "rhul",
+      "name": "Royal Holloway University of London",
+      "abbr": "RHUL",
+      "color": "#5B0068",
+      "city": "London",
+      "type": "Public",
+      "tuition": "£9,250–19,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Humanities",
+        "Business",
+        "Law",
+        "Arts"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1879,
+      "students": "~12,000",
+      "desc": "Set in a Victorian Gothic castle on the Surrey hills — world-class for information security, psychology and music performance as part of the University of London.",
+      "website": ""
+    },
+    {
+      "id": "citylondon",
+      "name": "City, University of London",
+      "abbr": "City",
+      "color": "#8B0000",
+      "city": "London",
+      "type": "Public",
+      "tuition": "£9,250–19,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Law",
+        "Engineering",
+        "CS",
+        "Social Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1894,
+      "students": "~20,000",
+      "desc": "In the heart of the City of London — internationally ranked for business, law, journalism and optometry with exceptional links to London's financial and media industries.",
+      "website": ""
+    },
+    {
+      "id": "aston",
+      "name": "Aston University",
+      "abbr": "Aston",
+      "color": "#9B1B30",
+      "city": "Birmingham",
+      "type": "Public",
+      "tuition": "£9,250–18,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Business",
+        "CS",
+        "Law",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1895,
+      "students": "~18,000",
+      "desc": "Consistently ranked among the UK's top 20 for graduate employment — Aston's placement year programme, business school and engineering are highly regarded by major employers.",
+      "website": ""
+    },
+    {
+      "id": "coventry",
+      "name": "Coventry University",
+      "abbr": "CovU",
+      "color": "#B31B1B",
+      "city": "Coventry",
+      "type": "Public",
+      "tuition": "£9,250–16,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "CS",
+        "Arts",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1843,
+      "students": "~30,000",
+      "desc": "One of the UK's fastest-rising universities — excellent for automotive engineering, design and business, with accessible entry requirements and a modern city campus.",
+      "website": ""
+    },
+    {
+      "id": "dmontfort",
+      "name": "De Montfort University",
+      "abbr": "DMU",
+      "color": "#007A33",
+      "city": "Leicester",
+      "type": "Public",
+      "tuition": "£9,250–15,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Arts",
+        "Engineering",
+        "Business",
+        "CS",
+        "Law"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1870,
+      "students": "~25,000",
+      "desc": "Known for music technology, fashion design and cyber security — DMU is a modern metropolitan university with an award-winning city-centre campus transformation.",
+      "website": ""
+    },
+    {
+      "id": "stirling",
+      "name": "University of Stirling",
+      "abbr": "UStir",
+      "color": "#006633",
+      "city": "Stirling",
+      "type": "Public",
+      "tuition": "Free (Scottish)",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Science",
+        "Humanities",
+        "Social Science",
+        "Sports"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1967,
+      "students": "~13,000",
+      "desc": "Voted Scotland's most beautiful campus — a landscaped estate with its own loch. Internationally ranked for sport, nursing, psychology and aquaculture research.",
+      "website": ""
+    },
+    {
+      "id": "swansea",
+      "name": "Swansea University",
+      "abbr": "SwanU",
+      "color": "#001B44",
+      "city": "Swansea",
+      "type": "Public",
+      "tuition": "£9,250–19,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Medicine",
+        "Science",
+        "Business",
+        "Law"
+      ],
+      "langs": [
+        "English",
+        "Welsh"
+      ],
+      "founded": 1920,
+      "students": "~22,000",
+      "desc": "Wales's second university on a beautiful bay — with a world-leading engineering research centre and one of the UK's fastest-growing medical schools.",
+      "website": ""
+    },
+    {
+      "id": "aberystwyth",
+      "name": "Aberystwyth University",
+      "abbr": "Aber",
+      "color": "#008000",
+      "city": "Aberystwyth",
+      "type": "Public",
+      "tuition": "£9,250–16,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Humanities",
+        "Science",
+        "Law",
+        "Business",
+        "Arts"
+      ],
+      "langs": [
+        "English",
+        "Welsh"
+      ],
+      "founded": 1872,
+      "students": "~8,000",
+      "desc": "Wales's oldest university, set on Cardigan Bay with stunning seaside views — known for Welsh language programmes, international politics and environmental science.",
+      "website": ""
+    },
+    {
+      "id": "portsmouth",
+      "name": "University of Portsmouth",
+      "abbr": "UoP",
+      "color": "#003366",
+      "city": "Portsmouth",
+      "type": "Public",
+      "tuition": "£9,250–18,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "CS",
+        "Law",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1992,
+      "students": "~24,000",
+      "desc": "A modern coastal university — strong in criminology, digital technologies and sport science, with a vibrant student life in a Royal Navy city.",
+      "website": ""
+    },
+    {
+      "id": "hull",
+      "name": "University of Hull",
+      "abbr": "UoH",
+      "color": "#FF6600",
+      "city": "Hull",
+      "type": "Public",
+      "tuition": "£9,250–16,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Law",
+        "Science",
+        "Engineering",
+        "Humanities"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1927,
+      "students": "~18,000",
+      "desc": "Wilberforce's city — Hull has an overlooked maritime heritage and a surprisingly strong drama, law and business school in one of England's most affordable student cities.",
+      "website": "https://www.hull.ac.uk/"
+    },
+    {
+      "id": "huddersfield",
+      "name": "University of Huddersfield",
+      "abbr": "UoHud",
+      "color": "#0033A0",
+      "city": "Huddersfield",
+      "type": "Public",
+      "tuition": "£9,250–16,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "CS",
+        "Arts",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1992,
+      "students": "~22,000",
+      "desc": "Three-time winner of UK University of the Year — Huddersfield is known for teaching quality, music, pharmacy and engineering excellence.",
+      "website": "http://hud.ac.uk/"
+    },
+    {
+      "id": "sunderland",
+      "name": "University of Sunderland",
+      "abbr": "UoS2",
+      "color": "#CC0000",
+      "city": "Sunderland",
+      "type": "Public",
+      "tuition": "£9,250–14,000/yr",
+      "ts": 2,
+      "diff": 1,
+      "dl": "Open access",
+      "fields": [
+        "Business",
+        "CS",
+        "Law",
+        "Health Sciences",
+        "Arts"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1992,
+      "students": "~18,000",
+      "desc": "Sunderland's city university offering very accessible entry with strengths in media, nursing and computing, and some of the lowest fees in England.",
+      "website": "http://www.sunderland.ac.uk/"
+    },
+    {
+      "id": "derby",
+      "name": "University of Derby",
+      "abbr": "UoD",
+      "color": "#0033A0",
+      "city": "Derby",
+      "type": "Public",
+      "tuition": "£9,250–16,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Engineering",
+        "Health Sciences",
+        "Arts",
+        "CS"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1992,
+      "students": "~21,000",
+      "desc": "In the world's first industrial city — Derby has strong engineering ties to Rolls-Royce and Toyota, with good nursing and tourism programmes.",
+      "website": "https://www.derby.ac.uk"
+    },
+    {
+      "id": "brighton",
+      "name": "University of Brighton",
+      "abbr": "UoBrig",
+      "color": "#009BBB",
+      "city": "Brighton",
+      "type": "Public",
+      "tuition": "£9,250–16,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Arts",
+        "Engineering",
+        "Business",
+        "Law",
+        "Health Sciences"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1992,
+      "students": "~22,000",
+      "desc": "Set in the UK's most vibrant seaside city — Brighton excels in pharmacy, architecture, arts and media in an atmosphere of openness and creativity.",
+      "website": ""
+    },
+    {
+      "id": "plymouth",
+      "name": "University of Plymouth",
+      "abbr": "UoPlym",
+      "color": "#003087",
+      "city": "Plymouth",
+      "type": "Public",
+      "tuition": "£9,250–17,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Science",
+        "Engineering",
+        "Business",
+        "Arts",
+        "Law"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1992,
+      "students": "~23,000",
+      "desc": "The UK's leading marine sciences university — set on the Plymouth Sound, with excellent ocean sciences, biology and marine engineering.",
+      "website": ""
+    },
+    {
+      "id": "lincoln",
+      "name": "University of Lincoln",
+      "abbr": "UoL",
+      "color": "#9B1B30",
+      "city": "Lincoln",
+      "type": "Public",
+      "tuition": "£9,250–17,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Law",
+        "Arts",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1992,
+      "students": "~16,000",
+      "desc": "In a cathedral city — Lincoln is rising fast with strengths in computer science, engineering and veterinary nursing in one of England's most beautiful towns.",
+      "website": ""
+    },
+    {
+      "id": "westminster",
+      "name": "University of Westminster",
+      "abbr": "UoW",
+      "color": "#CC0000",
+      "city": "London",
+      "type": "Public",
+      "tuition": "£9,250–16,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "CS",
+        "Law",
+        "Arts",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1838,
+      "students": "~21,000",
+      "desc": "A diverse London university with strong fashion, media and journalism schools — founded by Charles Dickens' friend, set in the heart of Regent Street.",
+      "website": ""
+    },
+    {
+      "id": "napier",
+      "name": "Edinburgh Napier University",
+      "abbr": "ENU",
+      "color": "#003366",
+      "city": "Edinburgh",
+      "type": "Public",
+      "tuition": "Free (Scottish)",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Engineering",
+        "CS",
+        "Arts",
+        "Nursing"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1964,
+      "students": "~19,000",
+      "desc": "Edinburgh's modern applied university named after logarithms inventor John Napier — strong in business, nursing, computing and creative industries.",
+      "website": ""
+    },
+    {
+      "id": "gcu",
+      "name": "Glasgow Caledonian University",
+      "abbr": "GCU",
+      "color": "#007A33",
+      "city": "Glasgow",
+      "type": "Public",
+      "tuition": "Free (Scottish)",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Engineering",
+        "Health Sciences",
+        "Law",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1875,
+      "students": "~23,000",
+      "desc": "Scotland's university for the common good — world-leading in public health, risk management and fashion with campuses in Glasgow, London and New York.",
+      "website": ""
+    },
+    {
+      "id": "uws",
+      "name": "University of the West of Scotland",
+      "abbr": "UWS",
+      "color": "#CC0000",
+      "city": "Glasgow",
+      "type": "Public",
+      "tuition": "Free (Scottish)",
+      "ts": 1,
+      "diff": 1,
+      "dl": "Open access",
+      "fields": [
+        "Engineering",
+        "Business",
+        "CS",
+        "Nursing",
+        "Arts"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1897,
+      "students": "~22,000",
+      "desc": "Scotland's widening-access university with campuses from Paisley to Dubai — strong in nursing, computing and engineering with inclusive entry policies.",
+      "website": ""
+    },
+    {
+      "id": "rgu",
+      "name": "Robert Gordon University",
+      "abbr": "RGU",
+      "color": "#0033A0",
+      "city": "Aberdeen",
+      "type": "Public",
+      "tuition": "Free (Scottish)",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Nursing",
+        "Architecture",
+        "CS"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1750,
+      "students": "~16,000",
+      "desc": "Aberdeen's applied university and the UK's top modern university for graduate employment — world-leading for oil & gas engineering and energy transition studies.",
+      "website": ""
+    },
+    {
+      "id": "uhi",
+      "name": "University of the Highlands and Islands",
+      "abbr": "UHI",
+      "color": "#003366",
+      "city": "Inverness",
+      "type": "Public",
+      "tuition": "Free (Scottish)",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Science",
+        "Humanities",
+        "Business",
+        "Arts",
+        "Engineering"
+      ],
+      "langs": [
+        "English",
+        "Gaelic"
+      ],
+      "founded": 2011,
+      "students": "~12,000",
+      "desc": "A federated university across 13 campuses from Shetland to Argyll — uniquely rooted in Highland culture, Gaelic studies and sustainable rural development.",
+      "website": ""
+    },
+    {
+      "id": "cardiff-met",
+      "name": "Cardiff Metropolitan University",
+      "abbr": "CMU",
+      "color": "#006633",
+      "city": "Cardiff",
+      "type": "Public",
+      "tuition": "£9,250–16,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Arts",
+        "Business",
+        "Engineering",
+        "Health Sciences",
+        "Education"
+      ],
+      "langs": [
+        "English",
+        "Welsh"
+      ],
+      "founded": 1865,
+      "students": "~14,000",
+      "desc": "Wales's arts and design university — home to the Cardiff School of Art & Design and strong health sciences programmes.",
+      "website": ""
+    },
+    {
+      "id": "northumbria",
+      "name": "Northumbria University",
+      "abbr": "NU",
+      "color": "#003087",
+      "city": "Newcastle",
+      "type": "Public",
+      "tuition": "£9,250–17,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Law",
+        "Business",
+        "Engineering",
+        "CS",
+        "Arts"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1992,
+      "students": "~38,000",
+      "desc": "Newcastle's second university — consistently top for law, product design and forensic science with exceptional graduate employment rates.",
+      "website": ""
+    },
+    {
+      "id": "teesside",
+      "name": "Teesside University",
+      "abbr": "TU",
+      "color": "#CC0000",
+      "city": "Middlesbrough",
+      "type": "Public",
+      "tuition": "£9,250–15,000/yr",
+      "ts": 2,
+      "diff": 1,
+      "dl": "Open access",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Health Sciences",
+        "Arts"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1930,
+      "students": "~24,000",
+      "desc": "The North-East's digital and creative university — a national leader in computer animation, game design and digital media arts.",
+      "website": ""
+    },
+    {
+      "id": "kingston",
+      "name": "Kingston University London",
+      "abbr": "KUL",
+      "color": "#9B1B30",
+      "city": "London",
+      "type": "Public",
+      "tuition": "£9,250–16,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Arts",
+        "Engineering",
+        "Business",
+        "Science",
+        "Nursing"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1899,
+      "students": "~20,000",
+      "desc": "A Thames-side London university celebrated for fine art, fashion and architecture — alumni include Eadweard Muybridge and a string of Turner Prize nominees.",
+      "website": "https://www.kingston.ac.uk/"
+    },
+    {
+      "id": "greenwich",
+      "name": "University of Greenwich",
+      "abbr": "UoG",
+      "color": "#003366",
+      "city": "London",
+      "type": "Public",
+      "tuition": "£9,250–16,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "CS",
+        "Law",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1890,
+      "students": "~24,000",
+      "desc": "Set in the UNESCO World Heritage Old Royal Naval College on the Thames — stunning campus, strong in engineering, pharmacy and business.",
+      "website": "http://www.gre.ac.uk/"
+    },
+    {
+      "id": "middlesex",
+      "name": "Middlesex University London",
+      "abbr": "MDX",
+      "color": "#CC0000",
+      "city": "London",
+      "type": "Public",
+      "tuition": "£9,250–15,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Law",
+        "Business",
+        "Arts",
+        "Health Sciences",
+        "CS"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1878,
+      "students": "~24,000",
+      "desc": "A diverse North London university with exceptional international reach — campuses in Dubai, Mauritius and Malta, known for law, health science and creative arts.",
+      "website": "https://www.mdx.ac.uk"
+    },
+    {
+      "id": "ulster",
+      "name": "Ulster University",
+      "abbr": "UU",
+      "color": "#0033A0",
+      "city": "Belfast",
+      "type": "Public",
+      "tuition": "£4,630–16,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Engineering",
+        "Arts",
+        "Health Sciences",
+        "Law"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1968,
+      "students": "~28,000",
+      "desc": "Northern Ireland's second university — the largest multi-campus university in Ireland, known for art, design, health sciences and business.",
+      "website": "https://www.ulster.ac.uk/"
+    },
+    {
+      "id": "glyndwr",
+      "name": "Wrexham Glyndŵr University",
+      "abbr": "WGU",
+      "color": "#CC0000",
+      "city": "Wrexham",
+      "type": "Public",
+      "tuition": "£9,250–15,000/yr",
+      "ts": 2,
+      "diff": 1,
+      "dl": "Open access",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Arts",
+        "Health Sciences",
+        "CS"
+      ],
+      "langs": [
+        "English",
+        "Welsh"
+      ],
+      "founded": 1887,
+      "students": "~7,000",
+      "desc": "Named after Owain Glyndŵr, Wales's last native Prince — a small, accessible university in north Wales with strengths in STEM and creative arts.",
+      "website": ""
+    },
+    {
+      "id": "uca",
+      "name": "University for the Creative Arts",
+      "abbr": "UCA",
+      "color": "#CC0000",
+      "city": "London",
+      "type": "Public",
+      "tuition": "£9,250–18,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Arts",
+        "Architecture",
+        "Business"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1969,
+      "students": "~7,000",
+      "desc": "A specialist creative arts university across Kent and Surrey campuses — one of the UK's most respected for fashion, film and fine art.",
+      "website": ""
+    },
+    {
+      "id": "arts-london",
+      "name": "University of the Arts London",
+      "abbr": "UAL",
+      "color": "#000000",
+      "city": "London",
+      "type": "Public",
+      "tuition": "£9,250–22,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Arts",
+        "Architecture",
+        "Business"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1986,
+      "students": "~21,000",
+      "desc": "The world's second-largest arts university — home to Central Saint Martins, the London College of Fashion and Camberwell College of Arts.",
+      "website": ""
+    },
+    {
+      "id": "roe",
+      "name": "University of Roehampton",
+      "abbr": "URoe",
+      "color": "#003087",
+      "city": "London",
+      "type": "Public",
+      "tuition": "£9,250–14,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Humanities",
+        "Education",
+        "Business",
+        "Social Science",
+        "Arts"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1841,
+      "students": "~12,000",
+      "desc": "In the greenest corner of London with access to Richmond Park — particularly known for education, dance and psychology on a leafy parkland campus.",
+      "website": ""
+    },
+    {
+      "id": "bcu",
+      "name": "Birmingham City University",
+      "abbr": "BCU",
+      "color": "#C8102E",
+      "city": "Birmingham",
+      "type": "Public",
+      "tuition": "£9,250–15,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Arts",
+        "Engineering",
+        "Business",
+        "Law",
+        "Health Sciences"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1992,
+      "students": "~30,000",
+      "desc": "Birmingham's creative university — excellent for fashion, media, game design and music technology in the UK's second-largest city.",
+      "website": ""
+    },
+    {
+      "id": "wolverhampton",
+      "name": "University of Wolverhampton",
+      "abbr": "UoW2",
+      "color": "#8B0000",
+      "city": "Wolverhampton",
+      "type": "Public",
+      "tuition": "£9,250–14,000/yr",
+      "ts": 2,
+      "diff": 1,
+      "dl": "Open access",
+      "fields": [
+        "Business",
+        "Engineering",
+        "Law",
+        "Health Sciences",
+        "Arts"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1992,
+      "students": "~23,000",
+      "desc": "The West Midlands' widening-participation university — strong in nursing, law and business with some of the most accessible entry requirements in England.",
+      "website": ""
+    },
+    {
+      "id": "staffordshire",
+      "name": "Staffordshire University",
+      "abbr": "SU",
+      "color": "#CC0000",
+      "city": "Stoke-on-Trent",
+      "type": "Public",
+      "tuition": "£9,250–14,000/yr",
+      "ts": 2,
+      "diff": 1,
+      "dl": "Open access",
+      "fields": [
+        "CS",
+        "Business",
+        "Arts",
+        "Law",
+        "Health Sciences"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1992,
+      "students": "~16,000",
+      "desc": "The Potteries' university — a national leader in cyber security, policing and forensics, with modern facilities and a strong student support network.",
+      "website": ""
+    },
+    {
+      "id": "uwl",
+      "name": "University of West London",
+      "abbr": "UWL",
+      "color": "#003366",
+      "city": "London",
+      "type": "Public",
+      "tuition": "£9,250–14,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Arts",
+        "Health Sciences",
+        "Law",
+        "Engineering"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1860,
+      "students": "~15,000",
+      "desc": "Ealing's university — best in London for student satisfaction and career prospects, particularly for nursing, music and hospitality management.",
+      "website": ""
+    },
+    {
+      "id": "uos2",
+      "name": "University of Suffolk",
+      "abbr": "UoSuf",
+      "color": "#003087",
+      "city": "Ipswich",
+      "type": "Public",
+      "tuition": "£9,250–14,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Health Sciences",
+        "Business",
+        "CS",
+        "Humanities",
+        "Engineering"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 2007,
+      "students": "~8,000",
+      "desc": "East Anglia's newest university in the regenerated Ipswich Waterfront — strong in nursing, health sciences and digital media for a growing regional economy.",
+      "website": ""
+    },
+    {
+      "id": "keele",
+      "name": "Keele University",
+      "abbr": "Keele",
+      "color": "#006633",
+      "city": "Stoke-on-Trent",
+      "type": "Public",
+      "tuition": "£9,250–18,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Science",
+        "Humanities",
+        "Business",
+        "Law"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1949,
+      "students": "~11,000",
+      "desc": "A leafy campus university with an innovative dual honours system — strong in medicine, pharmacy and international relations with exceptional student satisfaction.",
+      "website": ""
+    },
+    {
+      "id": "anglia",
+      "name": "Anglia Ruskin University",
+      "abbr": "ARU",
+      "color": "#CC0000",
+      "city": "Cambridge",
+      "type": "Public",
+      "tuition": "£9,250–15,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Health Sciences",
+        "Business",
+        "Engineering",
+        "Arts",
+        "Law"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1858,
+      "students": "~37,000",
+      "desc": "Cambridge's second university and one of England's largest — strong in nursing, optometry and management; in a city famous for far more than one institution.",
+      "website": ""
+    },
+    {
+      "id": "oxford-brookes",
+      "name": "Oxford Brookes University",
+      "abbr": "OBU",
+      "color": "#003087",
+      "city": "Oxford",
+      "type": "Public",
+      "tuition": "£9,250–17,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Architecture",
+        "Business",
+        "Health Sciences",
+        "Law",
+        "Engineering"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1865,
+      "students": "~18,000",
+      "desc": "Oxford's second university — among the top 5 in the world for architecture, with excellent health sciences, business and sports programmes in the city of dreaming spires.",
+      "website": ""
+    },
+    {
+      "id": "bpp",
+      "name": "BPP University",
+      "abbr": "BPP",
+      "color": "#CC0000",
+      "city": "London",
+      "type": "Private",
+      "tuition": "£7,000–14,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Law",
+        "Business",
+        "Finance"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 2007,
+      "students": "~9,000",
+      "desc": "The UK's first for-profit university — focused entirely on law, accountancy and business, with industry-aligned curricula and strong professional qualification pathways.",
+      "website": "http://www.bpp.com/university"
+    },
+    {
+      "id": "cam-judge",
+      "name": "University of Cambridge – Judge Business School",
+      "abbr": "Judge",
+      "color": "#003091",
+      "city": "Cambridge",
+      "type": "Public",
+      "tuition": "£55,000–60,000/yr",
+      "ts": 5,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Business"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1990,
+      "students": "~1,000",
+      "desc": "Cambridge's elite business school — consistently top 5 globally for MBA programmes, with 121 Nobel laureate faculty mentors and exceptional venture capital access.",
+      "website": ""
+    },
+    {
+      "id": "imperial-bs",
+      "name": "Imperial College Business School",
+      "abbr": "ImpBS",
+      "color": "#003E74",
+      "city": "London",
+      "type": "Public",
+      "tuition": "£45,000–55,000/yr",
+      "ts": 5,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Business",
+        "Finance"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 2004,
+      "students": "~1,500",
+      "desc": "Imperial's MBA and MSc Finance programmes are globally top-ranked — the school's proximity to London's financial district and tech scene gives students unrivalled networking.",
+      "website": "http://wwwf.imperial.ac.uk/business-school/"
+    },
+    {
+      "id": "said",
+      "name": "University of Oxford – Saïd Business School",
+      "abbr": "Saïd",
+      "color": "#003087",
+      "city": "Oxford",
+      "type": "Public",
+      "tuition": "£60,000–70,000/yr",
+      "ts": 5,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Business"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1996,
+      "students": "~1,200",
+      "desc": "Oxford's MBA school — ranked top 5 globally, with an unusual focus on entrepreneurship and responsible business alongside traditional finance and strategy.",
+      "website": ""
+    },
+    {
+      "id": "cranfield",
+      "name": "Cranfield University",
+      "abbr": "Cranfield",
+      "color": "#003366",
+      "city": "Bedford",
+      "type": "Public",
+      "tuition": "£14,000–30,000/yr",
+      "ts": 4,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Science",
+        "CS"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1946,
+      "students": "~5,000",
+      "desc": "A postgraduate-only university adjacent to a working airfield — world-class for aerospace, defence and management science, with deep links to the UK's engineering industry.",
+      "website": "https://www.cranfield.ac.uk/"
+    },
+    {
+      "id": "royal-vet",
+      "name": "Royal Veterinary College",
+      "abbr": "RVC",
+      "color": "#CC0000",
+      "city": "London",
+      "type": "Public",
+      "tuition": "£9,250–30,000/yr",
+      "ts": 3,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Medicine",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1791,
+      "students": "~2,500",
+      "desc": "The world's oldest and largest veterinary school — consistently ranked #1 globally for veterinary science, with clinical hospitals in Camden and Hertfordshire.",
+      "website": "http://www.rvc.ac.uk"
+    },
+    {
+      "id": "guildhall",
+      "name": "Guildhall School of Music & Drama",
+      "abbr": "GSMD",
+      "color": "#000000",
+      "city": "London",
+      "type": "Public",
+      "tuition": "£9,250–22,000/yr",
+      "ts": 2,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Arts"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1880,
+      "students": "~1,000",
+      "desc": "One of the world's leading conservatoires — alumni include Daniel Craig, Ewan McGregor and virtually every principal player in the UK's major orchestras.",
+      "website": ""
+    },
+    {
+      "id": "rca",
+      "name": "Royal College of Art",
+      "abbr": "RCA",
+      "color": "#CC0000",
+      "city": "London",
+      "type": "Public",
+      "tuition": "£9,250–25,000/yr",
+      "ts": 2,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Arts",
+        "Architecture",
+        "Engineering"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1837,
+      "students": "~2,000",
+      "desc": "The world's #1 art and design university — postgraduate-only, alumni include Sir Jony Ive (Apple), James Dyson and David Hockney.",
+      "website": ""
+    },
+    {
+      "id": "iam",
+      "name": "Institute of Advanced Motorists",
+      "abbr": "IAM",
+      "color": "#003366",
+      "city": "London",
+      "type": "Private",
+      "tuition": "£8,000–16,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Law",
+        "Engineering"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 2000,
+      "students": "~3,000",
+      "desc": "A specialist professional-development institution for automotive and transport management studies — preparing graduates for careers in logistics and supply chain.",
+      "website": ""
+    },
+    {
+      "id": "westminster-kingsway",
+      "name": "Westminster Kingsway College",
+      "abbr": "WKC",
+      "color": "#CC0000",
+      "city": "London",
+      "type": "Public",
+      "tuition": "£9,250–14,000/yr",
+      "ts": 2,
+      "diff": 1,
+      "dl": "Open access",
+      "fields": [
+        "Arts",
+        "Business",
+        "Health Sciences",
+        "Engineering"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 2000,
+      "students": "~10,000",
+      "desc": "London's leading further and higher education college — renowned for culinary arts (the UK's top chef school) and performing arts.",
+      "website": ""
+    },
+    {
+      "id": "ulster2",
+      "name": "University of London – Goldsmiths 2",
+      "abbr": "Gold2",
+      "color": "#C8A100",
+      "city": "London",
+      "type": "Public",
+      "tuition": "£9,250–18,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Humanities",
+        "Arts",
+        "Social Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1891,
+      "students": "~9,500",
+      "desc": "The birthplace of British conceptual art — Goldsmiths degrees in fine art, media and music are among the most culturally influential in the world.",
+      "website": ""
+    },
+    {
+      "id": "loughborough-london",
+      "name": "Loughborough University London",
+      "abbr": "LboroL",
+      "color": "#5B0068",
+      "city": "London",
+      "type": "Public",
+      "tuition": "£9,250–20,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Arts",
+        "CS"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 2015,
+      "students": "~2,000",
+      "desc": "Loughborough's London campus in the Queen Elizabeth Olympic Park — focused on design innovation, enterprise and digital humanities with unrivalled industry partnerships.",
+      "website": ""
+    },
+    {
+      "id": "kent",
+      "name": "University of Kent",
+      "abbr": "UoKent",
+      "color": "#003366",
+      "city": "Canterbury",
+      "type": "Public",
+      "tuition": "£9,250–18,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Law",
+        "Humanities",
+        "Science",
+        "Business",
+        "CS"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1965,
+      "students": "~20,000",
+      "desc": "The UK's European university — with campuses in Paris, Brussels and Athens alongside Canterbury's cathedral city setting, particularly strong in law, biosciences and politics.",
+      "website": ""
+    },
+    {
+      "id": "ualaw",
+      "name": "University of Law",
+      "abbr": "ULaw",
+      "color": "#003087",
+      "city": "London",
+      "type": "Private",
+      "tuition": "£15,000–20,000/yr",
+      "ts": 4,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Law"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1962,
+      "students": "~14,000",
+      "desc": "The UK's largest law-only university — preparing more qualified solicitors and barristers annually than any other institution, with strong ties to the Magic Circle firms.",
+      "website": ""
+    },
+    {
+      "id": "bcot",
+      "name": "Bournemouth University",
+      "abbr": "BU",
+      "color": "#9B1B30",
+      "city": "Bournemouth",
+      "type": "Public",
+      "tuition": "£9,250–17,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Arts",
+        "CS",
+        "Tourism",
+        "Health Sciences"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1992,
+      "students": "~20,000",
+      "desc": "On Britain's most beautiful coastline — a top UK university for film, animation, media and tourism, with one of the country's best professional placement programmes.",
+      "website": ""
+    },
+    {
+      "id": "falmouth",
+      "name": "Falmouth University",
+      "abbr": "Falmouth",
+      "color": "#006633",
+      "city": "Falmouth",
+      "type": "Public",
+      "tuition": "£9,250–18,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Arts",
+        "CS",
+        "Business",
+        "Engineering"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1902,
+      "students": "~6,000",
+      "desc": "Cornwall's creative university — consistently ranked among the UK's top arts and design schools, in the UK's most southwesterly city with a stunning harbour campus.",
+      "website": ""
+    },
+    {
+      "id": "chester",
+      "name": "University of Chester",
+      "abbr": "UoChester",
+      "color": "#8B1A1A",
+      "city": "Chester",
+      "type": "Public",
+      "tuition": "£9,250–14,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Health Sciences",
+        "Business",
+        "Humanities",
+        "Law",
+        "Education"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1839,
+      "students": "~18,000",
+      "desc": "England's oldest higher education institution in a Roman walled city — strong in nursing, health sciences and theology in one of the north-west's most beautiful cities.",
+      "website": ""
+    },
+    {
+      "id": "northampton",
+      "name": "University of Northampton",
+      "abbr": "UoN2",
+      "color": "#003087",
+      "city": "Northampton",
+      "type": "Public",
+      "tuition": "£9,250–14,000/yr",
+      "ts": 2,
+      "diff": 1,
+      "dl": "Open access",
+      "fields": [
+        "Business",
+        "Health Sciences",
+        "Arts",
+        "Education",
+        "Law"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 2005,
+      "students": "~15,000",
+      "desc": "England's midpoint university in a purpose-built waterside campus — strong in social enterprise, nursing and leather technology (home of Britain's shoe industry).",
+      "website": ""
+    },
+    {
+      "id": "wolverhampton2",
+      "name": "Newman University",
+      "abbr": "Newman",
+      "color": "#CC0000",
+      "city": "Birmingham",
+      "type": "Private",
+      "tuition": "£9,250–14,000/yr",
+      "ts": 2,
+      "diff": 1,
+      "dl": "Open access",
+      "fields": [
+        "Education",
+        "Health Sciences",
+        "Humanities",
+        "Business",
+        "Arts"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1968,
+      "students": "~5,000",
+      "desc": "A small Catholic university in Birmingham — exceptional for teacher education, social work and psychology, offering a close-knit supportive community.",
+      "website": "http://www.newman.ac.uk/"
+    }
+  ],
+  "cities": {
+    "London": {
+      "region": "Greater London",
+      "pop": "9.2 million",
+      "climate": "Oceanic",
+      "cost": "£1,500–2,500/mo",
+      "desc": "London is the world city — the global capital of finance, culture, media and diversity. Five of the world's top 50 universities are within the Circle line. The cost is brutal but the career opportunities, cultural richness and sheer scale of opportunity are unmatched anywhere on earth.",
+      "highlights": [
+        "British Museum — 8 million objects spanning human civilisation, all free",
+        "Tate Modern — the world's most-visited modern art museum, in a converted power station",
+        "Borough Market — the UK's most famous food market under London Bridge",
+        "South Bank — 2km of riverside arts, galleries, restaurants and street performers",
+        "Camden Market — the heart of alternative London culture"
+      ],
+      "studentLife": "500,000 students across 40+ universities. Student accommodation in halls costs £800–1,400/month. Transport is expensive but the Railcard (25%) and 18+ Oyster card help. The NUS Totum card unlocks discounts everywhere.",
+      "transport": "11 Underground lines, Overground, Elizabeth line, DLR, buses and Thames Clippers. A monthly all-zones Travelcard costs ~£180, but a Zone 1-2 monthly is £148. TfL's new Hopper fare means unlimited bus rides within 1 hour for one fare.",
+      "nightlife": "Shoreditch for hipster clubs, Brixton for Afro-Caribbean music and culture, Soho for LGBT+ bars, Mayfair for exclusive cocktail bars. London has more live music venues than any city on earth.",
+      "pros": [
+        "World's financial capital — every major bank and fund headquartered here",
+        "5 top-50 universities within a single city",
+        "Most culturally diverse city on earth — 300 languages spoken",
+        "Infinite variety: from opera to grime, the City to Portobello Road"
+      ],
+      "tags": [
+        "Financial capital",
+        "Diversity",
+        "Culture",
+        "Career hub"
+      ]
+    },
+    "Oxford": {
+      "region": "Oxfordshire",
+      "pop": "165,000",
+      "climate": "Oceanic",
+      "cost": "£900–1,400/mo",
+      "desc": "Oxford is not just a university — it is a city that exists for one purpose: rigorous, transformative learning. The college system, the tutorial method, the libraries open until midnight — everything is designed to produce the best-educated graduates on earth. Walking through quads where John Donne, Charles Darwin and Stephen Hawking once walked is a genuinely humbling experience.",
+      "highlights": [
+        "Bodleian Library — one of the world's oldest research libraries, continuously open since 1602",
+        "Radcliffe Camera — the most photographed building in England",
+        "Christ Church Meadow — the model for Alice in Wonderland's settings",
+        "Covered Market — Victorian indoor market at the heart of the city",
+        "Ashmolean Museum — the world's first purpose-built public museum"
+      ],
+      "studentLife": "24,000 students from 140 countries. The college system means your social world is intensely connected. Punting on the Cherwell, formals in medieval halls, May Morning at Magdalen Bridge — Oxford's traditions are genuinely unique.",
+      "transport": "Compact and cycle-heavy — most students don't own a car. X90 coach to London in 1h45, train to London Paddington in 55 minutes. The Oxford Tube runs 24 hours to London.",
+      "nightlife": "The Turf Tavern (Oxford's most famous medieval pub), Bridge club nights in the basement of the St Hilda's boathouse, weekly union debates. Oxford's nightlife is more about pubs and societies than clubs.",
+      "pros": [
+        "The Oxford degree is arguably the most recognised in the world",
+        "Tutorial system gives 1:1 teaching — found nowhere else",
+        "College life creates lifelong connections across all disciplines",
+        "Access to the Bodleian's 13 million volumes"
+      ],
+      "tags": [
+        "Historic",
+        "Elite",
+        "Tutorial system",
+        "World-famous"
+      ]
+    },
+    "Cambridge": {
+      "region": "Cambridgeshire",
+      "pop": "130,000",
+      "climate": "Oceanic",
+      "cost": "£900–1,350/mo",
+      "desc": "Cambridge is Oxford's great rival — but where Oxford has perhaps the edge in humanities and law, Cambridge has the strongest scientific tradition of any university in history. Newton, Darwin, Turing, Crick and Watson all worked here. The city is smaller, flatter, and arguably even more beautiful than Oxford.",
+      "highlights": [
+        "King's College Chapel — the finest example of Gothic architecture in England",
+        "Punting on the Cam — the quintessential Cambridge experience",
+        "The Mathematical Bridge — Newton's (alleged) ingenious wooden bridge in Queens' College",
+        "Fitzwilliam Museum — Cambridge's world-class art and archaeology collection",
+        "The Eagle Pub — where Watson and Crick announced they had found the structure of DNA"
+      ],
+      "studentLife": "25,000 students in a city of 130,000. The college system creates an unusually intense social environment. A 'supervision' (Cambridge's tutorial) is a 1:1 meeting with an expert in your field every week.",
+      "transport": "Cambridge is the UK's cycling capital — 28% of commuters cycle. London King's Cross is 47 minutes by train. London Liverpool St is 75 minutes.",
+      "nightlife": "Cambridge's social life is college-centred — formals, May Balls (the UK's most prestigious graduation parties), drama societies, and debates. The Corn Exchange hosts major live music acts.",
+      "pros": [
+        "121 Nobel laureates — more than any country except the USA",
+        "Most innovative science culture in the UK — spinouts include ARM, Autonomy, Cambridge Silicon Radio",
+        "Punting season from February to November",
+        "47 minutes to central London by train"
+      ],
+      "tags": [
+        "Science",
+        "Historic",
+        "Nobel laureates",
+        "Punting"
+      ]
+    },
+    "Edinburgh": {
+      "region": "Scotland",
+      "pop": "540,000",
+      "climate": "Oceanic (cool)",
+      "cost": "£850–1,300/mo",
+      "desc": "Edinburgh is one of Europe's most dramatic cities — a medieval Old Town and Georgian New Town both UNESCO-listed, with a castle on a volcanic rock at its heart. As Scotland's capital, university fees are free for Scottish students, and the University of Edinburgh is ranked top 20 in the world. The August Fringe Festival makes it the world's largest arts event.",
+      "highlights": [
+        "Edinburgh Castle — 1,000-year-old fortress on Castle Rock dominating the skyline",
+        "The Royal Mile — the medieval street linking Castle to Holyrood Palace",
+        "Arthur's Seat — an extinct volcano offering panoramic city views, 30 minutes walk from the city centre",
+        "Edinburgh Fringe Festival — world's largest arts festival, 3,000+ shows every August",
+        "National Museum of Scotland — free and one of the UK's best"
+      ],
+      "studentLife": "65,000 students across 4 universities. Student accommodation costs £500–900/month. George Square and Pollock Halls are the main student areas. The University of Edinburgh is internationally diverse with students from 160 countries.",
+      "transport": "Lothian Buses (frequent and cheap), trams to the airport, cycling infrastructure. Student pass ~£50/month. Very walkable city — Old Town to New Town is 15 minutes on foot.",
+      "nightlife": "Cowgate for clubs, Grassmarket for historic pubs, Leith for trendy cocktail bars. Scottish pub culture is warm and inclusive. The famous Scotch — try Scotch whisky tasting evenings.",
+      "pros": [
+        "Free tuition for Scottish and EU students (Scottish universities)",
+        "World's largest arts festival (Fringe) every August in your city",
+        "One of Europe's most beautiful capitals",
+        "Ranked top 20 in the world — exceptional research output"
+      ],
+      "tags": [
+        "Free tuition (Scottish)",
+        "Culture",
+        "UNESCO",
+        "Highland gateway"
+      ]
+    },
+    "Manchester": {
+      "region": "Greater Manchester",
+      "pop": "553,000 (metro 3.3M)",
+      "climate": "Oceanic",
+      "cost": "£850–1,350/mo",
+      "desc": "Manchester is the UK's second city in everything except official designation — music (Oasis, The Smiths, Joy Division), football (United and City), industry (the Industrial Revolution began here) and universities (three major institutions). The University of Manchester has 25 Nobel laureates. It's cheaper than London, warmer in spirit, and has an authenticity that London can't match.",
+      "highlights": [
+        "National Football Museum — the definitive museum of the world's most popular sport",
+        "The Whitworth Gallery — one of the UK's finest art collections, free entry",
+        "Northern Quarter — independent music venues, record shops and the best coffee in the city",
+        "Old Trafford & Etihad Stadium — two legendary football grounds within 4 miles of each other",
+        "Salford Quays — transformed former docks now home to BBC, ITV and MediaCityUK"
+      ],
+      "studentLife": "100,000 students across 3 universities. Oxford Road 'Corridor' is the UK's biggest university district. Student accommodation from £500–900/month. The student union is one of the UK's largest.",
+      "transport": "Metrolink trams (10 lines), buses, cycling. Monthly pass ~£75. Manchester Airport is 20 minutes by Metrolink — second busiest in the UK after Heathrow.",
+      "nightlife": "Northern Quarter for indie clubs and alternative music, Canal Street for LGBT+ nightlife, Printworks for large-scale club events. Manchester's music heritage is unrivalled in the UK.",
+      "pros": [
+        "Graphene discovered here in 2004 — strong in cutting-edge materials science",
+        "Music capital of the UK — Oasis, The Smiths, Joy Division, New Order all from Manchester",
+        "25 Nobel laureates at the University of Manchester",
+        "MediaCityUK — BBC and ITV headquarters offer media industry placements"
+      ],
+      "tags": [
+        "Music",
+        "Football",
+        "Industry",
+        "Student city"
+      ]
+    },
+    "Birmingham": {
+      "region": "West Midlands",
+      "pop": "1.1 million (metro 4.3M)",
+      "climate": "Oceanic",
+      "cost": "£750–1,150/mo",
+      "desc": "Birmingham is the UK's second-largest city and most underrated — a rapidly transforming post-industrial metropolis with a genuinely multicultural identity (over 180 languages spoken), an extraordinary food scene (the UK's curry capital), and three major universities. The 2022 Commonwealth Games transformed its infrastructure.",
+      "highlights": [
+        "Birmingham Museum & Art Gallery — the world's largest collection of Pre-Raphaelite paintings",
+        "Cadbury World at Bournville — the world's most famous chocolate factory visit",
+        "Jewellery Quarter — the historic gold and silver working district, still active",
+        "Bullring & Grand Central — one of the UK's most impressive city-centre shopping destinations",
+        "Digbeth — Birmingham's creative quarter with street art, clubs and independent culture"
+      ],
+      "studentLife": "80,000 students across three major universities. Selly Oak and Edgbaston are the student neighbourhoods near the University of Birmingham. Rent is very affordable at £400–600/month for a shared house.",
+      "transport": "West Midlands Metro trams, buses (Midland Metro), and Birmingham New Street station — the UK's busiest outside London. Regular trains to London Euston (80 minutes). HS2 will cut this to 45 minutes.",
+      "nightlife": "Broad Street for clubs and mainstream bars, Digbeth for alternative venues, Brindleyplace for waterfront bars. Birmingham's Balti Triangle is an unmissable food experience.",
+      "pros": [
+        "UK's curry capital — most diverse food scene outside London",
+        "Cheapest major university city in England",
+        "Most central location in England — equidistant from London, Manchester, Cardiff",
+        "Strong engineering and medicine programmes at Russell Group level"
+      ],
+      "tags": [
+        "Multicultural",
+        "Affordable",
+        "Central",
+        "Food scene"
+      ]
+    },
+    "Leeds": {
+      "region": "West Yorkshire",
+      "pop": "810,000",
+      "climate": "Oceanic",
+      "cost": "£750–1,100/mo",
+      "desc": "Leeds is one of England's fastest-growing cities — a powerhouse of culture, commerce, and student life. Home to two major universities and a legendary music scene, it combines affordable rents with genuine career opportunities in finance, digital, and creative industries.",
+      "highlights": [
+        "Leeds Art Gallery — fine art in the city centre",
+        "Roundhay Park — 700-acre Victorian park",
+        "Kirkgate Market — largest covered market in Europe",
+        "Victoria Quarter — Victorian arcades housing boutique shops",
+        "Northern Ballet & Opera North — world-class performing arts"
+      ],
+      "studentLife": "Over 60,000 students from two major universities give Leeds an energetic, youthful feel. Hyde Park and Headingley are the student heartlands — affordable, vibrant, and close to campus.",
+      "transport": "Efficient city bus network. Leeds City Station connects to London (2h), Manchester (1h), and Edinburgh (2h30). Biking around the city centre is very practical.",
+      "nightlife": "Call Lane for bars, Warehouse Project events, Fabric-equivalent club nights. The Hyde Park pub trail is legendary among students. Chapeltown for indie music venues.",
+      "pros": [
+        "Among cheapest of UK's major cities",
+        "Strong graduate job market in finance and tech",
+        "World-class music and arts scene",
+        "Very large student community feeling"
+      ],
+      "tags": [
+        "Student city",
+        "Music",
+        "Affordable",
+        "Northern"
+      ]
+    }
+  },
+  "cityCards": [
+    {
+      "city": "London",
+      "region": "Greater London",
+      "gradient": "linear-gradient(135deg,#001a4d,#0047AB)",
+      "icon": "fa-brands fa-british-pound-sign",
+      "desc": "The world city — 5 top-50 universities, global financial capital and the most culturally diverse metropolis on earth.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud"
+      ],
+      "stats": [
+        "9.2 million residents",
+        "£1,500–2,500/mo student cost",
+        "Oceanic"
+      ],
+      "tags": [
+        "Financial capital",
+        "Diversity",
+        "Culture"
+      ]
+    },
+    {
+      "city": "Oxford",
+      "region": "Oxfordshire",
+      "gradient": "linear-gradient(135deg,#003087,#0047AB)",
+      "icon": "fa-solid fa-graduation-cap",
+      "desc": "The world's most famous university city — the tutorial system, medieval colleges and a degree recognised everywhere.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud"
+      ],
+      "stats": [
+        "165,000 residents",
+        "£900–1,400/mo student cost",
+        "Oceanic"
+      ],
+      "tags": [
+        "Elite",
+        "Historic",
+        "Tutorial system"
+      ]
+    },
+    {
+      "city": "Cambridge",
+      "region": "Cambridgeshire",
+      "gradient": "linear-gradient(135deg,#003091,#336699)",
+      "icon": "fa-solid fa-flask",
+      "desc": "121 Nobel laureates, Darwin, Newton, Turing — the world's greatest scientific university in a punting-on-the-river city.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud"
+      ],
+      "stats": [
+        "130,000 residents",
+        "£900–1,350/mo student cost",
+        "Oceanic"
+      ],
+      "tags": [
+        "Science",
+        "Nobel laureates",
+        "Punting"
+      ]
+    },
+    {
+      "city": "Edinburgh",
+      "region": "Scotland",
+      "gradient": "linear-gradient(135deg,#041E42,#005B8E)",
+      "icon": "fa-solid fa-castle",
+      "desc": "Scotland's UNESCO-listed capital — free tuition for Scottish students, world-class universities and the world's biggest arts festival.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-snowflake"
+      ],
+      "stats": [
+        "540,000 residents",
+        "£850–1,300/mo student cost",
+        "Oceanic (cool)"
+      ],
+      "tags": [
+        "Free tuition",
+        "Culture",
+        "UNESCO"
+      ]
+    },
+    {
+      "city": "Manchester",
+      "region": "NW England",
+      "gradient": "linear-gradient(135deg,#660099,#9932CC)",
+      "icon": "fa-solid fa-music",
+      "desc": "The UK's music capital — Oasis, Joy Division and 25 Nobel laureates at the University of Manchester.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud"
+      ],
+      "stats": [
+        "553,000 residents",
+        "£850–1,350/mo student cost",
+        "Oceanic"
+      ],
+      "tags": [
+        "Music",
+        "Football",
+        "Industry"
+      ]
+    },
+    {
+      "city": "Birmingham",
+      "region": "West Midlands",
+      "gradient": "linear-gradient(135deg,#8B4513,#D2691E)",
+      "icon": "fa-solid fa-city",
+      "desc": "The UK's most multicultural city — affordable, central and the UK's curry capital with major Russell Group universities.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud"
+      ],
+      "stats": [
+        "1.1 million residents",
+        "£750–1,150/mo student cost",
+        "Oceanic"
+      ],
+      "tags": [
+        "Multicultural",
+        "Affordable",
+        "Central"
+      ]
+    }
+  ],
+  "featuredCities": [
+    {
+      "city": "London",
+      "icon": "fa-solid fa-tower-bridge",
+      "sub": "Capital"
+    },
+    {
+      "city": "Oxford",
+      "icon": "fa-solid fa-graduation-cap",
+      "sub": "Oxfordshire"
+    },
+    {
+      "city": "Cambridge",
+      "icon": "fa-solid fa-flask",
+      "sub": "Cambs"
+    },
+    {
+      "city": "Edinburgh",
+      "icon": "fa-solid fa-castle",
+      "sub": "Scotland"
+    },
+    {
+      "city": "Manchester",
+      "icon": "fa-solid fa-music",
+      "sub": "NW England"
+    },
+    {
+      "city": "Birmingham",
+      "icon": "fa-solid fa-city",
+      "sub": "W. Midlands"
+    }
+  ]
+}

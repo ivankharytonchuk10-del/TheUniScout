@@ -1,0 +1,2437 @@
+{
+  "meta": {
+    "name": "France",
+    "code": "fr",
+    "flag": "fr",
+    "capital": "Paris",
+    "language": "French",
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "aboutStudying": "France combines prestigious grandes écoles with free or near-free public universities. The country is a world leader in arts, sciences and engineering, and Paris alone hosts more top-ranked universities than most countries.",
+    "uniCount": 79,
+    "cityCount": 7
+  },
+  "tips": [
+    {
+      "icon": "fa-solid fa-passport",
+      "color": "rgba(33,150,243,.1)",
+      "iconColor": "rgb(33,150,243)",
+      "title": "Visa & Residence",
+      "text": "EU citizens need no visa. Non-EU students apply through Campus France before arrival and must register with the OFII (immigration office) within 3 months."
+    },
+    {
+      "icon": "fa-solid fa-euro-sign",
+      "color": "rgba(52,152,219,.1)",
+      "iconColor": "rgb(52,152,219)",
+      "title": "Cost of Living",
+      "text": "Paris is the most expensive city at €1,200–2,000/month. Lyon and Bordeaux are more affordable at €800–1,300/month. Student social security is mandatory but subsidised."
+    },
+    {
+      "icon": "fa-solid fa-language",
+      "color": "rgba(39,174,96,.1)",
+      "iconColor": "rgb(39,174,96)",
+      "title": "Language",
+      "text": "Public universities teach primarily in French. Many grandes écoles and engineering schools offer English-track programmes. French proficiency (TCF/DELF B2) is required for most public universities."
+    }
+  ],
+  "universities": [
+    {
+      "id": "sorbonne",
+      "name": "Sorbonne Université",
+      "abbr": "SU",
+      "color": "#8B0000",
+      "city": "Paris",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Science",
+        "Medicine",
+        "Humanities",
+        "Arts",
+        "Law"
+      ],
+      "langs": [
+        "French"
+      ],
+      "founded": 1257,
+      "students": "~55,000",
+      "desc": "One of the world's most iconic universities, heir to the medieval University of Paris, excelling in sciences, humanities and medicine.",
+      "website": ""
+    },
+    {
+      "id": "sciencespo",
+      "name": "Sciences Po Paris",
+      "abbr": "SciPo",
+      "color": "#C8102E",
+      "city": "Paris",
+      "type": "Public",
+      "tuition": "€5,000–14,000/yr",
+      "ts": 3,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Law",
+        "Business",
+        "Humanities",
+        "Science"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1872,
+      "students": "~14,000",
+      "desc": "France's premier institution for political science, international relations and public affairs — a gateway to European policy-making.",
+      "website": ""
+    },
+    {
+      "id": "polytec",
+      "name": "École Polytechnique",
+      "abbr": "X",
+      "color": "#003087",
+      "city": "Paris",
+      "type": "Public",
+      "tuition": "€12,000–15,000/yr",
+      "ts": 4,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "Science",
+        "CS",
+        "Business"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1794,
+      "students": "~3,000",
+      "desc": "France's most prestigious engineering school, founded by Napoleon and ranked among the world's top universities for physical sciences and engineering.",
+      "website": ""
+    },
+    {
+      "id": "hec",
+      "name": "HEC Paris",
+      "abbr": "HEC",
+      "color": "#002060",
+      "city": "Paris",
+      "type": "Private",
+      "tuition": "€16,000–40,000/yr",
+      "ts": 5,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Business"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1881,
+      "students": "~4,500",
+      "desc": "Consistently ranked Europe's #1 business school, with an unrivalled alumni network and programmes taught in English or French.",
+      "website": ""
+    },
+    {
+      "id": "psaclay",
+      "name": "Université Paris-Saclay",
+      "abbr": "UPS",
+      "color": "#005B99",
+      "city": "Paris",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Science",
+        "Engineering",
+        "Medicine",
+        "CS"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 2014,
+      "students": "~48,000",
+      "desc": "A major research hub south of Paris, ranked among the world's top 15 universities for natural sciences and mathematics.",
+      "website": ""
+    },
+    {
+      "id": "ens",
+      "name": "École Normale Supérieure (Paris)",
+      "abbr": "ENS",
+      "color": "#5C0029",
+      "city": "Paris",
+      "type": "Public",
+      "tuition": "€0/yr",
+      "ts": 1,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Science",
+        "Humanities",
+        "Arts",
+        "Business"
+      ],
+      "langs": [
+        "French"
+      ],
+      "founded": 1794,
+      "students": "~2,500",
+      "desc": "Elite postgraduate school that has produced more Fields Medal winners and Nobel laureates per student than any university on earth.",
+      "website": ""
+    },
+    {
+      "id": "lyon1",
+      "name": "Université Claude Bernard Lyon 1",
+      "abbr": "UCB",
+      "color": "#8B4513",
+      "city": "Lyon",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Science",
+        "Engineering",
+        "CS"
+      ],
+      "langs": [
+        "French"
+      ],
+      "founded": 1808,
+      "students": "~45,000",
+      "desc": "France's leading university for health sciences and applied research, located in Lyon's vibrant La Doua science campus.",
+      "website": ""
+    },
+    {
+      "id": "bordeaux",
+      "name": "Université de Bordeaux",
+      "abbr": "UBx",
+      "color": "#722F37",
+      "city": "Bordeaux",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Medicine",
+        "Law",
+        "Arts",
+        "Humanities"
+      ],
+      "langs": [
+        "French"
+      ],
+      "founded": 1441,
+      "students": "~52,000",
+      "desc": "Comprehensive university in the heart of the wine capital of the world, offering strong programmes in sciences, law and international studies.",
+      "website": ""
+    },
+    {
+      "id": "toulouse",
+      "name": "Université Toulouse III Paul Sabatier",
+      "abbr": "UPS3",
+      "color": "#8B008B",
+      "city": "Toulouse",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Engineering",
+        "Medicine",
+        "CS"
+      ],
+      "langs": [
+        "French"
+      ],
+      "founded": 1229,
+      "students": "~30,000",
+      "desc": "One of France's oldest universities in its aerospace capital, with world-leading engineering, aerospace and natural sciences.",
+      "website": ""
+    },
+    {
+      "id": "aix",
+      "name": "Aix-Marseille Université",
+      "abbr": "AMU",
+      "color": "#00539C",
+      "city": "Marseille",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Arts",
+        "Business"
+      ],
+      "langs": [
+        "French"
+      ],
+      "founded": 1409,
+      "students": "~80,000",
+      "desc": "France's largest university by enrolment, offering exceptional diversity across 4 campuses in the Mediterranean city of Marseille.",
+      "website": ""
+    },
+    {
+      "id": "strasbourg",
+      "name": "Université de Strasbourg",
+      "abbr": "Unistra",
+      "color": "#D03027",
+      "city": "Strasbourg",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Humanities",
+        "Science",
+        "Arts"
+      ],
+      "langs": [
+        "French"
+      ],
+      "founded": 1538,
+      "students": "~55,000",
+      "desc": "Located on the German border and home to the European Parliament, Strasbourg University has a distinctly European and international identity.",
+      "website": "https://www.unistra.fr/"
+    },
+    {
+      "id": "insead",
+      "name": "INSEAD",
+      "abbr": "INSEAD",
+      "color": "#00205B",
+      "city": "Paris",
+      "type": "Private",
+      "tuition": "€85,000/yr",
+      "ts": 5,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Business"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1957,
+      "students": "~1,500",
+      "desc": "The world's #1 MBA programme with campuses in Fontainebleau and Singapore — exclusively English-taught, ultra-competitive.",
+      "website": "https://www.insead.edu/"
+    },
+    {
+      "id": "grenoble",
+      "name": "Université Grenoble Alpes",
+      "abbr": "UGA",
+      "color": "#003DA5",
+      "city": "Grenoble",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Engineering",
+        "Medicine",
+        "Humanities",
+        "Law"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1339,
+      "students": "~60,000",
+      "desc": "France's top science and technology university outside Paris — a world-leading research centre for physics, materials science and nanoscience in the Alps.",
+      "website": "https://www.univ-grenoble-alpes.fr/"
+    },
+    {
+      "id": "montpellier",
+      "name": "Université de Montpellier",
+      "abbr": "UM",
+      "color": "#C8102E",
+      "city": "Montpellier",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Business",
+        "Engineering"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1220,
+      "students": "~47,000",
+      "desc": "Home to the world's oldest continuously operating medical school (founded 1220) — a comprehensive research university in a dynamic young Mediterranean city.",
+      "website": "http://www.umontpellier.fr/"
+    },
+    {
+      "id": "nantes",
+      "name": "Nantes Université",
+      "abbr": "NantesU",
+      "color": "#006633",
+      "city": "Nantes",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Medicine",
+        "Law",
+        "Engineering",
+        "Humanities"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1461,
+      "students": "~45,000",
+      "desc": "Western France's leading university — strong medicine, engineering and sciences in a city repeatedly voted France's most liveable.",
+      "website": "https://www.univ-nantes.fr/"
+    },
+    {
+      "id": "rennes1",
+      "name": "Université de Rennes",
+      "abbr": "UR1",
+      "color": "#003087",
+      "city": "Rennes",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Law",
+        "Science",
+        "Medicine",
+        "Engineering",
+        "Humanities"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1461,
+      "students": "~30,000",
+      "desc": "Brittany's leading research university — particularly strong in mathematics, law and CS in France's most dynamic tech startup hub outside Paris.",
+      "website": ""
+    },
+    {
+      "id": "lorraine",
+      "name": "Université de Lorraine",
+      "abbr": "UL",
+      "color": "#C8102E",
+      "city": "Nancy",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Medicine",
+        "Law",
+        "Business"
+      ],
+      "langs": [
+        "French",
+        "German",
+        "English"
+      ],
+      "founded": 2012,
+      "students": "~60,000",
+      "desc": "France's largest unitary university spanning Nancy and Metz — strong in materials science, mining and nuclear engineering at the crossroads of France, Germany and Luxembourg.",
+      "website": ""
+    },
+    {
+      "id": "nice",
+      "name": "Université Côte d'Azur",
+      "abbr": "UCA",
+      "color": "#005B99",
+      "city": "Nice",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Medicine",
+        "Law",
+        "Business",
+        "Arts"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 2020,
+      "students": "~30,000",
+      "desc": "France's Excellence Initiative winning university on the Riviera — world-class for applied mathematics, neuroscience and medicine in the most glamorous academic setting in Europe.",
+      "website": ""
+    },
+    {
+      "id": "lille",
+      "name": "Université de Lille",
+      "abbr": "ULille",
+      "color": "#8B0000",
+      "city": "Lille",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Engineering",
+        "Humanities"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1560,
+      "students": "~75,000",
+      "desc": "France's third-largest university — the hub of the Franco-Belgian border region, with excellent medicine, pharmacy and law, 1 hour from Paris by TGV.",
+      "website": ""
+    },
+    {
+      "id": "clermont",
+      "name": "Université Clermont Auvergne",
+      "abbr": "UCA2",
+      "color": "#003DA5",
+      "city": "Clermont-Ferrand",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Medicine",
+        "Engineering",
+        "Law",
+        "Business"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 2017,
+      "students": "~30,000",
+      "desc": "In the volcanic Auvergne region — particularly strong in tyre research (Michelin HQ is here), vulcanology, medicine and pharmacy.",
+      "website": ""
+    },
+    {
+      "id": "dijon",
+      "name": "Université de Bourgogne",
+      "abbr": "UB-Dij",
+      "color": "#8B0000",
+      "city": "Dijon",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Law",
+        "Medicine",
+        "Science",
+        "Humanities",
+        "Engineering"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1722,
+      "students": "~27,000",
+      "desc": "The university of Burgundy — in the wine capital of the world, with internationally recognised programmes in oenology, law, medicine and applied sciences.",
+      "website": ""
+    },
+    {
+      "id": "reims",
+      "name": "Université de Reims Champagne-Ardenne",
+      "abbr": "URCA",
+      "color": "#C8A100",
+      "city": "Reims",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Humanities",
+        "Engineering"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1548,
+      "students": "~25,000",
+      "desc": "In the champagne capital of the world — a comprehensive university with strong medicine, pharmacy and humanities in a city of Gothic cathedrals.",
+      "website": ""
+    },
+    {
+      "id": "poitiers",
+      "name": "Université de Poitiers",
+      "abbr": "UP",
+      "color": "#003DA5",
+      "city": "Poitiers",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Law",
+        "Science",
+        "Medicine",
+        "Humanities",
+        "Engineering"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1431,
+      "students": "~28,000",
+      "desc": "One of France's oldest universities, in a city of 60,000 with 30,000 students — strong in law, mathematics and classics.",
+      "website": ""
+    },
+    {
+      "id": "tours",
+      "name": "Université de Tours",
+      "abbr": "UT",
+      "color": "#005F3C",
+      "city": "Tours",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Humanities",
+        "Business"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1969,
+      "students": "~29,000",
+      "desc": "In the Loire Valley — renowned for its excellent French language teaching, making it a top destination for international students learning French.",
+      "website": ""
+    },
+    {
+      "id": "caen",
+      "name": "Université de Caen Normandie",
+      "abbr": "UNICAEN",
+      "color": "#003087",
+      "city": "Caen",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Humanities",
+        "Engineering"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1432,
+      "students": "~27,000",
+      "desc": "Normandy's leading university — rebuilt after the D-Day landings with strong WWII historical studies, excellent medicine and law.",
+      "website": ""
+    },
+    {
+      "id": "rouen",
+      "name": "Université de Rouen Normandie",
+      "abbr": "URN",
+      "color": "#CC0000",
+      "city": "Rouen",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Humanities",
+        "Engineering"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1966,
+      "students": "~27,000",
+      "desc": "In Joan of Arc's city — a comprehensive university with strong chemistry, law and medicine, with good links to Rouen's pharmaceutical sector.",
+      "website": ""
+    },
+    {
+      "id": "pau",
+      "name": "Université de Pau et des Pays de l'Adour",
+      "abbr": "UPPA",
+      "color": "#003DA5",
+      "city": "Pau",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Science",
+        "Engineering",
+        "Law",
+        "Business",
+        "Humanities"
+      ],
+      "langs": [
+        "French",
+        "English",
+        "Spanish"
+      ],
+      "founded": 1970,
+      "students": "~12,000",
+      "desc": "In the Pyrenees foothills near Biarritz — strong in petroleum engineering (Total Energies partner), chemistry and Basque/Spanish bilingual programmes.",
+      "website": ""
+    },
+    {
+      "id": "paris2",
+      "name": "Université Paris Panthéon-Assas",
+      "abbr": "Paris II",
+      "color": "#003087",
+      "city": "Paris",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Law",
+        "Business"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1970,
+      "students": "~18,000",
+      "desc": "France's top law university — the French bar's feeder school, producing the bulk of France's magistrates, lawyers and constitutional judges.",
+      "website": "https://www.assas-universite.fr"
+    },
+    {
+      "id": "paris5",
+      "name": "Université Paris Cité",
+      "abbr": "UPC-Fr",
+      "color": "#8B0000",
+      "city": "Paris",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Science",
+        "Humanities",
+        "Law",
+        "Social Science"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1970,
+      "students": "~65,000",
+      "desc": "Paris's largest multidisciplinary university — encompassing former Paris Descartes and Paris Diderot, with world-leading medicine (Necker Hospital) and mathematics.",
+      "website": "https://u-paris.fr"
+    },
+    {
+      "id": "paris9",
+      "name": "Université Paris Dauphine-PSL",
+      "abbr": "Dauphine",
+      "color": "#002060",
+      "city": "Paris",
+      "type": "Public",
+      "tuition": "€380–3,000/yr",
+      "ts": 2,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Business",
+        "Law",
+        "Mathematics",
+        "Social Science"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1968,
+      "students": "~11,000",
+      "desc": "France's most selective public university — part of PSL, consistently ranked among Europe's top 5 for economics and management.",
+      "website": "https://dauphine.psl.eu/"
+    },
+    {
+      "id": "paris13",
+      "name": "Sorbonne Paris Nord",
+      "abbr": "USPN",
+      "color": "#C8102E",
+      "city": "Paris",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Humanities",
+        "Engineering"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1970,
+      "students": "~25,000",
+      "desc": "One of Paris's most diverse and welcoming universities in Saint-Denis — strong in medicine, public health and communication studies.",
+      "website": ""
+    },
+    {
+      "id": "cnam",
+      "name": "CNAM Paris",
+      "abbr": "CNAM",
+      "color": "#006633",
+      "city": "Paris",
+      "type": "Public",
+      "tuition": "€170–900/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Science"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1794,
+      "students": "~40,000",
+      "desc": "France's oldest continuing education institution — revolutionising access to higher education for working adults since Napoleon, with 200 regional centres.",
+      "website": ""
+    },
+    {
+      "id": "insa-lyon",
+      "name": "INSA Lyon",
+      "abbr": "INSA-L",
+      "color": "#C8102E",
+      "city": "Lyon",
+      "type": "Public",
+      "tuition": "€600–1,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science",
+        "Architecture"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1957,
+      "students": "~6,000",
+      "desc": "France's largest integrated engineering school — a grande école admitting from high school without preparatory classes, producing world-class engineers at lower cost.",
+      "website": "https://www.insa-lyon.fr"
+    },
+    {
+      "id": "centrale-supelec",
+      "name": "CentraleSupélec",
+      "abbr": "CS",
+      "color": "#003087",
+      "city": "Paris",
+      "type": "Public",
+      "tuition": "€2,500–5,000/yr",
+      "ts": 3,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science",
+        "Business"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1829,
+      "students": "~4,500",
+      "desc": "France's top generalist engineering school — ranked Europe's #1 engineering grande école, merging École Centrale Paris and Supélec.",
+      "website": ""
+    },
+    {
+      "id": "telecom-paris",
+      "name": "Télécom Paris",
+      "abbr": "TParis",
+      "color": "#CC0000",
+      "city": "Paris",
+      "type": "Public",
+      "tuition": "€2,500–5,000/yr",
+      "ts": 3,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1878,
+      "students": "~2,000",
+      "desc": "France's oldest and most prestigious telecom and digital technology école — producing the CIOs, CTOs and digital leaders of France's tech industry.",
+      "website": ""
+    },
+    {
+      "id": "mines-paris",
+      "name": "Mines Paris – PSL",
+      "abbr": "MINES",
+      "color": "#004B87",
+      "city": "Paris",
+      "type": "Public",
+      "tuition": "€2,500–5,000/yr",
+      "ts": 3,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Science"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1783,
+      "students": "~1,800",
+      "desc": "One of France's oldest grandes écoles — mining engineers turned data scientists, consistently producing top leaders across energy, consulting and technology sectors.",
+      "website": ""
+    },
+    {
+      "id": "espci",
+      "name": "ESPCI Paris PSL",
+      "abbr": "ESPCI",
+      "color": "#003DA5",
+      "city": "Paris",
+      "type": "Public",
+      "tuition": "€2,500–5,000/yr",
+      "ts": 3,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Science",
+        "Engineering",
+        "CS"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1882,
+      "students": "~500",
+      "desc": "Marie Curie's school — this tiny institution has produced 7 Nobel laureates (the highest per-capita ratio in the world) and is France's best graduate science institution.",
+      "website": ""
+    },
+    {
+      "id": "essec",
+      "name": "ESSEC Business School",
+      "abbr": "ESSEC",
+      "color": "#003087",
+      "city": "Paris",
+      "type": "Private",
+      "tuition": "€15,000–45,000/yr",
+      "ts": 5,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Business"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1907,
+      "students": "~6,000",
+      "desc": "One of Europe's top 3 business schools — consistently ranked among Europe's best for its BBA and MSc programmes, with campuses in Paris, Singapore and Rabat.",
+      "website": ""
+    },
+    {
+      "id": "edhec",
+      "name": "EDHEC Business School",
+      "abbr": "EDHEC",
+      "color": "#C8102E",
+      "city": "Lille",
+      "type": "Private",
+      "tuition": "€12,000–35,000/yr",
+      "ts": 5,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Business",
+        "Law"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1906,
+      "students": "~9,000",
+      "desc": "Ranked #1 in Europe for finance — EDHEC's MSc in Finance is the world's most academically rigorous and employer-recognised financial markets programme.",
+      "website": ""
+    },
+    {
+      "id": "em-lyon",
+      "name": "emlyon Business School",
+      "abbr": "EM",
+      "color": "#8B0000",
+      "city": "Lyon",
+      "type": "Private",
+      "tuition": "€12,000–32,000/yr",
+      "ts": 4,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1872,
+      "students": "~6,000",
+      "desc": "Lyon's international business school — Europe's oldest grande école de commerce, with campuses in Lyon, Paris, Shanghai and Mumbai.",
+      "website": ""
+    },
+    {
+      "id": "kedge",
+      "name": "KEDGE Business School",
+      "abbr": "KEDGE",
+      "color": "#005B99",
+      "city": "Bordeaux",
+      "type": "Private",
+      "tuition": "€10,000–28,000/yr",
+      "ts": 4,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 2013,
+      "students": "~11,000",
+      "desc": "A top-10 European business school created by the merger of Bordeaux and Marseille schools — strong in global supply chain, wine management and entrepreneurship.",
+      "website": ""
+    },
+    {
+      "id": "skema",
+      "name": "SKEMA Business School",
+      "abbr": "SKEMA",
+      "color": "#003DA5",
+      "city": "Nice",
+      "type": "Private",
+      "tuition": "€10,000–25,000/yr",
+      "ts": 4,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business"
+      ],
+      "langs": [
+        "English",
+        "French"
+      ],
+      "founded": 2009,
+      "students": "~8,500",
+      "desc": "A fully globalised business school with campuses in Nice, Paris, Raleigh, São Paulo and Suzhou — focused on the knowledge economy and global strategy.",
+      "website": ""
+    },
+    {
+      "id": "audencia",
+      "name": "Audencia Business School",
+      "abbr": "Audencia",
+      "color": "#005F3C",
+      "city": "Nantes",
+      "type": "Private",
+      "tuition": "€9,000–22,000/yr",
+      "ts": 4,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1900,
+      "students": "~4,000",
+      "desc": "One of Europe's most responsible business schools — triple-accredited and consistently ranking for sustainable business education.",
+      "website": ""
+    },
+    {
+      "id": "ieseg",
+      "name": "IÉSEG School of Management",
+      "abbr": "IESEG",
+      "color": "#003087",
+      "city": "Lille",
+      "type": "Private",
+      "tuition": "€12,000–25,000/yr",
+      "ts": 4,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business"
+      ],
+      "langs": [
+        "English",
+        "French"
+      ],
+      "founded": 1964,
+      "students": "~7,000",
+      "desc": "The most international business school in France — 70% of students and professors are international, with a unique fully English-taught curriculum.",
+      "website": ""
+    },
+    {
+      "id": "tbs",
+      "name": "TBS Education",
+      "abbr": "TBS",
+      "color": "#C8A100",
+      "city": "Toulouse",
+      "type": "Private",
+      "tuition": "€9,000–20,000/yr",
+      "ts": 4,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1903,
+      "students": "~4,500",
+      "desc": "Toulouse's international business school in the aerospace capital of Europe — with unique specialisations in aviation management and strong Airbus links.",
+      "website": ""
+    },
+    {
+      "id": "grenoble-em",
+      "name": "Grenoble Ecole de Management",
+      "abbr": "GEM",
+      "color": "#003DA5",
+      "city": "Grenoble",
+      "type": "Private",
+      "tuition": "€12,000–35,000/yr",
+      "ts": 4,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business"
+      ],
+      "langs": [
+        "English",
+        "French"
+      ],
+      "founded": 1984,
+      "students": "~9,000",
+      "desc": "The #1 business school for responsible management in Europe — triple-accredited with strong technology management linked to Grenoble's tech ecosystem.",
+      "website": "http://www.grenoble-em.com/"
+    },
+    {
+      "id": "neoma",
+      "name": "NEOMA Business School",
+      "abbr": "NEOMA",
+      "color": "#CC0000",
+      "city": "Reims",
+      "type": "Private",
+      "tuition": "€9,000–24,000/yr",
+      "ts": 4,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 2013,
+      "students": "~8,000",
+      "desc": "Created by the merger of Rouen and Reims business schools — triple-accredited, known for finance, entrepreneurship and global management.",
+      "website": "http://www.neoma-bs.com/"
+    },
+    {
+      "id": "arts-metiers",
+      "name": "Arts et Métiers ParisTech",
+      "abbr": "ENSAM",
+      "color": "#003087",
+      "city": "Paris",
+      "type": "Public",
+      "tuition": "€2,500–5,000/yr",
+      "ts": 3,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Architecture"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1780,
+      "students": "~6,000",
+      "desc": "France's prestigious industrial engineering school founded by the Duc de La Rochefoucauld — 8 campuses producing France's most trusted mechanical and industrial engineers.",
+      "website": "https://artsetmetiers.fr/"
+    },
+    {
+      "id": "ens-lyon",
+      "name": "ENS de Lyon",
+      "abbr": "ENSL",
+      "color": "#5C0029",
+      "city": "Lyon",
+      "type": "Public",
+      "tuition": "€0/yr",
+      "ts": 1,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Science",
+        "Humanities"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1880,
+      "students": "~2,000",
+      "desc": "France's second elite normalien school — producing Fields Medal winners, Nobel laureates and the intellectual leaders of France in a progressive Lyon campus.",
+      "website": "http://www.ens-lyon.fr/"
+    },
+    {
+      "id": "insa-toulouse",
+      "name": "INSA Toulouse",
+      "abbr": "INSA-T",
+      "color": "#C8A100",
+      "city": "Toulouse",
+      "type": "Public",
+      "tuition": "€600–1,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1963,
+      "students": "~6,000",
+      "desc": "Toulouse's inclusive engineering grande école — specialised in aerospace, IT and applied mathematics, partnering directly with Airbus and the European Space Agency.",
+      "website": "https://www.insa-toulouse.fr"
+    },
+    {
+      "id": "utc",
+      "name": "Université de Technologie de Compiègne",
+      "abbr": "UTC",
+      "color": "#005F3C",
+      "city": "Compiègne",
+      "type": "Public",
+      "tuition": "€600–1,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Architecture"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1972,
+      "students": "~4,500",
+      "desc": "One of France's three UTs — a unique 5-year engineering degree combining technical training with humanities in the medieval royal city of Compiègne.",
+      "website": ""
+    },
+    {
+      "id": "rennes2",
+      "name": "Université Rennes 2",
+      "abbr": "UR2",
+      "color": "#C8102E",
+      "city": "Rennes",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Humanities",
+        "Arts",
+        "Social Science",
+        "Sports"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1969,
+      "students": "~22,000",
+      "desc": "Brittany's arts and humanities university — strong in languages, communications, sports sciences and the social sciences.",
+      "website": ""
+    },
+    {
+      "id": "besancon",
+      "name": "Université de Franche-Comté",
+      "abbr": "UFC",
+      "color": "#003087",
+      "city": "Besançon",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Science",
+        "Medicine",
+        "Law",
+        "Humanities",
+        "Engineering"
+      ],
+      "langs": [
+        "French",
+        "German",
+        "English"
+      ],
+      "founded": 1423,
+      "students": "~26,000",
+      "desc": "In the watchmaking capital of the world on the Swiss border — particularly strong in chronometry, microtechnology and time-motion science (FEMTO-ST Institute).",
+      "website": ""
+    },
+    {
+      "id": "limoges",
+      "name": "Université de Limoges",
+      "abbr": "UNILIM",
+      "color": "#8B4513",
+      "city": "Limoges",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Law",
+        "Medicine",
+        "Science",
+        "Engineering",
+        "Humanities"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1968,
+      "students": "~16,000",
+      "desc": "In the city of fine porcelain and enamel — a comprehensive university with strong ceramics engineering, law and pharmacy in one of France's most charming smaller cities.",
+      "website": ""
+    },
+    {
+      "id": "amiens",
+      "name": "Université de Picardie Jules Verne",
+      "abbr": "UPJV",
+      "color": "#003DA5",
+      "city": "Amiens",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Humanities",
+        "Engineering"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1969,
+      "students": "~30,000",
+      "desc": "Named after Jules Verne, born nearby — in the city of Amiens Cathedral (UNESCO), offering medicine, law and sciences in the heart of Picardy.",
+      "website": ""
+    },
+    {
+      "id": "cergy",
+      "name": "CY Cergy Paris Université",
+      "abbr": "CYU",
+      "color": "#005B99",
+      "city": "Cergy",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Law",
+        "Science",
+        "Business",
+        "Engineering",
+        "Humanities"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1991,
+      "students": "~22,000",
+      "desc": "Greater Paris's multidisciplinary research university in the new town of Cergy — strong in finance, engineering and arts, 30 minutes from the centre of Paris.",
+      "website": ""
+    },
+    {
+      "id": "paris-est",
+      "name": "Université Gustave Eiffel",
+      "abbr": "UGE",
+      "color": "#CC0000",
+      "city": "Marne-la-Vallée",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Architecture",
+        "Science"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1991,
+      "students": "~16,000",
+      "desc": "Named after Gustave Eiffel — specialising in city planning, transport engineering and sustainable development, next to Disneyland Paris and the future Grand Paris Express.",
+      "website": ""
+    },
+    {
+      "id": "lorient",
+      "name": "Université Bretagne Sud",
+      "abbr": "UBS",
+      "color": "#005F3C",
+      "city": "Lorient",
+      "type": "Public",
+      "tuition": "€170–380/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Law",
+        "Science",
+        "Arts"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1995,
+      "students": "~10,000",
+      "desc": "Brittany's coastal university across Lorient and Vannes — known for maritime engineering, logistics, composites and fibres technology in France's sailing heartland.",
+      "website": ""
+    },
+    {
+      "id": "rennes",
+      "name": "University of Rennes 1",
+      "abbr": "UR1",
+      "color": "#003366",
+      "city": "Rennes",
+      "type": "Public",
+      "tuition": "€170/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Law",
+        "Science",
+        "Medicine",
+        "Business",
+        "Engineering"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1461,
+      "students": "~30,000",
+      "desc": "Brittany's flagship research university — world-class in mathematics, computer science and law in France's most dynamic tech ecosystem outside Paris.",
+      "website": ""
+    },
+    {
+      "id": "toulouse3",
+      "name": "University of Toulouse III – Paul Sabatier",
+      "abbr": "UPS",
+      "color": "#8B1A1A",
+      "city": "Toulouse",
+      "type": "Public",
+      "tuition": "€170/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Medicine",
+        "Engineering",
+        "CS",
+        "Pharmacy"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1970,
+      "students": "~32,000",
+      "desc": "Toulouse's science and health university — a global leader in space sciences adjacent to Airbus and CNES, the French space agency.",
+      "website": ""
+    },
+    {
+      "id": "angers",
+      "name": "University of Angers",
+      "abbr": "UA",
+      "color": "#CC0000",
+      "city": "Angers",
+      "type": "Public",
+      "tuition": "€170/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Law",
+        "Science",
+        "Medicine",
+        "Humanities",
+        "Business"
+      ],
+      "langs": [
+        "French"
+      ],
+      "founded": 1364,
+      "students": "~23,000",
+      "desc": "In the Loire Valley UNESCO heart of France — strong in tourism, horticulture and health sciences with one of the most picturesque university settings in Europe.",
+      "website": ""
+    },
+    {
+      "id": "le-mans",
+      "name": "Le Mans University",
+      "abbr": "UM2",
+      "color": "#CC0000",
+      "city": "Le Mans",
+      "type": "Public",
+      "tuition": "€170/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Law",
+        "Science",
+        "Humanities",
+        "Business",
+        "Engineering"
+      ],
+      "langs": [
+        "French"
+      ],
+      "founded": 1971,
+      "students": "~10,000",
+      "desc": "In the city of the world's greatest endurance race — strong in acoustics, vibration engineering and automotive technology with direct industry links to the 24 Hours of Le Mans.",
+      "website": ""
+    },
+    {
+      "id": "grenoble2",
+      "name": "Grenoble Alpes University – Sciences Po Grenoble",
+      "abbr": "SPG",
+      "color": "#003366",
+      "city": "Grenoble",
+      "type": "Public",
+      "tuition": "€500–1,500/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Law",
+        "Social Science",
+        "Humanities",
+        "Business"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1948,
+      "students": "~4,500",
+      "desc": "The Alps' leading institute of political studies — training France's future diplomats, civil servants and international affairs specialists in a stunning mountain city.",
+      "website": ""
+    },
+    {
+      "id": "montpellier-bs",
+      "name": "Montpellier Business School",
+      "abbr": "MBS",
+      "color": "#CC2529",
+      "city": "Montpellier",
+      "type": "Private",
+      "tuition": "€10,000–17,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Finance",
+        "CS"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1897,
+      "students": "~3,500",
+      "desc": "Mediterranean France's leading business school — triple-accredited and internationally diverse, with strong specialisations in wine management and sustainability.",
+      "website": "https://www.mbs-education.com/"
+    },
+    {
+      "id": "rennes-sb",
+      "name": "Rennes School of Business",
+      "abbr": "RSB",
+      "color": "#003366",
+      "city": "Rennes",
+      "type": "Private",
+      "tuition": "€12,000–20,000/yr",
+      "ts": 4,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Finance"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1990,
+      "students": "~6,000",
+      "desc": "Brittany's top business school — known for its innovative teaching methods, strong Asian partnerships and a diverse international student community.",
+      "website": "http://www.rennes-sb.com"
+    },
+    {
+      "id": "icd",
+      "name": "ICD Business School",
+      "abbr": "ICD",
+      "color": "#CC0000",
+      "city": "Paris",
+      "type": "Private",
+      "tuition": "€9,000–14,000/yr",
+      "ts": 3,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Marketing",
+        "Finance"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1980,
+      "students": "~2,500",
+      "desc": "A Paris business school offering practical business and marketing degrees with strong English-language track options and good industry connections.",
+      "website": "http://www.icd-ecoles.com"
+    },
+    {
+      "id": "enpc",
+      "name": "École des Ponts ParisTech",
+      "abbr": "ENPC",
+      "color": "#003366",
+      "city": "Paris",
+      "type": "Public",
+      "tuition": "€2,500/yr",
+      "ts": 2,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science",
+        "Architecture"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1747,
+      "students": "~2,500",
+      "desc": "The world's oldest engineering school — Paris Ponts trains France's civil engineers, architects and urban planners, with strong links to the infrastructure industry.",
+      "website": "https://ecoledesponts.fr"
+    },
+    {
+      "id": "centrale-lyon",
+      "name": "École Centrale de Lyon",
+      "abbr": "ECL",
+      "color": "#003DA5",
+      "city": "Lyon",
+      "type": "Public",
+      "tuition": "€600/yr",
+      "ts": 1,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science",
+        "Business"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1857,
+      "students": "~2,500",
+      "desc": "France's premier engineering school for industrial and mechanical engineering — part of the Centrale Group, closely aligned with Lyon's aerospace and pharma industries.",
+      "website": ""
+    },
+    {
+      "id": "cpe-lyon",
+      "name": "CPE Lyon",
+      "abbr": "CPE",
+      "color": "#0057A8",
+      "city": "Lyon",
+      "type": "Private",
+      "tuition": "€8,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1957,
+      "students": "~1,800",
+      "desc": "Lyon's elite private engineering school specialising in chemistry, electronics and digital technologies — deep industry links in Lyon's pharmaceutical valley.",
+      "website": ""
+    },
+    {
+      "id": "ipag",
+      "name": "IPAG Business School",
+      "abbr": "IPAG",
+      "color": "#CC0000",
+      "city": "Paris",
+      "type": "Private",
+      "tuition": "£8,000–14,000/yr",
+      "ts": 3,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Finance",
+        "CS",
+        "Marketing"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1961,
+      "students": "~3,000",
+      "desc": "An accessible Parisian business school with a genuinely international atmosphere and flexible bachelor's and master's programmes in management and marketing.",
+      "website": ""
+    },
+    {
+      "id": "paris-saclay2",
+      "name": "CentraleSupélec",
+      "abbr": "CS",
+      "color": "#003366",
+      "city": "Paris",
+      "type": "Public",
+      "tuition": "€2,500/yr",
+      "ts": 2,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science",
+        "Business"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 2015,
+      "students": "~4,000",
+      "desc": "The merger of Centrale Paris and Supélec — France's leading engineering and technology grande école, ranked top 50 globally in engineering, at Paris-Saclay.",
+      "website": ""
+    },
+    {
+      "id": "sorbonne-nouvelle",
+      "name": "Sorbonne Nouvelle – Paris 3",
+      "abbr": "P3",
+      "color": "#003087",
+      "city": "Paris",
+      "type": "Public",
+      "tuition": "€170/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Humanities",
+        "Arts",
+        "Social Science",
+        "Education"
+      ],
+      "langs": [
+        "French",
+        "English",
+        "Spanish"
+      ],
+      "founded": 1970,
+      "students": "~17,000",
+      "desc": "The international Sorbonne — the world's leading university for French literature, languages, arts and cinema, with exceptional translation and theatre departments.",
+      "website": ""
+    },
+    {
+      "id": "paris-nanterre",
+      "name": "Paris Nanterre University",
+      "abbr": "PN",
+      "color": "#003366",
+      "city": "Paris",
+      "type": "Public",
+      "tuition": "€170/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Law",
+        "Humanities",
+        "Social Science",
+        "Business",
+        "Arts"
+      ],
+      "langs": [
+        "French"
+      ],
+      "founded": 1964,
+      "students": "~34,000",
+      "desc": "Born in the 1968 revolt — Paris Nanterre is France's leading university for psychology, law and social sciences in a leafy western suburb.",
+      "website": ""
+    },
+    {
+      "id": "psl",
+      "name": "PSL University",
+      "abbr": "PSL",
+      "color": "#000000",
+      "city": "Paris",
+      "type": "Public",
+      "tuition": "€170/yr",
+      "ts": 1,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Science",
+        "Humanities",
+        "Arts",
+        "Business"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 2010,
+      "students": "~22,000",
+      "desc": "Paris Sciences & Lettres — a constellation of elite grandes écoles including ENS, Mines ParisTech and ESPCI, ranked top 5 in Europe overall.",
+      "website": ""
+    },
+    {
+      "id": "ip-paris",
+      "name": "Institut Polytechnique de Paris",
+      "abbr": "IPParis",
+      "color": "#003087",
+      "city": "Paris",
+      "type": "Public",
+      "tuition": "€2,500/yr",
+      "ts": 2,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science",
+        "Business"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 2019,
+      "students": "~8,000",
+      "desc": "France's newest grande école federation — École Polytechnique, ENSTA Paris, ENSAE and Télécom SudParis united in the Paris-Saclay Innovation Cluster.",
+      "website": ""
+    },
+    {
+      "id": "sciences-po-paris",
+      "name": "Sciences Po Paris",
+      "abbr": "SciPo",
+      "color": "#CC0000",
+      "city": "Paris",
+      "type": "Public",
+      "tuition": "€2,000–14,000/yr",
+      "ts": 2,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Law",
+        "Social Science",
+        "Business",
+        "Humanities"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1872,
+      "students": "~14,000",
+      "desc": "France's most internationally prestigious institution for political science, public affairs and economics — training every French president since Valéry Giscard d'Estaing.",
+      "website": ""
+    },
+    {
+      "id": "ecam-lyon",
+      "name": "ECAM Lyon",
+      "abbr": "ECAM",
+      "color": "#003366",
+      "city": "Lyon",
+      "type": "Private",
+      "tuition": "€8,000/yr",
+      "ts": 3,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1900,
+      "students": "~1,000",
+      "desc": "A small, selective Catholic engineering school in Lyon — known for exceptional teaching quality in mechanical and industrial engineering.",
+      "website": ""
+    },
+    {
+      "id": "sup-de-luxe",
+      "name": "ESILV – École Supérieure d'Ingénieurs Léonard de Vinci",
+      "abbr": "ESILV",
+      "color": "#003366",
+      "city": "Paris",
+      "type": "Private",
+      "tuition": "£9,000–14,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1999,
+      "students": "~3,000",
+      "desc": "The Pôle Léonard de Vinci's engineering school on the La Défense business district — strong in data science, fintech and digital engineering.",
+      "website": ""
+    },
+    {
+      "id": "ensam",
+      "name": "Arts et Métiers ParisTech",
+      "abbr": "ENSAM",
+      "color": "#003087",
+      "city": "Paris",
+      "type": "Public",
+      "tuition": "€500/yr",
+      "ts": 1,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Architecture"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1780,
+      "students": "~6,000",
+      "desc": "Napoleon's engineering school — France's leading institution for mechanical and industrial engineering, with 8 campuses across France and a legendary alumni association ('the Gadzarts').",
+      "website": ""
+    }
+  ],
+  "cities": {
+    "Paris": {
+      "region": "Île-de-France",
+      "pop": "2.1 million (metro 12M)",
+      "climate": "Oceanic",
+      "cost": "€1,200–2,000/mo",
+      "desc": "Paris is one of the world's great cities of learning — home to the Sorbonne since the 13th century, and today packed with grandes écoles, research labs, and the second-largest student population in Europe. It's expensive, but the culture, career opportunities, and sheer energy are unmatched.",
+      "highlights": [
+        "Louvre — the world's most-visited museum and art sanctuary",
+        "Montmartre — bohemian hilltop village with Sacré-Cœur at the top",
+        "Latin Quarter — the historic student district around the Sorbonne",
+        "Musée d'Orsay — impressionist masterpieces in a converted railway station",
+        "Notre-Dame Cathedral — medieval Gothic masterpiece (currently being restored)"
+      ],
+      "studentLife": "Paris has over 700,000 students across 17 universities and dozens of grandes écoles. The CROUS system provides affordable student accommodation (€200–500/mo) and subsidised meals at student restaurants (€3.30 per meal). The RER/Metro is efficient and a Navigo month pass costs around €90.",
+      "transport": "14 Metro lines, 5 RER lines, bus, tram and Vélib' bike-share. A monthly Navigo Liberté+ pass costs ~€90 and covers everything. Navigo Découverte is €90/month. Students under 26 get Imagin'R annual pass for ~€370/year.",
+      "nightlife": "Marais for LGBT+ and trendy cocktail bars, Oberkampf for live music venues, Pigalle for late-night clubs. Paris is famous for its salon culture — long dinners at brasseries rather than clubs.",
+      "pros": [
+        "World's highest concentration of top universities in one city",
+        "Cheapest Michelin-star meals of any capital (from €35)",
+        "Centre of European culture, fashion and gastronomy",
+        "Huge startup ecosystem — Station F is the world's largest startup campus"
+      ],
+      "tags": [
+        "Cultural capital",
+        "Grandes écoles",
+        "History",
+        "Nightlife"
+      ]
+    },
+    "Lyon": {
+      "region": "Auvergne-Rhône-Alpes",
+      "pop": "522,000 (metro 2.3M)",
+      "climate": "Semi-continental",
+      "cost": "€850–1,300/mo",
+      "desc": "France's gastronomic capital and second city of culture sits at the confluence of the Rhône and Saône rivers. Lyon has a dynamic student population, a UNESCO-listed old town (Vieux-Lyon), and is France's leading city for biotechnology and medical research.",
+      "highlights": [
+        "Vieux-Lyon — UNESCO-listed Renaissance old town with traboules (secret passageways)",
+        "Fourvière Basilica — stunning hilltop church overlooking the city",
+        "Bouchon restaurants — authentic Lyonnais cuisine in rustic taverns",
+        "Croix-Rousse district — artisan and bohemian hillside neighbourhood",
+        "Confluence Museum — ultra-modern science and anthropology museum"
+      ],
+      "studentLife": "Lyon has 160,000+ students across multiple universities and grandes écoles. The vibrant Guillotière district is the student heartland. CROUS housing and restaurant system works well here.",
+      "transport": "TCL Metro (4 lines), trams, buses and Vélo'v bike-share. Monthly pass ~€65. Central Lyon is easily walkable. TGV to Paris in 2 hours.",
+      "nightlife": "Guillotière for multicultural street food and bars, Vieux-Lyon for atmospheric wine bars, Brotteaux for upmarket cocktail lounges.",
+      "pros": [
+        "Consistently ranked France's best city for quality of life",
+        "World-class food scene at every price point",
+        "Strong medical and biotech research universities",
+        "Excellent transport links across France and to Switzerland/Italy"
+      ],
+      "tags": [
+        "Gastronomy",
+        "Research",
+        "UNESCO",
+        "Liveable"
+      ]
+    },
+    "Bordeaux": {
+      "region": "Nouvelle-Aquitaine",
+      "pop": "260,000 (metro 950K)",
+      "climate": "Oceanic",
+      "cost": "€800–1,200/mo",
+      "desc": "Bordeaux has undergone one of Europe's most impressive urban transformations in the past 20 years, becoming a young, dynamic city famous for wine, architecture and a thriving student culture — all at prices far below Paris.",
+      "highlights": [
+        "Place de la Bourse — 18th century neoclassical square with mirror fountain",
+        "Cité du Vin — extraordinary wine museum with global collection",
+        "Saint-Michel district — multicultural, buzzing student neighbourhood",
+        "La Garonne riverfront — 6km of renovated quays and skateparks",
+        "Marché des Capucins — the authentic daily food market"
+      ],
+      "studentLife": "75,000+ students give Bordeaux one of the highest student-to-resident ratios in France. The Victoire district is the student hub. Rent: €400–600/month for a studio.",
+      "transport": "Tram network (4 lines covering the whole city), bus, and an excellent V3 bike-share. Bordeaux is very cycle-friendly. TGV to Paris in 2 hours 4 minutes.",
+      "nightlife": "Victoire district for student bars, Saint-Pierre for wine bars and terraces, Darwin Ecosystem for alternative events.",
+      "pros": [
+        "Transformed into one of France's most beautiful cities",
+        "Close to Atlantic beaches (45 min) and Pyrenees (2 hours)",
+        "World-famous wine region right on the doorstep",
+        "More affordable than Paris with excellent quality of life"
+      ],
+      "tags": [
+        "Wine",
+        "Student city",
+        "Architecture",
+        "Affordable"
+      ]
+    },
+    "Toulouse": {
+      "region": "Occitanie",
+      "pop": "490,000 (metro 1.4M)",
+      "climate": "Semi-oceanic",
+      "cost": "€800–1,200/mo",
+      "desc": "La Ville Rose (the Pink City) is France's aerospace capital and fastest-growing major city. Airbus HQ, CNES (French space agency) and hundreds of aerospace companies make this an engineering paradise, while 130,000 students ensure a vibrant social scene.",
+      "highlights": [
+        "Capitole Square — the stunning city hall and opera house",
+        "Cité de l'Espace — space exploration museum with a real Ariane 5 rocket",
+        "Canal du Midi — UNESCO-listed 17th century canal through the city",
+        "Basilique Saint-Sernin — largest Romanesque church in Europe",
+        "Garonne riverfront promenades and outdoor terraces"
+      ],
+      "studentLife": "130,000 students make Toulouse one of France's largest student cities after Paris. Jean Jaurès University and INSA Toulouse are the main anchors. The Capitole area is the social centre.",
+      "transport": "2 Metro lines, trams, buses and Vélôtoulouse bike-share. Monthly pass ~€60. The city is compact and very flat — ideal for cycling.",
+      "nightlife": "Rue Saint-Rome for bars, Garonne riverside bars and Ponts Jumeaux for outdoor parties. Toulouse has a lively music scene with many live venues.",
+      "pros": [
+        "France's aerospace and tech capital — exceptional engineering careers",
+        "One of the sunniest major cities in France",
+        "Fast-growing economy and startup scene",
+        "120,000+ students create constant energy and social life"
+      ],
+      "tags": [
+        "Aerospace",
+        "Engineering",
+        "Sunny",
+        "Student city"
+      ]
+    },
+    "Marseille": {
+      "region": "Provence-Alpes-Côte d'Azur",
+      "pop": "870,000 (metro 1.8M)",
+      "climate": "Mediterranean",
+      "cost": "€750–1,150/mo",
+      "desc": "France's oldest city and second-largest, Marseille is raw, genuine and increasingly cool. The Mediterranean port city has transformed dramatically, with a world-class contemporary art museum, revitalised harbour and an authentic multicultural identity that no other French city can match.",
+      "highlights": [
+        "Vieux-Port — the ancient harbour, heart of city life",
+        "MuCEM — Museum of European and Mediterranean Civilisations",
+        "Notre-Dame de la Garde — Marseille's hilltop basilica with city panorama",
+        "Calanques National Park — stunning limestone cliffs and crystal sea coves",
+        "Le Panier district — the original old town, colourful and creative"
+      ],
+      "studentLife": "80,000 students across Aix-Marseille Université's 4 campuses. Student life is centred around the Cours Julien district. Marseille is significantly cheaper than Lyon or Bordeaux.",
+      "transport": "2 Metro lines, trams, buses and a ferry service across the port. Monthly pass ~€52. Marseille is large so the Metro is essential.",
+      "nightlife": "Cours Julien for alternative bars and live music, Vieux-Port terraces, La Plaine square for street life. Marseille has a strong DJ and electronic music culture.",
+      "pros": [
+        "Mediterranean beaches within 15 minutes of the city",
+        "Cheapest major French city for students",
+        "Genuinely multicultural with amazing food scene",
+        "Calanques National Park on the doorstep for hiking and swimming"
+      ],
+      "tags": [
+        "Mediterranean",
+        "Authentic",
+        "Affordable",
+        "Beach"
+      ]
+    },
+    "Strasbourg": {
+      "region": "Alsace, Grand Est",
+      "pop": "290,000 (metro 800K)",
+      "climate": "Continental",
+      "cost": "€850–1,250/mo",
+      "desc": "Strasbourg is uniquely European — a bilingual French-German city that hosts the European Parliament, the Council of Europe and the European Court of Human Rights. Its stunning medieval centre, Christmas markets and proximity to Germany make it one of France's most distinctive and internationally-minded student cities.",
+      "highlights": [
+        "La Petite France — the most picturesque district in France, with timber-framed houses and canals",
+        "Strasbourg Cathedral — Gothic masterpiece with the world's oldest astronomical clock",
+        "European Parliament buildings — take a free guided tour",
+        "Christmas Market — the oldest and most famous in France (since 1570)",
+        "Musée de l'Œuvre Notre-Dame — stunning collection of medieval Alsatian art"
+      ],
+      "studentLife": "55,000 students in a compact, walkable city. The European Parliament presence means many internship opportunities in EU institutions. Strong connections to German universities across the Rhine.",
+      "transport": "CTBR tram network (6 lines — the best tram system in France), buses, and exceptional cycling infrastructure. Monthly pass ~€52. Germany is 3 minutes away by tram.",
+      "nightlife": "La Krutenau district for student bars, Broglie area for live music, Petite France for wine bar evenings. Alsatian beer culture (chopes of Kronenbourg) is the social currency.",
+      "pros": [
+        "Seat of the European Parliament — unrivalled EU career opportunities",
+        "Bilingual French-German environment opens double the job market",
+        "Most beautiful Christmas market in all of Europe",
+        "UNESCO-listed Grand Île old town as your daily backdrop"
+      ],
+      "tags": [
+        "European",
+        "Bilingual",
+        "UNESCO",
+        "International"
+      ]
+    },
+    "Nice": {
+      "region": "Provence-Alpes-Côte d'Azur",
+      "pop": "340,000",
+      "climate": "Mediterranean",
+      "cost": "€900–1,400/mo",
+      "desc": "Nice is the jewel of the French Riviera — a Mediterranean city with 300+ days of sunshine, an azure coastline, a stunning old town, and a surprising academic pedigree. Université Côte d'Azur is a growing research hub attracting international students to one of France's most beautiful settings.",
+      "highlights": [
+        "Promenade des Anglais — the iconic seafront boulevard",
+        "Vieux-Nice (Old Town) — colourful baroque streets and market",
+        "Colline du Château — panoramic views over city and bay",
+        "Marché du Cours Saleya — one of France's best open-air markets",
+        "MAMAC — Modern and Contemporary Art Museum"
+      ],
+      "studentLife": "Université Côte d'Azur brings together 30,000 students across research institutes and schools. The international and Erasmus community is vibrant. Student life is shaped by the city's Mediterranean outdoor culture.",
+      "transport": "Tram network (3 lines), extensive bus system, and Nice's famous light rail to Monaco (40min) and Cannes (40min by train).",
+      "nightlife": "Vieux-Nice for cocktail bars and terraces. The port area for clubs. Monaco is 20 minutes away by train for a different pace. Evenings here start on the beach.",
+      "pros": [
+        "Mediterranean beach minutes from campus",
+        "300+ sunny days per year",
+        "Access to Monaco, Cannes, and the Riviera",
+        "International research university of growing prestige"
+      ],
+      "tags": [
+        "Riviera",
+        "Mediterranean",
+        "Sunny",
+        "Luxury"
+      ]
+    }
+  },
+  "cityCards": [
+    {
+      "city": "Paris",
+      "region": "Île-de-France",
+      "gradient": "linear-gradient(135deg,#0a3d62,#1a6091)",
+      "icon": "fa-solid fa-tower-observation",
+      "desc": "The city of light, love and learning — home to the Sorbonne, grandes écoles and 700,000 students.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud"
+      ],
+      "stats": [
+        "2.1 million residents",
+        "€1,200–2,000/mo student cost",
+        "Oceanic climate"
+      ],
+      "tags": [
+        "Cultural capital",
+        "Grandes écoles",
+        "History"
+      ]
+    },
+    {
+      "city": "Lyon",
+      "region": "Auvergne-Rhône-Alpes",
+      "gradient": "linear-gradient(135deg,#7d0026,#c0392b)",
+      "icon": "fa-solid fa-utensils",
+      "desc": "France's gastronomic capital with a UNESCO-listed old town, vibrant student life and top research universities.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-sun"
+      ],
+      "stats": [
+        "522,000 residents",
+        "€850–1,300/mo student cost",
+        "Semi-continental"
+      ],
+      "tags": [
+        "Gastronomy",
+        "Research",
+        "UNESCO"
+      ]
+    },
+    {
+      "city": "Bordeaux",
+      "region": "Nouvelle-Aquitaine",
+      "gradient": "linear-gradient(135deg,#722f37,#c8a951)",
+      "icon": "fa-solid fa-wine-glass",
+      "desc": "Europe's wine capital transformed — stunning architecture, 75,000 students and TGV to Paris in 2 hours.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud-sun"
+      ],
+      "stats": [
+        "260,000 residents",
+        "€800–1,200/mo student cost",
+        "Oceanic"
+      ],
+      "tags": [
+        "Wine",
+        "Student city",
+        "Architecture"
+      ]
+    },
+    {
+      "city": "Toulouse",
+      "region": "Occitanie",
+      "gradient": "linear-gradient(135deg,#e74c3c,#c0392b)",
+      "icon": "fa-solid fa-rocket",
+      "desc": "La Ville Rose — France's aerospace capital with 130,000 students and Airbus HQ on its doorstep.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-sun"
+      ],
+      "stats": [
+        "490,000 residents",
+        "€800–1,200/mo student cost",
+        "Semi-oceanic"
+      ],
+      "tags": [
+        "Aerospace",
+        "Engineering",
+        "Sunny"
+      ]
+    },
+    {
+      "city": "Marseille",
+      "region": "Provence",
+      "gradient": "linear-gradient(135deg,#0097a7,#00695c)",
+      "icon": "fa-solid fa-anchor",
+      "desc": "France's oldest and most authentic city — a Mediterranean port with crystal calanques and real multicultural energy.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-sun"
+      ],
+      "stats": [
+        "870,000 residents",
+        "€750–1,150/mo student cost",
+        "Mediterranean"
+      ],
+      "tags": [
+        "Mediterranean",
+        "Authentic",
+        "Affordable"
+      ]
+    },
+    {
+      "city": "Strasbourg",
+      "region": "Alsace",
+      "gradient": "linear-gradient(135deg,#d03027,#e67e22)",
+      "icon": "fa-solid fa-landmark-flag",
+      "desc": "Europe's parliamentary city — bilingual, historic and uniquely positioned between France and Germany.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-snowflake"
+      ],
+      "stats": [
+        "290,000 residents",
+        "€850–1,250/mo student cost",
+        "Continental"
+      ],
+      "tags": [
+        "European",
+        "Bilingual",
+        "UNESCO"
+      ]
+    }
+  ],
+  "featuredCities": [
+    {
+      "city": "Paris",
+      "icon": "fa-solid fa-tower-observation",
+      "sub": "Capital"
+    },
+    {
+      "city": "Lyon",
+      "icon": "fa-solid fa-utensils",
+      "sub": "Auvergne"
+    },
+    {
+      "city": "Bordeaux",
+      "icon": "fa-solid fa-wine-glass",
+      "sub": "Aquitaine"
+    },
+    {
+      "city": "Toulouse",
+      "icon": "fa-solid fa-rocket",
+      "sub": "Occitanie"
+    },
+    {
+      "city": "Marseille",
+      "icon": "fa-solid fa-anchor",
+      "sub": "Provence"
+    },
+    {
+      "city": "Strasbourg",
+      "icon": "fa-solid fa-landmark-flag",
+      "sub": "Alsace"
+    }
+  ]
+}

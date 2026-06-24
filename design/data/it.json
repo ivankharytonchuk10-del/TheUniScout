@@ -1,0 +1,2803 @@
+{
+  "meta": {
+    "name": "Italy",
+    "code": "it",
+    "flag": "it",
+    "capital": "Rome",
+    "language": "Italian",
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "aboutStudying": "Italy is home to the world's oldest university (Bologna, 1088) and some of Europe's most beautiful cities. Public universities charge low tuition (€1,000–4,000/year), and the combination of world-class education, extraordinary culture and Italian lifestyle makes it deeply attractive.",
+    "uniCount": 91,
+    "cityCount": 7
+  },
+  "tips": [
+    {
+      "icon": "fa-solid fa-passport",
+      "color": "rgba(0,146,70,.1)",
+      "iconColor": "rgb(0,146,70)",
+      "title": "Visa & Permits",
+      "text": "EU citizens need only their ID. Non-EU students need a student visa and permesso di soggiorno (residence permit). Apply through your local Italian consulate. The Universitaly pre-enrollment portal must be used for non-EU applicants."
+    },
+    {
+      "icon": "fa-solid fa-euro-sign",
+      "color": "rgba(52,152,219,.1)",
+      "iconColor": "rgb(52,152,219)",
+      "title": "Cost of Living",
+      "text": "Italy varies enormously. Milan costs €1,100–1,700/month; smaller cities like Bologna or Turin cost €700–1,100. Italian university canteens (mense) serve excellent food for €3–6. DSU scholarships cover fees and housing for lower-income students."
+    },
+    {
+      "icon": "fa-solid fa-language",
+      "color": "rgba(206,43,55,.1)",
+      "iconColor": "rgb(206,43,55)",
+      "title": "Language",
+      "text": "Most bachelor's programmes are in Italian. Italy has one of the fastest-growing selections of English-taught master's programmes in Europe — Politecnico di Milano and Bocconi are leaders. Italian language courses are widely available and highly recommended."
+    }
+  ],
+  "universities": [
+    {
+      "id": "sapienza",
+      "name": "Sapienza University of Rome",
+      "abbr": "UNIROMA1",
+      "color": "#8B0000",
+      "city": "Rome",
+      "type": "Public",
+      "tuition": "€1,000–2,500/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Engineering",
+        "Humanities",
+        "Science"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1303,
+      "students": "~112,000",
+      "desc": "Europe's largest university by enrolment — Sapienza sits at the heart of Rome with faculties spanning every discipline and an extraordinary history of scholarship.",
+      "website": ""
+    },
+    {
+      "id": "bologna",
+      "name": "University of Bologna",
+      "abbr": "UNIBO",
+      "color": "#C8102E",
+      "city": "Bologna",
+      "type": "Public",
+      "tuition": "€1,400–3,500/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Law",
+        "Medicine",
+        "Engineering",
+        "Humanities",
+        "Science"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1088,
+      "students": "~85,000",
+      "desc": "The world's oldest continuously operating university, founded in 1088, with some of Europe's best law, medicine and engineering programmes.",
+      "website": ""
+    },
+    {
+      "id": "polimi",
+      "name": "Politecnico di Milano",
+      "abbr": "PoliMi",
+      "color": "#004B87",
+      "city": "Milan",
+      "type": "Public",
+      "tuition": "€2,500–4,000/yr",
+      "ts": 2,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "Architecture",
+        "CS",
+        "Design",
+        "Science"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1863,
+      "students": "~47,000",
+      "desc": "Italy's #1 technical university — world-ranked for engineering and design, with a location in Europe's fashion and business capital.",
+      "website": ""
+    },
+    {
+      "id": "statale",
+      "name": "Università degli Studi di Milano",
+      "abbr": "UniMi",
+      "color": "#003087",
+      "city": "Milan",
+      "type": "Public",
+      "tuition": "€1,000–3,000/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Humanities",
+        "Business"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1924,
+      "students": "~65,000",
+      "desc": "Milan's largest comprehensive public university, offering a huge range of programmes in one of Europe's most dynamic economic capitals.",
+      "website": ""
+    },
+    {
+      "id": "bocconi",
+      "name": "Bocconi University",
+      "abbr": "Bocconi",
+      "color": "#002060",
+      "city": "Milan",
+      "type": "Private",
+      "tuition": "€14,000–28,000/yr",
+      "ts": 4,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Business",
+        "Law",
+        "Economics"
+      ],
+      "langs": [
+        "English",
+        "Italian"
+      ],
+      "founded": 1902,
+      "students": "~14,000",
+      "desc": "Europe's top business and economics school — consistently ranked #1 in Italy and top 10 in Europe for business and management.",
+      "website": ""
+    },
+    {
+      "id": "florence",
+      "name": "University of Florence",
+      "abbr": "UniFi",
+      "color": "#8B4513",
+      "city": "Florence",
+      "type": "Public",
+      "tuition": "€1,000–2,500/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Arts",
+        "Humanities",
+        "Medicine",
+        "Science",
+        "Law"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1321,
+      "students": "~52,000",
+      "desc": "Set in the world's greatest Renaissance city, the University of Florence combines exceptional arts and humanities with strong medical and scientific research.",
+      "website": ""
+    },
+    {
+      "id": "padua",
+      "name": "University of Padua",
+      "abbr": "UNIPD",
+      "color": "#721422",
+      "city": "Venice",
+      "type": "Public",
+      "tuition": "€1,200–3,000/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Science",
+        "Medicine",
+        "Law",
+        "Engineering",
+        "Humanities"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1222,
+      "students": "~65,000",
+      "desc": "Italy's second-oldest university, near Venice, renowned for its medical school (Galileo and Harvey studied here) and strong sciences and engineering.",
+      "website": ""
+    },
+    {
+      "id": "polito",
+      "name": "Politecnico di Torino",
+      "abbr": "PoliTo",
+      "color": "#003087",
+      "city": "Turin",
+      "type": "Public",
+      "tuition": "€1,500–3,500/yr",
+      "ts": 1,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "Architecture",
+        "CS",
+        "Design"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1859,
+      "students": "~33,000",
+      "desc": "Italy's second-best technical university after Politecnico di Milano — particularly strong in automotive engineering, given its location near Fiat/Ferrari headquarters.",
+      "website": ""
+    },
+    {
+      "id": "unito",
+      "name": "University of Turin",
+      "abbr": "UniTo",
+      "color": "#004B87",
+      "city": "Turin",
+      "type": "Public",
+      "tuition": "€1,000–2,500/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Humanities",
+        "Science",
+        "Business"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1404,
+      "students": "~68,000",
+      "desc": "One of Italy's top comprehensive universities with exceptional strength in law, economics and medicine in Italy's most industrial northern city.",
+      "website": "https://www.unito.it"
+    },
+    {
+      "id": "federico",
+      "name": "University of Naples Federico II",
+      "abbr": "UNINA",
+      "color": "#006633",
+      "city": "Naples",
+      "type": "Public",
+      "tuition": "€800–2,000/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Medicine",
+        "Law",
+        "Science",
+        "Arts"
+      ],
+      "langs": [
+        "Italian"
+      ],
+      "founded": 1224,
+      "students": "~80,000",
+      "desc": "Southern Italy's largest and most prestigious university, founded by Holy Roman Emperor Frederick II — strong in engineering, law and medicine.",
+      "website": "https://www.unina.it"
+    },
+    {
+      "id": "cafoscari",
+      "name": "Università Ca' Foscari Venezia",
+      "abbr": "Ca'Fos",
+      "color": "#005B8E",
+      "city": "Venice",
+      "type": "Public",
+      "tuition": "€1,200–2,800/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Humanities",
+        "Science",
+        "Law"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1868,
+      "students": "~22,000",
+      "desc": "The university of Venice — located in spectacular palazzo buildings throughout the historic city, with strong international business, languages and environmental studies.",
+      "website": "https://www.unive.it"
+    },
+    {
+      "id": "luiss",
+      "name": "LUISS Guido Carli University",
+      "abbr": "LUISS",
+      "color": "#002060",
+      "city": "Rome",
+      "type": "Private",
+      "tuition": "€8,000–22,000/yr",
+      "ts": 4,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Law",
+        "Business",
+        "Political Science"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1966,
+      "students": "~13,000",
+      "desc": "Italy's leading private university for law, economics and political science — the preferred feeder school into Italy's political, business and media elite.",
+      "website": "https://www.luiss.edu"
+    },
+    {
+      "id": "unipi",
+      "name": "University of Pisa",
+      "abbr": "UNIPI",
+      "color": "#003087",
+      "city": "Pisa",
+      "type": "Public",
+      "tuition": "€800–2,500/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Medicine",
+        "Law",
+        "Humanities"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1343,
+      "students": "~48,000",
+      "desc": "One of Italy's most respected universities — home of the Scuola Normale Superiore campus. Strong in engineering, physics and CS in Galileo's city.",
+      "website": ""
+    },
+    {
+      "id": "unimib",
+      "name": "University of Milano-Bicocca",
+      "abbr": "UNIMIB",
+      "color": "#003DA5",
+      "city": "Milan",
+      "type": "Public",
+      "tuition": "€1,000–2,800/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Medicine",
+        "Business",
+        "Law",
+        "Sociology"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1998,
+      "students": "~35,000",
+      "desc": "Milan's modern north-campus university — strong in medicine, statistics and social sciences, with one of Italy's best clinical medicine schools.",
+      "website": ""
+    },
+    {
+      "id": "unicatt",
+      "name": "Università Cattolica del Sacro Cuore",
+      "abbr": "UCSC",
+      "color": "#8B0000",
+      "city": "Milan",
+      "type": "Private",
+      "tuition": "€4,000–10,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Business",
+        "Humanities",
+        "Agriculture"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1921,
+      "students": "~42,000",
+      "desc": "Italy's largest private university — prestigious Catholic institution with campuses in Milan, Rome and Brescia, particularly strong in medicine and law.",
+      "website": ""
+    },
+    {
+      "id": "uniba",
+      "name": "University of Bari Aldo Moro",
+      "abbr": "UNIBA",
+      "color": "#006633",
+      "city": "Bari",
+      "type": "Public",
+      "tuition": "€700–2,000/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Business",
+        "Humanities"
+      ],
+      "langs": [
+        "Italian"
+      ],
+      "founded": 1925,
+      "students": "~55,000",
+      "desc": "Southern Italy's leading comprehensive university after Naples — strong in medicine, law and agriculture in the vibrant Adriatic city of Bari.",
+      "website": ""
+    },
+    {
+      "id": "unipa",
+      "name": "University of Palermo",
+      "abbr": "UNIPA",
+      "color": "#C8102E",
+      "city": "Palermo",
+      "type": "Public",
+      "tuition": "€700–2,000/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Engineering",
+        "Science",
+        "Humanities"
+      ],
+      "langs": [
+        "Italian"
+      ],
+      "founded": 1806,
+      "students": "~40,000",
+      "desc": "Sicily's largest university in its magnificent Baroque capital — offering the full range of disciplines with strong presence in medicine and engineering.",
+      "website": ""
+    },
+    {
+      "id": "unict",
+      "name": "University of Catania",
+      "abbr": "UNICT",
+      "color": "#8B4513",
+      "city": "Catania",
+      "type": "Public",
+      "tuition": "€700–2,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Science",
+        "Engineering",
+        "Medicine",
+        "Law",
+        "Humanities"
+      ],
+      "langs": [
+        "Italian"
+      ],
+      "founded": 1434,
+      "students": "~37,000",
+      "desc": "Sicily's second-oldest university in a city of Baroque architecture and Mount Etna — strong in physics, engineering and agricultural sciences.",
+      "website": ""
+    },
+    {
+      "id": "unige",
+      "name": "University of Genoa",
+      "abbr": "UNIGE",
+      "color": "#CC0000",
+      "city": "Genoa",
+      "type": "Public",
+      "tuition": "€800–2,200/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Medicine",
+        "Science",
+        "Law",
+        "Business"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1481,
+      "students": "~33,000",
+      "desc": "Historic maritime university in one of Italy's most atmospheric port cities — strong in naval and industrial engineering, medicine and law.",
+      "website": ""
+    },
+    {
+      "id": "unipv",
+      "name": "University of Pavia",
+      "abbr": "UNIPV",
+      "color": "#003087",
+      "city": "Pavia",
+      "type": "Public",
+      "tuition": "€800–2,500/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Engineering",
+        "Humanities"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1361,
+      "students": "~24,000",
+      "desc": "Italy's fourth-oldest university, 30 minutes from Milan — famed for producing Nobel laureates in physics (Volta) and medicine.",
+      "website": ""
+    },
+    {
+      "id": "unisi",
+      "name": "University of Siena",
+      "abbr": "UNISI",
+      "color": "#8B4513",
+      "city": "Siena",
+      "type": "Public",
+      "tuition": "€700–2,200/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Humanities",
+        "Science",
+        "Business"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1240,
+      "students": "~16,000",
+      "desc": "One of Italy's oldest universities in the most beautiful medieval town in Tuscany — offering medicine, law and economics in a living museum of Gothic art.",
+      "website": ""
+    },
+    {
+      "id": "unisa",
+      "name": "University of Salerno",
+      "abbr": "UNISA",
+      "color": "#006633",
+      "city": "Salerno",
+      "type": "Public",
+      "tuition": "€700–1,800/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Law",
+        "Business",
+        "Humanities"
+      ],
+      "langs": [
+        "Italian"
+      ],
+      "founded": 1970,
+      "students": "~38,000",
+      "desc": "Southern Italy's fastest-growing technical university near the spectacular Amalfi coast.",
+      "website": ""
+    },
+    {
+      "id": "univaq",
+      "name": "University of L'Aquila",
+      "abbr": "UNIVAQ",
+      "color": "#003DA5",
+      "city": "L'Aquila",
+      "type": "Public",
+      "tuition": "€700–2,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Medicine",
+        "Law",
+        "Business"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1964,
+      "students": "~21,000",
+      "desc": "A modern Abruzzi mountain university rebuilt after the 2009 earthquake — very affordable fees with a strong engineering and physics department.",
+      "website": ""
+    },
+    {
+      "id": "unipg",
+      "name": "University of Perugia",
+      "abbr": "UNIPG",
+      "color": "#C8A100",
+      "city": "Perugia",
+      "type": "Public",
+      "tuition": "€700–2,000/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Agriculture",
+        "Humanities"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1308,
+      "students": "~24,000",
+      "desc": "In Umbria's spectacular hilltop capital — ancient university (1308) particularly strong in agriculture, medicine, law and the arts.",
+      "website": ""
+    },
+    {
+      "id": "unife",
+      "name": "University of Ferrara",
+      "abbr": "UNIFE",
+      "color": "#C8102E",
+      "city": "Ferrara",
+      "type": "Public",
+      "tuition": "€700–2,000/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Engineering",
+        "Science",
+        "Law",
+        "Architecture"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1391,
+      "students": "~16,000",
+      "desc": "A historic university in a UNESCO World Heritage Renaissance city — strong combination of medicine, engineering and architecture.",
+      "website": "http://www.unife.it"
+    },
+    {
+      "id": "unimore",
+      "name": "University of Modena and Reggio Emilia",
+      "abbr": "UNIMORE",
+      "color": "#003DA5",
+      "city": "Modena",
+      "type": "Public",
+      "tuition": "€800–2,200/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Medicine",
+        "Science",
+        "Law",
+        "Business"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1175,
+      "students": "~28,000",
+      "desc": "Italy's oldest Studium in the centre of the Motor Valley — adjacent to Ferrari, Lamborghini and Maserati, with excellent automotive and mechanical engineering.",
+      "website": "https://www.unimore.it"
+    },
+    {
+      "id": "univr",
+      "name": "University of Verona",
+      "abbr": "UNIVR",
+      "color": "#8B0000",
+      "city": "Verona",
+      "type": "Public",
+      "tuition": "€800–2,200/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Business",
+        "Science",
+        "Humanities"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1982,
+      "students": "~25,000",
+      "desc": "Young but rapidly rising university in the city of Romeo and Juliet — strongest in medicine and economics with a growing international English-taught offer.",
+      "website": "https://www.univr.it"
+    },
+    {
+      "id": "unibs",
+      "name": "University of Brescia",
+      "abbr": "UNIBS",
+      "color": "#003087",
+      "city": "Brescia",
+      "type": "Public",
+      "tuition": "€800–2,200/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Engineering",
+        "Law",
+        "Economics",
+        "Science"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1982,
+      "students": "~16,000",
+      "desc": "Focused technical-medical university in Lombardy's second city — strong in medicine, engineering and economics with excellent industry links to Brescia's manufacturing sector.",
+      "website": "https://www.unibs.it"
+    },
+    {
+      "id": "unical",
+      "name": "Università della Calabria",
+      "abbr": "UNICAL",
+      "color": "#005F3C",
+      "city": "Cosenza",
+      "type": "Public",
+      "tuition": "€700–1,800/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Law",
+        "Business",
+        "Humanities"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1972,
+      "students": "~30,000",
+      "desc": "Southern Italy's most innovative campus university — a self-contained city-campus known for strong engineering and computer science departments.",
+      "website": ""
+    },
+    {
+      "id": "uniroma2",
+      "name": "University of Rome Tor Vergata",
+      "abbr": "UNIROMA2",
+      "color": "#003DA5",
+      "city": "Rome",
+      "type": "Public",
+      "tuition": "€800–2,500/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Medicine",
+        "Engineering",
+        "Law",
+        "Business"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1982,
+      "students": "~31,000",
+      "desc": "Rome's technical and scientific university — particularly strong in engineering, physics and medicine.",
+      "website": ""
+    },
+    {
+      "id": "uniroma3",
+      "name": "Roma Tre University",
+      "abbr": "UNIROMA3",
+      "color": "#C8102E",
+      "city": "Rome",
+      "type": "Public",
+      "tuition": "€800–2,500/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Law",
+        "Engineering",
+        "Architecture",
+        "Science",
+        "Humanities"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1992,
+      "students": "~36,000",
+      "desc": "Rome's youngest public university — innovative and internationally minded, particularly strong in architecture, engineering, law and political science.",
+      "website": ""
+    },
+    {
+      "id": "unitn",
+      "name": "University of Trento",
+      "abbr": "UNITN",
+      "color": "#003DA5",
+      "city": "Trento",
+      "type": "Public",
+      "tuition": "€800–2,500/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Law",
+        "Engineering",
+        "CS",
+        "Science",
+        "Social Science"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1962,
+      "students": "~16,000",
+      "desc": "Consistently ranked in Italy's top 5 — Trento punches above its size with excellence in law, sociology and computer science in the spectacular Dolomite foothills.",
+      "website": ""
+    },
+    {
+      "id": "sns",
+      "name": "Scuola Normale Superiore",
+      "abbr": "SNS",
+      "color": "#003087",
+      "city": "Pisa",
+      "type": "Public",
+      "tuition": "€0/yr",
+      "ts": 1,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Science",
+        "Humanities",
+        "Arts"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1810,
+      "students": "~600",
+      "desc": "Italy's most elite postgraduate institution — free for all admitted students. Produces extraordinary researchers across sciences and humanities.",
+      "website": ""
+    },
+    {
+      "id": "poliba",
+      "name": "Politecnico di Bari",
+      "abbr": "POLIBA",
+      "color": "#004B87",
+      "city": "Bari",
+      "type": "Public",
+      "tuition": "€800–2,200/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "Architecture",
+        "CS",
+        "Science"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1990,
+      "students": "~14,000",
+      "desc": "Southern Italy's leading technical university — engineering, architecture and design programmes at the gateway to the Adriatic and the Balkans.",
+      "website": ""
+    },
+    {
+      "id": "univpm",
+      "name": "Università Politecnica delle Marche",
+      "abbr": "UNIVPM",
+      "color": "#006633",
+      "city": "Ancona",
+      "type": "Public",
+      "tuition": "€800–2,200/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Medicine",
+        "Science",
+        "Business",
+        "Agriculture"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1969,
+      "students": "~17,000",
+      "desc": "The Marche region's polytechnic — particularly strong in mechanical engineering, fisheries, marine science and medicine on Italy's Adriatic coast.",
+      "website": ""
+    },
+    {
+      "id": "uniud",
+      "name": "University of Udine",
+      "abbr": "UNIUD",
+      "color": "#003087",
+      "city": "Udine",
+      "type": "Public",
+      "tuition": "€700–2,000/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Medicine",
+        "Humanities",
+        "Agriculture"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1978,
+      "students": "~16,000",
+      "desc": "A well-resourced modern university in Friuli, at the crossroads of Italian, Slavic and Austrian cultures, with strengths in engineering and agriculture.",
+      "website": ""
+    },
+    {
+      "id": "units",
+      "name": "University of Trieste",
+      "abbr": "UNITS",
+      "color": "#003DA5",
+      "city": "Trieste",
+      "type": "Public",
+      "tuition": "€700–2,200/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Engineering",
+        "Medicine",
+        "Humanities",
+        "Law"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1924,
+      "students": "~17,000",
+      "desc": "In Italy's most Central European city on the Adriatic. Strong in physics (world-leading ICTP research institute is here), engineering and law.",
+      "website": ""
+    },
+    {
+      "id": "unica",
+      "name": "University of Cagliari",
+      "abbr": "UNICA",
+      "color": "#8B4513",
+      "city": "Cagliari",
+      "type": "Public",
+      "tuition": "€700–2,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Medicine",
+        "Engineering",
+        "Law",
+        "Science",
+        "Humanities"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1620,
+      "students": "~24,000",
+      "desc": "Sardinia's main university in a strikingly beautiful capital — offering the full spectrum of programmes on an island renowned for biodiversity and a unique ancient culture.",
+      "website": ""
+    },
+    {
+      "id": "uniss",
+      "name": "University of Sassari",
+      "abbr": "UNISS",
+      "color": "#C8102E",
+      "city": "Sassari",
+      "type": "Public",
+      "tuition": "€700–1,800/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Agriculture",
+        "Science",
+        "Humanities"
+      ],
+      "langs": [
+        "Italian"
+      ],
+      "founded": 1562,
+      "students": "~14,000",
+      "desc": "Sardinia's second university — historic institution with very low fees and particular strengths in agriculture, veterinary science and medicine.",
+      "website": ""
+    },
+    {
+      "id": "unisalento",
+      "name": "University of Salento",
+      "abbr": "UNISALENTO",
+      "color": "#004B87",
+      "city": "Lecce",
+      "type": "Public",
+      "tuition": "€700–1,800/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Law",
+        "Humanities",
+        "Arts"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1955,
+      "students": "~16,000",
+      "desc": "In the baroque city of Lecce — the 'Florence of the South'. Strong in cultural studies, engineering and sciences in one of Italy's most charming and affordable cities.",
+      "website": ""
+    },
+    {
+      "id": "iulm",
+      "name": "IULM University",
+      "abbr": "IULM",
+      "color": "#002060",
+      "city": "Milan",
+      "type": "Private",
+      "tuition": "€8,000–15,000/yr",
+      "ts": 4,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Humanities",
+        "Arts",
+        "Business",
+        "Social Science"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1968,
+      "students": "~7,500",
+      "desc": "Milan's creative and communication university — highly regarded for advertising, public relations, tourism management and foreign languages in Europe's media capital.",
+      "website": "https://www.iulm.it"
+    },
+    {
+      "id": "iuav",
+      "name": "Università IUAV di Venezia",
+      "abbr": "IUAV",
+      "color": "#005B8E",
+      "city": "Venice",
+      "type": "Public",
+      "tuition": "€1,000–2,500/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Architecture",
+        "Arts",
+        "Design",
+        "Engineering"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1926,
+      "students": "~4,000",
+      "desc": "The world's most uniquely located architecture school — studying the built environment while living in a floating Gothic-Byzantine-Renaissance masterpiece city.",
+      "website": "http://www.iuav.it/homepage"
+    },
+    {
+      "id": "unibz",
+      "name": "Free University of Bozen-Bolzano",
+      "abbr": "unibz",
+      "color": "#006633",
+      "city": "Bolzano",
+      "type": "Public",
+      "tuition": "€900–2,500/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Business",
+        "CS",
+        "Design",
+        "Education"
+      ],
+      "langs": [
+        "Italian",
+        "German",
+        "English"
+      ],
+      "founded": 1997,
+      "students": "~4,500",
+      "desc": "Italy's only trilingual university — all degrees taught in Italian, German and English. Set in the Alps at the crossroads of Latin, Germanic and Rhaeto-Romanic cultures.",
+      "website": "https://www.unibz.it"
+    },
+    {
+      "id": "unicampania",
+      "name": "University of Campania Luigi Vanvitelli",
+      "abbr": "UNICAMP",
+      "color": "#003DA5",
+      "city": "Caserta",
+      "type": "Public",
+      "tuition": "€700–2,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Medicine",
+        "Engineering",
+        "Law",
+        "Architecture",
+        "Science"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1991,
+      "students": "~30,000",
+      "desc": "Named after the architect of the Royal Palace of Caserta — campuses across Campania with notable strengths in medicine, architecture and engineering.",
+      "website": ""
+    },
+    {
+      "id": "uninsubria",
+      "name": "University of Insubria",
+      "abbr": "UNINSUBRIA",
+      "color": "#005F3C",
+      "city": "Varese",
+      "type": "Public",
+      "tuition": "€700–2,000/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Medicine",
+        "Law",
+        "Business",
+        "Engineering"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1998,
+      "students": "~11,000",
+      "desc": "A young university between Como and Varese on the Swiss border — strong in natural sciences, medicine and economics, offering an Italo-Swiss cross-border experience.",
+      "website": "https://www.uninsubria.it"
+    },
+    {
+      "id": "humanitas",
+      "name": "Humanitas University",
+      "abbr": "HUNIMED",
+      "color": "#CC0000",
+      "city": "Milan",
+      "type": "Private",
+      "tuition": "€16,000–22,000/yr",
+      "ts": 4,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Medicine",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 2014,
+      "students": "~1,500",
+      "desc": "Italy's only fully English-taught medical school — the 6-year medicine degree entirely in English, linked to Humanitas Research Hospital, one of Italy's top clinical research centres.",
+      "website": ""
+    },
+    {
+      "id": "unime",
+      "name": "University of Messina",
+      "abbr": "UNIME",
+      "color": "#003087",
+      "city": "Messina",
+      "type": "Public",
+      "tuition": "€700–2,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Engineering",
+        "Science",
+        "Humanities"
+      ],
+      "langs": [
+        "Italian"
+      ],
+      "founded": 1548,
+      "students": "~22,000",
+      "desc": "On the Strait of Messina between Sicily and mainland Italy — historic university with a strong medical school and pharmacy faculty.",
+      "website": ""
+    },
+    {
+      "id": "unimc",
+      "name": "University of Macerata",
+      "abbr": "UNIMC",
+      "color": "#8B4513",
+      "city": "Macerata",
+      "type": "Public",
+      "tuition": "€700–1,800/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Law",
+        "Humanities",
+        "Business",
+        "Political Science"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1290,
+      "students": "~10,000",
+      "desc": "One of Italy's oldest universities in a beautiful Marche hilltop town — specialising in law, humanities and political science at very accessible fees.",
+      "website": ""
+    },
+    {
+      "id": "unibas",
+      "name": "University of Basilicata",
+      "abbr": "UNIBAS",
+      "color": "#006633",
+      "city": "Potenza",
+      "type": "Public",
+      "tuition": "€700–1,600/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Agriculture",
+        "Humanities",
+        "Law"
+      ],
+      "langs": [
+        "Italian"
+      ],
+      "founded": 1982,
+      "students": "~9,000",
+      "desc": "The university of Italy's least-explored region — very low fees, strong in agricultural sciences, engineering and environmental studies near the UNESCO Sassi di Matera landscape.",
+      "website": ""
+    },
+    {
+      "id": "unistrasi",
+      "name": "Università per Stranieri di Siena",
+      "abbr": "UNISTRASI",
+      "color": "#8B4513",
+      "city": "Siena",
+      "type": "Public",
+      "tuition": "€800–2,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Humanities",
+        "Arts",
+        "Social Science"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1917,
+      "students": "~8,000",
+      "desc": "Italy's oldest university for foreigners — the world's leading institution for Italian language, culture and civilisation teaching in the most beautiful town in Tuscany.",
+      "website": ""
+    },
+    {
+      "id": "stranieri-pg",
+      "name": "Università per Stranieri di Perugia",
+      "abbr": "UNISTRAPG",
+      "color": "#C8A100",
+      "city": "Perugia",
+      "type": "Public",
+      "tuition": "€800–2,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Humanities",
+        "Arts",
+        "Social Science"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1925,
+      "students": "~9,000",
+      "desc": "Italy's second foreigners' university drawing students from over 160 countries — a world leader in Italian language teaching in Umbria's ancient hilltop capital.",
+      "website": ""
+    },
+    {
+      "id": "sissa",
+      "name": "SISSA – International School for Advanced Studies",
+      "abbr": "SISSA",
+      "color": "#003087",
+      "city": "Trieste",
+      "type": "Public",
+      "tuition": "€0/yr",
+      "ts": 1,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1978,
+      "students": "~500",
+      "desc": "Italy's most prestigious graduate research institution — fully English-taught and state-funded. World-renowned for theoretical physics, mathematics and neuroscience.",
+      "website": ""
+    },
+    {
+      "id": "uniupo",
+      "name": "University of Eastern Piedmont",
+      "abbr": "UNIUPO",
+      "color": "#003DA5",
+      "city": "Vercelli",
+      "type": "Public",
+      "tuition": "€700–2,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Business",
+        "Engineering"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1998,
+      "students": "~8,000",
+      "desc": "A young accessible university across Vercelli, Novara, Alessandria and Asti — offering affordable degrees in medicine, pharmacy, law and business in northern Italy's rice and wine country.",
+      "website": ""
+    },
+    {
+      "id": "unich",
+      "name": "University of Chieti-Pescara",
+      "abbr": "UNICH",
+      "color": "#006633",
+      "city": "Chieti",
+      "type": "Public",
+      "tuition": "€700–2,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Medicine",
+        "Architecture",
+        "Law",
+        "Business",
+        "Engineering"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1965,
+      "students": "~25,000",
+      "desc": "G. d'Annunzio University on the Adriatic coast of Abruzzo — strong in medicine, dentistry and architecture with a scenic coastal location and very low student costs.",
+      "website": ""
+    },
+    {
+      "id": "liuc",
+      "name": "LIUC – Cattaneo University",
+      "abbr": "LIUC",
+      "color": "#004B87",
+      "city": "Castellanza",
+      "type": "Private",
+      "tuition": "€8,000–14,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Law"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1991,
+      "students": "~2,500",
+      "desc": "A small focused private university near Milan — offering engineering, business and law with excellent industry connections and very high graduate employment rates.",
+      "website": ""
+    },
+    {
+      "id": "lumsa",
+      "name": "LUMSA – Libera Università Maria SS. Assunta",
+      "abbr": "LUMSA",
+      "color": "#8B0000",
+      "city": "Rome",
+      "type": "Private",
+      "tuition": "€5,000–10,000/yr",
+      "ts": 3,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Law",
+        "Humanities",
+        "Business",
+        "Social Science"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1939,
+      "students": "~8,000",
+      "desc": "A Catholic private university in central Rome with campuses in Palermo and Taranto — focused on law, communication, education and political science.",
+      "website": ""
+    },
+    {
+      "id": "campus-bio",
+      "name": "Campus Bio-Medico University of Rome",
+      "abbr": "UCBM",
+      "color": "#C8102E",
+      "city": "Rome",
+      "type": "Private",
+      "tuition": "€10,000–18,000/yr",
+      "ts": 4,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Engineering",
+        "Science"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1993,
+      "students": "~2,500",
+      "desc": "Rome's leading private medical research university — linked to a 300-bed teaching hospital, offering cutting-edge medicine and biomedical engineering.",
+      "website": ""
+    },
+    {
+      "id": "uniparthenope",
+      "name": "Università degli Studi di Napoli Parthenope",
+      "abbr": "UPN",
+      "color": "#005F3C",
+      "city": "Naples",
+      "type": "Public",
+      "tuition": "€700–2,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Law",
+        "Science",
+        "Nautical"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1919,
+      "students": "~15,000",
+      "desc": "Naples' maritime and economic university overlooking the Bay of Naples — specialising in nautical and aeronautical engineering, economics and law with a dramatic seafront campus.",
+      "website": "https://www.uniparthenope.it"
+    },
+    {
+      "id": "unipr",
+      "name": "University of Parma",
+      "abbr": "UNIPR",
+      "color": "#004B87",
+      "city": "Parma",
+      "type": "Public",
+      "tuition": "€800–2,200/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Science",
+        "Law",
+        "Engineering",
+        "Agriculture"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1065,
+      "students": "~28,000",
+      "desc": "In the food capital of the world — set in the city of Parmigiano-Reggiano, prosciutto and Verdi's music. Strong in food science, medicine and pharmacy.",
+      "website": "https://www.unipr.it"
+    },
+    {
+      "id": "unirc",
+      "name": "Università Mediterranea di Reggio Calabria",
+      "abbr": "UNIRC",
+      "color": "#005F3C",
+      "city": "Reggio Calabria",
+      "type": "Public",
+      "tuition": "€700–1,800/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Architecture",
+        "Law",
+        "Agriculture"
+      ],
+      "langs": [
+        "Italian"
+      ],
+      "founded": 1982,
+      "students": "~11,000",
+      "desc": "At the very tip of the Italian boot overlooking Sicily — specialising in architecture, civil engineering and agronomy in Italy's most southerly big city.",
+      "website": "http://www.unirc.it"
+    },
+    {
+      "id": "unimol",
+      "name": "University of Molise",
+      "abbr": "UNIMOL",
+      "color": "#006633",
+      "city": "Campobasso",
+      "type": "Public",
+      "tuition": "€700–1,600/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Science",
+        "Agriculture",
+        "Engineering",
+        "Law",
+        "Humanities"
+      ],
+      "langs": [
+        "Italian"
+      ],
+      "founded": 1982,
+      "students": "~7,000",
+      "desc": "The smallest public university in mainland Italy in the rural Molise region — very affordable degrees in agriculture, biotechnology, law and environmental sciences.",
+      "website": "https://www.unimol.it"
+    },
+    {
+      "id": "unicatt2",
+      "name": "LIUC – Carlo Cattaneo University",
+      "abbr": "LIUC",
+      "color": "#003087",
+      "city": "Milan",
+      "type": "Private",
+      "tuition": "€8,000–15,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Law"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1991,
+      "students": "~4,000",
+      "desc": "A compact private university near Varese — known for industrial engineering, logistics and management with strong ties to Lombardy's manufacturing sector.",
+      "website": ""
+    },
+    {
+      "id": "unimes",
+      "name": "University of Messina",
+      "abbr": "UniME",
+      "color": "#CC0000",
+      "city": "Messina",
+      "type": "Public",
+      "tuition": "€300–1,500/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Engineering",
+        "Humanities",
+        "Science"
+      ],
+      "langs": [
+        "Italian"
+      ],
+      "founded": 1548,
+      "students": "~25,000",
+      "desc": "Sicily's oldest university on the Strait of Messina — strong in medicine, pharmacology and engineering with some of Italy's lowest tuition fees.",
+      "website": ""
+    },
+    {
+      "id": "unikore",
+      "name": "University of Enna 'Kore'",
+      "abbr": "UniKore",
+      "color": "#CC2529",
+      "city": "Enna",
+      "type": "Private",
+      "tuition": "€2,500–5,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Law",
+        "Humanities",
+        "Business",
+        "CS"
+      ],
+      "langs": [
+        "Italian"
+      ],
+      "founded": 2004,
+      "students": "~9,000",
+      "desc": "Sicily's private university in the island's mountainous interior — accessible entry, affordable fees and a growing reputation for digital arts and engineering.",
+      "website": ""
+    },
+    {
+      "id": "uniaq",
+      "name": "University of L'Aquila",
+      "abbr": "UniAQ",
+      "color": "#CC0000",
+      "city": "L'Aquila",
+      "type": "Public",
+      "tuition": "€400–1,500/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Medicine",
+        "Humanities",
+        "Business"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1596,
+      "students": "~22,000",
+      "desc": "Rebuilt after the 2009 earthquake — a resilient mountain university known for earthquake engineering, geophysics and mathematics in the Gran Sasso national park.",
+      "website": ""
+    },
+    {
+      "id": "univaq2",
+      "name": "University of Teramo",
+      "abbr": "UniTe",
+      "color": "#009A44",
+      "city": "Teramo",
+      "type": "Public",
+      "tuition": "€300–1,200/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Veterinary",
+        "Law",
+        "Business",
+        "Science",
+        "Communications"
+      ],
+      "langs": [
+        "Italian"
+      ],
+      "founded": 1993,
+      "students": "~10,000",
+      "desc": "An Abruzzo university at the foot of the Gran Sasso — particularly strong in veterinary medicine and food science near Italy's unspoilt Adriatic coast.",
+      "website": ""
+    },
+    {
+      "id": "unicusano",
+      "name": "Niccolò Cusano University",
+      "abbr": "UniCusano",
+      "color": "#003366",
+      "city": "Rome",
+      "type": "Private",
+      "tuition": "€3,000–8,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Law",
+        "Engineering",
+        "Business",
+        "Medicine",
+        "CS"
+      ],
+      "langs": [
+        "Italian"
+      ],
+      "founded": 2006,
+      "students": "~30,000",
+      "desc": "A modern private university offering both on-campus and distance-learning degrees across Italy — accessible entry with competitive fees across law, engineering and health sciences.",
+      "website": ""
+    },
+    {
+      "id": "marconi",
+      "name": "Guglielmo Marconi University",
+      "abbr": "UGM",
+      "color": "#CC0000",
+      "city": "Rome",
+      "type": "Private",
+      "tuition": "€2,500–7,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "CS",
+        "Engineering",
+        "Business",
+        "Law",
+        "Science"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 2004,
+      "students": "~22,000",
+      "desc": "Named after the inventor of radio — a fully e-learning private university with flexible degree programmes ideal for working students.",
+      "website": ""
+    },
+    {
+      "id": "unitn2",
+      "name": "Free University of Bozen-Bolzano",
+      "abbr": "UniBz",
+      "color": "#003366",
+      "city": "Bolzano",
+      "type": "Public",
+      "tuition": "€1,000–2,000/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Law",
+        "Education"
+      ],
+      "langs": [
+        "Italian",
+        "German",
+        "English"
+      ],
+      "founded": 1997,
+      "students": "~5,000",
+      "desc": "Europe's only trilingual public university — operating in Italian, German and English in the heart of the Dolomites, at the crossroads of Italian and Alpine culture.",
+      "website": ""
+    },
+    {
+      "id": "uniusb",
+      "name": "University of Urbino Carlo Bo",
+      "abbr": "UniUrb",
+      "color": "#8B1A1A",
+      "city": "Urbino",
+      "type": "Public",
+      "tuition": "€400–1,800/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Law",
+        "Science",
+        "Humanities",
+        "Business",
+        "Education"
+      ],
+      "langs": [
+        "Italian"
+      ],
+      "founded": 1506,
+      "students": "~15,000",
+      "desc": "In the perfect Renaissance hill-town of Urbino — particularly strong in biomolecular science, pharmacy and law in a UNESCO city built for scholarly beauty.",
+      "website": ""
+    },
+    {
+      "id": "unicas",
+      "name": "University of Cassino",
+      "abbr": "UniCas",
+      "color": "#003366",
+      "city": "Cassino",
+      "type": "Public",
+      "tuition": "€400–1,500/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Law",
+        "Humanities",
+        "Economics",
+        "CS"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1979,
+      "students": "~10,000",
+      "desc": "Near the WWII battlefield of Monte Cassino — a young practical university particularly strong in automotive engineering, with research links to the nearby Fiat-Stellantis plant.",
+      "website": ""
+    },
+    {
+      "id": "unisob",
+      "name": "University Suor Orsola Benincasa",
+      "abbr": "UniSOB",
+      "color": "#CC0000",
+      "city": "Naples",
+      "type": "Private",
+      "tuition": "€3,000–7,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Law",
+        "Humanities",
+        "Education",
+        "Arts",
+        "CS"
+      ],
+      "langs": [
+        "Italian"
+      ],
+      "founded": 1895,
+      "students": "~6,000",
+      "desc": "Naples's historic private university — strong in law, literary studies and teacher training in one of the most character-rich cities in the Mediterranean.",
+      "website": ""
+    },
+    {
+      "id": "unilit",
+      "name": "International Telematic University UNINETTUNO",
+      "abbr": "UNINETTUNO",
+      "color": "#003DA5",
+      "city": "Rome",
+      "type": "Private",
+      "tuition": "€1,800–4,000/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "CS",
+        "Engineering",
+        "Business",
+        "Law",
+        "Humanities"
+      ],
+      "langs": [
+        "Italian",
+        "English",
+        "Arabic",
+        "French",
+        "Greek"
+      ],
+      "founded": 2004,
+      "students": "~18,000",
+      "desc": "The world's most multilingual e-learning university — delivering degrees in 5 languages with collaborations from the Arab League to the European Space Agency.",
+      "website": ""
+    },
+    {
+      "id": "naba",
+      "name": "NABA – Nuova Accademia di Belle Arti",
+      "abbr": "NABA",
+      "color": "#CC0000",
+      "city": "Milan",
+      "type": "Private",
+      "tuition": "£14,000–20,000/yr",
+      "ts": 4,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Arts",
+        "Architecture",
+        "Business"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1980,
+      "students": "~4,500",
+      "desc": "Italy's leading private art and design academy — alumni work for Prada, Versace and Ferrari; top-ranked for fashion design, graphic design and media arts.",
+      "website": ""
+    },
+    {
+      "id": "domus",
+      "name": "Domus Academy",
+      "abbr": "Domus",
+      "color": "#000000",
+      "city": "Milan",
+      "type": "Private",
+      "tuition": "£18,000–22,000/yr",
+      "ts": 4,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Arts",
+        "Architecture",
+        "Business"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1982,
+      "students": "~1,000",
+      "desc": "The world's first postgraduate design school — founded in Milan's fashion district, alumni design products for Apple, Ferrari and the world's most prestigious fashion houses.",
+      "website": "http://www.domusacademy.com/"
+    },
+    {
+      "id": "polimi2",
+      "name": "Politecnico di Torino",
+      "abbr": "PoliTo",
+      "color": "#CC0000",
+      "city": "Turin",
+      "type": "Public",
+      "tuition": "£1,000–3,000/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "Architecture",
+        "CS",
+        "Science",
+        "Business"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1859,
+      "students": "~36,000",
+      "desc": "Turin's technical university and Fiat's founding institution — particularly strong in automotive engineering, aerospace, ICT and sustainable energy in Italy's motor capital.",
+      "website": "https://www.polito.it"
+    },
+    {
+      "id": "unito2",
+      "name": "University of Eastern Piedmont Avogadro",
+      "abbr": "UPO2",
+      "color": "#8B1A1A",
+      "city": "Vercelli",
+      "type": "Public",
+      "tuition": "€400–1,500/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Economics",
+        "Pharmacy"
+      ],
+      "langs": [
+        "Italian"
+      ],
+      "founded": 1998,
+      "students": "~7,000",
+      "desc": "A compact multi-campus public university in Piedmont — offering medicine, pharmacy and economics at very affordable rates across Vercelli, Novara and Alessandria.",
+      "website": ""
+    },
+    {
+      "id": "unicz",
+      "name": "University of Catanzaro Magna Græcia",
+      "abbr": "UMG",
+      "color": "#CC2529",
+      "city": "Catanzaro",
+      "type": "Public",
+      "tuition": "€300–1,500/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Pharmacy",
+        "Engineering",
+        "Science"
+      ],
+      "langs": [
+        "Italian"
+      ],
+      "founded": 1998,
+      "students": "~12,000",
+      "desc": "Named after the ancient Greek civilisation of southern Italy — dedicated primarily to health sciences, medicine and pharmacology in Calabria.",
+      "website": ""
+    },
+    {
+      "id": "unikl",
+      "name": "Kore University of Enna – extended",
+      "abbr": "Kore",
+      "color": "#CC0000",
+      "city": "Enna",
+      "type": "Private",
+      "tuition": "€2,000–5,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Architecture",
+        "CS",
+        "Law",
+        "Engineering",
+        "Economics"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 2004,
+      "students": "~8,500",
+      "desc": "Sicily's private university focused on digital transformation and economic development in the island's interior — affordable and growing rapidly.",
+      "website": ""
+    },
+    {
+      "id": "unicam",
+      "name": "University of Camerino",
+      "abbr": "UniCam",
+      "color": "#003087",
+      "city": "Camerino",
+      "type": "Public",
+      "tuition": "€400–1,500/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Architecture",
+        "Science",
+        "Pharmacy",
+        "Veterinary",
+        "Law"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1336,
+      "students": "~10,000",
+      "desc": "One of Italy's oldest universities in a perfectly preserved Renaissance hill-town — specialist in pharmacy, veterinary science and environmental geology.",
+      "website": "https://www.unicam.it"
+    },
+    {
+      "id": "unifg",
+      "name": "University of Foggia",
+      "abbr": "UniFG",
+      "color": "#CC0000",
+      "city": "Foggia",
+      "type": "Public",
+      "tuition": "€300–1,500/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Agriculture",
+        "Medicine",
+        "Law",
+        "Economics",
+        "Humanities"
+      ],
+      "langs": [
+        "Italian"
+      ],
+      "founded": 1999,
+      "students": "~16,000",
+      "desc": "Apulia's agriculture university in the Tavoliere plain — strong in agri-food technology, veterinary medicine and economics in one of Italy's sunniest regions.",
+      "website": ""
+    },
+    {
+      "id": "unisannio",
+      "name": "University of Sannio",
+      "abbr": "UniSannio",
+      "color": "#005F3C",
+      "city": "Benevento",
+      "type": "Public",
+      "tuition": "€300–1,200/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Law",
+        "Economics",
+        "CS"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1998,
+      "students": "~8,000",
+      "desc": "In the ancient Samnite capital of Benevento — strong in renewable energy engineering, CS and economics in an affordable Campania setting.",
+      "website": ""
+    },
+    {
+      "id": "polimi3",
+      "name": "Politecnico di Bari",
+      "abbr": "PoliBA",
+      "color": "#CC0000",
+      "city": "Bari",
+      "type": "Public",
+      "tuition": "€400–2,000/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Architecture",
+        "CS",
+        "Science"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1990,
+      "students": "~18,000",
+      "desc": "Southern Italy's leading technical university — strong in civil, mechanical and environmental engineering, serving the booming Apulia tech and renewable energy sector.",
+      "website": ""
+    },
+    {
+      "id": "unisalerno",
+      "name": "University of Salerno",
+      "abbr": "UniSa",
+      "color": "#003366",
+      "city": "Salerno",
+      "type": "Public",
+      "tuition": "€400–1,800/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Law",
+        "Medicine",
+        "Humanities",
+        "Economics"
+      ],
+      "langs": [
+        "Italian"
+      ],
+      "founded": 1944,
+      "students": "~38,000",
+      "desc": "Campania's second university — one of the largest in southern Italy, with strong engineering, informatics and economics on a large campus south of Naples.",
+      "website": ""
+    },
+    {
+      "id": "unicatt3",
+      "name": "Catholic University of the Sacred Heart – Brescia",
+      "abbr": "UCSC-BS",
+      "color": "#003087",
+      "city": "Brescia",
+      "type": "Private",
+      "tuition": "£8,000–14,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Economics",
+        "Humanities",
+        "Education"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1923,
+      "students": "~11,000",
+      "desc": "The Brescia campus of Italy's largest private university — strong in medicine, economics and legal studies with deep ties to the Lombardy business community.",
+      "website": ""
+    },
+    {
+      "id": "sda-bocconi",
+      "name": "SDA Bocconi School of Management",
+      "abbr": "SDA",
+      "color": "#003366",
+      "city": "Milan",
+      "type": "Private",
+      "tuition": "£30,000–60,000/yr",
+      "ts": 5,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Business",
+        "Finance"
+      ],
+      "langs": [
+        "English",
+        "Italian"
+      ],
+      "founded": 1971,
+      "students": "~2,000",
+      "desc": "Bocconi's world-ranked business school — top 5 in Europe for MBA, SDA alumni run UniCredit, Pirelli and half of Italy's FTSE MIB boardrooms.",
+      "website": ""
+    },
+    {
+      "id": "ies-italy",
+      "name": "American University of Rome",
+      "abbr": "AUR",
+      "color": "#CC0000",
+      "city": "Rome",
+      "type": "Private",
+      "tuition": "£18,000–22,000/yr",
+      "ts": 4,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Humanities",
+        "Business",
+        "CS",
+        "Arts",
+        "Social Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1969,
+      "students": "~600",
+      "desc": "An American liberal arts university in the heart of Rome — offering US-accredited bachelor's degrees entirely in English, an ideal choice for American students studying abroad.",
+      "website": ""
+    },
+    {
+      "id": "bologna-bs",
+      "name": "University of Bologna – Business School",
+      "abbr": "UNIBO-BS",
+      "color": "#CC0000",
+      "city": "Bologna",
+      "type": "Public",
+      "tuition": "€2,000–5,000/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Business",
+        "Finance",
+        "CS"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 2006,
+      "students": "~4,000",
+      "desc": "Bologna's executive education powerhouse — offering MBA and master's programmes through Italy's oldest university, with deep industry ties across Emilia-Romagna.",
+      "website": ""
+    },
+    {
+      "id": "escp-italy",
+      "name": "ESCP Business School – Turin Campus",
+      "abbr": "ESCP-IT",
+      "color": "#003366",
+      "city": "Turin",
+      "type": "Private",
+      "tuition": "£18,000–28,000/yr",
+      "ts": 4,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Business",
+        "Finance"
+      ],
+      "langs": [
+        "English",
+        "French",
+        "Italian"
+      ],
+      "founded": 1819,
+      "students": "~500",
+      "desc": "The Turin outpost of Europe's oldest business school — offering European master's degrees at the gateway to France and the Alps.",
+      "website": ""
+    },
+    {
+      "id": "unipd2",
+      "name": "Venice International University",
+      "abbr": "VIU",
+      "color": "#CC2529",
+      "city": "Venice",
+      "type": "Public",
+      "tuition": "€2,000–5,000/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Social Science",
+        "Science",
+        "Humanities",
+        "Law",
+        "Business"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1995,
+      "students": "~300",
+      "desc": "A unique inter-university institution on the island of San Servolo in the Venice Lagoon — offering intensive international degree programmes co-taught by Ca' Foscari and leading world universities.",
+      "website": ""
+    },
+    {
+      "id": "marist-it",
+      "name": "John Cabot University",
+      "abbr": "JCU",
+      "color": "#CC0000",
+      "city": "Rome",
+      "type": "Private",
+      "tuition": "£22,000–26,000/yr",
+      "ts": 4,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Humanities",
+        "Law",
+        "Social Science",
+        "Arts"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1972,
+      "students": "~1,200",
+      "desc": "A US-accredited liberal arts college in Rome's Trastevere neighbourhood — one of the most popular destinations for American study-abroad students in Europe.",
+      "website": ""
+    }
+  ],
+  "cities": {
+    "Rome": {
+      "region": "Lazio",
+      "pop": "2.8 million",
+      "climate": "Mediterranean",
+      "cost": "€900–1,400/mo",
+      "desc": "Rome is eternal — 2,800 years of continuous history layered on top of each other in the most extraordinary city on earth. As a student, you walk past the Colosseum, the Pantheon and the Spanish Steps on your way to lectures. Sapienza, the world's largest university, is at the heart of it all.",
+      "highlights": [
+        "Colosseum & Forum — the beating heart of the ancient Roman world",
+        "Vatican Museums & Sistine Chapel — Michelangelo's masterpiece",
+        "Trastevere — the most charming student neighbourhood, full of trattorias",
+        "Borghese Gallery — Italy's finest private art collection",
+        "Piazza Navona — Baroque masterpiece of fountains and street life"
+      ],
+      "studentLife": "200,000 students in Rome across multiple universities. Trastevere, Pigneto and San Lorenzo are the student districts. Accommodation is €450–700/month for a shared room. Sapienza's campus is enormous.",
+      "transport": "Metro (2 main lines + 1 new), buses, trams. Monthly pass ~€35. Rome is best navigated by bike or scooter. Trenitalia high-speed to Florence in 1h30.",
+      "nightlife": "Trastevere for classic Roman bar crawls, Pigneto for alternative bars, Testaccio for clubs in old slaughterhouse buildings. Romans eat late (9pm) and stay out until 4 AM.",
+      "pros": [
+        "Walking past the Colosseum every day — there is no comparison",
+        "Most affordable capital city in Western Europe for students",
+        "Extraordinary food at every price point — pizza al taglio from €1.50",
+        "World's highest concentration of museums, churches and archaeological sites"
+      ],
+      "tags": [
+        "Ancient history",
+        "Capital",
+        "Culture",
+        "Affordable"
+      ]
+    },
+    "Milan": {
+      "region": "Lombardy",
+      "pop": "1.4 million",
+      "climate": "Humid subtropical",
+      "cost": "€1,100–1,700/mo",
+      "desc": "Milan is Italy's engine — the financial, fashion and design capital that drives the country's economy. Politecnico di Milano and Bocconi are genuinely world-class. The pace is faster, the ambitions are higher, and the career opportunities are incomparable compared to any other Italian city.",
+      "highlights": [
+        "Duomo Cathedral — Italy's most impressive Gothic cathedral with free rooftop access",
+        "Brera district — the artists' neighbourhood full of galleries and aperitivo bars",
+        "Navigli district — canal-side bars, vintage markets and aperitivo culture",
+        "La Scala — one of the world's greatest opera houses",
+        "Fondazione Prada — contemporary art in a stunning Rem Koolhaas-designed complex"
+      ],
+      "studentLife": "Huge international student community at Politecnico and Bocconi. Navigli, Brera and Isola are the key student areas. More expensive than other Italian cities but salaries post-graduation are proportionally higher.",
+      "transport": "5 Metro lines (expanding), trams, buses, BikeMi bike-share. Monthly pass ~€39. Malpensa Airport 45 minutes by train to central station.",
+      "nightlife": "Navigli for aperitivo culture and canal-side bars, Colonne di San Lorenzo square for outdoor student gatherings, Lambrate for alternative clubs and art spaces.",
+      "pros": [
+        "Italy's best job market — fashion, finance, design, consulting all headquartered here",
+        "Bocconi & Politecnico ranked among Europe's top institutions",
+        "Milan Fashion Week, Salone del Mobile, major international events",
+        "Fast train to Venice (2h), Florence (1h45) and Rome (3h)"
+      ],
+      "tags": [
+        "Fashion",
+        "Finance",
+        "Design",
+        "Careers"
+      ]
+    },
+    "Florence": {
+      "region": "Tuscany",
+      "pop": "375,000",
+      "climate": "Mediterranean",
+      "cost": "€800–1,250/mo",
+      "desc": "Florence is quite simply the world's greatest open-air museum. Michelangelo, Leonardo da Vinci, Dante and Botticelli all worked here — and the city still looks much as they would have known it. The University of Florence is a comprehensive institution embedded in one of the most beautiful cities ever built.",
+      "highlights": [
+        "Uffizi Gallery — Botticelli's Venus, Raphael, Leonardo, all under one roof",
+        "Duomo & Brunelleschi's Dome — the engineering marvel of the Renaissance",
+        "Ponte Vecchio — the medieval bridge lined with goldsmiths",
+        "Oltrarno district — the genuine Florentine neighbourhood across the river",
+        "Piazzale Michelangelo — panoramic sunset view over the terracotta rooftops"
+      ],
+      "studentLife": "60,000 students, many of them international (it's the most popular city in Italy for American study-abroad programmes). The Santa Croce and Santo Spirito areas are student-heavy. Rent: €500–700/month for a shared room.",
+      "transport": "Buses (ATAF/Linea) and extensive cycling. Florence is compact — the historic centre is entirely walkable. Train to Rome in 1h30, to Milan in 1h45 (Frecciarossa).",
+      "nightlife": "Oltrarno for aperitivo and wine bars (enotece), Santa Croce for student bars, Fiesole hills for summer outdoor events. Florence is more sophisticated than party-heavy.",
+      "pros": [
+        "The world's finest collection of Renaissance art as your daily backdrop",
+        "Compact and completely walkable historic centre",
+        "Florence study abroad — the most international student community in Italy",
+        "Exceptional Italian language immersion — Florentine is considered 'pure' Italian"
+      ],
+      "tags": [
+        "Renaissance",
+        "UNESCO",
+        "Art",
+        "International"
+      ]
+    },
+    "Bologna": {
+      "region": "Emilia-Romagna",
+      "pop": "400,000",
+      "climate": "Humid subtropical",
+      "cost": "€750–1,100/mo",
+      "desc": "Bologna gave the world the university — founded in 1088, the world's first. Called La Dotta (The Learned), La Rossa (The Red) and La Grassa (The Fat) for its scholarship, leftist politics and extraordinary food. It's the most student-dense city in Italy and has one of the richest food cultures on earth.",
+      "highlights": [
+        "Two Towers (Asinelli & Garisenda) — medieval towers that define the skyline",
+        "Piazza Maggiore — Bologna's vast and beautiful civic heart",
+        "Mercato di Mezzo — ancient covered market, recently restored and buzzing",
+        "Basilica di San Petronio — one of Italy's largest Gothic churches",
+        "Archiginnasio — the original 16th century university building with anatomical theatre"
+      ],
+      "studentLife": "Bologna is 25% students — it's the most student-saturated city in Italy. Everything is geared towards student life: the cheapest Emilian food, aperitivo culture, left-wing politics. The university is literally all around the city.",
+      "transport": "Bus network across the city, Tper services to surrounding towns. Flat and compact — a cycling paradise. High-speed train to Milan in 1 hour, Rome in 2 hours.",
+      "nightlife": "Via del Pratello for alternative bars, Piazza Verdi for student outdoor gatherings (and free open-air cinema in summer), Zona Universitaria for all-night bars.",
+      "pros": [
+        "World's first university — the original student city",
+        "Best food in Italy (Emilia-Romagna is the undisputed culinary capital)",
+        "25% student population means the whole city is a campus",
+        "Most politically engaged and culturally active city in Italy"
+      ],
+      "tags": [
+        "World's first university",
+        "Food capital",
+        "Student city",
+        "Leftist culture"
+      ]
+    },
+    "Turin": {
+      "region": "Piedmont",
+      "pop": "870,000",
+      "climate": "Continental",
+      "cost": "€750–1,100/mo",
+      "desc": "Turin is Italy's most underrated city — the former royal capital of the House of Savoy, birthplace of Italian unification, and home to the country's automotive industry (Fiat, Ferrari, Lamborghini all started here). Politecnico di Torino is one of Europe's leading technical universities and the city is reinventing itself as an innovation hub.",
+      "highlights": [
+        "Mole Antonelliana & National Cinema Museum — Turin's iconic tower and the world's best film museum",
+        "Egyptian Museum — the most important Egyptian collection outside Cairo",
+        "Piazza Castello — the magnificent Baroque heart of the royal city",
+        "Reggia di Venaria Reale — Italy's Versailles: 80,000 sq m of royal palace",
+        "Porta Palazzo market — Italy's largest open-air market"
+      ],
+      "studentLife": "100,000 students across Politecnico and the University of Turin. San Salvario is the student district. Turin is significantly more affordable than Milan while offering exceptional technical education.",
+      "transport": "Metro (1 line), trams, buses and a bike-sharing scheme. Very flat — easy to cycle everywhere. TGV to Paris in 5 hours, Milan in 45 minutes by train.",
+      "nightlife": "San Salvario for student bars and multicultural restaurants, Murazzi riverfront for clubs, Quadrilatero Romano for aperitivo culture.",
+      "pros": [
+        "Politecnico di Torino — Italy's best engineering university outside Milan",
+        "Most affordable major northern Italian city",
+        "Automotive engineering capital — Ferrari, Fiat, Lamborghini careers",
+        "Alps and skiing 1 hour from the city centre"
+      ],
+      "tags": [
+        "Engineering",
+        "Automotive",
+        "Alps",
+        "Affordable"
+      ]
+    },
+    "Naples": {
+      "region": "Campania",
+      "pop": "970,000",
+      "climate": "Mediterranean",
+      "cost": "€600–950/mo",
+      "desc": "Naples is the loudest, most chaotic, most passionate city in Italy — the birthplace of pizza, mozzarella and a philosophy of life that prioritises beauty, family and pleasure over efficiency. Federico II University is one of Italy's most prestigious, and the city's food, history and raw energy are unlike anything else in Europe.",
+      "highlights": [
+        "Pompeii & Herculaneum — the Roman cities frozen by Vesuvius in 79 AD (30 min by train)",
+        "National Archaeological Museum — the world's greatest collection of Greco-Roman art",
+        "Spaccanapoli — the street that literally splits the ancient city in two",
+        "Castel dell'Ovo — Norman seafront castle with harbour views",
+        "Sfogliatella and pizza — the best food experiences of your life, for €2"
+      ],
+      "studentLife": "130,000 students in Naples. The university is embedded throughout the historic centre. Accommodation is very affordable: €250–400/month. The city rewards students who engage with it.",
+      "transport": "Metropolitana (3 lines), funiculars up the hills, Circumvesuviana trains to Pompeii. The historic centre is best explored on foot. Ferries to Capri, Ischia and Amalfi Coast.",
+      "nightlife": "Spaccanapoli for evening passeggiata, Chiaia neighbourhood for upmarket aperitivo, Vesuvio seafront for summer clubs. Naples at night feels like a film set.",
+      "pros": [
+        "Cheapest major city on this entire list",
+        "The world's greatest pizza — for €1.50 at Da Michele",
+        "Pompeii, Capri and the Amalfi Coast right on your doorstep",
+        "Most intensely alive city in Italy"
+      ],
+      "tags": [
+        "Pizza",
+        "History",
+        "Cheap",
+        "Authentic"
+      ]
+    },
+    "Venice": {
+      "region": "Veneto",
+      "pop": "255,000",
+      "climate": "Humid subtropical",
+      "cost": "€900–1,400/mo",
+      "desc": "Venice is the world's most unique city — 118 islands connected by 400 bridges, no cars, and canals instead of streets. Ca' Foscari University puts students right in the historic centre. It's expensive, but the experience of living and studying in Venice is genuinely unlike anywhere else on earth.",
+      "highlights": [
+        "Piazza San Marco — the heart of Venice",
+        "Grand Canal — the main waterway through the city",
+        "Rialto Bridge and Market — 16th century icon, still a market",
+        "Biennale Pavilions — world's most important art event",
+        "Vaporetto water bus network — public transport by boat"
+      ],
+      "studentLife": "Ca' Foscari and IUAV architecture school put over 20,000 students in the historic centre. Living in Venice is expensive but extraordinary. Dorsoduro is the student neighbourhood. Vaporetto monthly pass is a student staple.",
+      "transport": "Vaporetto (water bus) — the entire city is navigated by boat or on foot. Airport is 15 minutes by boat. Mestre mainland (5min by train) has cheaper accommodation and normal transport.",
+      "nightlife": "Campo Santa Margherita in Dorsoduro is the student piazza — bars spill onto the square every evening. Spritz is the ritual. Clubs are few; this is a city for aperitivo culture.",
+      "pros": [
+        "Most unique city in the world to study in",
+        "Ca' Foscari ranked among Italy's best for languages and economics",
+        "Architecture and arts environment is unparalleled",
+        "World Biennale Art and Architecture events at your doorstep"
+      ],
+      "tags": [
+        "Canals",
+        "Unique",
+        "Architecture",
+        "Arts"
+      ]
+    }
+  },
+  "cityCards": [
+    {
+      "city": "Rome",
+      "region": "Lazio",
+      "gradient": "linear-gradient(135deg,#8B0000,#CD853F)",
+      "icon": "fa-solid fa-monument",
+      "desc": "The eternal city — Colosseum, Vatican, 2,800 years of history and Europe's largest university (Sapienza).",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-sun"
+      ],
+      "stats": [
+        "2.8 million residents",
+        "€900–1,400/mo student cost",
+        "Mediterranean"
+      ],
+      "tags": [
+        "Ancient history",
+        "Capital",
+        "Culture"
+      ]
+    },
+    {
+      "city": "Milan",
+      "region": "Lombardy",
+      "gradient": "linear-gradient(135deg,#002060,#1a5490)",
+      "icon": "fa-solid fa-briefcase",
+      "desc": "Italy's financial and fashion capital — home to Bocconi, Politecnico and the best career opportunities in the country.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud"
+      ],
+      "stats": [
+        "1.4 million residents",
+        "€1,100–1,700/mo student cost",
+        "Humid subtropical"
+      ],
+      "tags": [
+        "Fashion",
+        "Finance",
+        "Design"
+      ]
+    },
+    {
+      "city": "Florence",
+      "region": "Tuscany",
+      "gradient": "linear-gradient(135deg,#8B4513,#D2691E)",
+      "icon": "fa-solid fa-paint-brush",
+      "desc": "The cradle of the Renaissance — Uffizi, Michelangelo's David, the Duomo, and the world's finest art in one walkable city.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-sun"
+      ],
+      "stats": [
+        "375,000 residents",
+        "€800–1,250/mo student cost",
+        "Mediterranean"
+      ],
+      "tags": [
+        "Renaissance",
+        "UNESCO",
+        "Art"
+      ]
+    },
+    {
+      "city": "Bologna",
+      "region": "Emilia-Romagna",
+      "gradient": "linear-gradient(135deg,#C8102E,#8B0000)",
+      "icon": "fa-solid fa-book",
+      "desc": "The world's first university city (1088) — the most student-dense city in Italy with the best food on earth.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-utensils"
+      ],
+      "stats": [
+        "400,000 residents",
+        "€750–1,100/mo student cost",
+        "Humid subtropical"
+      ],
+      "tags": [
+        "First university",
+        "Food capital",
+        "Student city"
+      ]
+    },
+    {
+      "city": "Turin",
+      "region": "Piedmont",
+      "gradient": "linear-gradient(135deg,#003087,#006BB6)",
+      "icon": "fa-solid fa-car",
+      "desc": "Italy's royal capital reinvented — Politecnico di Torino, automotive industry (Fiat, Ferrari) and the Alps 1 hour away.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-mountain"
+      ],
+      "stats": [
+        "870,000 residents",
+        "€750–1,100/mo student cost",
+        "Continental"
+      ],
+      "tags": [
+        "Engineering",
+        "Automotive",
+        "Alps"
+      ]
+    },
+    {
+      "city": "Naples",
+      "region": "Campania",
+      "gradient": "linear-gradient(135deg,#006633,#009966)",
+      "icon": "fa-solid fa-pizza-slice",
+      "desc": "The loudest, most passionate city in Italy — birthplace of pizza, Pompeii 30 min away and the cheapest major city on the list.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-sun"
+      ],
+      "stats": [
+        "970,000 residents",
+        "€600–950/mo student cost",
+        "Mediterranean"
+      ],
+      "tags": [
+        "Pizza",
+        "History",
+        "Cheap"
+      ]
+    }
+  ],
+  "featuredCities": [
+    {
+      "city": "Rome",
+      "icon": "fa-solid fa-monument",
+      "sub": "Capital"
+    },
+    {
+      "city": "Milan",
+      "icon": "fa-solid fa-briefcase",
+      "sub": "Lombardy"
+    },
+    {
+      "city": "Florence",
+      "icon": "fa-solid fa-paint-brush",
+      "sub": "Tuscany"
+    },
+    {
+      "city": "Bologna",
+      "icon": "fa-solid fa-book",
+      "sub": "Emilia"
+    },
+    {
+      "city": "Turin",
+      "icon": "fa-solid fa-car",
+      "sub": "Piedmont"
+    },
+    {
+      "city": "Naples",
+      "icon": "fa-solid fa-pizza-slice",
+      "sub": "Campania"
+    }
+  ]
+}

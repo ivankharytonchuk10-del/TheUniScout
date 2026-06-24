@@ -1,0 +1,1753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> UniScout | Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <link rel="stylesheet" href="mainPage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="earth.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="earth.png">
+</head>
+<body>
+
+<header class="mp__header">
+    <div class="mp__header__left">
+        <button class="mp__burger" id="mpBurger" aria-label="Open menu"><i class="fa-solid fa-bars"></i></button>
+        <a href="index.html?home" class="mp__logo">
+            <img src="logo2.png" alt="UniScout">
+            <span>UniScout</span>
+        </a>
+        <div class="mp__divider"></div>
+        <nav class="mp__nav" id="mpNav">
+            <button class="mp__nav__btn active" data-tab="overview"><i class="fa-solid fa-house"></i> Overview</button>
+            <button class="mp__nav__btn" data-tab="explore"><i class="fa-solid fa-compass"></i> Explore</button>
+            <button class="mp__nav__btn" data-tab="cityguide"><i class="fa-solid fa-lightbulb"></i> Probability</button>
+            <button class="mp__nav__btn" data-tab="compare"><i class="fa-solid fa-file-pen"></i> Apply</button>
+            <button class="mp__nav__btn" data-tab="tracker"><i class="fa-regular fa-calendar-check"></i> Deadlines</button>
+            <button class="mp__nav__btn" data-tab="gradebook"><i class="fa-solid fa-chart-line"></i> Gradebook</button>
+        </nav>
+    </div>
+    <div class="mp__nav__scrim" id="mpNavScrim"></div>
+    <div class="mp__header__right">
+        <button class="mp__fy__hdr" id="fyHdrBtn" style="display:none" title="Your personal matches"><i class="fa-solid fa-magnifying-glass-dollar"></i></button>
+        <div class="mp__id">
+            <span class="mp__greeting">Hey, <b id="mpName"></b></span>
+            <button class="mp__title__chip" id="mpTitleChip" style="display:none" title="Your equipped title"></button>
+        </div>
+        <span class="mp__budget__badge" id="budgetBadge" style="display:none"></span>
+        <button class="mp__feed__btn" id="feedToggle" title="University Updates Feed">
+            <i class="fa-solid fa-bell"></i>
+            <span class="mp__feed__dot" id="feedDot" style="display:none"></span>
+        </button>
+        <button class="mp__friends__hdr__btn" id="hdrFriendsBtn" title="Friends">
+            <i class="fa-solid fa-user-group"></i>
+            <span class="mp__friends__hdr__badge" id="hdrFriendsBadge" style="display:none"></span>
+        </button>
+        <div class="mp__avatar__wrap" id="mpAvatarWrap">
+            <span class="mp__elite__crown" id="mpEliteCrown"><i class="fa-solid fa-crown"></i></span>
+            <button class="mp__avatar" id="mpAvatarBtn" title="My Profile"><i class="fa-solid fa-circle-user"></i></button>
+            <div class="mp__profile__drop" id="profileDropdown" style="display:none">
+                <div class="mpd__head">
+                    <div class="mpd__av__wrap">
+                        <div class="mpd__av" id="mpdAvatar">🎓</div>
+                        <label class="mpd__av__upload" for="mpdAvatarInput" title="Upload photo"><i class="fa-solid fa-camera"></i></label>
+                        <input type="file" id="mpdAvatarInput" accept="image/*" style="display:none">
+                    </div>
+                    <div class="mpd__head__info">
+                        <div class="mpd__username" id="mpdUsername"></div>
+                        <button class="mpd__title" id="mpdTitle" title="View your titles"><i class="fa-solid fa-bolt"></i> <span>No title yet</span></button>
+                        <div class="mpd__hlang" id="mpdHLang"></div>
+                    </div>
+                </div>
+                <div class="mpd__divider"></div>
+                <div class="mpd__section">
+                    <div class="mpd__budget__header">
+                        <div class="mpd__section__label" style="margin-bottom:0"><i class="fa-solid fa-piggy-bank"></i> Annual Tuition Budget</div>
+                        <label class="mpd__toggle__switch" title="Filter universities by this budget">
+                            <input type="checkbox" id="mpdBudgetMode">
+                            <span class="mpd__toggle__track"><span class="mpd__toggle__thumb"></span></span>
+                        </label>
+                    </div>
+                    <div class="mpd__budget__mode__label" id="mpdBudgetModeLabel">Filter off — budget shown for reference</div>
+                    <div class="mpd__budget__row">
+                        <div class="mpd__budget__amount" id="mpdBudgetAmt">€5,000<span>/yr</span></div>
+                        <div class="mpd__budget__tier" id="mpdBudgetTier"></div>
+                    </div>
+                    <div class="mpd__budget__wrap">
+                        <input type="range" class="mpd__budget__slider" id="mpdBudgetSlider" min="300" max="30000" step="100" value="5000">
+                    </div>
+                    <div class="mpd__budget__range"><span id="mpdBudgetMin">€300/yr</span><span id="mpdBudgetMax">€30,000/yr</span></div>
+                </div>
+                <div class="mpd__divider"></div>
+                <div class="mpd__section">
+                    <div class="mpd__section__label"><i class="fa-solid fa-language"></i> Language</div>
+                    <select class="mpd__select" id="mpdLangSelect">
+                        <option value="en">🇬🇧 English</option>
+                        <option value="es">🇪🇸 Español</option>
+                        <option value="fr">🇫🇷 Français</option>
+                        <option value="de">🇩🇪 Deutsch</option>
+                        <option value="it">🇮🇹 Italiano</option>
+                        <option value="pt">🇵🇹 Português</option>
+                        <option value="uk">🇺🇦 Українська</option>
+                        <option value="pl">🇵🇱 Polski</option>
+                    </select>
+                </div>
+                <div class="mpd__divider"></div>
+                <div class="mpd__section">
+                    <div class="mpd__budget__header">
+                        <div class="mpd__section__label" style="margin-bottom:0"><i class="fa-solid fa-envelope"></i> Daily news email</div>
+                        <label class="mpd__toggle__switch" title="Get a daily email with news about your saved universities">
+                            <input type="checkbox" id="mpdDigestToggle">
+                            <span class="mpd__toggle__track"><span class="mpd__toggle__thumb"></span></span>
+                        </label>
+                    </div>
+                    <div class="mpd__budget__mode__label" id="mpdDigestLabel">A daily round-up of news about your saved universities.</div>
+                </div>
+                <div class="mpd__divider"></div>
+                <div class="mpd__section">
+                    <div class="mpd__section__label"><i class="fa-solid fa-user-group"></i> Switch account</div>
+                    <div class="mpd__accounts" id="mpdAccounts"></div>
+                    <a href="log-in.html" class="mpd__addacct"><i class="fa-solid fa-plus"></i> Add / sign in another account</a>
+                </div>
+            </div>
+        </div>
+        <button class="mp__theme__btn" id="themeToggle" title="Switch theme"><i class="fa-solid fa-moon" id="themeIcon"></i></button>
+        <button class="mp__signout" id="mpSignout" title="Sign out"><i class="fa-solid fa-right-from-bracket"></i></button>
+    </div>
+</header>
+
+<div class="mp__feed__overlay" id="feedOverlay"></div>
+<aside class="mp__feed__sidebar" id="feedSidebar">
+    <div class="mp__feed__head">
+        <div class="mp__feed__head__left">
+            <div class="mp__feed__head__icon"><i class="fa-solid fa-bell"></i></div>
+            <div>
+                <div class="mp__feed__head__title">University Feed</div>
+                <div class="mp__feed__head__sub">Updates for your saved universities</div>
+            </div>
+        </div>
+        <button class="mp__feed__close" id="feedClose"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="mp__feed__reqs" id="feedFrqSection" style="display:none"></div>
+    <div class="mp__feed__list" id="feedList">
+        <div class="mp__feed__empty" id="feedEmpty">
+            <i class="fa-regular fa-bell-slash"></i>
+            <p>Save universities to see their updates here</p>
+        </div>
+    </div>
+</aside>
+
+<main class="mp__main">
+
+<div id="tabOverview">
+
+
+    <div class="mp__country__strip" id="countryStrip">
+        <div class="mp__cs__row">
+            <div class="mp__cs__left">
+                <i class="fa-solid fa-earth-europe mp__cs__globe"></i>
+                <span class="mp__cs__label">Study destination:</span>
+                <div class="mp__cs__selected" id="csSelected">
+                    <span class="mp__cs__flag" id="csFlag"></span>
+                    <span class="mp__cs__name" id="csName">Spain</span>
+                </div>
+            </div>
+            <div class="mp__cs__right">
+                <button class="mp__cs__change__btn" id="csChangeBtn"><i class="fa-solid fa-sliders"></i> Change country</button>
+            </div>
+        </div>
+        <div class="mp__cs__picker" id="csPicker">
+            <div class="mp__cs__sec__label">
+                <i class="fa-solid fa-heart"></i> <span id="csGridLabel">Your Countries</span>
+            </div>
+            <div class="mp__cs__grid" id="csGrid"></div>
+            <div class="mp__cs__empty" id="csGridEmpty" style="display:none">No saved countries yet — add some with the ♥ below.</div>
+
+            <div class="mp__cs__divline"></div>
+
+            <!-- Elite: search & add any country -->
+            <div class="mp__cs__search" id="csSearchWrap" style="display:none">
+                <div class="mp__cs__search__box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="csSearchInput" placeholder="Search any country in the world…" autocomplete="off">
+                    <span class="mp__cs__search__elite"><i class="fa-solid fa-crown"></i> Elite</span>
+                </div>
+                <div class="mp__cs__search__results" id="csSearchResults"></div>
+            </div>
+
+            <!-- Free tier: brand + unlock CTA -->
+            <div class="mp__cs__bottom" id="csBottom">
+                <div class="mp__cs__brand__side">
+                    <img src="logo2.png" class="mp__cs__brand__logo" alt="">
+                    <span class="mp__cs__brand__name">UniScout</span>
+                    <span class="mp__cs__brand__sep">·</span>
+                    <span class="mp__cs__brand__quote">Unlock every country with Elite</span>
+                </div>
+                <div class="mp__cs__pro__cta" id="openProModal">
+                    <i class="fa-solid fa-crown mp__cs__pro__cta__icon"></i>
+                    <span class="mp__cs__pro__cta__text">Unlock Elite</span>
+                    <i class="fa-solid fa-arrow-right mp__cs__pro__cta__arr"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="mp__hero">
+        <div class="mp__hero__orb mp__hero__orb--1"></div>
+        <div class="mp__hero__orb mp__hero__orb--2"></div>
+
+
+        <div class="mp__hero__center">
+            <div class="mp__hero__welcome">Welcome back, <span id="heroName"></span></div>
+            <button class="mp__hero__usertitle" id="mpHeroTitle" style="display:none" title="View your titles"></button>
+            <div class="mp__hero__brand">
+                <img src="logo2.png" class="mp__hero__brand__logo" alt="UniScout">
+                <span class="mp__hero__brand__name">UniScout</span>
+            </div>
+        </div>
+
+        <div class="mp__hero__text">
+
+            <div class="mp__hero__clock">
+                <div class="mp__hero__clock__face">
+                    <canvas id="dshClockCanvas" width="110" height="110"></canvas>
+                </div>
+                <div class="mp__hero__clock__info">
+                    <div class="mp__hero__clock__time" id="dshClockTime">00:00</div>
+                    <div class="mp__hero__clock__date" id="dshClockDate"></div>
+                </div>
+            </div>
+
+            <div class="mp__hero__insight" id="heroInsight">
+                <div class="mp__hero__insight__row">
+                    <span class="mp__hero__insight__pct" id="heroInsightPct">—</span>
+                    <span class="mp__hero__insight__uniname" id="heroInsightUni">universities in this region</span>
+                </div>
+            </div>
+
+            <div class="dsh__widget dsh__widget--deadline" id="dshDeadlineWidget" title="Click to manage deadlines">
+                <div class="dsh__widget__icon"><i class="fa-solid fa-calendar-check"></i></div>
+                <div class="dsh__widget__body">
+                    <div class="dsh__widget__label" id="dshDeadlineLabel">Next Deadline</div>
+                    <div id="dshNextDeadline" class="dsh__widget__val">Loading…</div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="mp__hero__actions">
+
+            <div class="mp__hero__stats" id="heroStats">
+                <div class="mp__hero__stats__item">
+                    <div class="mp__hero__stats__num" id="heroStatTotal">—</div>
+                    <div class="mp__hero__stats__lbl"><i class="fa-solid fa-building-columns"></i> Universities</div>
+                </div>
+                <div class="mp__hero__stats__sep"></div>
+                <div class="mp__hero__stats__item">
+                    <div class="mp__hero__stats__num" id="heroStatSaved">0</div>
+                    <div class="mp__hero__stats__lbl"><i class="fa-solid fa-bookmark"></i> Saved</div>
+                </div>
+            </div>
+
+            <div class="mp__hero__appcount mp__hero__appcount--ai">
+                <a class="mp__hero__ai" href="aiReviews.html" title="Ask AI">
+                    <span class="mp__hero__ai__half"><span class="mp__hero__ai__txt">AI</span></span>
+                    <span class="mp__hero__appcount__sep"></span>
+                    <span class="mp__hero__ai__half"><span class="mp__hero__ai__ico"><i class="fa-solid fa-wand-magic-sparkles"></i></span></span>
+                </a>
+            </div>
+
+            <div class="dsh__widget dsh__widget--feed">
+                <div class="dsh__widget__icon"><i class="fa-solid fa-bell"></i></div>
+                <div class="dsh__widget__body">
+                    <div class="dsh__widget__label">University Updates</div>
+                    <div class="dsh__widget__val" id="heroFeedVal">Loading…</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="exp__break" id="acadBreak" style="display:none">
+        <div class="exp__break__line"></div>
+        <div class="exp__break__pill"><i class="fa-solid fa-chart-line"></i> <span>Academic Progress</span></div>
+        <div class="exp__break__line"></div>
+    </div>
+
+    <div class="dshacad" id="dshAcademic" data-goto="gradebook" style="display:none" title="Open your Gradebook">
+        <div class="dshacad__hd">
+            <div class="dshacad__title"><i class="fa-solid fa-chart-line"></i> Academic Progress</div>
+            <span class="dshacad__open">Open Gradebook <i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+        <div class="dshacad__grid">
+            <div class="dshacad__avg">
+                <div class="dshacad__avg__num" id="dshAcadAvg">—</div>
+                <div class="dshacad__avg__lbl">Overall average <span style="opacity:.7">/ 100</span></div>
+                <svg id="dshAcadGraph" class="dshacad__graph" viewBox="0 0 120 50" preserveAspectRatio="none" aria-hidden="true"></svg>
+                <div class="dshacad__avg__trend" id="dshAcadTrend"></div>
+            </div>
+            <div class="dshacad__read" id="dshAcadReadiness"></div>
+            <div class="dshacad__attn" id="dshAcadAttention"></div>
+        </div>
+        <div class="dshacad__goal" id="dshAcadGoal" style="display:none"></div>
+    </div>
+
+    <div class="rnk__section__wrap">
+        <div class="rnk__section__hd">
+            <div>
+                <div class="rnk__section__title"><i class="fa-solid fa-ranking-star"></i> Top Universities — <span id="rnkCountryLabel">Spain</span></div>
+                <div class="rnk__section__sub">Rankings updated regularly · Hover a card for details</div>
+            </div>
+            <button class="mp__section__action" id="browseAllBtn"><i class="fa-solid fa-list-ol"></i> Browse all</button>
+        </div>
+        <div class="rnk__track__wrap">
+            <div class="rnk__fade rnk__fade--left"></div>
+            <div class="rnk__fade rnk__fade--right"></div>
+            <div class="rnk__track" id="rnkTrack"></div>
+        </div>
+    </div>
+
+
+    <div class="exp__break">
+        <div class="exp__break__line"></div>
+        <div class="exp__break__pill"><i class="fa-solid fa-bookmark"></i> <span>Your Shortlist</span></div>
+        <div class="exp__break__line"></div>
+    </div>
+
+    <section class="mp__section">
+        <div class="mp__section__hd">
+            <div>
+                <div class="mp__section__title"><i class="fa-solid fa-bookmark"></i> Saved Universities</div>
+                <div class="mp__section__sub">Universities you bookmarked for later</div>
+            </div>
+            <button class="mp__section__action" id="savedCompareBtn"><i class="fa-solid fa-scale-balanced"></i> Compare</button>
+        </div>
+        <div id="savedEmpty" class="mp__empty">
+            <div class="mp__empty__icon"><i class="fa-regular fa-bookmark"></i></div>
+            <h3>No saved universities yet</h3>
+            <p>Go to Explore, browse universities and click the bookmark icon to save them here.</p>
+            <button class="mp__empty__btn" data-goto="explore"><i class="fa-solid fa-compass"></i> Go to Explore</button>
+        </div>
+        <div id="savedGrid" class="mp__uni__grid" style="display:none"></div>
+    </section>
+
+    <div class="exp__break exp__break--city">
+        <div class="exp__break__line"></div>
+        <div class="exp__break__pill"><i class="fa-solid fa-heart"></i> <span>Places You Love</span></div>
+        <div class="exp__break__line"></div>
+    </div>
+
+    <section class="mp__section">
+        <div class="mp__section__hd">
+            <div>
+                <div class="mp__section__title"><i class="fa-solid fa-heart"></i> Saved Places</div>
+                <div class="mp__section__sub">City highlights you bookmarked from the City Guide</div>
+            </div>
+            <button class="mp__section__action" data-goto="cityguide"><i class="fa-solid fa-arrow-right"></i> City Guide</button>
+        </div>
+        <div id="savedPlacesEmpty" class="mp__empty">
+            <div class="mp__empty__icon"><i class="fa-regular fa-heart"></i></div>
+            <h3>No saved places yet</h3>
+            <p>Go to City Guide, explore a city and click the heart icon next to any highlight to save it here.</p>
+            <button class="mp__empty__btn" data-goto="cityguide"><i class="fa-solid fa-map-location-dot"></i> Go to City Guide</button>
+        </div>
+        <div id="savedPlacesGrid" class="mp__places__grid" style="display:none"></div>
+    </section>
+
+
+    <div class="exp__break exp__break--journey">
+        <div class="exp__break__line"></div>
+        <div class="exp__break__pill"><i class="fa-solid fa-route"></i> <span>Your Journey</span></div>
+        <div class="exp__break__line"></div>
+    </div>
+
+    <section class="mp__section">
+        <div class="mp__section__hd">
+            <div>
+                <div class="mp__section__title"><i class="fa-solid fa-route"></i> Application Journey</div>
+                <div class="mp__section__sub">Your step-by-step roadmap to university</div>
+            </div>
+        </div>
+        <div class="rdm__wrap">
+            <div class="rdm__track">
+                <div class="rdm__progress__fill" id="rdmFill"></div>
+            </div>
+            <div class="rdm__steps">
+                <div class="rdm__step rdm__step--active" id="rdmStep1">
+                    <div class="rdm__step__node">
+                        <div class="rdm__step__icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    </div>
+                    <div class="rdm__step__label">Research Universities</div>
+                    <div class="rdm__step__hint">Explore &amp; filter</div>
+                </div>
+                <div class="rdm__step rdm__step--pending" id="rdmStep2">
+                    <div class="rdm__step__node">
+                        <div class="rdm__step__icon"><i class="fa-solid fa-bookmark"></i></div>
+                    </div>
+                    <div class="rdm__step__label">Save Favourites</div>
+                    <div class="rdm__step__hint">Bookmark universities</div>
+                </div>
+                <div class="rdm__step rdm__step--pending" id="rdmStep3">
+                    <div class="rdm__step__node">
+                        <div class="rdm__step__icon"><i class="fa-solid fa-scale-balanced"></i></div>
+                    </div>
+                    <div class="rdm__step__label">Compare Options</div>
+                    <div class="rdm__step__hint">Side-by-side analysis</div>
+                </div>
+                <div class="rdm__step rdm__step--pending" id="rdmStep4">
+                    <div class="rdm__step__node">
+                        <div class="rdm__step__icon"><i class="fa-solid fa-paper-plane"></i></div>
+                    </div>
+                    <div class="rdm__step__label">Submit Applications</div>
+                    <div class="rdm__step__hint">Track your apps</div>
+                </div>
+                <div class="rdm__step rdm__step--pending" id="rdmStep5">
+                    <div class="rdm__step__node">
+                        <div class="rdm__step__icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+                    </div>
+                    <div class="rdm__step__label">Receive Decisions</div>
+                    <div class="rdm__step__hint">Await results</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="mp__section" id="budgetSection" style="display:none">
+        <div class="mp__section__hd">
+            <div>
+                <div class="mp__section__title"><i class="fa-solid fa-piggy-bank"></i> Universities Matching Your Budget</div>
+                <div class="mp__section__sub" id="budgetSectionSub">Set your annual tuition budget above to see matching universities</div>
+            </div>
+            <button class="mp__section__action" id="budgetAdjustBtn"><i class="fa-solid fa-sliders"></i> Adjust budget</button>
+        </div>
+        <div class="budget__match__grid" id="budgetMatchGrid"></div>
+        <div class="bm__pagination" id="bmPagination" style="display:none">
+            <button class="bm__pag__btn" id="bmPrev"><i class="fa-solid fa-chevron-left"></i></button>
+            <span class="bm__pag__info" id="bmPagInfo"></span>
+            <button class="bm__pag__btn" id="bmNext"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+</div>
+
+<div id="tabExplore" style="display:none">
+
+    <!-- Elite only: the personalised AI matcher is mounted here instead of the search + filter sections -->
+    <div id="expMatcherMount"></div>
+
+    <div class="exp__hero">
+        <img src="Toji.jpg" alt="" class="exp__hero__img">
+        <button class="hero__editpic" data-hero="explore" title="Change photo (right-click to reset)"><i class="fa-solid fa-camera"></i></button>
+        <button class="exp__compare__link" id="openCompareModal" title="Compare two universities side by side">
+            <i class="fa-solid fa-scale-balanced"></i> Compare?
+        </button>
+        <div class="exp__hero__inner">
+            <p class="exp__hero__tag"><i class="fa-solid fa-compass"></i> <span id="expHeroTag">Explore Spain</span></p>
+            <h2 class="exp__hero__title">Find your university</h2>
+            <p class="exp__hero__sub" id="expHeroSub">Search all universities by name, city, field or language. Click any result for full details.</p>
+            <div class="exp__search__combined">
+                <div class="exp__search__bar">
+                    <i class="fa-solid fa-magnifying-glass exp__search__icon"></i>
+                    <input class="exp__search__input" id="nsInput" type="text" placeholder="Enter the university you might know or just…" autocomplete="off">
+                    <button class="exp__search__clear" id="expClear" style="display:none"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                <div class="exp__qt__row">
+                    <button class="exp__qt" data-q="Engineering">Engineering</button>
+                    <button class="exp__qt" data-q="Medicine">Medicine</button>
+                    <button class="exp__qt" data-q="English">English</button>
+                    <button class="exp__qt" data-q="Public">Public</button>
+                    <button class="exp__qt" data-q="Law">Law</button>
+                    <button class="exp__qt" data-q="Business">Business</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="nsResults" class="exp__search__results" style="display:none"></div>
+    <div id="expDefaultContent" style="display:none"></div>
+
+    <div class="exp__break">
+        <div class="exp__break__line"></div>
+        <div class="exp__break__pill">
+            <i class="fa-solid fa-sliders"></i>
+            <span>Filter &amp; Browse</span>
+        </div>
+        <div class="exp__break__line"></div>
+    </div>
+
+    <section class="exp__filter__card">
+        <div class="exp__filter__card__header">
+            <div class="exp__filter__card__title"><i class="fa-solid fa-sliders"></i> Filter &amp; Browse</div>
+            <button class="exp__filter__reset__btn" id="cmpClear"><i class="fa-solid fa-rotate-left"></i> Reset</button>
+        </div>
+        <div class="exp__filter__search__row">
+            <div class="exp__filter__search__wrap">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input class="cmp__search__input" id="cmpSearch" placeholder="Wanna try? Type a name or keyword…" type="text">
+            </div>
+            <button class="cmp__budget__filter__btn" id="budgetFilterBtn" title="Budget filter">
+                <i class="fa-solid fa-piggy-bank"></i>
+                <span class="cmp__budget__filter__badge" id="budgetFilterBadge" style="display:none"></span>
+            </button>
+        </div>
+        <div class="exp__filter__chips">
+            <div class="exp__filter__chip__group">
+                <span class="exp__filter__chip__label">City</span>
+                <div class="cs__wrap cs__wrap--sm">
+                    <select class="cmp__filter__select" id="fCity">
+                        <option value="">All cities</option>
+                        <option>Madrid</option><option>Barcelona</option><option>Valencia</option>
+                        <option>Sevilla</option><option>Granada</option><option>Salamanca</option><option>Bilbao</option>
+                    </select>
+                </div>
+            </div>
+            <div class="exp__filter__chip__group">
+                <span class="exp__filter__chip__label">Field</span>
+                <div class="cs__wrap cs__wrap--sm">
+                    <select class="cmp__filter__select" id="fField">
+                        <option value="">All fields</option>
+                        <option>Engineering</option><option>Medicine</option><option>Law</option>
+                        <option>Business</option><option>Science</option><option>Humanities</option>
+                        <option>Architecture</option><option>CS</option><option>Arts</option>
+                    </select>
+                </div>
+            </div>
+            <div class="exp__filter__chip__group">
+                <span class="exp__filter__chip__label">Type</span>
+                <div class="cs__wrap cs__wrap--sm">
+                    <select class="cmp__filter__select" id="fType">
+                        <option value="">Any type</option>
+                        <option value="Public">Public</option>
+                        <option value="Private">Private</option>
+                    </select>
+                </div>
+            </div>
+            <select id="fDiff" style="display:none"></select>
+            <select id="fTuition" style="display:none"></select>
+        </div>
+
+        <div class="cmp__filter__prompt" id="cmpFilterPrompt">
+            <div class="cmp__prompt__brand">
+                <img src="logo2.png" class="cmp__prompt__logo" alt="UniScout">
+                <span class="cmp__prompt__name">UniScout</span>
+            </div>
+            <div class="cmp__prompt__divider"></div>
+            <p class="cmp__prompt__tagline">Your global university finder — search by name or apply filters to discover the perfect match.</p>
+            <div class="cmp__prompt__pills">
+                <span><i class="fa-solid fa-graduation-cap"></i> 500+ universities</span>
+                <span><i class="fa-solid fa-earth-europe"></i> 10 countries</span>
+                <span><i class="fa-solid fa-bolt"></i> Instant results</span>
+            </div>
+        </div>
+
+        <div id="cmpResultsHd" class="cmp__results__hd" style="display:none">
+            <span class="cmp__results__count">Showing <span id="cmpCount">0</span> of <span id="cmpTotal">0</span> universities</span>
+            <div class="cmp__sort">
+                <span class="cmp__sort__label">Sort by:</span>
+                <div class="cs__wrap cs__wrap--sm">
+                    <select class="cmp__sort__select" id="cmpSort">
+                        <option value="tuition-asc">Tuition ↑</option>
+                        <option value="tuition-desc">Tuition ↓</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="cmp__list" id="cmpList" style="display:none"></div>
+        <div class="ba__pagination" id="cmpPagination" style="display:none"></div>
+        <div class="cmp__no__results" id="cmpNoResults" style="display:none">
+            <i class="fa-solid fa-filter-circle-xmark"></i>
+            No universities match your filters.<br>Try resetting them.
+        </div>
+    </section>
+
+    <div class="exp__break exp__break--city">
+        <div class="exp__break__line"></div>
+        <div class="exp__break__pill">
+            <i class="fa-solid fa-city"></i>
+            <span>City Guide</span>
+        </div>
+        <div class="exp__break__line"></div>
+    </div>
+
+    <div class="cg2__wrap">
+
+        <div class="cg2__header">
+            <div class="cg2__header__left">
+                <div class="cg2__header__icon"><i class="fa-solid fa-city"></i></div>
+                <div>
+                    <div class="cg2__header__title">City Guide</div>
+                    <div class="cg2__header__sub">Discover where you'll thrive as a student</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="cg2__quote" id="cg2Quote">
+            <div class="cg2__quote__avatar" id="cg2QuoteAvatar">
+                <span class="cg2__quote__initials" id="cg2QuoteInitials">SRC</span>
+            </div>
+            <div class="cg2__quote__bubble">
+                <p class="cg2__quote__text" id="cg2QuoteText">"The brain is a world consisting of a number of unexplored continents and great stretches of unknown territory."</p>
+                <div class="cg2__quote__attr">
+                    <span class="cg2__quote__name" id="cg2QuoteName">Santiago Ramón y Cajal</span>
+                    <span class="cg2__quote__sep">·</span>
+                    <span class="cg2__quote__role" id="cg2QuoteRole">Neuroscientist · Nobel Prize 1906</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="cg2__selector">
+            <p class="cg2__selector__label"><i class="fa-solid fa-map-location-dot"></i> Select a city to explore</p>
+            <div class="cg2__pills" id="cg2Pills">
+                <button class="cg2__pill" data-city="Madrid"><i class="fa-solid fa-landmark"></i><span>Madrid</span></button>
+                <button class="cg2__pill" data-city="Barcelona"><i class="fa-solid fa-umbrella-beach"></i><span>Barcelona</span></button>
+                <button class="cg2__pill" data-city="Valencia"><i class="fa-solid fa-leaf"></i><span>Valencia</span></button>
+                <button class="cg2__pill" data-city="Sevilla"><i class="fa-solid fa-fan"></i><span>Sevilla</span></button>
+                <button class="cg2__pill" data-city="Granada"><i class="fa-solid fa-mountain"></i><span>Granada</span></button>
+                <button class="cg2__pill" data-city="Salamanca"><i class="fa-solid fa-book-open"></i><span>Salamanca</span></button>
+            </div>
+        </div>
+
+        <div class="cg2__panel" id="cg2Panel" style="display:none">
+            <button class="cg2__panel__close" id="cg2PanelClose" title="Close city guide">
+                <i class="fa-solid fa-xmark"></i> Close city guide
+            </button>
+
+            <div class="cg2__hero" id="cg2Hero">
+                <div class="cg2__hero__overlay"></div>
+                <div class="cg2__hero__inner">
+                    <div class="cg2__hero__left">
+                        <div class="cg2__hero__badge" id="cg2HeroBadge"></div>
+                        <div>
+                            <h2 class="cg2__hero__name" id="cg2HeroName"></h2>
+                            <div class="cg2__hero__region" id="cg2HeroRegion"></div>
+                            <p class="cg2__hero__vibe" id="cg2HeroVibe"></p>
+                        </div>
+                    </div>
+                    <div class="cg2__hero__stats">
+                        <div class="cg2__hero__stat"><i class="fa-solid fa-users"></i><span id="cg2HeroPop"></span><small>Population</small></div>
+                        <div class="cg2__hero__stat"><i class="fa-solid fa-graduation-cap"></i><span id="cg2HeroStudPop"></span><small>Students</small></div>
+                        <div class="cg2__hero__stat"><i class="fa-solid fa-coins"></i><span id="cg2HeroCost"></span><small>Monthly cost</small></div>
+                        <div class="cg2__hero__stat"><i class="fa-solid fa-sun"></i><span id="cg2HeroClimate"></span><small>Climate</small></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cg2__row2">
+
+
+                <div class="cg2__card cg2__match__card">
+                    <div class="cg2__card__hd">
+                        <div class="cg2__card__icon" style="background:rgba(39,174,96,.12);color:#27ae60"><i class="fa-solid fa-robot"></i></div>
+                        <div><div class="cg2__card__title">AI City Match</div><div class="cg2__card__sub">Based on your profile</div></div>
+                    </div>
+                    <div class="cg2__match__body">
+                        <div class="cg2__ring__wrap">
+                            <svg class="cg2__ring" viewBox="0 0 100 100">
+                                <circle class="cg2__ring__bg" cx="50" cy="50" r="38"/>
+                                <circle class="cg2__ring__fill" id="cg2RingFill" cx="50" cy="50" r="38"/>
+                            </svg>
+                            <div class="cg2__ring__center">
+                                <div class="cg2__ring__label" id="cg2RingLabel">0%</div>
+                                <div class="cg2__ring__sub">Match</div>
+                            </div>
+                        </div>
+                        <div class="cg2__match__right">
+                            <p class="cg2__match__reason" id="cg2MatchReason"></p>
+                            <div class="cg2__match__bars" id="cg2MatchBars"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cg2__card">
+                    <div class="cg2__card__hd">
+                        <div class="cg2__card__icon" style="background:rgba(52,152,219,.12);color:#2980b9"><i class="fa-solid fa-circle-info"></i></div>
+                        <div><div class="cg2__card__title">City Overview</div><div class="cg2__card__sub">Key facts &amp; highlights</div></div>
+                    </div>
+                    <p class="cg2__overview__desc" id="cg2OverviewDesc"></p>
+                    <div class="cg2__overview__tags" id="cg2OverviewTags"></div>
+                    <div class="cg2__overview__pros" id="cg2OverviewPros"></div>
+                </div>
+            </div>
+
+            <div class="cg2__card">
+                <div class="cg2__card__hd">
+                    <div class="cg2__card__icon" style="background:rgba(155,89,182,.12);color:#9b59b6"><i class="fa-solid fa-chart-bar"></i></div>
+                    <div><div class="cg2__card__title">Student Lifestyle Dashboard</div><div class="cg2__card__sub">How this city scores for students</div></div>
+                </div>
+                <div class="cg2__lifestyle__grid" id="cg2LifestyleGrid"></div>
+            </div>
+
+            <div class="cg2__card">
+                <div class="cg2__card__hd">
+                    <div class="cg2__card__icon" style="background:rgba(231,76,60,.12);color:#e74c3c"><i class="fa-solid fa-calculator"></i></div>
+                    <div><div class="cg2__card__title">Cost of Living Simulator</div><div class="cg2__card__sub">Estimate your monthly expenses</div></div>
+                </div>
+                <div class="cg2__cost__body">
+                    <div class="cg2__cost__inputs">
+                        <div class="cg2__cost__field">
+                            <label class="cg2__cost__label"><i class="fa-solid fa-house"></i> Accommodation type</label>
+                            <div class="cg2__acc__opts">
+                                <label class="cg2__acc__opt"><input type="radio" name="cg2Acc" value="shared" checked><span>Shared room</span></label>
+                                <label class="cg2__acc__opt"><input type="radio" name="cg2Acc" value="studio"><span>Studio flat</span></label>
+                                <label class="cg2__acc__opt"><input type="radio" name="cg2Acc" value="private"><span>Private flat</span></label>
+                            </div>
+                        </div>
+                        <div class="cg2__cost__field">
+                            <label class="cg2__cost__label"><i class="fa-solid fa-utensils"></i> Food &amp; Groceries — <span id="cg2FoodVal">€200</span>/mo</label>
+                            <input type="range" class="cg2__slider" id="cg2FoodSlider" min="100" max="500" value="200" step="10">
+                        </div>
+                        <div class="cg2__cost__field">
+                            <label class="cg2__cost__label"><i class="fa-solid fa-ticket"></i> Entertainment — <span id="cg2EntVal">€100</span>/mo</label>
+                            <input type="range" class="cg2__slider" id="cg2EntSlider" min="30" max="400" value="100" step="10">
+                        </div>
+                    </div>
+                    <div class="cg2__cost__result">
+                        <div class="cg2__cost__totals">
+                            <div class="cg2__cost__total"><div class="cg2__cost__total__lbl">Monthly</div><div class="cg2__cost__total__val" id="cg2CostMonthly">—</div></div>
+                            <div class="cg2__cost__total__sep"></div>
+                            <div class="cg2__cost__total"><div class="cg2__cost__total__lbl">Academic year</div><div class="cg2__cost__total__val" id="cg2CostYearly">—</div></div>
+                            <div class="cg2__cost__total__sep"></div>
+                            <div class="cg2__cost__total"><div class="cg2__cost__total__lbl">Affordability</div><div class="cg2__cost__total__val" id="cg2CostAff">—</div></div>
+                        </div>
+                        <div class="cg2__cost__breakdown" id="cg2CostBreakdown"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="cg2__row2">
+                <div class="cg2__card">
+                    <div class="cg2__card__hd">
+                        <div class="cg2__card__icon" style="background:rgba(243,156,18,.12);color:#f39c12"><i class="fa-solid fa-map-pin"></i></div>
+                        <div><div class="cg2__card__title">Student Neighbourhoods</div><div class="cg2__card__sub">Best areas to live</div></div>
+                    </div>
+                    <div class="cg2__hoods__list" id="cg2HoodsList"></div>
+                </div>
+                <div class="cg2__card">
+                    <div class="cg2__card__hd">
+                        <div class="cg2__card__icon" style="background:rgba(26,188,156,.12);color:#1abc9c"><i class="fa-solid fa-location-dot"></i></div>
+                        <div><div class="cg2__card__title">Student Hotspots</div><div class="cg2__card__sub">Must-visit places</div></div>
+                    </div>
+                    <div class="cg2__hotspots__list" id="cg2HotspotsList"></div>
+                </div>
+            </div>
+
+            <div class="cg2__card cg2__day__card">
+                <div class="cg2__card__hd">
+                    <div class="cg2__card__icon" style="background:rgba(241,196,15,.12);color:#f1c40f"><i class="fa-solid fa-clock-rotate-left"></i></div>
+                    <div><div class="cg2__card__title">A Day in This City</div><div class="cg2__card__sub">Imagine your student life here</div></div>
+                </div>
+                <div class="cg2__day__timeline" id="cg2DayTimeline"></div>
+
+                <!-- Forecast teaser banner -->
+                <div class="cg2__wx__teaser" id="cg2WxTeaser">
+                    <div class="cg2__wx__teaser__body">
+                        <div class="cg2__wx__teaser__title">Live 7-Day Forecast</div>
+                        <div class="cg2__wx__teaser__sub">Real-time weather for this city</div>
+                    </div>
+                    <button class="cg2__7day__btn" id="cg2ForecastBtn">
+                        <i class="fa-solid fa-cloud-sun"></i>
+                        <span>7-Day Forecast</span>
+                    </button>
+                </div>
+
+                <div class="cg2__7day__wrap" id="cg2ForecastWrap" style="display:none">
+                    <div class="cg2__7day__panel" id="cg2ForecastPanel">
+                        <div class="cg2__7day__skeleton">
+                            <div class="cg2__7day__sk__spin"></div>
+                            <p>Loading live forecast…</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cg2__card">
+                <div class="cg2__card__hd">
+                    <div class="cg2__card__icon" style="background:rgba(41,128,185,.12);color:#2980b9"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <div><div class="cg2__card__title">Universities in This City</div><div class="cg2__card__sub">Institutions you can apply to</div></div>
+                </div>
+                <div class="cg2__unis__grid" id="cg2UnisGrid"></div>
+            </div>
+
+            <div class="cg2__card">
+                <div class="cg2__card__hd">
+                    <div class="cg2__card__icon" style="background:rgba(231,76,60,.12);color:#e74c3c"><i class="fa-solid fa-quote-left"></i></div>
+                    <div><div class="cg2__card__title">Student Testimonials</div><div class="cg2__card__sub">Real experiences from students who lived here</div></div>
+                </div>
+                <div class="cg2__testi__grid" id="cg2TestiGrid"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div id="tabCompare" style="display:none">
+
+
+    <div class="apf__hero">
+        <div class="apf__hero__overlay"></div>
+        <img class="apf__hero__img" src="Gogo.avif" alt="University campus">
+        <button class="hero__editpic" data-hero="apply" title="Change photo (right-click to reset)"><i class="fa-solid fa-camera"></i></button>
+        <div class="apf__hero__content">
+            <span class="apf__hero__tag"><i class="fa-solid fa-robot"></i> AI Admissions Assistant</span>
+            <h1 class="apf__hero__title">Apply To Many Universities<br>In One Submission</h1>
+            <p class="apf__hero__sub">Enter your details once, get an instant eligibility report.</p>
+            <a href="applicationForm.html" class="apf__hero__btn">
+                <i class="fa-solid fa-arrow-right"></i> Start My Application
+            </a>
+        </div>
+    </div>
+
+
+    <div class="apf__features">
+        <div class="apf__feature">
+            <div class="apf__feature__icon" style="background:rgba(217,124,20,.12);color:#d97c14"><i class="fa-solid fa-layer-group"></i></div>
+            <h3 class="apf__feature__title">Multiple Universities</h3>
+            <p class="apf__feature__desc">Add as many universities as you like — each one is assessed individually.</p>
+        </div>
+        <div class="apf__feature">
+            <div class="apf__feature__icon" style="background:rgba(39,174,96,.12);color:#27ae60"><i class="fa-solid fa-clipboard-check"></i></div>
+            <h3 class="apf__feature__title">Eligibility Check</h3>
+            <p class="apf__feature__desc">Your profile is compared against each university's requirements automatically.</p>
+        </div>
+        <div class="apf__feature">
+            <div class="apf__feature__icon" style="background:rgba(41,128,185,.12);color:#2980b9"><i class="fa-solid fa-list-check"></i></div>
+            <h3 class="apf__feature__title">Smart Checklist</h3>
+            <p class="apf__feature__desc">Get a personalised document checklist for every university you apply to.</p>
+        </div>
+        <div class="apf__feature">
+            <div class="apf__feature__icon" style="background:rgba(155,89,182,.12);color:#9b59b6"><i class="fa-solid fa-envelope-circle-check"></i></div>
+            <h3 class="apf__feature__title">Email-Ready Report</h3>
+            <p class="apf__feature__desc">Receive a professional application summary ready to send to your inbox.</p>
+        </div>
+    </div>
+
+
+    <div class="apf__banner">
+        <div class="apf__banner__img__wrap">
+            <img src="Paris.avif" alt="Students" class="apf__banner__img">
+            <div class="apf__banner__img__overlay"></div>
+        </div>
+        <div class="apf__banner__body">
+            <span class="apf__banner__tag"><i class="fa-solid fa-robot"></i> AI Admissions Assistant</span>
+            <h2 class="apf__banner__title">One Submission. Every University Assessed.</h2>
+            <p class="apf__banner__text">Enter your profile, grades and documents once. Our AI assistant checks you against each university's requirements and builds a professional, submission-ready application package — one tailored PDF per university.</p>
+            <a href="applicationForm.html" class="apf__banner__btn">
+                <i class="fa-solid fa-robot"></i> Open AI Assistant
+            </a>
+        </div>
+    </div>
+
+</div>
+
+<div class="cmp__modal__overlay" id="compareModalOverlay">
+    <div class="cmp__modal__panel">
+        <div class="cmp__modal__head">
+            <div class="cmp__modal__head__left">
+                <div class="cmp__vs__hd__icon"><i class="fa-solid fa-scale-balanced"></i></div>
+                <div>
+                    <div class="cmp__vs__hd__title">Head-to-Head Comparison</div>
+                    <div class="cmp__vs__hd__sub">Select two universities and pick the metrics you want to compare</div>
+                </div>
+            </div>
+            <button class="cmp__modal__close" id="compareModalClose"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+
+        <div class="cmp__vs__slots">
+            <div class="cmp__vs__slot" id="cmpSlotA">
+                <div class="cmp__vs__slot__label"><span class="cmp__vs__badge cmp__vs__badge--a">A</span> University A</div>
+                <div class="cmp__vs__country__row">
+                    <span class="cmp__vs__country__flag fi" id="cmpFlagA"></span>
+                    <select class="cmp__vs__country__sel" id="cmpCountryA"></select>
+                    <i class="fa-solid fa-chevron-down cmp__vs__country__caret"></i>
+                </div>
+                <div class="cmp__vs__search__wrap">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input class="cmp__vs__input" id="cmpSearchA" type="text" placeholder="Search by name or abbreviation…" autocomplete="off">
+                </div>
+                <div class="cmp__vs__suggests" id="cmpResultsA"></div>
+                <div class="cmp__vs__selected" id="cmpSelectedA" style="display:none"></div>
+            </div>
+            <div class="cmp__vs__versus"><div class="cmp__vs__versus__badge">VS</div></div>
+            <div class="cmp__vs__slot" id="cmpSlotB">
+                <div class="cmp__vs__slot__label"><span class="cmp__vs__badge cmp__vs__badge--b">B</span> University B</div>
+                <div class="cmp__vs__country__row">
+                    <span class="cmp__vs__country__flag fi" id="cmpFlagB"></span>
+                    <select class="cmp__vs__country__sel" id="cmpCountryB"></select>
+                    <i class="fa-solid fa-chevron-down cmp__vs__country__caret"></i>
+                </div>
+                <div class="cmp__vs__search__wrap">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input class="cmp__vs__input" id="cmpSearchB" type="text" placeholder="Search by name or abbreviation…" autocomplete="off">
+                </div>
+                <div class="cmp__vs__suggests" id="cmpResultsB"></div>
+                <div class="cmp__vs__selected" id="cmpSelectedB" style="display:none"></div>
+            </div>
+        </div>
+
+        <div class="cmp__vs__metrics" id="cmpVsMetrics" style="display:none">
+            <div class="cmp__vs__metrics__label"><i class="fa-solid fa-sliders"></i> Choose what to compare:</div>
+            <div class="cmp__vs__metrics__chips">
+                <label class="cmp__vs__mc"><input type="checkbox" checked data-metric="tuition"><span><i class="fa-solid fa-coins"></i> Tuition</span></label>
+                <label class="cmp__vs__mc"><input type="checkbox" checked data-metric="difficulty"><span><i class="fa-solid fa-fire"></i> Difficulty</span></label>
+                <label class="cmp__vs__mc"><input type="checkbox" checked data-metric="fields"><span><i class="fa-solid fa-book-open"></i> Fields of Study</span></label>
+                <label class="cmp__vs__mc"><input type="checkbox" checked data-metric="languages"><span><i class="fa-solid fa-language"></i> Languages</span></label>
+                <label class="cmp__vs__mc"><input type="checkbox" checked data-metric="type"><span><i class="fa-solid fa-building"></i> Type</span></label>
+                <label class="cmp__vs__mc"><input type="checkbox" data-metric="founded"><span><i class="fa-solid fa-calendar"></i> Founded</span></label>
+                <label class="cmp__vs__mc"><input type="checkbox" data-metric="students"><span><i class="fa-solid fa-users"></i> Students</span></label>
+                <label class="cmp__vs__mc"><input type="checkbox" data-metric="city"><span><i class="fa-solid fa-location-dot"></i> City</span></label>
+            </div>
+        </div>
+
+        <div class="cmp__vs__table" id="cmpVsTable" style="display:none"></div>
+        <div class="cmp__vs__empty" id="cmpVsEmpty">
+            <div class="cmp__vs__empty__icon"><i class="fa-solid fa-scale-balanced"></i></div>
+            <p class="cmp__vs__empty__text">Search and select two universities above to see them side by side</p>
+            <p class="cmp__vs__empty__tip">Use the search bar or chip filters to find universities, then click them to add to a comparison slot</p>
+        </div>
+    </div>
+</div>
+
+<div id="tabCityGuide" style="display:none">
+
+    <div class="ins__hero">
+        <img src="Suguro.jpg" alt="" class="ins__hero__photo">
+        <button class="hero__editpic" data-hero="chances" title="Change photo (right-click to reset)"><i class="fa-solid fa-camera"></i></button>
+        <div class="ins__hero__topbar">
+            <div class="ins__hero__left">
+                <div class="ins__hero__icon"><i class="fa-solid fa-lightbulb"></i></div>
+                <div>
+                    <h2 class="ins__hero__title">Probability</h2>
+                    <p class="ins__hero__sub">See your admission chances and future salary outlook in seconds.</p>
+                </div>
+            </div>
+        </div>
+
+        <ul class="ins__hero__features">
+            <li><i class="fa-solid fa-graduation-cap"></i><div><strong>Admission Chances</strong><span>Estimate your odds of getting in</span></div></li>
+            <li><i class="fa-solid fa-chart-line"></i><div><strong>Salary Probability</strong><span>See your future earning potential</span></div></li>
+            <li><i class="fa-solid fa-scale-balanced"></i><div><strong>Return on Investment</strong><span>How long until a degree pays for itself</span></div></li>
+        </ul>
+    </div>
+
+    <div class="exp__break exp__break--adm">
+        <div class="exp__break__line"></div>
+        <div class="exp__break__pill"><i class="fa-solid fa-graduation-cap"></i> <span>Admission Chances</span></div>
+        <div class="exp__break__line"></div>
+    </div>
+
+    <div class="ins__section">
+        <div class="ins__section__hd">
+            <div class="ins__section__hd__icon" style="background:rgba(41,128,185,.12);color:#2980b9"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div>
+                <div class="ins__section__title">University Admission Chance Calculator</div>
+                <div class="ins__section__sub">Estimate your probability of acceptance based on your grades and the university's entry requirements</div>
+            </div>
+        </div>
+
+        <div class="ins__calc__wrap">
+            <div class="ins__inputs">
+                <div class="ins__field" style="position:relative">
+                    <label class="ins__label"><i class="fa-solid fa-university"></i> University</label>
+                    <input type="text" class="ins__input" id="admUniInput" placeholder="Type to search universities…" autocomplete="off" style="width:100%">
+                    <input type="hidden" id="admUni" value="">
+                    <div id="admUniSugg" style="display:none;position:absolute;top:100%;left:0;right:0;margin-top:6px;background:#1b2230;border:1px solid rgba(255,255,255,.14);border-radius:11px;max-height:220px;overflow-y:auto;z-index:500;box-shadow:0 14px 34px rgba(0,0,0,.5)"></div>
+                </div>
+                <div class="ins__field">
+                    <label class="ins__label"><i class="fa-solid fa-list-ol"></i> Grade System</label>
+                    <select class="ins__select" id="admSystem">
+                        <option value="pct">Percentage (0–100%)</option>
+                        <option value="gpa">GPA (0.0–4.0)</option>
+                        <option value="ib">IB Points (1–45)</option>
+                        <option value="alevels">UK A-Levels (A*–E)</option>
+                    </select>
+                </div>
+                <div class="ins__field" id="admGradeField">
+                    <label class="ins__label"><i class="fa-solid fa-star-half-stroke"></i> Your Grade / Score</label>
+                    <input class="ins__input" type="number" id="admGrade" placeholder="e.g. 82" min="0" max="100" step="0.1">
+                    <span class="ins__grade__hint" id="admHint">Enter a number between 0 and 100</span>
+                </div>
+                <div class="ins__field" id="admAlevelField" style="display:none">
+                    <label class="ins__label"><i class="fa-solid fa-star-half-stroke"></i> Your A-Level Grade</label>
+                    <select class="ins__select" id="admALevel">
+                        <option value="100">A* (Outstanding)</option>
+                        <option value="90">A (Excellent)</option>
+                        <option value="78">B (Very Good)</option>
+                        <option value="65">C (Good)</option>
+                        <option value="52">D (Satisfactory)</option>
+                        <option value="40">E (Minimum Pass)</option>
+                    </select>
+                </div>
+                <button class="ins__calc__btn" id="admCalcBtn"><i class="fa-solid fa-percent"></i> Calculate My Chances</button>
+            </div>
+
+            <div class="ins__result ins__result--photo" id="admResult">
+                <div class="ins__result__empty ins__result__brand ins__result__brand--chill">
+                    <div class="ins__brand__inner">
+                        <div class="ins__brand__row">
+                            <img src="logo2.png" class="ins__brand__logo" alt="">
+                            <span class="ins__brand__name">UniScout</span>
+                        </div>
+                        <div class="ins__brand__tagline">Select a university and your grades to see your admission chances</div>
+                        <div class="ins__brand__pills">
+                            <span><i class="fa-solid fa-percent"></i> Admission Odds</span>
+                            <span><i class="fa-solid fa-star-half-stroke"></i> Grade Analysis</span>
+                            <span><i class="fa-solid fa-ranking-star"></i> Selectivity</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="exp__break exp__break--salary">
+        <div class="exp__break__line"></div>
+        <div class="exp__break__pill"><i class="fa-solid fa-chart-line"></i> <span>Salary Outlook</span></div>
+        <div class="exp__break__line"></div>
+    </div>
+
+    <div class="ins__section">
+        <div class="ins__section__hd">
+            <div class="ins__section__hd__icon" style="background:rgba(39,174,96,.12);color:#27ae60"><i class="fa-solid fa-chart-line"></i></div>
+            <div>
+                <div class="ins__section__title">Job Salary Probability Calculator</div>
+                <div class="ins__section__sub">Estimated likelihood of reaching each salary bracket after graduating, based on real employment outcome data</div>
+            </div>
+        </div>
+
+        <div class="ins__calc__wrap">
+            <div class="ins__inputs">
+                <div class="ins__field" style="position:relative">
+                    <label class="ins__label"><i class="fa-solid fa-university"></i> University</label>
+                    <input type="text" class="ins__input" id="salUniInput" placeholder="Type to search universities…" autocomplete="off" style="width:100%">
+                    <input type="hidden" id="salUni" value="">
+                    <div id="salUniSugg" style="display:none;position:absolute;top:100%;left:0;right:0;margin-top:6px;background:#1b2230;border:1px solid rgba(255,255,255,.14);border-radius:11px;max-height:220px;overflow-y:auto;z-index:500;box-shadow:0 14px 34px rgba(0,0,0,.5)"></div>
+                </div>
+                <div class="ins__field">
+                    <label class="ins__label"><i class="fa-solid fa-briefcase"></i> Career Field <span class="ins__optional">(optional)</span></label>
+                    <select class="ins__select" id="salField">
+                        <option value="">All fields (average)</option>
+                        <option value="engineering">Engineering &amp; Technology</option>
+                        <option value="finance">Finance &amp; Consulting</option>
+                        <option value="medicine">Medicine &amp; Healthcare</option>
+                        <option value="law">Law</option>
+                        <option value="arts">Arts &amp; Humanities</option>
+                    </select>
+                </div>
+                <button class="ins__calc__btn" id="salCalcBtn"><i class="fa-solid fa-calculator"></i> Calculate Salary Probability</button>
+            </div>
+
+            <div class="ins__result ins__result--photo" id="salResult">
+                <div class="ins__result__empty ins__result__brand">
+                    <div class="ins__brand__inner">
+                        <div class="ins__brand__row">
+                            <img src="logo2.png" class="ins__brand__logo" alt="">
+                            <span class="ins__brand__name">UniScout</span>
+                        </div>
+                        <div class="ins__brand__tagline">Select a university and click Calculate to see your salary probability breakdown</div>
+                        <div class="ins__brand__pills">
+                            <span><i class="fa-solid fa-chart-pie"></i> Salary Data</span>
+                            <span><i class="fa-solid fa-briefcase"></i> Career Insights</span>
+                            <span><i class="fa-solid fa-graduation-cap"></i> Graduate Stats</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="exp__break exp__break--roi">
+        <div class="exp__break__line"></div>
+        <div class="exp__break__pill"><i class="fa-solid fa-scale-balanced"></i> <span>Return on Investment</span></div>
+        <div class="exp__break__line"></div>
+    </div>
+
+    <div class="ins__section">
+        <div class="ins__section__hd">
+            <div class="ins__section__hd__icon" style="background:rgba(155,89,182,.12);color:#9b59b6"><i class="fa-solid fa-scale-balanced"></i></div>
+            <div>
+                <div class="ins__section__title">Is It Worth It? Return on Investment</div>
+                <div class="ins__section__sub">Pick a university and degree to see how long until it pays for itself — total cost vs. expected salary</div>
+            </div>
+        </div>
+
+        <div class="ins__calc__wrap">
+            <div class="ins__inputs">
+                <div class="ins__field" style="position:relative">
+                    <label class="ins__label"><i class="fa-solid fa-university"></i> University</label>
+                    <input type="text" class="ins__input" id="roiUniInput" placeholder="Type to search universities…" autocomplete="off" style="width:100%">
+                    <input type="hidden" id="roiUni" value="">
+                    <div id="roiUniSugg" style="display:none;position:absolute;top:100%;left:0;right:0;margin-top:6px;background:#1b2230;border:1px solid rgba(255,255,255,.14);border-radius:11px;max-height:220px;overflow-y:auto;z-index:500;box-shadow:0 14px 34px rgba(0,0,0,.5)"></div>
+                </div>
+                <div class="ins__field">
+                    <label class="ins__label"><i class="fa-solid fa-graduation-cap"></i> Degree Level</label>
+                    <select class="ins__select" id="roiDegree">
+                        <option value="bachelor">Bachelor's (4 years)</option>
+                        <option value="master">Master's (2 years)</option>
+                        <option value="phd">PhD (4 years)</option>
+                    </select>
+                </div>
+                <div class="ins__field">
+                    <label class="ins__label"><i class="fa-solid fa-briefcase"></i> Career Field</label>
+                    <select class="ins__select" id="roiField">
+                        <option value="">All fields (average)</option>
+                        <option value="cs">Computer Science / IT</option>
+                        <option value="engineering">Engineering</option>
+                        <option value="finance">Business &amp; Finance</option>
+                        <option value="medicine">Medicine &amp; Healthcare</option>
+                        <option value="law">Law</option>
+                        <option value="science">Science</option>
+                        <option value="arts">Arts &amp; Humanities</option>
+                    </select>
+                </div>
+                <button class="ins__calc__btn" id="roiCalcBtn"><i class="fa-solid fa-scale-balanced"></i> Calculate ROI</button>
+            </div>
+
+            <div class="ins__result ins__result--photo" id="roiResult">
+                <div class="ins__result__empty ins__result__brand ins__result__brand--roi">
+                    <div class="ins__brand__inner">
+                        <div class="ins__brand__row">
+                            <img src="logo2.png" class="ins__brand__logo" alt="">
+                            <span class="ins__brand__name">UniScout</span>
+                        </div>
+                        <div class="ins__brand__tagline">Pick a university and degree to see how long until it pays for itself</div>
+                        <div class="ins__brand__pills">
+                            <span><i class="fa-solid fa-coins"></i> Total Cost</span>
+                            <span><i class="fa-solid fa-sack-dollar"></i> Avg. Salary</span>
+                            <span><i class="fa-solid fa-hourglass-half"></i> Payback Time</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ins__disclaimer">
+        <i class="fa-solid fa-circle-info"></i>
+        All probabilities and estimates shown are approximate and should be used for guidance purposes only. Data is derived from publicly available graduate employment surveys and university admission statistics. Individual outcomes may vary significantly based on chosen degree, personal circumstances and regional labour market conditions.
+    </div>
+
+</div>
+
+<div id="tabTracker" style="display:none">
+
+    <div class="dl__hero">
+        <img class="dl__hero__img" src="DemonSlayer.jpeg" alt="" aria-hidden="true">
+        <div class="dl__hero__shade" aria-hidden="true"></div>
+        <div class="dl__hero__deco" aria-hidden="true">
+            <i class="fa-solid fa-hourglass-half"></i>
+        </div>
+        <button class="hero__editpic" data-hero="deadlines" title="Change photo (right-click to reset)"><i class="fa-solid fa-camera"></i></button>
+        <div class="dl__hero__top">
+            <div class="dl__hero__left">
+                <div class="dl__hero__icon"><i class="fa-solid fa-calendar-check"></i></div>
+                <div>
+                    <h2 class="dl__hero__title">Deadline Tracker</h2>
+                    <p class="dl__hero__sub">Stay on top of every important date in your application journey</p>
+                </div>
+            </div>
+            <div class="dl__hero__right">
+                <label class="dl__toggle">
+                    <input type="checkbox" id="dlSavedOnly">
+                    <span class="dl__toggle__track"><span class="dl__toggle__thumb"></span></span>
+                    <span class="dl__toggle__txt"><i class="fa-solid fa-bookmark"></i> Saved unis only</span>
+                </label>
+                <button class="dl__add__btn" id="dlAddBtn"><i class="fa-solid fa-plus"></i> Add Deadline</button>
+            </div>
+        </div>
+
+        <div class="dl__cats">
+            <button class="dl__cat active" data-cat="all"><i class="fa-solid fa-list"></i> All</button>
+            <button class="dl__cat" data-cat="application"><i class="fa-solid fa-file-pen"></i> Applications</button>
+            <button class="dl__cat" data-cat="scholarship"><i class="fa-solid fa-medal"></i> Scholarships</button>
+            <button class="dl__cat" data-cat="openday"><i class="fa-solid fa-calendar-check"></i> Open Days</button>
+            <button class="dl__cat" data-cat="accommodation"><i class="fa-solid fa-house"></i> Accommodation</button>
+            <button class="dl__cat" data-cat="interview"><i class="fa-solid fa-user-tie"></i> Interviews</button>
+            <button class="dl__cat" data-cat="personal"><i class="fa-regular fa-bell"></i> My Reminders</button>
+        
+
+            <div class="dl__summary">
+                <div class="dl__sum__pill dl__sum--overdue">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    <span id="dlCntOverdue">0</span>
+                    <span class="dl__sum__lbl">Overdue</span>
+                </div>
+                <div class="dl__sum__pill dl__sum--soon">
+                    <i class="fa-solid fa-fire"></i>
+                    <span id="dlCntSoon">0</span>
+                    <span class="dl__sum__lbl">This Week</span>
+                </div>
+                <div class="dl__sum__pill dl__sum--month">
+                    <i class="fa-solid fa-clock"></i>
+                    <span id="dlCntMonth">0</span>
+                    <span class="dl__sum__lbl">This Month</span>
+                </div>
+                <div class="dl__sum__pill dl__sum--done">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span id="dlCntDone">0</span>
+                    <span class="dl__sum__lbl">Completed</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="dl__list" id="dlList"></div>
+
+
+    <div class="dl__empty" id="dlEmpty" style="display:none">
+        <i class="fa-solid fa-calendar-xmark"></i>
+        <h3>No deadlines found</h3>
+        <p>Save universities to see their upcoming deadlines, or add your own reminders.</p>
+        <button class="dl__add__btn" id="dlEmptyAddBtn"><i class="fa-solid fa-plus"></i> Add a Reminder</button>
+    </div>
+
+</div>
+
+</main>
+
+<div class="mp__overlay" id="dlAddOverlay">
+    <div class="mp__modal dl__add__modal">
+        <button class="mp__modal__close" id="dlAddClose"><i class="fa-solid fa-xmark"></i></button>
+        <h3><i class="fa-solid fa-calendar-plus" style="color:#6c63ff;font-size:15px"></i> Add Deadline</h3>
+        <div class="mp__modal__field">
+            <span class="mp__modal__label">Title *</span>
+            <input type="text" id="dlTitle" placeholder="e.g. MSc Computer Science Application Deadline">
+        </div>
+        <div class="mp__modal__field">
+            <span class="mp__modal__label">Category *</span>
+            <select id="dlType">
+                <option value="application">Application</option>
+                <option value="scholarship">Scholarship</option>
+                <option value="openday">Open Day</option>
+                <option value="accommodation">Accommodation</option>
+                <option value="interview">Interview / Assessment</option>
+                <option value="other">Other Reminder</option>
+            </select>
+        </div>
+        <div class="mp__modal__field">
+            <span class="mp__modal__label">University (optional)</span>
+            <input type="text" id="dlUniName" placeholder="e.g. University of Oxford">
+        </div>
+        <div class="mp__modal__field">
+            <span class="mp__modal__label">Deadline Date *</span>
+            <input type="date" id="dlDate">
+        </div>
+        <div class="mp__modal__field">
+            <span class="mp__modal__label">Notes (optional)</span>
+            <input type="text" id="dlNotes" placeholder="Any extra details or instructions…">
+        </div>
+        <button class="mp__modal__save" id="dlAddSave"><i class="fa-solid fa-floppy-disk"></i> Save Deadline</button>
+        <p class="mp__modal__err" id="dlAddErr"></p>
+    </div>
+</div>
+
+<div class="mp__overlay" id="uniDetailOverlay">
+    <div class="udm__card">
+        <button class="mp__modal__close" id="uniDetailClose"><i class="fa-solid fa-xmark"></i></button>
+
+
+        <div class="udm__accent" id="udmAccent"></div>
+
+
+        <div class="udm__top">
+            <div class="udm__badge" id="udmBadge"></div>
+            <div class="udm__head">
+                <div class="udm__name" id="udmName"></div>
+                <div class="udm__tags" id="udmTags"></div>
+            </div>
+            <button class="mp__save__btn" id="udmSave" style="font-size:20px;flex-shrink:0;padding:4px 6px"></button>
+        </div>
+
+
+        <div class="udm__quickrow" id="udmQuickrow">
+            <div class="udm__qr__pill"><i class="fa-solid fa-calendar-alt"></i><span id="udmFounded"></span></div>
+            <div class="udm__qr__pill"><i class="fa-solid fa-users"></i><span id="udmStudents"></span></div>
+            <div class="udm__qr__pill"><i class="fa-solid fa-building-columns"></i><span id="udmType"></span></div>
+            <div class="udm__qr__pill"><i class="fa-solid fa-location-dot"></i><span id="udmCity"></span></div>
+        </div>
+
+
+        <div class="udm__budget__match" id="udmBudgetMatch" style="display:none"></div>
+
+
+        <p class="udm__desc" id="udmDesc"></p>
+
+
+        <div class="udm__two__col">
+            <div>
+                <div class="udm__section__label"><i class="fa-solid fa-book-open"></i> Fields of Study</div>
+                <div class="udm__chips" id="udmFields"></div>
+            </div>
+            <div>
+                <div class="udm__section__label"><i class="fa-solid fa-language"></i> Languages</div>
+                <div class="udm__chips" id="udmLangs"></div>
+            </div>
+        </div>
+
+
+        <div class="udm__metrics">
+            <div class="udm__metric">
+                <div class="udm__ml">Annual Tuition</div>
+                <div class="udm__mv udm__mv--gold" id="udmTuition"></div>
+                <div class="mp__bar__track" style="margin-top:4px"><div class="mp__bar__fill" id="udmTuitionBar"></div></div>
+            </div>
+            <div class="udm__metric">
+                <div class="udm__ml">Entry Difficulty</div>
+                <div class="udm__mv" id="udmDiff"></div>
+                <div class="mp__bar__track" style="margin-top:4px"><div class="mp__bar__fill" id="udmDiffBar"></div></div>
+            </div>
+        </div>
+
+
+        <div class="udm__section__label" style="margin-top:14px"><i class="fa-solid fa-lightbulb"></i> What to Know</div>
+        <div class="udm__insights" id="udmInsights"></div>
+
+
+        <div class="udm__actions">
+            <a class="udm__action__btn udm__action__btn--primary" id="udmResearch" href="#" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-magnifying-glass"></i> Research
+            </a>
+            <button class="udm__action__btn" id="udmAddCompare">
+                <i class="fa-solid fa-scale-balanced"></i> Compare
+            </button>
+            <button class="udm__action__btn" id="udmTrackApp">
+                <i class="fa-regular fa-calendar-check"></i> Track
+            </button>
+            <button class="udm__action__btn udm__action__btn--chat" id="udmOpenChat">
+                <i class="fa-solid fa-comments"></i> Chat
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="mp__overlay" id="uniChatOverlay">
+    <div class="uch__shell" id="uchShell">
+
+        <div class="uch__sidebar" id="uchSidebar">
+            <div class="uch__sb__head">
+                <img src="logo2.png" class="uch__sb__logo" alt="UniScout">
+                <span class="uch__sb__title">UniScout Chats</span>
+            </div>
+            <div class="uch__sb__search__wrap">
+                <i class="fa-solid fa-magnifying-glass uch__sb__search__icon"></i>
+                <input type="text" class="uch__sb__search" id="uchSbSearch" placeholder="Search chats…" autocomplete="off">
+            </div>
+            <div class="uch__sb__list" id="uchSbList"></div>
+        </div>
+
+        <div class="uch__main" id="uchMainPanel">
+            <div class="uch__header">
+                <button class="uch__back" id="uchBackBtn" title="All chats">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <div class="uch__uni__badge" id="uchBadge"></div>
+                <div class="uch__header__info">
+                    <div class="uch__uni__name" id="uchName"></div>
+                    <div class="uch__sub" id="uchSub">Student community</div>
+                </div>
+                <button class="uch__friends__btn" id="uchFriendsBtn" title="Friends">
+                    <i class="fa-solid fa-user-group"></i>
+                </button>
+                <button class="uch__close" id="uniChatClose">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <div class="uch__composer">
+                <div class="uch__composer__avatar" id="uchMyAvatar"></div>
+                <input class="uch__input" id="uchInput" type="text" placeholder="Write a message to the community…" maxlength="400" autocomplete="off">
+                <button class="uch__send" id="uchSend"><i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+
+            <div class="uch__messages" id="uchMessages"></div>
+        </div>
+
+    </div>
+</div>
+
+<div class="mp__overlay" id="friendsOverlay">
+    <div class="frd__panel">
+        <!-- Main view -->
+        <div class="frd__main__view" id="frdMainView">
+            <div class="frd__head">
+                <div class="frd__head__left">
+                    <div class="frd__head__icon"><i class="fa-solid fa-user-group"></i></div>
+                    <div>
+                        <div class="frd__head__title">Find Friends</div>
+                        <div class="frd__head__sub">Connect with other students</div>
+                    </div>
+                </div>
+                <button class="frd__close" id="friendsClose"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="frd__search__wrap">
+                <i class="fa-solid fa-magnifying-glass frd__search__icon"></i>
+                <input type="text" id="frdSearch" class="frd__search" placeholder="Search by username…" autocomplete="off">
+            </div>
+            <div class="frd__list" id="frdList"></div>
+        </div>
+        <!-- Profile view (slides in from right) -->
+        <div class="frd__profile__view" id="frdProfileView">
+            <div class="frd__pv__topbar">
+                <button class="frd__pv__back" id="frdPvBack"><i class="fa-solid fa-chevron-left"></i> Back</button>
+            </div>
+            <div class="frd__pv__body" id="frdPvBody"></div>
+        </div>
+    </div>
+</div>
+
+<div class="mp__overlay" id="browseAllOverlay">
+    <div class="ba__modal">
+        <div class="ba__modal__hd">
+            <div class="ba__modal__title">
+                <i class="fa-solid fa-list-ol"></i>
+                All Universities — <span id="baCountryLabel">Spain</span>
+            </div>
+            <button class="mp__modal__close" id="browseAllClose"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="ba__search__wrap">
+            <i class="fa-solid fa-magnifying-glass ba__search__icon"></i>
+            <input class="ba__search__input" id="baSearch" type="text" placeholder="Search by name or abbreviation…" autocomplete="off">
+            <button class="ba__search__clear" id="baClearSearch" style="display:none"><i class="fa-solid fa-xmark"></i></button>
+            <div class="ba__suggestions" id="baSuggestions"></div>
+        </div>
+        <div class="ba__results__hd"><span id="baResultsLabel"></span></div>
+        <div class="ba__list" id="baList"></div>
+        <div class="ba__pagination" id="baPagination"></div>
+    </div>
+</div>
+
+<!-- ── Pro Pricing Modal — must be before scripts ── -->
+<div class="pricing__overlay" id="pricingOverlay">
+    <div class="pricing__modal">
+        <button class="pricing__close" id="pricingClose"><i class="fa-solid fa-xmark"></i></button>
+
+        <div class="pricing__header">
+            <div class="pricing__header__brand">
+                <img src="logo2.png" class="pricing__header__logo" alt="">
+                <span class="pricing__header__name">UniScout</span>
+            </div>
+            <h2 class="pricing__title">Unlock your full potential</h2>
+            <p class="pricing__subtitle">Find the right university, in the right country, at the right price.</p>
+        </div>
+
+        <div class="pricing__cols">
+
+            <!-- Free -->
+            <div class="pricing__col">
+                <div class="pricing__col__badge pricing__col__badge--free">Current plan</div>
+                <div class="pricing__col__name">Basic</div>
+                <div class="pricing__col__price"><span class="pricing__col__amount">€0</span><span class="pricing__col__period">/month</span></div>
+                <p class="pricing__col__desc">Everything you need to start exploring European universities.</p>
+                <ul class="pricing__col__features">
+                    <li><i class="fa-solid fa-check"></i> 4 European countries</li>
+                    <li><i class="fa-solid fa-check"></i> University search &amp; filters</li>
+                    <li><i class="fa-solid fa-check"></i> Save up to 10 universities</li>
+                    <li><i class="fa-solid fa-check"></i> Community chat</li>
+                    <li><i class="fa-solid fa-check"></i> Admission probability</li>
+                    <li class="pricing__col__feat--off"><i class="fa-solid fa-xmark"></i> Pro countries</li>
+                    <li class="pricing__col__feat--off"><i class="fa-solid fa-xmark"></i> Salary insights</li>
+                    <li class="pricing__col__feat--off"><i class="fa-solid fa-xmark"></i> AI recommendations</li>
+                </ul>
+                <button class="pricing__col__btn pricing__col__btn--ghost" disabled>Your current plan</button>
+            </div>
+
+            <!-- Elite — highlighted -->
+            <div class="pricing__col pricing__col--pro">
+                <div class="pricing__col__badge pricing__col__badge--pro"><i class="fa-solid fa-crown"></i> Elite member</div>
+                <div class="pricing__col__name">Elite</div>
+                <div class="pricing__col__price"><span class="pricing__col__amount">€15</span><span class="pricing__col__period">/year</span></div>
+                <p class="pricing__col__desc">The complete UniScout experience — every destination, advanced tools and your Elite badge.</p>
+                <ul class="pricing__col__features">
+                    <li><i class="fa-solid fa-check"></i> 10+ European countries</li>
+                    <li><i class="fa-solid fa-check"></i> Advanced filters &amp; sorting</li>
+                    <li><i class="fa-solid fa-check"></i> Unlimited saved universities</li>
+                    <li><i class="fa-solid fa-check"></i> Community chat</li>
+                    <li><i class="fa-solid fa-check"></i> Admission probability</li>
+                    <li><i class="fa-solid fa-check"></i> Detailed salary insights</li>
+                    <li><i class="fa-solid fa-check"></i> Application tracker</li>
+                    <li><i class="fa-solid fa-check"></i> Elite status &amp; profile glow</li>
+                </ul>
+                <button class="pricing__col__btn pricing__col__btn--pro" id="getEliteBtn">Get Elite — €15/yr</button>
+            </div>
+
+        </div>
+
+        <p class="pricing__footer">Cancel anytime · Secure payment · Your card details never leave this device in this demo</p>
+    </div>
+</div>
+
+<!-- ── Titles Modal ── -->
+<div class="ttl__overlay" id="titlesOverlay">
+    <div class="ttl__modal">
+        <button class="pricing__close" id="titlesClose"><i class="fa-solid fa-xmark"></i></button>
+        <div class="ttl__head">
+            <div class="ttl__head__icon"><i class="fa-solid fa-dragon"></i></div>
+            <h2 class="ttl__title">Titles</h2>
+            <p class="ttl__sub">Grow stronger across UniScout to awaken new titles. Equip one to wear it on your profile.</p>
+            <div class="ttl__progress"><i class="fa-solid fa-trophy"></i> <span id="ttlEarnedCount">0</span> / 10 awakened</div>
+        </div>
+        <div class="ttl__grid" id="ttlGrid"></div>
+    </div>
+</div>
+
+<!-- ══════════════ GRADEBOOK & ACADEMIC PROGRESS ══════════════ -->
+<div id="tabGradebook" style="display:none">
+    <div class="gb__hero">
+        <div class="gb__hero__text">
+            <p class="gb__hero__tag"><i class="fa-solid fa-chart-line"></i> Academic Progress</p>
+            <h2 class="gb__hero__title">Your Gradebook</h2>
+            <p class="gb__hero__sub">Upload your latest grades report and UniScout builds your table, shows your best-fit universities, and tells you exactly how to reach the one you want.</p>
+            <div class="gb__hero__actions">
+                <button class="gb__btn gb__btn--light" id="gbUploadBtn"><i class="fa-solid fa-file-arrow-up"></i> Upload grades report (PDF)</button>
+                <input type="file" id="gbPdfInput" accept="application/pdf" style="display:none">
+                <button class="gb__btn gb__btn--light" id="gbClearBtn"><i class="fa-solid fa-trash-can"></i> Clear</button>
+                <label class="gb__scale"><i class="fa-solid fa-ruler"></i> Grading system
+                    <select id="gbScaleSel" class="gb__scale__sel">
+                        <option value="pct">Percentage (0–100)</option>
+                        <option value="p10">Points (1–10)</option>
+                        <option value="p9">GCSE (1–9)</option>
+                        <option value="p8">Out of 8 (1–8)</option>
+                        <option value="p5">Scale (1–5)</option>
+                        <option value="gpa">GPA (0–4)</option>
+                    </select>
+                </label>
+            </div>
+        </div>
+        <div class="gb__hero__graph">
+            <svg id="gbTrendGraph" class="gb__tg" viewBox="0 0 120 62" preserveAspectRatio="none" aria-hidden="true"></svg>
+            <div class="gb__tg__lbl" id="gbTrendGraphLbl">Add grades to see your trajectory</div>
+        </div>
+        <div class="gb__hero__overall">
+            <div class="gb__avg">
+                <div class="gb__avg__num"><span id="gbRingNum">—</span></div>
+                <div class="gb__avg__lbl">Your average mark <span id="gbAvgScale" class="gb__avg__scale"></span></div>
+             
+                <div class="gb__trend__lbl" id="gbTrendLbl">Add grades to see your progress</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gb__grid">
+        <section class="gb__col">
+            <div class="gb__sec__hd"><h3><i class="fa-solid fa-book"></i> Subjects</h3></div>
+            <div class="gb__addsubj">
+                <input type="text" id="gbNewSubject" class="gb__input" placeholder="Add a subject (e.g. Mathematics)" maxlength="40">
+                <input type="number" id="gbNewGrade" class="gb__input gb__input--sm" placeholder="Grade" min="0" step="0.1">
+                <button class="gb__btn gb__btn--primary" id="gbAddSubjectBtn"><i class="fa-solid fa-plus"></i> Add</button>
+            </div>
+            <div id="gbSubjects" class="gb__subjects"></div>
+        </section>
+
+        <aside class="gb__col gb__col--side">
+            <div class="gb__panel">
+                <div class="gb__panel__hd"><i class="fa-solid fa-gauge-high"></i> University Readiness</div>
+                <div id="gbReadiness" class="gb__readiness"></div>
+            </div>
+            <div class="gb__panel">
+                <div class="gb__panel__hd"><i class="fa-solid fa-triangle-exclamation"></i> Needs attention</div>
+                <div id="gbAttention" class="gb__attention"></div>
+            </div>
+        </aside>
+    </div>
+
+    <section class="gb__block">
+        <div class="gb__sec__hd"><h3><i class="fa-solid fa-bullseye"></i> University Targets</h3><span class="gb__sec__sub">Pick from universities in your current destination</span></div>
+        <div class="gb__targets" id="gbTargets"></div>
+    </section>
+
+    <section class="gb__block" id="gbGapsBlock">
+        <div class="gb__sec__hd"><h3><i class="fa-solid fa-ruler-combined"></i> Requirements &amp; Gaps</h3><span class="gb__sec__sub">Your grades vs. typical entry requirements</span></div>
+        <div id="gbGaps" class="gb__gaps"></div>
+    </section>
+
+    <section class="gb__block" id="gbPlanBlock" style="display:none">
+        <div class="gb__sec__hd"><h3><i class="fa-solid fa-robot"></i> AI Improvement Plan</h3><span class="gb__sec__sub">How to reach your dream university</span></div>
+        <div id="gbPlan" class="gb__plan"></div>
+    </section>
+
+    <section class="gb__block">
+        <div class="gb__sec__hd"><h3><i class="fa-solid fa-flag-checkered"></i> Improvement Goals</h3></div>
+        <div class="gb__goal__form">
+            <select id="gbGoalSubject" class="gb__input"></select>
+            <input type="number" id="gbGoalTarget" class="gb__input gb__input--sm" placeholder="Target avg" min="0" max="100">
+            <input type="month" id="gbGoalDate" class="gb__input gb__input--sm">
+            <button class="gb__btn gb__btn--primary" id="gbAddGoalBtn"><i class="fa-solid fa-plus"></i> Add goal &amp; deadline</button>
+        </div>
+        <div id="gbGoals" class="gb__goals"></div>
+    </section>
+
+    <section class="gb__block">
+        <div class="gb__sec__hd"><h3><i class="fa-solid fa-wand-magic-sparkles"></i> Top Recommendations</h3><span class="gb__sec__sub">Universities that fit your marks — drag the slider to explore "what if"</span></div>
+        <div class="gb__recctrl">
+            <span class="gb__recctrl__lbl"><i class="fa-solid fa-sliders"></i> Try an average of</span>
+            <input type="range" id="gbRecSlider" class="gb__slider gb__recctrl__slider" min="0" max="100" step="1" value="0">
+            <b class="gb__recctrl__val" id="gbRecVal">—</b>
+            <button class="gb__btn gb__btn--ghost gb__recctrl__reset" id="gbRecReset">My real average</button>
+        </div>
+        <div id="gbRecs" class="gb__recs"></div>
+    </section>
+</div>
+
+<input type="file" id="heroPicInput" accept="image/*" style="display:none">
+
+<!-- ── Elite "For You" matcher (fixed, bottom-left — hideable to header) ── -->
+<div class="fy__fab" id="fyFab" style="display:none">
+    <button class="fy__fab__main" id="fyFabMain" title="Your personal matches"><i class="fa-solid fa-magnifying-glass-dollar"></i><span>For You</span></button>
+    <button class="fy__fab__hide" id="fyFabHide" title="Hide to header"><i class="fa-solid fa-xmark"></i></button>
+</div>
+
+<div class="fy__overlay" id="fyOverlay">
+    <div class="fy__modal" id="fyModal">
+        <div class="fy__head fy__head--haspic">
+            <div class="fy__head__pic">
+                <img src="Paris.avif" alt="" class="fy__hero__img">
+                <button class="hero__editpic" data-hero="matcher" title="Change photo (right-click to reset)"><i class="fa-solid fa-camera"></i></button>
+            </div>
+            <button class="fy__dock" id="fyDock" title="Move button to header"><i class="fa-solid fa-thumbtack"></i></button>
+            <button class="fy__close" id="fyClose"><i class="fa-solid fa-xmark"></i></button>
+            <div class="fy__head__row">
+                <h2 class="fy__title">Find universities made for you</h2>
+                <div class="fy__head__btns">
+                    <button class="fy__head__showall" id="fyShowAll" style="display:none"><i class="fa-solid fa-list-ol"></i> Show all by fit</button>
+                </div>
+            </div>
+            <p class="fy__sub">Tell us about yourself — we'll score every university by how well it fits.</p>
+        </div>
+
+        <div class="fy__body">
+            <div class="fy__panel fy__panel--form">
+                <div class="fy__form" id="fyForm">
+                    <div class="fy__field">
+                        <label><i class="fa-solid fa-book"></i> Favourite subjects</label>
+                        <div class="fy__chips" id="fySubjects"></div>
+                    </div>
+                    <div class="fy__field">
+                        <label><i class="fa-solid fa-heart"></i> Hobbies &amp; interests</label>
+                        <div class="fy__chips" id="fyHobbies"></div>
+                    </div>
+                    <div class="fy__row">
+                        <div class="fy__field">
+                            <label><i class="fa-solid fa-person-running"></i> Sport</label>
+                            <select id="fySport"></select>
+                        </div>
+                        <div class="fy__field">
+                            <label><i class="fa-solid fa-medal"></i> Athlete level</label>
+                            <select id="fyAthlete">
+                                <option value="0">Not an athlete</option>
+                                <option value="1">Recreational</option>
+                                <option value="2">Club</option>
+                                <option value="3">Regional / University</option>
+                                <option value="4">National</option>
+                                <option value="5">Pro / Elite</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="fy__row">
+                        <div class="fy__field">
+                            <label><i class="fa-solid fa-star-half-stroke"></i> Average grade (%)</label>
+                            <input type="number" id="fyAvg" min="0" max="100" placeholder="e.g. 78">
+                        </div>
+                        <div class="fy__field">
+                            <label><i class="fa-solid fa-arrow-trend-up"></i> Expected grade (%)</label>
+                            <input type="number" id="fyExp" min="0" max="100" placeholder="e.g. 85">
+                        </div>
+                    </div>
+                    <div class="fy__row">
+                        <div class="fy__field">
+                            <label><i class="fa-solid fa-language"></i> Preferred language</label>
+                            <select id="fyLang">
+                                <option value="">Any</option>
+                                <option>English</option><option>Spanish</option><option>French</option>
+                                <option>German</option><option>Italian</option><option>Portuguese</option><option>Dutch</option>
+                            </select>
+                        </div>
+                        <div class="fy__field">
+                            <label><i class="fa-solid fa-graduation-cap"></i> Study level</label>
+                            <select id="fyLevel"><option>Bachelor</option><option>Master</option><option>PhD</option></select>
+                        </div>
+                    </div>
+                    <div class="fy__field">
+                        <label><i class="fa-solid fa-city"></i> City vibe</label>
+                        <select id="fyVibe"><option value="any">No preference</option><option value="big">Big city</option><option value="small">Smaller town</option></select>
+                    </div>
+                    <div class="fy__field">
+                        <label><i class="fa-solid fa-piggy-bank"></i> Yearly budget: <b id="fyBudgetVal">€15,000/yr</b></label>
+                        <input type="range" id="fyBudget" min="500" max="40000" step="500" value="15000" class="fy__slider">
+                    </div>
+                    <div class="fy__field">
+                        <label><i class="fa-solid fa-bullseye"></i> What matters most?</label>
+                        <div class="fy__chips" id="fyPriorities"></div>
+                    </div>
+                    <div class="fy__dest" id="fyDest"></div>
+                    <button class="fy__go" id="fyGo"><i class="fa-solid fa-wand-magic-sparkles"></i> Find my matches</button>
+                </div>
+            </div>
+
+            <div class="fy__panel fy__panel--results" id="fyResultsPanel">
+                <div class="fy__results" id="fyResults"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ── All universities by fit (header "Show all") ── -->
+<div class="fy__overlay" id="fyAllOverlay">
+    <div class="fy__modal fy__modal--all">
+        <div class="fy__head">
+            <button class="fy__close" id="fyAllClose"><i class="fa-solid fa-xmark"></i></button>
+            <div class="fy__head__icon"><i class="fa-solid fa-list-ol"></i></div>
+            <h2 class="fy__title">Universities by fit</h2>
+            <p class="fy__sub">Your top matches — or look up any university to see how well it fits you.</p>
+        </div>
+        <div class="fy__all__body">
+            <div class="fy__search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="fyAllSearch" placeholder="Type a university to check its fit…" autocomplete="off">
+            </div>
+            <div id="fyAllSearchResult"></div>
+            <div class="fy__results" id="fyAllList"></div>
+        </div>
+    </div>
+</div>
+
+<!-- ── Fit detail (click a university in "Show all") ── -->
+<div class="fy__overlay" id="fyDetailOverlay">
+    <div class="fy__modal fy__modal--detail">
+        <div class="fy__head" id="fyDetailHead">
+            <button class="fy__close" id="fyDetailClose"><i class="fa-solid fa-xmark"></i></button>
+            <h2 class="fy__title" id="fyDetailName"></h2>
+            <p class="fy__sub" id="fyDetailMeta"></p>
+        </div>
+        <div class="fy__detail__body" id="fyDetailBody"></div>
+    </div>
+</div>
+
+<script src="data/app_data.js"></script>
+<script src="mainPage.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,477 @@
+{
+  "meta": {
+    "name": "Finland",
+    "code": "fi",
+    "flag": "fi",
+    "capital": "Helsinki",
+    "language": "Finnish / Swedish / English",
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "aboutStudying": "Finland has one of the world's best education systems and EU students study for free. Finnish universities are research powerhouses, especially in technology, design and education science. The country ranks as the happiest in the world and offers a uniquely safe, clean and nature-rich environment for students.",
+    "uniCount": 8,
+    "cityCount": 4
+  },
+  "tips": [
+    {
+      "icon": "fa-solid fa-euro-sign",
+      "color": "rgba(39,174,96,.1)",
+      "iconColor": "#27ae60",
+      "title": "Free for EU Students",
+      "text": "EU/EEA students pay no tuition fees at Finnish universities. Non-EU students pay €8,000–18,000/year but generous scholarships cover 50–100% for strong applicants. The Finnish student union (KELA) also unlocks big discounts on meals, transport and healthcare."
+    },
+    {
+      "icon": "fa-solid fa-tree",
+      "color": "rgba(52,152,219,.1)",
+      "iconColor": "#2980b9",
+      "title": "Nature & Sauna",
+      "text": "Finland is 75% forest and has 188,000 lakes. Saunas are a way of life — there are more saunas than cars. Winters are dark and snowy (perfect for the Northern Lights), while summers bring the magical midnight sun. Embrace the outdoors and you'll thrive."
+    },
+    {
+      "icon": "fa-solid fa-laptop-code",
+      "color": "rgba(217,124,20,.1)",
+      "iconColor": "#d97c14",
+      "title": "Tech & Design Leader",
+      "text": "Finland is the home of Nokia, Linux, Angry Birds and a thriving startup scene (Slush is Europe's biggest startup event). It's also a global design icon — Marimekko, Iittala, Alvar Aalto. English is spoken almost universally, so language is rarely a barrier."
+    }
+  ],
+  "universities": [
+    {
+      "id": "helsinki",
+      "name": "University of Helsinki",
+      "abbr": "UH",
+      "color": "#000000",
+      "city": "Helsinki",
+      "type": "Public",
+      "tuition": "Free (EU) / €13,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Science",
+        "Law",
+        "Humanities",
+        "Business"
+      ],
+      "langs": [
+        "English",
+        "Finnish"
+      ],
+      "founded": 1640,
+      "students": "~31,000",
+      "desc": "Finland's oldest and highest-ranked university — a global top-100 institution and a research powerhouse across all disciplines.",
+      "website": ""
+    },
+    {
+      "id": "aalto",
+      "name": "Aalto University",
+      "abbr": "Aalto",
+      "color": "#0066B3",
+      "city": "Espoo",
+      "type": "Public",
+      "tuition": "Free (EU) / €15,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Architecture",
+        "CS",
+        "Arts"
+      ],
+      "langs": [
+        "English",
+        "Finnish"
+      ],
+      "founded": 2010,
+      "students": "~20,000",
+      "desc": "Finland's flagship for technology, business and art & design — formed from three top schools and a global leader in design thinking.",
+      "website": ""
+    },
+    {
+      "id": "tampere",
+      "name": "Tampere University",
+      "abbr": "TAU",
+      "color": "#4E008E",
+      "city": "Tampere",
+      "type": "Public",
+      "tuition": "Free (EU) / €12,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Medicine",
+        "Business",
+        "Humanities",
+        "CS"
+      ],
+      "langs": [
+        "English",
+        "Finnish"
+      ],
+      "founded": 2019,
+      "students": "~21,000",
+      "desc": "A broad research university combining technology and health sciences in Finland's biggest inland city.",
+      "website": "https://www.tuni.fi"
+    },
+    {
+      "id": "turku",
+      "name": "University of Turku",
+      "abbr": "UTU",
+      "color": "#822433",
+      "city": "Turku",
+      "type": "Public",
+      "tuition": "Free (EU) / €11,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Science",
+        "Law",
+        "Humanities",
+        "Business"
+      ],
+      "langs": [
+        "English",
+        "Finnish"
+      ],
+      "founded": 1920,
+      "students": "~23,000",
+      "desc": "A leading multidisciplinary university in Finland's former capital, with a strong medical and biosciences focus.",
+      "website": "https://www.utu.fi/"
+    },
+    {
+      "id": "oulu",
+      "name": "University of Oulu",
+      "abbr": "Oulu",
+      "color": "#E10915",
+      "city": "Oulu",
+      "type": "Public",
+      "tuition": "Free (EU) / €10,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Medicine",
+        "Business",
+        "CS"
+      ],
+      "langs": [
+        "English",
+        "Finnish"
+      ],
+      "founded": 1958,
+      "students": "~14,000",
+      "desc": "One of the northernmost universities in the world and a global leader in wireless communications research.",
+      "website": "http://www.oulu.fi/yliopisto/"
+    },
+    {
+      "id": "jyu",
+      "name": "University of Jyväskylä",
+      "abbr": "JYU",
+      "color": "#005EB8",
+      "city": "Jyväskylä",
+      "type": "Public",
+      "tuition": "Free (EU) / €10,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Humanities",
+        "Science",
+        "Business",
+        "Engineering"
+      ],
+      "langs": [
+        "English",
+        "Finnish"
+      ],
+      "founded": 1934,
+      "students": "~15,000",
+      "desc": "Finland's leading university for education science and sport, set on a beautiful Alvar Aalto-designed campus.",
+      "website": "https://www.jyu.fi/"
+    },
+    {
+      "id": "lut",
+      "name": "LUT University",
+      "abbr": "LUT",
+      "color": "#0B1F8F",
+      "city": "Lappeenranta",
+      "type": "Public",
+      "tuition": "Free (EU) / €13,500/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Science"
+      ],
+      "langs": [
+        "English",
+        "Finnish"
+      ],
+      "founded": 1969,
+      "students": "~6,500",
+      "desc": "A technical and business university focused on clean energy and sustainability, near the Russian border.",
+      "website": ""
+    },
+    {
+      "id": "abo",
+      "name": "Åbo Akademi University",
+      "abbr": "ÅAU",
+      "color": "#003366",
+      "city": "Turku",
+      "type": "Public",
+      "tuition": "Free (EU) / €10,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Science",
+        "Humanities",
+        "Business",
+        "Engineering"
+      ],
+      "langs": [
+        "English",
+        "Swedish"
+      ],
+      "founded": 1918,
+      "students": "~5,500",
+      "desc": "Finland's only Swedish-language university — a small, international research institution with a strong sense of community.",
+      "website": ""
+    }
+  ],
+  "cities": {
+    "Helsinki": {
+      "region": "Uusimaa",
+      "pop": "660,000",
+      "climate": "Humid continental",
+      "cost": "€900–1,400/mo",
+      "desc": "Finland's design-forward capital on the Baltic Sea — clean, safe and surrounded by islands, with the country's top university and a buzzing startup scene.",
+      "highlights": [
+        "Helsinki Cathedral",
+        "Suomenlinna sea fortress",
+        "Oodi Central Library",
+        "Design District",
+        "Market Square & harbour"
+      ],
+      "studentLife": "Excellent — large international community, free entry to many museums, sauna culture.",
+      "transport": "Superb metro, trams and ferries; airport 30 min by train.",
+      "nightlife": "Lively in summer with terraces and island parties; cosy bars in winter.",
+      "pros": [
+        "Happiest country's capital",
+        "Free tuition for EU",
+        "Design capital"
+      ],
+      "tags": [
+        "Design",
+        "Baltic",
+        "Safe",
+        "Startup"
+      ]
+    },
+    "Espoo": {
+      "region": "Uusimaa",
+      "pop": "300,000",
+      "climate": "Humid continental",
+      "cost": "€850–1,350/mo",
+      "desc": "Helsinki's high-tech neighbour and home to Aalto University — a green, modern city that is the heart of Finland's technology and startup ecosystem.",
+      "highlights": [
+        "Aalto University campus",
+        "Nuuksio National Park",
+        "Otaniemi tech hub",
+        "WeeGee exhibition centre",
+        "Coastal cycling routes"
+      ],
+      "studentLife": "Dynamic and entrepreneurial — Otaniemi is Finland's startup nucleus.",
+      "transport": "Metro extension links directly to central Helsinki in 20 minutes.",
+      "nightlife": "Quieter than Helsinki but the capital is a short metro ride away.",
+      "pros": [
+        "Home of Aalto University",
+        "Startup capital",
+        "Nature on the doorstep"
+      ],
+      "tags": [
+        "Tech",
+        "Startup",
+        "Green",
+        "Modern"
+      ]
+    },
+    "Tampere": {
+      "region": "Pirkanmaa",
+      "pop": "245,000",
+      "climate": "Humid continental",
+      "cost": "€750–1,150/mo",
+      "desc": "Finland's vibrant inland city set between two lakes — a former industrial hub turned cultural and student capital, consistently voted the most popular Finnish city to live in.",
+      "highlights": [
+        "Pyynikki observation tower",
+        "Tampere Hall",
+        "Moomin Museum",
+        "Särkänniemi amusement park",
+        "Finlayson former mill district"
+      ],
+      "studentLife": "Outstanding — a large, friendly student population and famously sociable atmosphere.",
+      "transport": "New tram network; 1.5 hrs by train to Helsinki.",
+      "nightlife": "Excellent and affordable — one of Finland's best live music scenes.",
+      "pros": [
+        "Most popular Finnish city",
+        "Affordable",
+        "Great student community"
+      ],
+      "tags": [
+        "Student city",
+        "Lakes",
+        "Affordable",
+        "Culture"
+      ]
+    },
+    "Turku": {
+      "region": "Southwest Finland",
+      "pop": "200,000",
+      "climate": "Humid continental",
+      "cost": "€750–1,150/mo",
+      "desc": "Finland's oldest city and former capital, beautifully set on the Aura River and gateway to the stunning archipelago — home to two universities and a rich medieval heritage.",
+      "highlights": [
+        "Turku Castle",
+        "Turku Cathedral",
+        "Aura River esplanade",
+        "Archipelago Sea (40,000 islands)",
+        "Luostarinmäki handicrafts museum"
+      ],
+      "studentLife": "Strong — two universities create a lively, river-centred student culture.",
+      "transport": "2 hrs by train to Helsinki; ferries to Sweden from the harbour.",
+      "nightlife": "Famous for its riverboat bars in summer; lively year-round.",
+      "pros": [
+        "Finland's oldest city",
+        "Archipelago gateway",
+        "Two universities"
+      ],
+      "tags": [
+        "Historic",
+        "Archipelago",
+        "Riverside",
+        "Student life"
+      ]
+    }
+  },
+  "cityCards": [
+    {
+      "city": "Helsinki",
+      "region": "Uusimaa",
+      "gradient": "linear-gradient(135deg,#0a0a0a,#003366)",
+      "icon": "fa-solid fa-snowflake",
+      "desc": "Finland's design-forward Baltic capital — clean, safe and home to the country's top university.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-snowflake"
+      ],
+      "stats": [
+        "660,000 residents",
+        "€900–1,400/mo",
+        "Humid continental"
+      ],
+      "tags": [
+        "Design",
+        "Baltic",
+        "Startup"
+      ]
+    },
+    {
+      "city": "Espoo",
+      "region": "Uusimaa",
+      "gradient": "linear-gradient(135deg,#0066B3,#3399DD)",
+      "icon": "fa-solid fa-microchip",
+      "desc": "Helsinki's high-tech neighbour and home to Aalto University — the heart of Finland's startup scene.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-snowflake"
+      ],
+      "stats": [
+        "300,000 residents",
+        "€850–1,350/mo",
+        "Humid continental"
+      ],
+      "tags": [
+        "Tech",
+        "Startup",
+        "Green"
+      ]
+    },
+    {
+      "city": "Tampere",
+      "region": "Pirkanmaa",
+      "gradient": "linear-gradient(135deg,#4E008E,#7B2FBE)",
+      "icon": "fa-solid fa-water",
+      "desc": "Finland's vibrant lake city — a former mill hub turned the most popular city to live in.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-snowflake"
+      ],
+      "stats": [
+        "245,000 residents",
+        "€750–1,150/mo",
+        "Humid continental"
+      ],
+      "tags": [
+        "Student city",
+        "Lakes",
+        "Culture"
+      ]
+    },
+    {
+      "city": "Turku",
+      "region": "Southwest Finland",
+      "gradient": "linear-gradient(135deg,#822433,#B23A48)",
+      "icon": "fa-solid fa-chess-rook",
+      "desc": "Finland's oldest city and archipelago gateway — medieval heritage and two universities.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-snowflake"
+      ],
+      "stats": [
+        "200,000 residents",
+        "€750–1,150/mo",
+        "Humid continental"
+      ],
+      "tags": [
+        "Historic",
+        "Archipelago",
+        "Riverside"
+      ]
+    }
+  ],
+  "featuredCities": [
+    {
+      "city": "Helsinki",
+      "icon": "fa-solid fa-snowflake",
+      "sub": "Capital"
+    },
+    {
+      "city": "Espoo",
+      "icon": "fa-solid fa-microchip",
+      "sub": "Uusimaa"
+    },
+    {
+      "city": "Tampere",
+      "icon": "fa-solid fa-water",
+      "sub": "Pirkanmaa"
+    },
+    {
+      "city": "Turku",
+      "icon": "fa-solid fa-chess-rook",
+      "sub": "SW Finland"
+    }
+  ]
+}

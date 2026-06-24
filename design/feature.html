@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniScout — Feature</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="earth.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Sora:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Fraunces:ital,opsz,wght@1,9..144,400;1,9..144,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="welcome.css">
+</head>
+<body>
+
+    <!-- NAV -->
+    <nav class="nav nav--solid" id="nav">
+        <a href="index.html" class="nav__brand"><img src="logo2.png" alt="UniScout">UniScout</a>
+        <div class="nav__links" id="navLinks">
+            <a href="index.html#features">Features</a>
+            <a href="subscription.html">Subscription</a>
+            <a href="index.html#explore">Explore</a>
+            <a href="log-in.html">Sign in</a>
+            <a href="log-in.html" class="nav__cta"><i class="fa-solid fa-arrow-right-to-bracket"></i> Get started</a>
+        </div>
+        <button class="nav__burger" id="burger" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+    </nav>
+
+    <!-- HERO -->
+    <header class="dp__hero">
+        <span class="orb orb--1"></span><span class="orb orb--3"></span>
+        <div class="wrap">
+            <a class="dp__back" href="index.html#features"><i class="fa-solid fa-arrow-left"></i> All features</a>
+            <div class="dp__hero__ico" id="dpIco"></div>
+            <span class="tag" id="dpTag"></span>
+            <h1 class="display" id="dpTitle"></h1>
+            <p id="dpLead"></p>
+            <div class="hero__cta">
+                <a href="log-in.html" class="btn btn--primary"><i class="fa-solid fa-rocket"></i> Try it free</a>
+                <a href="subscription.html" class="btn btn--ghost"><i class="fa-solid fa-crown"></i> See Elite</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- WHAT YOU GET -->
+    <section class="sec wrap">
+        <div class="sec__head reveal">
+            <span class="tag">What you get</span>
+            <h2 class="display">Built to make this <span class="accent-serif grad-text">effortless</span></h2>
+        </div>
+        <div class="dp__points" id="dpPoints"></div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="sec sec--tight wrap">
+        <div class="sec__head reveal">
+            <span class="tag">How it works</span>
+            <h2 class="display">Up and running in <span class="accent-serif grad-text">minutes</span></h2>
+        </div>
+        <div class="dp__steps reveal" id="dpSteps"></div>
+    </section>
+
+    <!-- EXPLORE MORE -->
+    <section class="sec wrap">
+        <div class="sec__head reveal">
+            <span class="tag">Explore more</span>
+            <h2 class="display">More of what UniScout <span class="accent-serif grad-text">does</span></h2>
+        </div>
+        <div class="bento" id="dpMore"></div>
+    </section>
+
+    <!-- CTA -->
+    <section class="sec wrap">
+        <div class="cta reveal">
+            <span class="orb orb--1"></span><span class="orb orb--2"></span>
+            <div class="cta__in">
+                <img src="logo2.png" alt="">
+                <h2 class="display">Ready to try it yourself?</h2>
+                <p>Create your free account and put UniScout to work on your university search today.</p>
+                <a href="log-in.html" class="btn btn--primary"><i class="fa-solid fa-arrow-right-to-bracket"></i> Get started — free</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer wrap">
+        <div class="footer__grid">
+            <div class="footer__brand">
+                <a href="index.html" class="nav__brand"><img src="logo2.png" alt="">UniScout</a>
+                <p>Your AI-powered guide to discovering, comparing and applying to universities around the world.</p>
+                <div class="footer__socials">
+                    <a href="#" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer__col">
+                <h4>Product</h4>
+                <a href="index.html#features">Features</a>
+                <a href="subscription.html">Subscription</a>
+                <a href="index.html#explore">Explore</a>
+                <a href="index.html#faq">FAQ</a>
+            </div>
+            <div class="footer__col">
+                <h4>Company</h4>
+                <a href="index.html#why">Why UniScout</a>
+                <a href="#">Privacy</a>
+                <a href="#">Cookie policy</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <span><b>UniScout.</b> Scout your future.</span>
+            <span>© <span id="year"></span> UniScout · All rights reserved</span>
+        </div>
+    </footer>
+
+    <button class="scrolltop" id="scrollTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <script>
+    /* ── Feature content for each detail "page" (?id=...) ── */
+    (function () {
+        var FEATURES = {
+            matcher: {
+                name: 'AI matcher', grad: 'g-violet', ico: 'fa-solid fa-magnifying-glass-dollar',
+                tag: 'AI matcher',
+                title: 'Universities scored by how well they <span class="accent-serif grad-text">fit you</span>',
+                lead: 'Tell UniScout about your grades, budget, subjects and goals once. Our matcher compares them against every university\'s real requirements and data to produce a personalised fit score — with the reasoning shown for each.',
+                short: 'Personalised fit scores for every university.',
+                points: [
+                    { i: 'fa-solid fa-bullseye', h: 'Personalised fit scores', p: 'Every university is ranked specifically for you — not from a generic global league table.' },
+                    { i: 'fa-solid fa-coins', h: 'Budget-aware', p: 'Tuition and living costs are factored in, so you only chase options you can realistically afford.' },
+                    { i: 'fa-solid fa-circle-info', h: 'Transparent reasoning', p: 'See exactly why each match scored the way it did — strengths, gaps and requirements.' }
+                ],
+                steps: [
+                    { h: 'Build your profile', p: 'Add your grades, intended subject, languages, budget and preferences in about a minute.' },
+                    { h: 'Get instant matches', p: 'UniScout scores universities by fit and orders them best-first.' },
+                    { h: 'Refine & save', p: 'Tweak your filters, save favourites and move the best ones forward.' }
+                ]
+            },
+            explore: {
+                name: 'Discover & explore', grad: 'g-orange', ico: 'fa-solid fa-compass',
+                tag: 'Discover & explore',
+                title: 'Explore universities, programmes &amp; <span class="accent-serif grad-text">cities</span>',
+                lead: 'Browse a rich, filterable library of universities and the cities around them. Dive into programmes, tuition, languages, entry difficulty and student life — all in one clean place.',
+                short: 'Rich, filterable detail on every university.',
+                points: [
+                    { i: 'fa-solid fa-sliders', h: 'Powerful filters', p: 'Narrow by city, faculty, degree level, language, exams and type in a couple of clicks.' },
+                    { i: 'fa-solid fa-city', h: 'City guides', p: 'Understand living costs, climate and student life before you ever arrive.' },
+                    { i: 'fa-solid fa-book-open', h: 'Deep detail', p: 'Programmes, rankings, fees and requirements presented clearly, not buried in PDFs.' }
+                ],
+                steps: [
+                    { h: 'Search or filter', p: 'Start with a name, or filter your way to the right shortlist.' },
+                    { h: 'Open a university', p: 'See everything that matters on a single, readable page.' },
+                    { h: 'Save what you like', p: 'Bookmark universities and cities to revisit anytime.' }
+                ]
+            },
+            compare: {
+                name: 'Compare side by side', grad: 'g-blue', ico: 'fa-solid fa-scale-balanced',
+                tag: 'Compare',
+                title: 'Put your favourites <span class="accent-serif grad-text">head to head</span>',
+                lead: 'Line up your shortlisted universities and compare what actually matters — tuition, entry difficulty, rankings and languages — side by side, so you can decide with confidence.',
+                short: 'Compare tuition, difficulty, rankings & more.',
+                points: [
+                    { i: 'fa-solid fa-table-columns', h: 'Clear side-by-side view', p: 'All the key metrics aligned in one table — no more flicking between tabs.' },
+                    { i: 'fa-solid fa-ranking-star', h: 'The metrics that matter', p: 'Tuition, difficulty, languages and rankings together in one glance.' },
+                    { i: 'fa-solid fa-thumbs-up', h: 'Decide faster', p: 'Spot the trade-offs instantly and commit to your best options.' }
+                ],
+                steps: [
+                    { h: 'Shortlist universities', p: 'Save the ones you\'re considering as you explore.' },
+                    { h: 'Open compare', p: 'Add them to the comparison view in one tap.' },
+                    { h: 'Pick your winners', p: 'See the differences clearly and lock in your choices.' }
+                ]
+            },
+            apply: {
+                name: 'Application assistant', grad: 'g-green', ico: 'fa-solid fa-file-pdf',
+                tag: 'Application assistant',
+                title: 'One profile, a <span class="accent-serif grad-text">submission-ready</span> package',
+                lead: 'Fill in your details and documents once. UniScout assembles a clean, professional application summary as a polished PDF — tailored per university and ready to hand in.',
+                short: 'A professional application PDF per university.',
+                points: [
+                    { i: 'fa-solid fa-file-lines', h: 'Professional PDF', p: 'A branded, admissions-ready dossier — academic profile, achievements and documents.' },
+                    { i: 'fa-solid fa-copy', h: 'Tailored per university', p: 'Generate a separate, addressed version for each university you apply to.' },
+                    { i: 'fa-solid fa-list-check', h: 'Document checklist', p: 'See exactly which documents you\'ve attached and what\'s still needed.' }
+                ],
+                steps: [
+                    { h: 'Complete your profile', p: 'Add your information, grades, achievements and documents.' },
+                    { h: 'Pick your universities', p: 'Choose where you\'re applying and the programmes you want.' },
+                    { h: 'Download your package', p: 'Get a tailored, submission-ready PDF for each university.' }
+                ]
+            },
+            deadlines: {
+                name: 'Deadline tracker', grad: 'g-pink', ico: 'fa-solid fa-bell',
+                tag: 'Deadline tracker',
+                title: 'Never miss an <span class="accent-serif grad-text">important date</span>',
+                lead: 'Keep every application deadline, open day and scholarship date in one calendar. UniScout reminds you ahead of time, so nothing slips through the cracks.',
+                short: 'Every key date in one place, with reminders.',
+                points: [
+                    { i: 'fa-solid fa-calendar-check', h: 'One unified calendar', p: 'Application, scholarship and open-day dates for your saved universities together.' },
+                    { i: 'fa-solid fa-bell', h: 'Timely reminders', p: 'Get nudged before deadlines so you always have time to prepare.' },
+                    { i: 'fa-solid fa-plus', h: 'Add your own', p: 'Track personal reminders alongside the dates we pull in for you.' }
+                ],
+                steps: [
+                    { h: 'Save universities', p: 'Their key dates flow straight into your tracker.' },
+                    { h: 'Add custom reminders', p: 'Drop in anything else you need to remember.' },
+                    { h: 'Stay ahead', p: 'Get reminded in good time and submit with room to spare.' }
+                ]
+            }
+        };
+        var ORDER = ['matcher', 'explore', 'compare', 'apply', 'deadlines'];
+
+        var id = new URLSearchParams(location.search).get('id');
+        if (!FEATURES[id]) id = 'matcher';
+        var f = FEATURES[id];
+
+        document.title = 'UniScout — ' + f.name;
+        var ico = document.getElementById('dpIco');
+        ico.className = 'dp__hero__ico ' + f.grad;
+        ico.innerHTML = '<i class="' + f.ico + '"></i>';
+        document.getElementById('dpTag').textContent = f.tag;
+        document.getElementById('dpTitle').innerHTML = f.title;
+        document.getElementById('dpLead').textContent = f.lead;
+
+        document.getElementById('dpPoints').innerHTML = f.points.map(function (p, i) {
+            return '<div class="dp__point reveal" data-d="' + ((i % 3) + 1) + '"><i class="' + p.i + '"></i><h3>' + p.h + '</h3><p>' + p.p + '</p></div>';
+        }).join('');
+
+        document.getElementById('dpSteps').innerHTML = f.steps.map(function (s, i) {
+            return '<div class="dp__step"><b>' + (i + 1) + '</b><div><h3>' + s.h + '</h3><p>' + s.p + '</p></div></div>';
+        }).join('');
+
+        document.getElementById('dpMore').innerHTML = ORDER.filter(function (x) { return x !== id; }).map(function (x, i) {
+            var o = FEATURES[x];
+            return '<a class="fcard reveal" data-d="' + ((i % 3) + 1) + '" href="feature.html?id=' + x + '">' +
+                '<div class="fcard__ico ' + o.grad + '"><i class="' + o.ico + '"></i></div>' +
+                '<h3>' + o.name + '</h3><p>' + o.short + '</p>' +
+                '<span class="fcard__more">Learn more <i class="fa-solid fa-arrow-right"></i></span></a>';
+        }).join('');
+    })();
+    </script>
+    <script src="welcome.js"></script>
+</body>
+</html>

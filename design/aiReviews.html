@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UniScout AI — Real Student & Resident Opinions</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+    /* ── Claude-inspired warm palette ── */
+    :root {
+        --bg:#faf9f5; --sidebar:#f0eee6; --surface:#ffffff; --surface-2:#f5f4ef;
+        --border:#e7e4da; --border-strong:#dcd9cd;
+        --text:#2b2a27; --text-2:#56544e; --text-3:#928f85;
+        --accent:#d97757; --accent-hover:#c8694a; --accent-soft:rgba(217,119,87,.12);
+        --user-bubble:#eceadf;
+        --serif:"Source Serif 4", Georgia, "Times New Roman", serif;
+        --sans:"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        --sb-w:280px;
+    }
+    [data-theme="dark"] {
+        --bg:#262624; --sidebar:#1f1e1d; --surface:#30302e; --surface-2:#2a2a28;
+        --border:#3a3936; --border-strong:#46443f;
+        --text:#f3f1ea; --text-2:#c6c3ba; --text-3:#8f8c82;
+        --accent:#e08a6b; --accent-hover:#e89c80; --accent-soft:rgba(224,138,107,.16);
+        --user-bubble:#393833;
+    }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    html, body { height:100%; }
+    body {
+        font-family:var(--sans); background:var(--bg); color:var(--text);
+        -webkit-font-smoothing:antialiased; overflow:hidden;
+    }
+
+    .app { display:flex; height:100vh; width:100%; }
+
+    /* ── Sidebar ── */
+    .sidebar {
+        width:var(--sb-w); flex-shrink:0; background:var(--sidebar);
+        border-right:1px solid var(--border); display:flex; flex-direction:column;
+        transition:margin-left .26s ease;
+    }
+    .sidebar__top { padding:16px 14px 10px; }
+    .sidebar__logo { display:flex; align-items:center; gap:9px; text-decoration:none; color:var(--text); font-weight:700; font-size:15px; padding:4px 6px 14px; }
+    .sidebar__logo img { width:26px; height:26px; }
+    .sidebar__logo .ar__pill { font-family:var(--sans); font-size:9.5px; font-weight:700; color:var(--accent); background:var(--accent-soft); padding:3px 8px; border-radius:999px; letter-spacing:.3px; }
+    .sidebar__new {
+        width:100%; display:flex; align-items:center; gap:10px; cursor:pointer;
+        font-family:var(--sans); font-size:13.5px; font-weight:600; color:var(--text);
+        background:var(--surface); border:1px solid var(--border-strong); border-radius:11px;
+        padding:11px 13px; transition:.15s;
+    }
+    .sidebar__new:hover { border-color:var(--accent); color:var(--accent); }
+    .sidebar__new i { color:var(--accent); font-size:13px; }
+
+    .sidebar__lbl { font-size:10.5px; font-weight:700; color:var(--text-3); text-transform:uppercase; letter-spacing:.6px; padding:14px 16px 6px; }
+    .sidebar__list { flex:1; overflow-y:auto; padding:0 8px 10px; }
+    .convo {
+        display:flex; align-items:center; gap:9px; padding:9px 10px; border-radius:9px;
+        cursor:pointer; color:var(--text-2); font-size:13px; transition:.13s; position:relative;
+    }
+    .convo:hover { background:var(--surface); color:var(--text); }
+    .convo.active { background:var(--surface); color:var(--text); }
+    .convo__title { flex:1; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .convo__del { opacity:0; border:none; background:transparent; color:var(--text-3); cursor:pointer; font-size:12px; padding:3px; border-radius:6px; transition:.13s; flex-shrink:0; }
+    .convo:hover .convo__del { opacity:1; }
+    .convo__del:hover { color:#c0392b; background:var(--surface-2); }
+    .sidebar__empty { font-size:12px; color:var(--text-3); padding:10px 16px; line-height:1.6; }
+
+    .sidebar__foot { border-top:1px solid var(--border); padding:10px; display:flex; gap:8px; }
+    .sidebar__foot a, .sidebar__foot button {
+        flex:1; display:inline-flex; align-items:center; justify-content:center; gap:7px;
+        font-family:var(--sans); font-size:12px; font-weight:600; color:var(--text-2);
+        text-decoration:none; background:transparent; border:1px solid var(--border); border-radius:9px;
+        padding:9px; cursor:pointer; transition:.15s;
+    }
+    .sidebar__foot a:hover, .sidebar__foot button:hover { color:var(--accent); border-color:var(--accent); }
+
+    /* ── Main ── */
+    .main { flex:1; display:flex; flex-direction:column; min-width:0; position:relative; }
+    .topbar {
+        display:flex; align-items:center; gap:12px; padding:12px 18px;
+        border-bottom:1px solid transparent; background:var(--bg);
+    }
+    .topbar__menu { display:none; }
+    .topbar__title { font-family:var(--serif); font-size:16px; font-weight:600; color:var(--text); flex:1; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .icon-btn {
+        width:36px; height:36px; border-radius:9px; border:1px solid var(--border);
+        background:var(--surface); color:var(--text-2); cursor:pointer;
+        display:flex; align-items:center; justify-content:center; font-size:14px; transition:.15s; flex-shrink:0;
+    }
+    .icon-btn:hover { color:var(--accent); border-color:var(--accent); }
+
+    .chat { flex:1; overflow-y:auto; }
+    .thread { max-width:760px; margin:0 auto; padding:26px 24px 40px; display:flex; flex-direction:column; gap:26px; }
+
+    /* Welcome / empty state */
+    .welcome { text-align:center; padding:9vh 0 10px; }
+    .welcome__icon {
+        width:60px; height:60px; border-radius:17px; margin:0 auto 22px;
+        background:linear-gradient(135deg, var(--accent), #e6a07f);
+        display:flex; align-items:center; justify-content:center; color:#fff; font-size:25px;
+        box-shadow:0 10px 26px -8px rgba(217,119,87,.55);
+    }
+    .welcome h1 { font-family:var(--serif); font-size:32px; font-weight:600; letter-spacing:-.4px; margin-bottom:12px; }
+    .welcome p { font-family:var(--serif); font-size:17px; color:var(--text-2); max-width:520px; margin:0 auto 30px; line-height:1.7; }
+    .chips { display:flex; flex-wrap:wrap; gap:10px; justify-content:center; max-width:640px; margin:0 auto; }
+    .chip {
+        text-align:left; cursor:pointer; font-family:var(--sans);
+        background:var(--surface); border:1px solid var(--border); border-radius:12px;
+        padding:12px 15px; font-size:12.5px; color:var(--text-2); font-weight:500;
+        display:flex; align-items:center; gap:10px; transition:.15s; max-width:300px;
+    }
+    .chip:hover { border-color:var(--accent); color:var(--text); transform:translateY(-1px); }
+    .chip i { color:var(--accent); font-size:13px; flex-shrink:0; }
+
+    /* Messages */
+    .msg { display:flex; gap:14px; animation:rise .28s ease both; }
+    @keyframes rise { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:none; } }
+    .msg__av {
+        width:30px; height:30px; border-radius:8px; flex-shrink:0; margin-top:2px;
+        display:flex; align-items:center; justify-content:center; font-size:13px; color:#fff;
+    }
+    .msg--ai .msg__av { background:linear-gradient(135deg, var(--accent), #e6a07f); }
+    .msg__av--logo { background:transparent !important; }
+    .msg__av--logo img { width:100%; height:100%; object-fit:contain; border-radius:8px; }
+    .msg--user .msg__av { background:var(--surface-2); color:var(--text-2); border:1px solid var(--border); }
+    .msg__main { flex:1; min-width:0; }
+    .msg__role { font-size:11.5px; font-weight:700; color:var(--text-3); margin-bottom:5px; letter-spacing:.2px; }
+
+    /* AI prose in serif — the "Claude" reading feel */
+    .msg--ai .msg__body { font-family:var(--serif); font-size:16px; line-height:1.75; color:var(--text); }
+    .msg--ai .msg__body p { margin:11px 0; }
+    .msg--ai .msg__body p:first-child { margin-top:0; }
+    .msg--ai .msg__body p:last-child { margin-bottom:0; }
+    .msg--ai .msg__body h3 { font-size:17px; font-weight:600; margin:16px 0 7px; }
+    .msg--ai .msg__body ul { margin:9px 0; padding-left:22px; }
+    .msg--ai .msg__body li { margin:5px 0; }
+    .msg--ai .msg__body strong { font-weight:700; }
+
+    /* User message — soft bubble, sans */
+    .msg--user .msg__body { font-size:14.5px; line-height:1.6; color:var(--text); background:var(--user-bubble); border-radius:14px; padding:11px 15px; display:inline-block; max-width:100%; white-space:pre-wrap; }
+    .msg__actions { margin-top:6px; display:flex; gap:6px; }
+    .msg__act { opacity:0; border:none; background:transparent; color:var(--text-3); cursor:pointer; font-size:11.5px; font-weight:600; display:inline-flex; align-items:center; gap:5px; padding:4px 7px; border-radius:7px; transition:.13s; }
+    .msg:hover .msg__act { opacity:1; }
+    .msg__act:hover { color:var(--accent); background:var(--accent-soft); }
+
+    /* Inline editor */
+    .editor { width:100%; }
+    .editor textarea {
+        width:100%; font-family:var(--sans); font-size:14.5px; line-height:1.6; color:var(--text);
+        background:var(--surface); border:1.5px solid var(--accent); border-radius:13px; padding:12px 14px;
+        resize:none; outline:none; min-height:46px;
+    }
+    .editor__row { display:flex; justify-content:flex-end; gap:8px; margin-top:9px; }
+    .btn { font-family:var(--sans); font-size:12.5px; font-weight:600; border-radius:9px; padding:8px 15px; cursor:pointer; border:1px solid var(--border-strong); background:var(--surface); color:var(--text-2); transition:.14s; }
+    .btn:hover { border-color:var(--text-3); }
+    .btn--primary { background:var(--accent); border-color:var(--accent); color:#fff; }
+    .btn--primary:hover { background:var(--accent-hover); border-color:var(--accent-hover); }
+
+    /* Typing */
+    .typing { display:flex; gap:5px; padding:6px 0; }
+    .typing span { width:7px; height:7px; border-radius:50%; background:var(--accent); opacity:.4; animation:blink 1.2s infinite; }
+    .typing span:nth-child(2){ animation-delay:.2s; } .typing span:nth-child(3){ animation-delay:.4s; }
+    @keyframes blink { 0%,60%,100%{ opacity:.3; transform:translateY(0);} 30%{ opacity:1; transform:translateY(-3px);} }
+
+    .warn { font-family:var(--sans); font-size:13.5px; color:#9a5b2c; background:rgba(217,119,87,.1); border:1px solid rgba(217,119,87,.28); padding:11px 14px; border-radius:12px; line-height:1.6; }
+    [data-theme="dark"] .warn { color:#e0a888; }
+
+    /* Composer */
+    .composer { padding:10px 24px 18px; background:linear-gradient(to top, var(--bg) 70%, transparent); }
+    .composer__inner { max-width:760px; margin:0 auto; }
+    .quota { font-size:11.5px; font-weight:600; color:var(--text-2); display:flex; align-items:center; gap:7px; margin:0 4px 8px; }
+    .quota i { color:var(--accent); }
+    .quota--out { color:#9a5b2c; } .quota--out a { color:var(--accent); font-weight:700; }
+    .quota--elite { color:#b8860b; } .quota--elite i { color:#e0a02a; }
+    .box {
+        display:flex; align-items:flex-end; gap:9px; background:var(--surface);
+        border:1.5px solid var(--border-strong); border-radius:20px; padding:9px 9px 9px 18px;
+        transition:border-color .15s, box-shadow .15s; box-shadow:0 2px 16px -10px rgba(0,0,0,.3);
+    }
+    .box:focus-within { border-color:var(--accent); box-shadow:0 0 0 3px var(--accent-soft); }
+    .input { flex:1; border:none; outline:none; background:transparent; resize:none; font-family:var(--sans); font-size:15px; color:var(--text); line-height:1.5; max-height:170px; padding:8px 0; }
+    .input::placeholder { color:var(--text-3); }
+    .send { width:38px; height:38px; border-radius:13px; border:none; flex-shrink:0; cursor:pointer; background:var(--accent); color:#fff; font-size:15px; display:flex; align-items:center; justify-content:center; transition:.15s; }
+    .send:disabled { opacity:.4; cursor:not-allowed; }
+    .send:not(:disabled):hover { background:var(--accent-hover); }
+    .disclaimer { max-width:760px; margin:9px auto 0; font-size:10.5px; color:var(--text-3); text-align:center; }
+
+    /* Upgrade card */
+    .upgrade { background:var(--accent-soft); border:1px solid rgba(217,119,87,.3); border-radius:14px; padding:16px 18px; font-family:var(--sans); }
+    .upgrade h3 { font-size:15px; font-weight:700; margin:0 0 6px; display:flex; align-items:center; gap:8px; }
+    .upgrade h3 i { color:#e0a02a; }
+    .upgrade p { font-size:13px; color:var(--text-2); line-height:1.6; margin:0 0 13px; }
+    .upgrade__btn { display:inline-flex; align-items:center; gap:8px; text-decoration:none; background:var(--accent); color:#fff; font-size:12.5px; font-weight:700; padding:11px 18px; border-radius:11px; }
+
+    .overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,.4); z-index:30; }
+
+    @media (max-width:860px) {
+        .sidebar { position:fixed; z-index:40; top:0; bottom:0; left:0; margin-left:calc(-1 * var(--sb-w)); box-shadow:0 0 40px rgba(0,0,0,.2); }
+        .sidebar.open { margin-left:0; }
+        .overlay.show { display:block; }
+        .topbar__menu { display:flex; }
+        .welcome h1 { font-size:26px; }
+        .thread { padding:20px 16px 36px; }
+        .composer { padding:8px 14px 14px; }
+    }
+</style>
+</head>
+<body>
+
+<div class="app">
+    <!-- ── Sidebar: saved conversations ── -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar__top">
+            <a href="mainPage.html" class="sidebar__logo">
+                <img src="logo2.png" alt="UniScout">
+                <span>UniScout</span>
+                <span class="ar__pill">AI</span>
+            </a>
+            <button class="sidebar__new" id="newChatBtn"><i class="fa-solid fa-plus"></i> New chat</button>
+        </div>
+        <div class="sidebar__lbl">Conversations</div>
+        <div class="sidebar__list" id="convoList"></div>
+        <div class="sidebar__foot">
+            <a href="mainPage.html"><i class="fa-solid fa-arrow-left"></i> App</a>
+            <button id="themeBtn"><i class="fa-solid fa-moon"></i> Theme</button>
+        </div>
+    </aside>
+
+    <main class="main">
+        <div class="overlay" id="sideOverlay"></div>
+        <div class="topbar">
+            <button class="icon-btn topbar__menu" id="menuBtn"><i class="fa-solid fa-bars"></i></button>
+            <div class="topbar__title" id="chatTitle">New chat</div>
+            <button class="icon-btn" id="newChatBtn2" title="New chat"><i class="fa-solid fa-pen-to-square"></i></button>
+        </div>
+
+        <div class="chat" id="chat">
+            <div class="thread" id="thread"></div>
+        </div>
+
+        <div class="composer">
+            <div class="composer__inner">
+                <div class="quota" id="quota"></div>
+                <div class="box">
+                    <textarea class="input" id="input" rows="1" placeholder="Ask about any university or city…"></textarea>
+                    <button class="send" id="send" title="Send"><i class="fa-solid fa-arrow-up"></i></button>
+                </div>
+                <div class="disclaimer">Honest opinions summarised from real students &amp; residents — always double-check the important stuff.</div>
+            </div>
+        </div>
+    </main>
+</div>
+
+<script>
+(function () {
+    var THEME_LS = 'us_theme';
+
+    var thread   = document.getElementById('thread');
+    var chat     = document.getElementById('chat');
+    var input    = document.getElementById('input');
+    var sendBtn  = document.getElementById('send');
+    var sidebar  = document.getElementById('sidebar');
+    var convoList= document.getElementById('convoList');
+    var chatTitle= document.getElementById('chatTitle');
+
+    /* ── User, Elite status & free-tier prompt limit ── */
+    var FREE_LIMIT = 3;
+    var session = null;
+    try { session = JSON.parse(localStorage.getItem('uniscout_session') || sessionStorage.getItem('uniscout_session') || 'null'); } catch (e) {}
+    var USER_ID = (session && session.id) ? session.id : 'guest';
+    var PROMPTS_LS = 'us_ai_prompts_' + USER_ID;
+    var CONVOS_LS  = 'us_ai_convos_' + USER_ID;
+    var isElite = false;
+
+    var PAY_API_BASE = (function () {
+        if (location.protocol === 'file:') return 'http://localhost:4242';
+        var isLocal = /^(localhost|127\.0\.0\.1)$/.test(location.hostname);
+        if (isLocal && location.port !== '4242') return 'http://localhost:4242';
+        return location.origin;
+    }());
+
+    function promptsUsed() { return parseInt(localStorage.getItem(PROMPTS_LS) || '0', 10) || 0; }
+    function bumpPrompts() { localStorage.setItem(PROMPTS_LS, String(promptsUsed() + 1)); updateQuotaUI(); }
+    function promptsLeft() { return isElite ? Infinity : Math.max(0, FREE_LIMIT - promptsUsed()); }
+    function limitReached() { return !isElite && promptsUsed() >= FREE_LIMIT; }
+
+    function updateQuotaUI() {
+        var el = document.getElementById('quota');
+        if (!el) return;
+        if (isElite) {
+            el.className = 'quota quota--elite';
+            el.innerHTML = '<i class="fa-solid fa-crown"></i> Elite — unlimited questions';
+        } else {
+            var left = promptsLeft();
+            el.className = 'quota' + (left === 0 ? ' quota--out' : '');
+            el.innerHTML = left > 0
+                ? '<i class="fa-solid fa-bolt"></i> ' + left + ' of ' + FREE_LIMIT + ' free questions left'
+                : '<i class="fa-solid fa-lock"></i> Free limit reached — <a href="mainPage.html">Unlock Elite</a> for unlimited questions';
+        }
+        var locked = limitReached();
+        if (sendBtn) sendBtn.disabled = locked || busy;
+        if (input) {
+            input.disabled = locked;
+            input.placeholder = locked ? 'Free limit reached — unlock Elite for unlimited questions'
+                                       : 'Ask about any university or city…';
+        }
+    }
+    function refreshElite() {
+        if (USER_ID === 'guest') { updateQuotaUI(); return; }
+        fetch(PAY_API_BASE + '/api/subscription/status?userId=' + encodeURIComponent(USER_ID) +
+            '&email=' + encodeURIComponent((session && session.email) || '') +
+            '&username=' + encodeURIComponent((session && session.username) || ''))
+            .then(function (r) { return r.text(); })
+            .then(function (t) { try { var d = JSON.parse(t); isElite = !!d.elite; } catch (e) {} updateQuotaUI(); })
+            .catch(function () { updateQuotaUI(); });
+    }
+
+    /* ── Theme ── */
+    function applyTheme(dark) {
+        document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+        var i = document.querySelector('#themeBtn i');
+        if (i) i.className = dark ? 'fa-solid fa-sun' : 'fa-solid fa-moon';
+        localStorage.setItem(THEME_LS, dark ? 'dark' : 'light');
+    }
+    applyTheme(localStorage.getItem(THEME_LS) === 'dark');
+    document.getElementById('themeBtn').addEventListener('click', function () {
+        applyTheme(document.documentElement.getAttribute('data-theme') !== 'dark');
+    });
+
+    /* ── Conversation store (persisted in localStorage, like the big AIs) ── */
+    var convos = [];
+    var currentId = null;
+    var busy = false;
+
+    function loadConvos() { try { convos = JSON.parse(localStorage.getItem(CONVOS_LS) || '[]') || []; } catch (e) { convos = []; } }
+    function saveConvos() { try { localStorage.setItem(CONVOS_LS, JSON.stringify(convos)); } catch (e) {} }
+    function uid() { return 'c' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6); }
+    function current() { return convos.find(function (c) { return c.id === currentId; }) || null; }
+
+    function newConversation() {
+        currentId = null;                 // unsaved until first message
+        renderSidebar();
+        renderThread();
+        chatTitle.textContent = 'New chat';
+        closeSidebarMobile();
+        input.focus();
+    }
+    function ensureConversation(firstText) {
+        if (current()) return current();
+        var c = { id: uid(), title: titleFrom(firstText), messages: [], updatedAt: Date.now() };
+        convos.unshift(c);
+        currentId = c.id;
+        return c;
+    }
+    function titleFrom(t) { t = (t || 'New chat').replace(/\s+/g, ' ').trim(); return t.length > 42 ? t.slice(0, 42) + '…' : t; }
+    function selectConversation(id) { currentId = id; renderSidebar(); renderThread(); var c = current(); chatTitle.textContent = c ? c.title : 'New chat'; closeSidebarMobile(); }
+    function deleteConversation(id, ev) {
+        ev.stopPropagation();
+        convos = convos.filter(function (c) { return c.id !== id; });
+        if (currentId === id) currentId = null;
+        saveConvos(); renderSidebar();
+        if (!current()) { renderThread(); chatTitle.textContent = 'New chat'; }
+    }
+
+    function renderSidebar() {
+        if (!convos.length) { convoList.innerHTML = '<div class="sidebar__empty">No conversations yet. Ask something and it\'ll be saved here.</div>'; return; }
+        convoList.innerHTML = convos.map(function (c) {
+            return '<div class="convo' + (c.id === currentId ? ' active' : '') + '" data-id="' + c.id + '">' +
+                   '<i class="fa-regular fa-message" style="font-size:11px;color:var(--text-3)"></i>' +
+                   '<span class="convo__title">' + esc(c.title) + '</span>' +
+                   '<button class="convo__del" data-del="' + c.id + '" title="Delete"><i class="fa-solid fa-trash"></i></button>' +
+                   '</div>';
+        }).join('');
+    }
+    convoList.addEventListener('click', function (e) {
+        var del = e.target.closest('[data-del]');
+        if (del) { deleteConversation(del.getAttribute('data-del'), e); return; }
+        var row = e.target.closest('.convo');
+        if (row) selectConversation(row.getAttribute('data-id'));
+    });
+
+    /* ── Markdown (minimal) ── */
+    function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+    function inline(s) { return esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\*(.+?)\*/g, '<em>$1</em>'); }
+    function mdToHtml(md) {
+        var lines = String(md).split('\n'), html = '', inList = false;
+        function closeList() { if (inList) { html += '</ul>'; inList = false; } }
+        lines.forEach(function (raw) {
+            var line = raw.trim();
+            if (!line) { closeList(); return; }
+            if (/^###?\s+/.test(line)) { closeList(); html += '<h3>' + inline(line.replace(/^###?\s+/, '')) + '</h3>'; return; }
+            if (/^[-*•]\s+/.test(line)) { if (!inList) { html += '<ul>'; inList = true; } html += '<li>' + inline(line.replace(/^[-*•]\s+/, '')) + '</li>'; return; }
+            closeList();
+            html += '<p>' + inline(line) + '</p>';
+        });
+        closeList();
+        return html;
+    }
+
+    /* ── Render the active conversation ── */
+    function renderThread() {
+        var c = current();
+        if (!c || !c.messages.length) { renderWelcome(); return; }
+        thread.innerHTML = '';
+        c.messages.forEach(function (m, i) { thread.appendChild(messageEl(m, i)); });
+        scrollDown(true);
+    }
+    function renderWelcome() {
+        thread.innerHTML =
+          '<div class="welcome">' +
+            '<div class="welcome__icon"><i class="fa-solid fa-comments"></i></div>' +
+            '<h1>What do real people say?</h1>' +
+            '<p>Ask about anything related to universities and cities and get real people opinion.</p>' +
+            '<div class="chips">' +
+              chip('fa-graduation-cap', 'What do students really think about Oxford?') +
+              chip('fa-city', 'Is Barcelona a good city to live in as a student?') +
+              chip('fa-people-group', 'What\'s student life like at TU München?') +
+              chip('fa-coins', 'Is Amsterdam expensive for international students?') +
+            '</div>' +
+          '</div>';
+    }
+    function chip(icon, q) { return '<button class="chip" data-q="' + esc(q) + '"><i class="fa-solid ' + icon + '"></i> ' + esc(q) + '</button>'; }
+
+    thread.addEventListener('click', function (e) {
+        var ch = e.target.closest('.chip');
+        if (ch) { input.value = ch.getAttribute('data-q'); send(); return; }
+        var ed = e.target.closest('[data-edit]');
+        if (ed) { startEdit(parseInt(ed.getAttribute('data-edit'), 10)); }
+    });
+
+    function messageEl(m, idx) {
+        var el = document.createElement('div');
+        el.className = 'msg msg--' + (m.role === 'user' ? 'user' : 'ai');
+        if (m.role === 'user') {
+            el.innerHTML =
+              '<div class="msg__av"><i class="fa-solid fa-user"></i></div>' +
+              '<div class="msg__main">' +
+                '<div class="msg__role">You</div>' +
+                '<div class="msg__body">' + esc(m.content) + '</div>' +
+                '<div class="msg__actions"><button class="msg__act" data-edit="' + idx + '"><i class="fa-solid fa-pen"></i> Edit</button></div>' +
+              '</div>';
+        } else {
+            var inner = m.pending
+                ? '<div class="typing"><span></span><span></span><span></span></div>'
+                : (m.warn ? '<div class="warn">' + esc(m.content) + '</div>'
+                          : (m.upgrade ? upgradeHTML() : mdToHtml(m.content)));
+            el.innerHTML =
+              '<div class="msg__av msg__av--logo"><img src="logo2.png" alt="AI"></div>' +
+              '<div class="msg__main"><div class="msg__role">UniScout AI</div><div class="msg__body">' + inner + '</div></div>';
+        }
+        return el;
+    }
+    function upgradeHTML() {
+        return '<div class="upgrade">' +
+            '<h3><i class="fa-solid fa-crown"></i> You\'ve used all ' + FREE_LIMIT + ' free questions</h3>' +
+            '<p>The free plan includes ' + FREE_LIMIT + ' AI questions. Upgrade to <strong>Elite</strong> for unlimited questions plus every country and all premium features.</p>' +
+            '<a class="upgrade__btn" href="mainPage.html"><i class="fa-solid fa-crown"></i> Unlock Elite — €15/yr</a></div>';
+    }
+
+    function scrollDown(instant) { chat.scrollTo({ top: chat.scrollHeight, behavior: instant ? 'auto' : 'smooth' }); }
+
+    /* ── Edit a sent prompt → truncate the rest & re-ask ── */
+    function startEdit(idx) {
+        if (busy) return;
+        var c = current(); if (!c) return;
+        var msgEl = thread.children[idx];
+        var body = msgEl && msgEl.querySelector('.msg__body');
+        var actions = msgEl && msgEl.querySelector('.msg__actions');
+        if (!body) return;
+        var original = c.messages[idx].content;
+        body.innerHTML = '<div class="editor"><textarea>' + esc(original) + '</textarea>' +
+            '<div class="editor__row"><button class="btn" data-cancel>Cancel</button>' +
+            '<button class="btn btn--primary" data-save>Save &amp; submit</button></div></div>';
+        if (actions) actions.style.display = 'none';
+        var ta = body.querySelector('textarea');
+        ta.style.height = 'auto'; ta.style.height = ta.scrollHeight + 'px'; ta.focus();
+        ta.setSelectionRange(ta.value.length, ta.value.length);
+        ta.addEventListener('input', function () { this.style.height = 'auto'; this.style.height = this.scrollHeight + 'px'; });
+        body.querySelector('[data-cancel]').addEventListener('click', function () { renderThread(); });
+        body.querySelector('[data-save]').addEventListener('click', function () {
+            var text = ta.value.trim();
+            if (!text) return;
+            c.messages = c.messages.slice(0, idx);   // drop this prompt and everything after
+            saveConvos();
+            runTurn(text);
+        });
+    }
+
+    /* ── Heuristic: does the question name a place? ── */
+    function mentionsPlace(text) {
+        var t = ' ' + text + ' ';
+        if (/\b(university|universit|college|uni|campus|polytechnic|institute|city|town|capital|study in|live in|studying in|living in)\b/i.test(t)) return true;
+        var words = text.trim().split(/\s+/);
+        for (var i = 0; i < words.length; i++) {
+            var w = words[i].replace(/[^A-Za-zÀ-ÿ]/g, '');
+            if (w.length >= 3 && /^[A-ZÀ-Þ]/.test(w)) {
+                if (i > 0) return true;
+                if (words.length === 1) return true;
+            }
+        }
+        return false;
+    }
+
+    /* ── Send / run one turn ── */
+    function send() {
+        var text = input.value.trim();
+        if (!text || busy) return;
+        input.value = ''; input.style.height = 'auto';
+        runTurn(text);
+    }
+
+    function runTurn(text) {
+        if (limitReached()) {
+            var cc = ensureConversation(text);
+            cc.messages.push({ role: 'user', content: text });
+            cc.messages.push({ role: 'ai', content: '', upgrade: true });
+            cc.updatedAt = Date.now(); saveConvos();
+            currentId = cc.id; renderSidebar(); renderThread(); chatTitle.textContent = cc.title;
+            return;
+        }
+        if (!mentionsPlace(text)) {
+            var cw = ensureConversation(text);
+            cw.messages.push({ role: 'user', content: text });
+            cw.messages.push({ role: 'ai', content: 'Mention a specific university or city and I\'ll dig up what people actually say — e.g. “What\'s Harvard like?” or “Is Lisbon good for students?”', warn: true });
+            cw.updatedAt = Date.now(); saveConvos();
+            currentId = cw.id; renderSidebar(); renderThread(); chatTitle.textContent = cw.title;
+            return;
+        }
+
+        var c = ensureConversation(text);
+        c.messages.push({ role: 'user', content: text });
+        var aiMsg = { role: 'ai', content: '', pending: true };
+        c.messages.push(aiMsg);
+        c.updatedAt = Date.now();
+        currentId = c.id;
+        if (!isElite) bumpPrompts();
+        saveConvos(); renderSidebar(); renderThread(); chatTitle.textContent = c.title;
+
+        busy = true; sendBtn.disabled = true;
+        fetch(PAY_API_BASE + '/api/ai/ask', {
+            method: 'POST', headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ query: text })
+        })
+        .then(function (r) { return r.json().then(function (j) { return { status: r.status, body: j }; }); })
+        .then(function (res) {
+            var data = res.body || {};
+            if (res.status !== 200 || data.error) {
+                var m = data.message || 'Something went wrong reaching the opinion database.';
+                if (data.error === 'not_configured') m = 'The opinion database isn\'t set up yet. Please try again shortly.';
+                aiMsg.warn = true; aiMsg.content = m;
+            } else {
+                aiMsg.content = (data.answer || '').trim() ||
+                    'I couldn\'t find enough real opinions to answer that confidently. Try naming the university or city more specifically.';
+            }
+            delete aiMsg.pending;
+            finishTurn();
+        })
+        .catch(function (err) {
+            aiMsg.warn = true; aiMsg.content = 'Could not reach UniScout AI. Make sure the server is running. (' + String(err) + ')';
+            delete aiMsg.pending; finishTurn();
+        });
+    }
+    function finishTurn() {
+        busy = false; sendBtn.disabled = false;
+        var c = current(); if (c) c.updatedAt = Date.now();
+        saveConvos(); updateQuotaUI(); renderThread();
+    }
+
+    /* ── Composer behaviour ── */
+    input.addEventListener('input', function () { this.style.height = 'auto'; this.style.height = Math.min(this.scrollHeight, 170) + 'px'; });
+    input.addEventListener('keydown', function (e) { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); send(); } });
+    sendBtn.addEventListener('click', send);
+    document.getElementById('newChatBtn').addEventListener('click', newConversation);
+    document.getElementById('newChatBtn2').addEventListener('click', newConversation);
+
+    /* ── Mobile sidebar ── */
+    function closeSidebarMobile() { sidebar.classList.remove('open'); document.getElementById('sideOverlay').classList.remove('show'); }
+    document.getElementById('menuBtn').addEventListener('click', function () { sidebar.classList.add('open'); document.getElementById('sideOverlay').classList.add('show'); });
+    document.getElementById('sideOverlay').addEventListener('click', closeSidebarMobile);
+
+    /* ── Boot ── */
+    loadConvos();
+    renderSidebar();
+    if (convos.length) { currentId = convos[0].id; chatTitle.textContent = convos[0].title; }
+    renderThread();
+    refreshElite();
+    updateQuotaUI();
+}());
+</script>
+</body>
+</html>

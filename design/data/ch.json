@@ -1,0 +1,2076 @@
+{
+  "meta": {
+    "country": "Switzerland",
+    "name": "Switzerland",
+    "flag": "ch",
+    "code": "ch",
+    "currency": "CHF (Fr.)",
+    "currencySymbol": "Fr.",
+    "uniCount": 71,
+    "cityCount": 7,
+    "language": "German / French / Italian",
+    "description": "Switzerland has a small but world-class higher education system. ETH Zurich and EPFL consistently rank among the world's top 15 universities. Swiss universities charge modest tuition but living costs are the highest in Europe."
+  },
+  "tips": [
+    "ETH Zurich and EPFL are among the world's top 15 universities and charge only CHF 730/semester.",
+    "Admission to ETH/EPFL bachelor's programs is open to Swiss students but very competitive for foreigners.",
+    "Living costs in Switzerland are very high — budget CHF 2,000–3,000/month in Zurich or Geneva.",
+    "Cantonal universities teach in their region's language: German in Zurich/Bern/Basel, French in Geneva/Lausanne/Neuchâtel, Italian in Lugano.",
+    "Universities of Applied Sciences (Fachhochschulen/HES) focus on practical, industry-oriented education.",
+    "Switzerland is not in the EU but participates in some Erasmus+ programs."
+  ],
+  "universities": [
+    {
+      "id": "eth-zurich",
+      "name": "ETH Zurich – Swiss Federal Institute of Technology",
+      "abbr": "ETH Zürich",
+      "color": "#1a5276",
+      "city": "Zurich",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 5,
+      "dl": "December 15",
+      "fields": [
+        "engineering",
+        "cs",
+        "physics",
+        "architecture",
+        "mathematics",
+        "natural sciences"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1855,
+      "students": 22000,
+      "desc": "Consistently ranked #1 in continental Europe. 22 Nobel laureates including Albert Einstein. World leader in engineering, computer science, and natural sciences.",
+      "website": ""
+    },
+    {
+      "id": "epfl",
+      "name": "EPFL – École Polytechnique Fédérale de Lausanne",
+      "abbr": "EPFL",
+      "color": "#e63946",
+      "city": "Lausanne",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 5,
+      "dl": "December 15",
+      "fields": [
+        "engineering",
+        "cs",
+        "physics",
+        "life sciences",
+        "mathematics",
+        "architecture"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1969,
+      "students": 13000,
+      "desc": "Switzerland's technology powerhouse on Lake Geneva. Consistently top 15 globally. Known for innovation ecosystem, robotics, and energy research. Very international (60% foreign students).",
+      "website": ""
+    },
+    {
+      "id": "uzh",
+      "name": "University of Zurich",
+      "abbr": "UZH",
+      "color": "#003366",
+      "city": "Zurich",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 4,
+      "dl": "April 30",
+      "fields": [
+        "medicine",
+        "law",
+        "humanities",
+        "sciences",
+        "economics",
+        "theology"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1833,
+      "students": 28000,
+      "desc": "Switzerland's largest university and a top-100 institution globally. Strong in medicine, natural sciences, and humanities. Albert Einstein received his doctorate here.",
+      "website": ""
+    },
+    {
+      "id": "unige",
+      "name": "University of Geneva",
+      "abbr": "UNIGE",
+      "color": "#8b0000",
+      "city": "Geneva",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 4,
+      "dl": "April 30",
+      "fields": [
+        "international relations",
+        "medicine",
+        "sciences",
+        "law",
+        "humanities",
+        "theology"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1559,
+      "students": 17000,
+      "desc": "Founded by John Calvin in 1559. Located in the global diplomatic capital. Exceptional in international relations, human rights law, and medicine. Proximity to UN and CERN.",
+      "website": ""
+    },
+    {
+      "id": "unil",
+      "name": "University of Lausanne",
+      "abbr": "UNIL",
+      "color": "#006400",
+      "city": "Lausanne",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 3,
+      "dl": "April 30",
+      "fields": [
+        "medicine",
+        "law",
+        "humanities",
+        "sciences",
+        "business",
+        "social sciences"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1537,
+      "students": 15000,
+      "desc": "A comprehensive research university on the shores of Lake Geneva. Beautiful campus; strong in geosciences, criminology, and social sciences. Close collaboration with EPFL.",
+      "website": ""
+    },
+    {
+      "id": "unibas",
+      "name": "University of Basel",
+      "abbr": "UNIBAS",
+      "color": "#8b4513",
+      "city": "Basel",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 4,
+      "dl": "April 30",
+      "fields": [
+        "medicine",
+        "sciences",
+        "humanities",
+        "law",
+        "psychology",
+        "pharmacy"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1460,
+      "students": 13000,
+      "desc": "Switzerland's oldest university, founded in 1460. Erasmus taught here. World-class in biomedicine and pharmaceutical sciences. Located in a city renowned for art fairs and biotech industry.",
+      "website": ""
+    },
+    {
+      "id": "unibe",
+      "name": "University of Bern",
+      "abbr": "UNIBE",
+      "color": "#003366",
+      "city": "Bern",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 3,
+      "dl": "April 30",
+      "fields": [
+        "medicine",
+        "law",
+        "humanities",
+        "sciences",
+        "theology",
+        "economics"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1834,
+      "students": 19000,
+      "desc": "Located in Switzerland's federal capital. Einstein was a patent clerk here when developing special relativity. Strong in space research, medicine, and political science.",
+      "website": ""
+    },
+    {
+      "id": "unifr",
+      "name": "University of Fribourg",
+      "abbr": "UNIFR",
+      "color": "#003087",
+      "city": "Fribourg",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 3,
+      "dl": "April 30",
+      "fields": [
+        "humanities",
+        "law",
+        "sciences",
+        "theology",
+        "economics",
+        "informatics"
+      ],
+      "langs": [
+        "German",
+        "French"
+      ],
+      "founded": 1889,
+      "students": 10000,
+      "desc": "Switzerland's only officially bilingual university (German and French). Located on the linguistic border. Catholic heritage; strong in theology, canon law, and humanities.",
+      "website": ""
+    },
+    {
+      "id": "unine",
+      "name": "University of Neuchâtel",
+      "abbr": "UNINE",
+      "color": "#1a5276",
+      "city": "Neuchâtel",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 3,
+      "dl": "April 30",
+      "fields": [
+        "sciences",
+        "humanities",
+        "law",
+        "economics",
+        "linguistics"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1838,
+      "students": 4500,
+      "desc": "A small, high-quality Francophone university. Strong in watchmaking and microtechnology research, mirroring the Jura region's industry. Excellent French language programs for foreigners.",
+      "website": ""
+    },
+    {
+      "id": "usi",
+      "name": "Università della Svizzera italiana",
+      "abbr": "USI",
+      "color": "#e63946",
+      "city": "Lugano",
+      "type": "public",
+      "tuition": 2,
+      "ts": 2,
+      "diff": 3,
+      "dl": "April 30",
+      "fields": [
+        "architecture",
+        "economics",
+        "communication",
+        "informatics",
+        "biomedical sciences"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1996,
+      "students": 4000,
+      "desc": "Switzerland's Italian-language university, located in the sunniest Swiss city. Modern and international. Strong in architecture, communication sciences, and finance. Gateway to Italian-speaking world.",
+      "website": ""
+    },
+    {
+      "id": "unisg",
+      "name": "University of St. Gallen",
+      "abbr": "HSG",
+      "color": "#8b0000",
+      "city": "St. Gallen",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 5,
+      "dl": "January 31",
+      "fields": [
+        "business",
+        "economics",
+        "law",
+        "international affairs",
+        "finance"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1898,
+      "students": 9500,
+      "desc": "Europe's top business school. Ranked #1 in Europe for business repeatedly. The World Economic Forum in Davos is practically an HSG alumni reunion. Highly competitive admission.",
+      "website": "https://www.unisg.ch/"
+    },
+    {
+      "id": "zhaw",
+      "name": "Zurich University of Applied Sciences",
+      "abbr": "ZHAW",
+      "color": "#006400",
+      "city": "Winterthur",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 3,
+      "dl": "April 30",
+      "fields": [
+        "engineering",
+        "health",
+        "management",
+        "social work",
+        "linguistics",
+        "cs"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1874,
+      "students": 14000,
+      "desc": "Switzerland's largest university of applied sciences. Industry-focused with excellent connections to Swiss and German companies. Strong in engineering, life sciences, and business.",
+      "website": "https://www.zhaw.ch"
+    },
+    {
+      "id": "fhnw",
+      "name": "University of Applied Sciences Northwestern Switzerland",
+      "abbr": "FHNW",
+      "color": "#003366",
+      "city": "Basel",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 3,
+      "dl": "April 30",
+      "fields": [
+        "engineering",
+        "architecture",
+        "design",
+        "business",
+        "social work",
+        "music"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 2006,
+      "students": 13000,
+      "desc": "A large applied sciences university across the Basel/Aarau area. Strong in design, music education, and biomedical engineering. Connected to Basel's thriving pharma and arts sectors.",
+      "website": "https://www.fhnw.ch/"
+    },
+    {
+      "id": "bfh",
+      "name": "Bern University of Applied Sciences",
+      "abbr": "BFH",
+      "color": "#8b4513",
+      "city": "Bern",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 3,
+      "dl": "April 30",
+      "fields": [
+        "engineering",
+        "architecture",
+        "business",
+        "health",
+        "social work",
+        "arts"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1997,
+      "students": 10000,
+      "desc": "The applied sciences university of the Swiss capital region. Strong in sustainable energy, digital innovation, and health sciences. Excellent industry connections.",
+      "website": "https://www.bfh.ch"
+    },
+    {
+      "id": "hes-so",
+      "name": "HES-SO – University of Applied Sciences and Arts Western Switzerland",
+      "abbr": "HES-SO",
+      "color": "#003087",
+      "city": "Geneva",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 3,
+      "dl": "April 30",
+      "fields": [
+        "engineering",
+        "business",
+        "arts",
+        "design",
+        "health",
+        "social work"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1997,
+      "students": 21000,
+      "desc": "Western Switzerland's network university across 28 campuses. The largest applied sciences institution in the country. Francophone with internationally-minded programs.",
+      "website": ""
+    },
+    {
+      "id": "supsi",
+      "name": "University of Applied Sciences and Arts of Southern Switzerland",
+      "abbr": "SUPSI",
+      "color": "#1a5276",
+      "city": "Lugano",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 3,
+      "dl": "April 30",
+      "fields": [
+        "engineering",
+        "business",
+        "design",
+        "social work",
+        "health",
+        "arts"
+      ],
+      "langs": [
+        "Italian",
+        "English"
+      ],
+      "founded": 1997,
+      "students": 4000,
+      "desc": "Ticino's university of applied sciences, teaching in Italian. Strong in design, engineering, and social work. Hub for cross-border collaboration with Italian universities and industry.",
+      "website": ""
+    },
+    {
+      "id": "ost",
+      "name": "OST – Eastern Switzerland University of Applied Sciences",
+      "abbr": "OST",
+      "color": "#006400",
+      "city": "St. Gallen",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 2,
+      "dl": "April 30",
+      "fields": [
+        "engineering",
+        "cs",
+        "business",
+        "architecture",
+        "nursing"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 2020,
+      "students": 5500,
+      "desc": "Formed from the merger of HSR and FHO. Serves eastern Switzerland's textile, engineering, and tourism industries. Strong focus on innovation and sustainability.",
+      "website": ""
+    },
+    {
+      "id": "hslu",
+      "name": "Lucerne University of Applied Sciences and Arts",
+      "abbr": "HSLU",
+      "color": "#8b0000",
+      "city": "Lucerne",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 3,
+      "dl": "April 30",
+      "fields": [
+        "engineering",
+        "business",
+        "design",
+        "social work",
+        "music",
+        "arts"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1997,
+      "students": 7000,
+      "desc": "The applied sciences university of central Switzerland. Renowned for its Music Academy and Film School. Strong design programs in a beautiful lakeside setting.",
+      "website": ""
+    },
+    {
+      "id": "hkb",
+      "name": "Bern University of the Arts",
+      "abbr": "HKB",
+      "color": "#4a235a",
+      "city": "Bern",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 4,
+      "dl": "March 31",
+      "fields": [
+        "arts",
+        "music",
+        "design",
+        "theatre",
+        "conservation"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 2004,
+      "students": 2000,
+      "desc": "Switzerland's leading arts university. Strong in conservation and restoration (watches, paintings, textiles). Selective admission with portfolio requirement.",
+      "website": ""
+    },
+    {
+      "id": "zhdkz",
+      "name": "Zurich University of the Arts",
+      "abbr": "ZHdK",
+      "color": "#003087",
+      "city": "Zurich",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 4,
+      "dl": "March 31",
+      "fields": [
+        "arts",
+        "design",
+        "music",
+        "film",
+        "theatre"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 2007,
+      "students": 3000,
+      "desc": "Switzerland's largest art and design university. On the cutting edge of digital arts and media design. Situated on a purpose-built campus in Zurich's Toni-Areal.",
+      "website": ""
+    },
+    {
+      "id": "iheid",
+      "name": "Graduate Institute of International and Development Studies",
+      "abbr": "IHEID",
+      "color": "#8b4513",
+      "city": "Geneva",
+      "type": "public",
+      "tuition": 3,
+      "ts": 3,
+      "diff": 5,
+      "dl": "January 15",
+      "fields": [
+        "international relations",
+        "development studies",
+        "economics",
+        "history",
+        "political science"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1927,
+      "students": 1600,
+      "desc": "Graduate-only institution in the UN district of Geneva. Arguably the world's premier school for international affairs. Alumni run the UN, WTO, and major NGOs.",
+      "website": ""
+    },
+    {
+      "id": "imd",
+      "name": "IMD Business School",
+      "abbr": "IMD",
+      "color": "#003366",
+      "city": "Lausanne",
+      "type": "private",
+      "tuition": 5,
+      "ts": 5,
+      "diff": 5,
+      "dl": "January 31",
+      "fields": [
+        "business",
+        "management",
+        "leadership",
+        "strategy"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1990,
+      "students": 700,
+      "desc": "Consistently ranked #1 globally for executive education. MBA program ranked among world's best. Small, executive-focused school drawing top global executives to Lake Geneva.",
+      "website": ""
+    },
+    {
+      "id": "psi",
+      "name": "Paul Scherrer Institute",
+      "abbr": "PSI",
+      "color": "#228b22",
+      "city": "Villigen",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 5,
+      "dl": "December 15",
+      "fields": [
+        "physics",
+        "engineering",
+        "materials science",
+        "energy",
+        "life sciences"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1988,
+      "students": 2000,
+      "desc": "Switzerland's largest research center. Houses Europe's most intense proton accelerator. Affiliated with ETH domain. Doctoral education in particle physics and materials science.",
+      "website": ""
+    },
+    {
+      "id": "ebs",
+      "name": "Swiss Federal Institute for Forest, Snow and Landscape Research",
+      "abbr": "WSL",
+      "color": "#006400",
+      "city": "Birmensdorf",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 4,
+      "dl": "December 15",
+      "fields": [
+        "ecology",
+        "forest science",
+        "landscape",
+        "natural hazards",
+        "biodiversity"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1885,
+      "students": 500,
+      "desc": "ETH domain research institute specializing in forest and landscape ecology. Trains doctoral students in environmental sciences with focus on Alpine ecosystems.",
+      "website": ""
+    },
+    {
+      "id": "heig-vd",
+      "name": "School of Engineering and Management Vaud",
+      "abbr": "HEIG-VD",
+      "color": "#8b0000",
+      "city": "Yverdon-les-Bains",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 2,
+      "dl": "April 30",
+      "fields": [
+        "engineering",
+        "cs",
+        "business",
+        "design",
+        "energy"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1853,
+      "students": 2200,
+      "desc": "Part of HES-SO, known for engineering and innovation. Located in the Smart City of Yverdon. Strong industry partnerships in French-speaking Switzerland.",
+      "website": ""
+    },
+    {
+      "id": "hesge",
+      "name": "Geneva School of Business Administration",
+      "abbr": "HEG-GE",
+      "color": "#1a5276",
+      "city": "Geneva",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 3,
+      "dl": "April 30",
+      "fields": [
+        "business",
+        "information management",
+        "economics",
+        "international trade"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1968,
+      "students": 2500,
+      "desc": "Geneva's applied business school, part of HES-SO. Trains future managers in international trade and business administration. Strong connections to Geneva's financial sector.",
+      "website": ""
+    },
+    {
+      "id": "ehl",
+      "name": "Ecole hôtelière de Lausanne",
+      "abbr": "EHL",
+      "color": "#c0392b",
+      "city": "Lausanne",
+      "type": "private",
+      "tuition": 5,
+      "ts": 5,
+      "diff": 4,
+      "dl": "April 30",
+      "fields": [
+        "hospitality",
+        "business",
+        "management",
+        "culinary arts"
+      ],
+      "langs": [
+        "English",
+        "French"
+      ],
+      "founded": 1893,
+      "students": 3000,
+      "desc": "The world's #1 ranked hospitality management school. Founded in Lausanne in 1893; alumni manage the world's finest hotels and restaurants. Extremely high tuition but unmatched prestige.",
+      "website": ""
+    },
+    {
+      "id": "les-roches",
+      "name": "Les Roches Global Hospitality Education",
+      "abbr": "Les Roches",
+      "color": "#003087",
+      "city": "Bluche",
+      "type": "private",
+      "tuition": 5,
+      "ts": 5,
+      "diff": 4,
+      "dl": "April 30",
+      "fields": [
+        "hospitality",
+        "management",
+        "business",
+        "events"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1954,
+      "students": 1200,
+      "desc": "Top hospitality management school in the Swiss Alps. Experiential learning with hotel-style campus. Ranked among the world's best for hospitality management.",
+      "website": ""
+    },
+    {
+      "id": "cern-school",
+      "name": "CERN – European Organization for Nuclear Research",
+      "abbr": "CERN",
+      "color": "#003366",
+      "city": "Geneva",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 5,
+      "dl": "January 31",
+      "fields": [
+        "physics",
+        "engineering",
+        "cs",
+        "mathematics",
+        "accelerator science"
+      ],
+      "langs": [
+        "English",
+        "French"
+      ],
+      "founded": 1954,
+      "students": 2500,
+      "desc": "The world's largest particle physics laboratory and doctoral training center. Home of the Large Hadron Collider and the birthplace of the World Wide Web. Doctoral and internship programs.",
+      "website": ""
+    },
+    {
+      "id": "sgu",
+      "name": "Swiss Graduate University",
+      "abbr": "SGU",
+      "color": "#006400",
+      "city": "Zurich",
+      "type": "private",
+      "tuition": 4,
+      "ts": 4,
+      "diff": 3,
+      "dl": "June 30",
+      "fields": [
+        "business",
+        "management",
+        "cs",
+        "international relations"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 2004,
+      "students": 1500,
+      "desc": "A private university offering international programs primarily in English. Focuses on business and management education for a global student body.",
+      "website": ""
+    },
+    {
+      "id": "hwr-chur",
+      "name": "University of Applied Sciences of the Grisons",
+      "abbr": "FHGraubünden",
+      "color": "#8b4513",
+      "city": "Chur",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 2,
+      "dl": "April 30",
+      "fields": [
+        "architecture",
+        "civil engineering",
+        "business",
+        "digital technology",
+        "tourism"
+      ],
+      "langs": [
+        "German",
+        "Romansh"
+      ],
+      "founded": 1963,
+      "students": 2000,
+      "desc": "Located in Switzerland's largest canton. Unique in offering programs in Romansh. Strong in Alpine tourism management and mountain engineering.",
+      "website": "https://www.htwchur.ch/"
+    },
+    {
+      "id": "phzh",
+      "name": "University of Teacher Education Zurich",
+      "abbr": "PH Zürich",
+      "color": "#003087",
+      "city": "Zurich",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 3,
+      "dl": "April 30",
+      "fields": [
+        "education",
+        "pedagogy",
+        "special education",
+        "arts education"
+      ],
+      "langs": [
+        "German"
+      ],
+      "founded": 2002,
+      "students": 4000,
+      "desc": "Zurich's teacher education university. Trains primary, secondary, and special education teachers for Switzerland's excellent public school system.",
+      "website": ""
+    },
+    {
+      "id": "phbern",
+      "name": "University of Teacher Education Bern",
+      "abbr": "PHBern",
+      "color": "#228b22",
+      "city": "Bern",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 3,
+      "dl": "April 30",
+      "fields": [
+        "education",
+        "pedagogy",
+        "arts education",
+        "social sciences"
+      ],
+      "langs": [
+        "German"
+      ],
+      "founded": 2005,
+      "students": 4500,
+      "desc": "Bern's teacher training university. Strong integration with the Swiss federal administration for educational policy research.",
+      "website": ""
+    },
+    {
+      "id": "hafl",
+      "name": "Bern University of Applied Sciences — School of Agricultural, Forest and Food Sciences",
+      "abbr": "HAFL",
+      "color": "#006400",
+      "city": "Zollikofen",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 3,
+      "dl": "April 30",
+      "fields": [
+        "agriculture",
+        "forestry",
+        "food science",
+        "natural resources",
+        "international agriculture"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1890,
+      "students": 900,
+      "desc": "Switzerland's main school for agricultural and food sciences. Small and specialized; graduates lead Swiss and international food and agricultural organizations.",
+      "website": ""
+    },
+    {
+      "id": "swiss-tph",
+      "name": "Swiss Tropical and Public Health Institute",
+      "abbr": "Swiss TPH",
+      "color": "#8b0000",
+      "city": "Basel",
+      "type": "public",
+      "tuition": 2,
+      "ts": 2,
+      "diff": 4,
+      "dl": "March 31",
+      "fields": [
+        "public health",
+        "tropical medicine",
+        "epidemiology",
+        "health policy"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1943,
+      "students": 600,
+      "desc": "Leading institute for tropical medicine and global health. Associated with University of Basel. Trains health professionals for work in developing countries and global health organizations.",
+      "website": ""
+    },
+    {
+      "id": "sib",
+      "name": "SIB Swiss Institute of Bioinformatics",
+      "abbr": "SIB",
+      "color": "#1a5276",
+      "city": "Lausanne",
+      "type": "public",
+      "tuition": 1,
+      "ts": 1,
+      "diff": 5,
+      "dl": "December 15",
+      "fields": [
+        "bioinformatics",
+        "computational biology",
+        "genomics",
+        "data science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1998,
+      "students": 400,
+      "desc": "The world's leading bioinformatics institute, home to the UniProt and Swiss-Prot databases. Trains PhD students in computational biology and genomics.",
+      "website": ""
+    },
+    {
+      "id": "graduate-inst-bern",
+      "name": "Swisspeace – Swiss Peace Foundation",
+      "abbr": "Swisspeace",
+      "color": "#4a235a",
+      "city": "Bern",
+      "type": "public",
+      "tuition": 2,
+      "ts": 2,
+      "diff": 4,
+      "dl": "February 28",
+      "fields": [
+        "peace studies",
+        "conflict transformation",
+        "international law",
+        "governance"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1988,
+      "students": 200,
+      "desc": "A unique graduate institution for peace and conflict studies. Associated with the University of Basel. Offers Master's programs for future mediators and peacebuilders.",
+      "website": ""
+    },
+    {
+      "id": "saa",
+      "name": "Swiss Architecture Academy",
+      "abbr": "SAA",
+      "color": "#003087",
+      "city": "Zurich",
+      "type": "private",
+      "tuition": 4,
+      "ts": 4,
+      "diff": 3,
+      "dl": "May 31",
+      "fields": [
+        "architecture",
+        "urban design",
+        "interior design",
+        "heritage"
+      ],
+      "langs": [
+        "English",
+        "German"
+      ],
+      "founded": 2001,
+      "students": 500,
+      "desc": "A specialized private school for architecture and design. Small class sizes with internationally recognized programs and connections to Swiss architecture firms.",
+      "website": ""
+    },
+    {
+      "id": "gess",
+      "name": "Geneva Business School",
+      "abbr": "GBS",
+      "color": "#8b4513",
+      "city": "Geneva",
+      "type": "private",
+      "tuition": 4,
+      "ts": 4,
+      "diff": 3,
+      "dl": "Rolling",
+      "fields": [
+        "business",
+        "management",
+        "marketing",
+        "finance",
+        "international business"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1995,
+      "students": 1800,
+      "desc": "An international private business school in Geneva. Offers bachelor's, master's, and MBA programs fully in English. Very international student body from 80+ countries.",
+      "website": ""
+    },
+    {
+      "id": "shl",
+      "name": "Swiss Hotel Management School",
+      "abbr": "SHL",
+      "color": "#003366",
+      "city": "Lucerne",
+      "type": "private",
+      "tuition": 5,
+      "ts": 5,
+      "diff": 3,
+      "dl": "April 30",
+      "fields": [
+        "hospitality",
+        "management",
+        "culinary arts",
+        "events"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1983,
+      "students": 700,
+      "desc": "One of Switzerland's leading hospitality schools in the tourism hub of Lucerne. Combines practical hotel operation with academic management education.",
+      "website": ""
+    },
+    {
+      "id": "unibern",
+      "name": "University of Bern",
+      "abbr": "UniBern",
+      "color": "#CC0000",
+      "city": "Bern",
+      "type": "Public",
+      "tuition": "CHF 900/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Humanities",
+        "Business"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1834,
+      "students": "~20,000",
+      "desc": "Switzerland's capital university — strong in veterinary medicine, earth sciences, physics and law, in the UNESCO-listed arcade city of Bern.",
+      "website": ""
+    },
+    {
+      "id": "unilu",
+      "name": "University of Lucerne",
+      "abbr": "UniLu",
+      "color": "#003DA5",
+      "city": "Lucerne",
+      "type": "Public",
+      "tuition": "CHF 750/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Law",
+        "Theology",
+        "Humanities",
+        "Social Science",
+        "Health Science"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 2000,
+      "students": "~4,000",
+      "desc": "Switzerland's newest cantonal university overlooking Lake Lucerne — compact and specialised in law, theology, social work and health science in one of Europe's most beautiful cities.",
+      "website": ""
+    },
+    {
+      "id": "unige2",
+      "name": "University of Geneva",
+      "abbr": "UniGE",
+      "color": "#CC0000",
+      "city": "Geneva",
+      "type": "Public",
+      "tuition": "CHF 500/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Science",
+        "Humanities",
+        "International Relations"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1559,
+      "students": "~17,000",
+      "desc": "Calvin's university in the city of international organisations — world-class in international relations, human rights law and molecular biology, with a direct pipeline into the UN and WHO.",
+      "website": ""
+    },
+    {
+      "id": "hec-lausanne",
+      "name": "HEC Lausanne – University of Lausanne",
+      "abbr": "HEC-L",
+      "color": "#003366",
+      "city": "Lausanne",
+      "type": "Public",
+      "tuition": "CHF 580/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Business",
+        "Economics",
+        "Finance",
+        "CS"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1537,
+      "students": "~5,000",
+      "desc": "UNIL's elite business school on the shores of Lake Geneva — ranked among Europe's top business schools, with exceptionally strong connections to Swiss banking and finance.",
+      "website": ""
+    },
+    {
+      "id": "hsr",
+      "name": "Rapperswil University of Applied Sciences",
+      "abbr": "OST",
+      "color": "#CC0000",
+      "city": "Rapperswil",
+      "type": "Public",
+      "tuition": "CHF 700/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Business",
+        "Architecture"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1972,
+      "students": "~6,500",
+      "desc": "On the shores of Lake Zurich — a practical polytechnic known for software engineering, civil engineering and an unusually strong open-source software culture.",
+      "website": ""
+    },
+    {
+      "id": "hta",
+      "name": "Fribourg University of Applied Sciences",
+      "abbr": "HES-SO FR",
+      "color": "#003366",
+      "city": "Fribourg",
+      "type": "Public",
+      "tuition": "CHF 700/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Social Work",
+        "Health Sciences"
+      ],
+      "langs": [
+        "French",
+        "German",
+        "English"
+      ],
+      "founded": 2013,
+      "students": "~5,000",
+      "desc": "The bilingual Fribourg campus of Western Switzerland's applied sciences network — strong in industrial engineering, social work and nursing across French and German programmes.",
+      "website": ""
+    },
+    {
+      "id": "hft",
+      "name": "Swiss Hotel Management School",
+      "abbr": "SHMS",
+      "color": "#003087",
+      "city": "Lucerne",
+      "type": "Private",
+      "tuition": "CHF 30,000–45,000/yr",
+      "ts": 5,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Hospitality",
+        "Business",
+        "Tourism"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1990,
+      "students": "~1,200",
+      "desc": "The world's original hospitality management school — graduates run the Ritz, Four Seasons and the world's most prestigious hotels; set in a Swiss manor above Lake Lucerne.",
+      "website": "https://www.shms.com"
+    },
+    {
+      "id": "glion",
+      "name": "Glion Institute of Higher Education",
+      "abbr": "Glion",
+      "color": "#003366",
+      "city": "Lausanne",
+      "type": "Private",
+      "tuition": "CHF 35,000–50,000/yr",
+      "ts": 5,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Hospitality",
+        "Business",
+        "Tourism",
+        "Luxury Management"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1962,
+      "students": "~1,800",
+      "desc": "The world's #1 hospitality management school — set in a Swiss château above Montreux, training the future CEOs of the world's leading hotel groups.",
+      "website": "http://www.glion.edu/"
+    },
+    {
+      "id": "imi",
+      "name": "International Management Institute Switzerland",
+      "abbr": "IMI",
+      "color": "#003366",
+      "city": "Lucerne",
+      "type": "Private",
+      "tuition": "CHF 28,000–40,000/yr",
+      "ts": 5,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Hospitality",
+        "Business",
+        "Tourism"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1990,
+      "students": "~800",
+      "desc": "A small elite hospitality school with campuses in Lucerne and London — intensely practical management education for the global hotel and luxury brand industry.",
+      "website": ""
+    },
+    {
+      "id": "webster",
+      "name": "Webster University Geneva",
+      "abbr": "Webster",
+      "color": "#CC0000",
+      "city": "Geneva",
+      "type": "Private",
+      "tuition": "CHF 25,000–35,000/yr",
+      "ts": 4,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "International Relations",
+        "CS",
+        "Arts",
+        "Humanities"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1978,
+      "students": "~800",
+      "desc": "A US-accredited liberal arts university in Geneva — operating under the same charter as Webster University St. Louis, offering American bachelor's and master's degrees in the heart of international Geneva.",
+      "website": "http://www.webster.ch/"
+    },
+    {
+      "id": "piu",
+      "name": "Prism International University",
+      "abbr": "PIU",
+      "color": "#003087",
+      "city": "Geneva",
+      "type": "Private",
+      "tuition": "CHF 20,000–35,000/yr",
+      "ts": 4,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Law",
+        "International Relations"
+      ],
+      "langs": [
+        "English",
+        "French"
+      ],
+      "founded": 2005,
+      "students": "~600",
+      "desc": "Geneva's boutique private university for international business and law — small cohorts, direct access to UN and WTO professionals and a strong alumni network in multilateral diplomacy.",
+      "website": ""
+    },
+    {
+      "id": "swiss-finance",
+      "name": "Swiss Finance Institute",
+      "abbr": "SFI",
+      "color": "#003366",
+      "city": "Zurich",
+      "type": "Private",
+      "tuition": "CHF 20,000–40,000/yr",
+      "ts": 4,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Business",
+        "Finance"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 2006,
+      "students": "~500",
+      "desc": "The Swiss banking sector's own research and education institute — world-leading PhD and executive programmes in quantitative finance, risk management and fintech.",
+      "website": ""
+    },
+    {
+      "id": "hsg2",
+      "name": "Executive School of Management – University of St. Gallen",
+      "abbr": "ES-HSG",
+      "color": "#CC0000",
+      "city": "St. Gallen",
+      "type": "Public",
+      "tuition": "CHF 15,000–50,000/yr",
+      "ts": 4,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Business",
+        "Law",
+        "CS"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1963,
+      "students": "~1,500",
+      "desc": "HSG's executive MBA school — Europe's most prestigious executive management programme, ranked top 3 in the FT list, training Switzerland's C-suite leadership.",
+      "website": ""
+    },
+    {
+      "id": "acad-art",
+      "name": "HEAD – Geneva University of Art and Design",
+      "abbr": "HEAD",
+      "color": "#000000",
+      "city": "Geneva",
+      "type": "Public",
+      "tuition": "CHF 500/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Arts",
+        "Architecture",
+        "CS",
+        "Business"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1748,
+      "students": "~1,500",
+      "desc": "Geneva's leading fine arts and design school — exceptional in fashion design, graphic design and contemporary art in an institution that has shaped Geneva's cultural identity since the 18th century.",
+      "website": ""
+    },
+    {
+      "id": "ecal",
+      "name": "ECAL – University of Art and Design Lausanne",
+      "abbr": "ECAL",
+      "color": "#003366",
+      "city": "Lausanne",
+      "type": "Public",
+      "tuition": "CHF 500/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Arts",
+        "Architecture",
+        "Engineering",
+        "CS"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1821,
+      "students": "~700",
+      "desc": "Consistently ranked among the world's top 5 art and design schools — ECAL graduates design for Apple, Hermès, Porsche and the world's most innovative product companies.",
+      "website": ""
+    },
+    {
+      "id": "zurich-arts",
+      "name": "Zurich University of the Arts",
+      "abbr": "ZHdK",
+      "color": "#003087",
+      "city": "Zurich",
+      "type": "Public",
+      "tuition": "CHF 700/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Arts",
+        "Music",
+        "Architecture",
+        "Education",
+        "CS"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1878,
+      "students": "~2,800",
+      "desc": "Switzerland's largest arts university — world-class in contemporary music, design and art education, set in Zurich's creative Toni-Areal campus.",
+      "website": ""
+    },
+    {
+      "id": "bern-arts",
+      "name": "Bern University of the Arts",
+      "abbr": "HKB",
+      "color": "#8B1A1A",
+      "city": "Bern",
+      "type": "Public",
+      "tuition": "CHF 700/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Arts",
+        "Music",
+        "Architecture",
+        "Conservation"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1982,
+      "students": "~1,600",
+      "desc": "Bern's arts conservatory — uniquely strong in art conservation and restoration, music and design, embedded in Switzerland's cultural capital.",
+      "website": ""
+    },
+    {
+      "id": "hemu",
+      "name": "Haute École de Musique de Lausanne",
+      "abbr": "HEMU",
+      "color": "#003366",
+      "city": "Lausanne",
+      "type": "Public",
+      "tuition": "CHF 500/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Music",
+        "Arts",
+        "Education"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1861,
+      "students": "~750",
+      "desc": "Switzerland's leading music conservatory — producing concert soloists and orchestral musicians who perform in the world's finest concert halls.",
+      "website": ""
+    },
+    {
+      "id": "graduate-institute",
+      "name": "Graduate Institute Geneva",
+      "abbr": "IHEID",
+      "color": "#CC0000",
+      "city": "Geneva",
+      "type": "Public",
+      "tuition": "CHF 4,000/yr",
+      "ts": 1,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Law",
+        "Social Science",
+        "Humanities",
+        "International Relations",
+        "Business"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1927,
+      "students": "~1,200",
+      "desc": "The world's leading institution for international relations and development studies — located at the heart of the UN system, training future diplomats, WTO officials and UN agency leaders.",
+      "website": ""
+    },
+    {
+      "id": "iheid2",
+      "name": "Institut de Hautes Études Internationales",
+      "abbr": "IHEI",
+      "color": "#003366",
+      "city": "Geneva",
+      "type": "Public",
+      "tuition": "CHF 4,000/yr",
+      "ts": 1,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Law",
+        "International Relations",
+        "Social Science"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1927,
+      "students": "~800",
+      "desc": "The founding core of the Graduate Institute — Geneva's original school for international law, training the architects of the international legal order since 1927.",
+      "website": ""
+    },
+    {
+      "id": "usi2",
+      "name": "Franklin University Switzerland",
+      "abbr": "FUS",
+      "color": "#003087",
+      "city": "Lugano",
+      "type": "Private",
+      "tuition": "CHF 30,000–38,000/yr",
+      "ts": 5,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Humanities",
+        "Business",
+        "Social Science",
+        "Arts"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1969,
+      "students": "~500",
+      "desc": "A US-accredited liberal arts college in Swiss Ticino — small, international and known for its 'experiential' study trips around Europe as an academic requirement.",
+      "website": ""
+    },
+    {
+      "id": "st-gallen2",
+      "name": "Kalaidos University of Applied Sciences",
+      "abbr": "Kalaidos",
+      "color": "#003366",
+      "city": "Zurich",
+      "type": "Private",
+      "tuition": "CHF 8,000–20,000/yr",
+      "ts": 3,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Health Sciences",
+        "Education",
+        "CS",
+        "Law"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1998,
+      "students": "~6,000",
+      "desc": "Switzerland's largest private university of applied sciences — specialising in flexible distance-learning business and health science degrees for working professionals.",
+      "website": ""
+    },
+    {
+      "id": "essm",
+      "name": "Swiss UMEF University",
+      "abbr": "UMEF",
+      "color": "#CC0000",
+      "city": "Geneva",
+      "type": "Private",
+      "tuition": "CHF 15,000–30,000/yr",
+      "ts": 4,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "International Relations",
+        "CS",
+        "Finance"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1974,
+      "students": "~1,500",
+      "desc": "Geneva's multilingual management school — offering BBA and MBA programmes recognised by the Swiss accreditation body, with strong ties to Geneva's NGO and international business sectors.",
+      "website": ""
+    },
+    {
+      "id": "hbam",
+      "name": "Business and Hotel Management School",
+      "abbr": "BHMS",
+      "color": "#003087",
+      "city": "Lucerne",
+      "type": "Private",
+      "tuition": "CHF 20,000–32,000/yr",
+      "ts": 4,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Hospitality",
+        "Business",
+        "Tourism",
+        "Arts"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1928,
+      "students": "~1,000",
+      "desc": "One of Lucerne's heritage hospitality schools — offering Swiss-quality hotel management and culinary arts education since 1928.",
+      "website": ""
+    },
+    {
+      "id": "etu",
+      "name": "EU Business School Switzerland",
+      "abbr": "EU-CH",
+      "color": "#003366",
+      "city": "Geneva",
+      "type": "Private",
+      "tuition": "CHF 22,000–35,000/yr",
+      "ts": 4,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Hospitality",
+        "Sports Management",
+        "Finance"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1973,
+      "students": "~2,500",
+      "desc": "EU Business School's Swiss campus in Geneva — offering international BBA and MBA programmes alongside the group's campuses in Barcelona, Munich and online.",
+      "website": ""
+    },
+    {
+      "id": "cesar-ritz",
+      "name": "César Ritz Colleges Switzerland",
+      "abbr": "CRC",
+      "color": "#000000",
+      "city": "Brig",
+      "type": "Private",
+      "tuition": "CHF 28,000–40,000/yr",
+      "ts": 5,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Hospitality",
+        "Business",
+        "Tourism"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1982,
+      "students": "~600",
+      "desc": "Named after the legendary hotelier César Ritz — an alpine hospitality school in the Swiss Alps preparing graduates for careers in the world's most prestigious five-star hotels.",
+      "website": ""
+    },
+    {
+      "id": "alpha",
+      "name": "Alpha University College",
+      "abbr": "Alpha",
+      "color": "#003366",
+      "city": "Zurich",
+      "type": "Private",
+      "tuition": "CHF 12,000–20,000/yr",
+      "ts": 3,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "CS",
+        "Law",
+        "Engineering"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 2010,
+      "students": "~1,000",
+      "desc": "A small private university in central Zurich — offering Swiss-accredited business and CS degrees at more accessible fees than the major institutions.",
+      "website": "http://www.alphareg.net/"
+    },
+    {
+      "id": "kalaidos2",
+      "name": "PH Zürich",
+      "abbr": "PH Zürich",
+      "color": "#003DA5",
+      "city": "Zurich",
+      "type": "Public",
+      "tuition": "CHF 700/yr",
+      "ts": 1,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Education",
+        "Health Sciences",
+        "Social Work"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 2002,
+      "students": "~3,500",
+      "desc": "Zurich's cantonal teacher training university — Switzerland's largest, producing primary and secondary school teachers in both German and English-medium programmes.",
+      "website": "https://phzh.ch/"
+    },
+    {
+      "id": "ipfe",
+      "name": "Institute of Applied Psychology Zurich",
+      "abbr": "IAP",
+      "color": "#003366",
+      "city": "Zurich",
+      "type": "Private",
+      "tuition": "CHF 8,000–20,000/yr",
+      "ts": 3,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Health Sciences",
+        "Social Science",
+        "Business",
+        "Education"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 1923,
+      "students": "~700",
+      "desc": "Switzerland's oldest applied psychology institute — specialising in coaching, organisational psychology and personnel management, attached to the ZHAW.",
+      "website": ""
+    },
+    {
+      "id": "university-applied-neuchatel",
+      "name": "HE-Arc – University of Applied Sciences",
+      "abbr": "HE-Arc",
+      "color": "#003087",
+      "city": "Neuchâtel",
+      "type": "Public",
+      "tuition": "CHF 700/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Arts",
+        "CS",
+        "Conservation"
+      ],
+      "langs": [
+        "French",
+        "German",
+        "English"
+      ],
+      "founded": 1999,
+      "students": "~3,000",
+      "desc": "The watchmaking arc's applied sciences school — world-unique specialist programmes in horological engineering, micro-mechatronics and timepiece restoration.",
+      "website": ""
+    },
+    {
+      "id": "zurich-univ-applied2",
+      "name": "Hochschule für Soziale Arbeit FHNW",
+      "abbr": "FHNW-SA",
+      "color": "#003087",
+      "city": "Basel",
+      "type": "Public",
+      "tuition": "CHF 700/yr",
+      "ts": 1,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Social Work",
+        "Health Sciences",
+        "Education"
+      ],
+      "langs": [
+        "German",
+        "English"
+      ],
+      "founded": 2006,
+      "students": "~3,000",
+      "desc": "Northwestern Switzerland's social work faculty — one of Switzerland's most respected schools for social work, community development and elder care management.",
+      "website": ""
+    }
+  ],
+  "cities": {
+    "Zurich": {
+      "desc": "Switzerland's largest city and financial capital, home to ETH Zurich and UZH.",
+      "pop": 440000,
+      "costOfLiving": "very high",
+      "highlights": [
+        "ETH Zurich and UZH campuses",
+        "Global financial hub",
+        "Kunsthaus art museum",
+        "Altstadt old town",
+        "Lake Zurich promenade",
+        "Vibrant startup ecosystem"
+      ]
+    },
+    "Geneva": {
+      "desc": "Global diplomatic capital, home to the UN and CERN, and the University of Geneva.",
+      "pop": 200000,
+      "costOfLiving": "very high",
+      "highlights": [
+        "United Nations and 200+ international organizations",
+        "CERN particle physics lab",
+        "Jet d'Eau fountain",
+        "International Red Cross Museum",
+        "Cosmopolitan culture"
+      ]
+    },
+    "Lausanne": {
+      "desc": "Olympic capital on Lake Geneva, home to EPFL and UNIL.",
+      "pop": 140000,
+      "costOfLiving": "very high",
+      "highlights": [
+        "EPFL innovation campus",
+        "Olympic Museum",
+        "Stunning Lake Geneva views",
+        "IMD Business School",
+        "Vibrant student city",
+        "Vaud wine region nearby"
+      ]
+    },
+    "Bern": {
+      "desc": "Switzerland's federal capital with a stunning UNESCO medieval old town.",
+      "pop": 130000,
+      "costOfLiving": "high",
+      "highlights": [
+        "UNESCO World Heritage Altstadt",
+        "Switzerland's federal parliament",
+        "Einstein's house museum",
+        "Beautiful bear park",
+        "Moderate cost vs Zurich/Geneva"
+      ]
+    },
+    "Basel": {
+      "desc": "Switzerland's art and pharma capital at the French-German border.",
+      "pop": 175000,
+      "costOfLiving": "high",
+      "highlights": [
+        "Art Basel — world's most important art fair",
+        "Pharma giants Novartis and Roche HQ",
+        "University of Basel (oldest in CH)",
+        "Rhine river promenade",
+        "Three-country corner"
+      ]
+    },
+    "Lugano": {
+      "region": "Ticino",
+      "pop": "64,000",
+      "climate": "Mediterranean",
+      "cost": "CHF 1,700–2,300/mo",
+      "desc": "Lugano is Switzerland's Italian-speaking window — a sophisticated lakeside city in the Ticino canton with a Mediterranean feel, stunning alpine-lake scenery, and a growing international academic presence. USI (Università della Svizzera italiana) offers English-language programmes in a uniquely beautiful setting.",
+      "highlights": [
+        "Lago di Lugano — stunning Alpine lake surrounded by mountains",
+        "Monte San Salvatore — cable car and panoramic views",
+        "Parco Civico — lakeside park and botanical garden",
+        "Via Nassa — luxury shopping street in the pedestrian centre",
+        "Monte Brè — scenic hiking and mountain views"
+      ],
+      "studentLife": "USI and SUPSI attract an international student body. English is widely used. The city is small but cosmopolitan, with Italian culture mixed with Swiss efficiency.",
+      "transport": "Lake boats, city buses, and PostBus. Train to Zurich (2h), Milan (1h20). The A2 motorway connects to the rest of Switzerland.",
+      "nightlife": "Low-key lakeside bars and piazze. More aperitivo culture than club scene. Weekend trips to Milan for nightlife.",
+      "pros": [
+        "Mediterranean climate in Switzerland — unique",
+        "Italian culture with Swiss safety and infrastructure",
+        "English-taught programmes at USI",
+        "Stunning Alpine lake setting"
+      ],
+      "tags": [
+        "Lake",
+        "Mediterranean",
+        "Italian-speaking",
+        "Scenic"
+      ]
+    },
+    "Fribourg": {
+      "region": "Fribourg",
+      "pop": "40,000",
+      "climate": "Oceanic",
+      "cost": "CHF 1,500–2,000/mo",
+      "desc": "Fribourg is Switzerland's bilingual (French-German) university city perched dramatically above the Sarine river gorge. The University of Fribourg, Switzerland's only bilingual university, attracts students who want to study in both French and German. It's smaller, quieter, and cheaper than the big Swiss cities while offering the same quality of life.",
+      "highlights": [
+        "Old Town (Basse-Ville) — medieval lower town along the river gorge",
+        "Cathédrale Saint-Nicolas — Gothic cathedral dominating the skyline",
+        "Pont de Berne — medieval covered wooden bridge",
+        "Gutenberg Museum — history of printing",
+        "Funicular connecting lower and upper town"
+      ],
+      "studentLife": "University of Fribourg has 10,000+ students in a city of 40,000 — high student ratio. The only Swiss university offering full bilingual French-German degrees. Very international academic environment.",
+      "transport": "Very good Swiss Federal Railways connections: Bern (30min), Lausanne (50min), Zürich (1h30). City buses. Compact and walkable.",
+      "nightlife": "Student bars around the university, Café Belvédère for views, quieter than major Swiss cities but with a real student social scene.",
+      "pros": [
+        "Switzerland's only bilingual French-German university",
+        "Most affordable Swiss student city",
+        "Dramatic medieval Old Town UNESCO landscape",
+        "Strong academic reputation for law, theology, and humanities"
+      ],
+      "tags": [
+        "Bilingual",
+        "Medieval",
+        "Affordable",
+        "Peaceful"
+      ]
+    }
+  },
+  "cityCards": [
+    {
+      "city": "Zurich",
+      "img": "zurich.jpg",
+      "tags": [
+        "Tech",
+        "Finance",
+        "Culture"
+      ],
+      "uniCount": 8,
+      "avgTuition": "Fr. 730/semester"
+    },
+    {
+      "city": "Geneva",
+      "img": "geneva.jpg",
+      "tags": [
+        "Diplomacy",
+        "International",
+        "Research"
+      ],
+      "uniCount": 6,
+      "avgTuition": "Fr. 500/semester"
+    },
+    {
+      "city": "Lausanne",
+      "img": "lausanne.jpg",
+      "tags": [
+        "Tech",
+        "Olympic",
+        "Innovation"
+      ],
+      "uniCount": 5,
+      "avgTuition": "Fr. 580/semester"
+    },
+    {
+      "city": "Bern",
+      "img": "bern.jpg",
+      "tags": [
+        "Capital",
+        "History",
+        "Research"
+      ],
+      "uniCount": 4,
+      "avgTuition": "Fr. 850/semester"
+    },
+    {
+      "city": "Basel",
+      "img": "basel.jpg",
+      "tags": [
+        "Arts",
+        "Pharma",
+        "Culture"
+      ],
+      "uniCount": 4,
+      "avgTuition": "Fr. 860/semester"
+    }
+  ],
+  "featuredCities": [
+    "Zurich",
+    "Geneva",
+    "Lausanne"
+  ]
+}

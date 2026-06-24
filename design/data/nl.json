@@ -1,0 +1,1627 @@
+{
+  "meta": {
+    "name": "Netherlands",
+    "code": "nl",
+    "flag": "nl",
+    "capital": "Amsterdam",
+    "language": "Dutch / English",
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "aboutStudying": "The Netherlands is one of Europe's most popular study destinations, with over 2,100 English-taught programmes — the highest outside the UK. Fees are low for EU students (€2,314/yr statutory fee) and universities consistently rank in the world top 200. Dutch cities are safe, student-friendly and internationally connected.",
+    "uniCount": 50,
+    "cityCount": 6
+  },
+  "tips": [
+    {
+      "icon": "fa-solid fa-bicycle",
+      "color": "rgba(255,140,0,.1)",
+      "iconColor": "#e67e22",
+      "title": "Get a Bike Immediately",
+      "text": "The Netherlands is the most cycling-friendly country on earth. A second-hand bike costs €50–150 and is essential for student life. Public transport is excellent but expensive — an OV-chipkaart student subscription saves you 40% on trains."
+    },
+    {
+      "icon": "fa-solid fa-euro-sign",
+      "color": "rgba(39,174,96,.1)",
+      "iconColor": "#27ae60",
+      "title": "EU Tuition Fees",
+      "text": "EU/EEA students pay the same statutory fee as Dutch students — around €2,314/year. Non-EU students pay €6,000–20,000/year depending on the programme. DUO student finance (interest-free loans and grants) is available for EU students working part-time in the Netherlands."
+    },
+    {
+      "icon": "fa-solid fa-language",
+      "color": "rgba(52,152,219,.1)",
+      "iconColor": "#2980b9",
+      "title": "Everyone Speaks English",
+      "text": "The Dutch have the highest English proficiency of any non-native speaking country in the world. Over 2,100 full degree programmes are taught entirely in English. Learning some Dutch will earn you tremendous goodwill but is never strictly necessary."
+    }
+  ],
+  "universities": [
+    {
+      "id": "uva",
+      "name": "University of Amsterdam",
+      "abbr": "UvA",
+      "color": "#BC0031",
+      "city": "Amsterdam",
+      "type": "Public",
+      "tuition": "€2,314–16,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Humanities",
+        "Law",
+        "Business",
+        "Science",
+        "Medicine"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1632,
+      "students": "~37,000",
+      "desc": "The Netherlands' largest research university, ranked in the QS world top 60, with a vibrant campus in the heart of Amsterdam.",
+      "website": "https://www.uva.nl/"
+    },
+    {
+      "id": "vu",
+      "name": "Vrije Universiteit Amsterdam",
+      "abbr": "VU",
+      "color": "#005E88",
+      "city": "Amsterdam",
+      "type": "Public",
+      "tuition": "€2,314–14,500/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Business",
+        "Humanities",
+        "Science",
+        "Law"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1880,
+      "students": "~29,000",
+      "desc": "A broad research university known for its independent spirit, strong medical faculty and excellent Amsterdam campus.",
+      "website": "https://vu.nl/nl"
+    },
+    {
+      "id": "tud",
+      "name": "Delft University of Technology",
+      "abbr": "TU Delft",
+      "color": "#00A6D6",
+      "city": "Delft",
+      "type": "Public",
+      "tuition": "€2,314–18,000/yr",
+      "ts": 2,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Engineering",
+        "Architecture",
+        "CS",
+        "Science"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1842,
+      "students": "~27,000",
+      "desc": "Europe's top technical university for engineering and architecture — ranked #13 globally in QS Engineering.",
+      "website": "https://www.tudelft.nl/"
+    },
+    {
+      "id": "uu",
+      "name": "Utrecht University",
+      "abbr": "UU",
+      "color": "#FFCD00",
+      "city": "Utrecht",
+      "type": "Public",
+      "tuition": "€2,314–15,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Science",
+        "Law",
+        "Humanities",
+        "Business"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1636,
+      "students": "~38,000",
+      "desc": "The Netherlands' highest-ranked university overall (QS top 100), known for outstanding research and a beautiful historic campus.",
+      "website": "https://uu.nl"
+    },
+    {
+      "id": "eur",
+      "name": "Erasmus University Rotterdam",
+      "abbr": "EUR",
+      "color": "#035E8C",
+      "city": "Rotterdam",
+      "type": "Public",
+      "tuition": "€2,314–17,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Business",
+        "Law",
+        "Medicine",
+        "Humanities",
+        "Science"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1913,
+      "students": "~32,000",
+      "desc": "Home to the world-renowned Rotterdam School of Management, consistently ranked among Europe's top business schools.",
+      "website": ""
+    },
+    {
+      "id": "rug",
+      "name": "University of Groningen",
+      "abbr": "RUG",
+      "color": "#CC0000",
+      "city": "Groningen",
+      "type": "Public",
+      "tuition": "€2,314–14,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Science",
+        "Law",
+        "Business",
+        "Humanities"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1614,
+      "students": "~37,000",
+      "desc": "A top-100 global university in a vibrant, affordable student city — among the top destinations for international students in the Netherlands.",
+      "website": ""
+    },
+    {
+      "id": "lei",
+      "name": "Leiden University",
+      "abbr": "Leiden",
+      "color": "#003058",
+      "city": "Leiden",
+      "type": "Public",
+      "tuition": "€2,314–15,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Law",
+        "Humanities",
+        "Medicine",
+        "Science",
+        "Business"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1575,
+      "students": "~25,000",
+      "desc": "The oldest Dutch university, home to 16 Nobel Prize winners and a highly respected law faculty with centuries of tradition.",
+      "website": ""
+    },
+    {
+      "id": "tue",
+      "name": "Eindhoven University of Technology",
+      "abbr": "TU/e",
+      "color": "#FF6600",
+      "city": "Eindhoven",
+      "type": "Public",
+      "tuition": "€2,314–17,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science",
+        "Architecture"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1956,
+      "students": "~14,000",
+      "desc": "Consistently ranked among Europe's top technical universities, closely linked to Philips and the high-tech Brainport region.",
+      "website": ""
+    },
+    {
+      "id": "ru",
+      "name": "Radboud University",
+      "abbr": "RU",
+      "color": "#E3001E",
+      "city": "Nijmegen",
+      "type": "Public",
+      "tuition": "€2,314–13,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Science",
+        "Law",
+        "Humanities",
+        "CS"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1923,
+      "students": "~23,000",
+      "desc": "A broad research university in one of the Netherlands' oldest cities, with a particularly strong medical faculty and Green Campus.",
+      "website": ""
+    },
+    {
+      "id": "tum",
+      "name": "Maastricht University",
+      "abbr": "UM",
+      "color": "#003D8F",
+      "city": "Maastricht",
+      "type": "Public",
+      "tuition": "€2,314–15,500/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Law",
+        "Medicine",
+        "Science",
+        "Humanities"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1976,
+      "students": "~22,000",
+      "desc": "Europe's most international university by student population (55% international), known for problem-based learning and a cozy student city.",
+      "website": ""
+    },
+    {
+      "id": "tut",
+      "name": "Tilburg University",
+      "abbr": "TilburgU",
+      "color": "#E2620E",
+      "city": "Tilburg",
+      "type": "Public",
+      "tuition": "€2,314–13,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Law",
+        "Humanities",
+        "Science"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1927,
+      "students": "~20,000",
+      "desc": "A specialist social sciences university with one of the Netherlands' top economics and law programmes.",
+      "website": ""
+    },
+    {
+      "id": "wur",
+      "name": "Wageningen University",
+      "abbr": "WUR",
+      "color": "#4DB800",
+      "city": "Wageningen",
+      "type": "Public",
+      "tuition": "€2,314–14,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Engineering",
+        "Business"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1918,
+      "students": "~13,000",
+      "desc": "World #1 for agriculture and forestry sciences — a unique specialist university attracting students from 130+ countries.",
+      "website": ""
+    },
+    {
+      "id": "ens",
+      "name": "Erasmus MC – Medical Centre",
+      "abbr": "EMC",
+      "color": "#0067B1",
+      "city": "Rotterdam",
+      "type": "Public",
+      "tuition": "€2,314–10,000/yr",
+      "ts": 2,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Medicine",
+        "Science"
+      ],
+      "langs": [
+        "Dutch"
+      ],
+      "founded": 1966,
+      "students": "~4,000",
+      "desc": "The Netherlands' largest academic medical centre and Europe's leading university medical centre for research.",
+      "website": ""
+    },
+    {
+      "id": "uta",
+      "name": "University of Twente",
+      "abbr": "UT",
+      "color": "#009DC4",
+      "city": "Enschede",
+      "type": "Public",
+      "tuition": "€2,314–14,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Engineering",
+        "CS",
+        "Science",
+        "Business"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1961,
+      "students": "~12,000",
+      "desc": "An entrepreneurial technical university set on a beautiful green campus, known for start-up culture and engineering innovation.",
+      "website": ""
+    },
+    {
+      "id": "OU",
+      "name": "Open University Netherlands",
+      "abbr": "OU",
+      "color": "#00529B",
+      "city": "Heerlen",
+      "type": "Public",
+      "tuition": "€200–2,000/yr",
+      "ts": 1,
+      "diff": 1,
+      "dl": "Open",
+      "fields": [
+        "Business",
+        "Humanities",
+        "Law",
+        "CS",
+        "Science"
+      ],
+      "langs": [
+        "Dutch"
+      ],
+      "founded": 1984,
+      "students": "~20,000",
+      "desc": "Distance learning university offering flexible degree programmes — ideal for working professionals and mature students.",
+      "website": ""
+    },
+    {
+      "id": "han",
+      "name": "HAN University of Applied Sciences",
+      "abbr": "HAN",
+      "color": "#D40000",
+      "city": "Arnhem",
+      "type": "Public",
+      "tuition": "€2,314–9,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Humanities",
+        "CS"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1996,
+      "students": "~35,000",
+      "desc": "One of the Netherlands' largest applied sciences universities, offering practical programmes with strong industry connections.",
+      "website": ""
+    },
+    {
+      "id": "saxion",
+      "name": "Saxion University of Applied Sciences",
+      "abbr": "Saxion",
+      "color": "#F05A28",
+      "city": "Enschede",
+      "type": "Public",
+      "tuition": "€2,314–9,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Humanities",
+        "CS"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1875,
+      "students": "~28,000",
+      "desc": "A major applied sciences university with three campuses across eastern Netherlands, known for international student community.",
+      "website": "https://www.saxion.nl/"
+    },
+    {
+      "id": "hz",
+      "name": "HZ University of Applied Sciences",
+      "abbr": "HZ",
+      "color": "#005690",
+      "city": "Vlissingen",
+      "type": "Public",
+      "tuition": "€2,314–9,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "Science"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1986,
+      "students": "~5,000",
+      "desc": "A small coastal applied sciences university specialising in water, delta and harbour management programmes.",
+      "website": "https://hz.nl/en"
+    },
+    {
+      "id": "hhs",
+      "name": "The Hague University of Applied Sciences",
+      "abbr": "THUAS",
+      "color": "#004D7A",
+      "city": "The Hague",
+      "type": "Public",
+      "tuition": "€2,314–9,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Law",
+        "Humanities",
+        "CS"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1952,
+      "students": "~28,000",
+      "desc": "Located in the international city of peace and justice, with strong programmes in international law and public administration.",
+      "website": "http://www.dehaagsehogeschool.nl/"
+    },
+    {
+      "id": "inholland",
+      "name": "Inholland University of Applied Sciences",
+      "abbr": "Inholland",
+      "color": "#E2001A",
+      "city": "Amsterdam",
+      "type": "Public",
+      "tuition": "€2,314–9,000/yr",
+      "ts": 2,
+      "diff": 1,
+      "dl": "Open",
+      "fields": [
+        "Business",
+        "Humanities",
+        "Engineering",
+        "Arts"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 2002,
+      "students": "~28,000",
+      "desc": "A broad applied sciences university with campuses across the Netherlands, known for creative and applied programmes.",
+      "website": "https://www.inholland.nl/"
+    },
+    {
+      "id": "avans",
+      "name": "Avans University of Applied Sciences",
+      "abbr": "Avans",
+      "color": "#D63027",
+      "city": "Breda",
+      "type": "Public",
+      "tuition": "€2,314–9,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Engineering",
+        "Humanities",
+        "CS"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 2004,
+      "students": "~30,000",
+      "desc": "One of the largest applied sciences universities in the Netherlands with a strong focus on entrepreneurship and innovation.",
+      "website": "http://www.studyatavans.com/"
+    },
+    {
+      "id": "fontys",
+      "name": "Fontys University of Applied Sciences",
+      "abbr": "Fontys",
+      "color": "#E3008C",
+      "city": "Eindhoven",
+      "type": "Public",
+      "tuition": "€2,314–9,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Business",
+        "CS",
+        "Arts",
+        "Humanities"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1996,
+      "students": "~45,000",
+      "desc": "One of the Netherlands' largest applied sciences universities with a diverse range of programmes across multiple campuses.",
+      "website": ""
+    },
+    {
+      "id": "hku",
+      "name": "HKU University of the Arts Utrecht",
+      "abbr": "HKU",
+      "color": "#F7A800",
+      "city": "Utrecht",
+      "type": "Public",
+      "tuition": "€2,314–8,500/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Arts",
+        "Humanities",
+        "CS"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1987,
+      "students": "~4,000",
+      "desc": "The Netherlands' leading arts university with outstanding programmes in fine arts, design, music and digital media.",
+      "website": ""
+    },
+    {
+      "id": "rdam_univ",
+      "name": "Rotterdam University of Applied Sciences",
+      "abbr": "Hogeschool R",
+      "color": "#00A0E3",
+      "city": "Rotterdam",
+      "type": "Public",
+      "tuition": "€2,314–9,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Engineering",
+        "Humanities",
+        "CS"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1854,
+      "students": "~47,000",
+      "desc": "The largest applied sciences university in the Netherlands, with one of Europe's most diverse student populations.",
+      "website": ""
+    },
+    {
+      "id": "amst_univ",
+      "name": "Amsterdam University of Applied Sciences",
+      "abbr": "HvA",
+      "color": "#009EE3",
+      "city": "Amsterdam",
+      "type": "Public",
+      "tuition": "€2,314–9,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Engineering",
+        "Humanities",
+        "Arts",
+        "CS"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1993,
+      "students": "~52,000",
+      "desc": "The second-largest higher education institution in Amsterdam, offering practical programmes with a strong city focus.",
+      "website": ""
+    },
+    {
+      "id": "zuyd",
+      "name": "Zuyd University of Applied Sciences",
+      "abbr": "Zuyd",
+      "color": "#F08300",
+      "city": "Maastricht",
+      "type": "Public",
+      "tuition": "€2,314–9,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Humanities",
+        "Engineering",
+        "Arts"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1996,
+      "students": "~13,000",
+      "desc": "A cross-border university in southern Netherlands, with strong connections to Belgian and German universities and industries.",
+      "website": ""
+    },
+    {
+      "id": "hanze",
+      "name": "Hanze University of Applied Sciences Groningen",
+      "abbr": "Hanze",
+      "color": "#007BC7",
+      "city": "Groningen",
+      "type": "Public",
+      "tuition": "€2,314–9,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Engineering",
+        "Humanities",
+        "CS",
+        "Arts"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1798,
+      "students": "~31,000",
+      "desc": "The largest applied sciences university in northern Netherlands, with over 70 English-taught programmes.",
+      "website": ""
+    },
+    {
+      "id": "utr_appl",
+      "name": "Utrecht University of Applied Sciences",
+      "abbr": "HU",
+      "color": "#00AEEF",
+      "city": "Utrecht",
+      "type": "Public",
+      "tuition": "€2,314–9,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Engineering",
+        "Humanities",
+        "CS"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1995,
+      "students": "~37,000",
+      "desc": "One of the Netherlands' largest applied sciences universities, with a strong focus on social innovation.",
+      "website": ""
+    },
+    {
+      "id": "windesheim",
+      "name": "Windesheim University of Applied Sciences",
+      "abbr": "Windesheim",
+      "color": "#00853F",
+      "city": "Zwolle",
+      "type": "Public",
+      "tuition": "€2,314–9,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Humanities",
+        "Engineering",
+        "CS"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1987,
+      "students": "~25,000",
+      "desc": "A Christian-inspired broad applied sciences university in central Netherlands with internationally oriented programmes.",
+      "website": ""
+    },
+    {
+      "id": "nhl_stenden",
+      "name": "NHL Stenden University of Applied Sciences",
+      "abbr": "NHL Stenden",
+      "color": "#E20025",
+      "city": "Leeuwarden",
+      "type": "Public",
+      "tuition": "€2,314–9,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Humanities",
+        "Engineering"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 2018,
+      "students": "~22,000",
+      "desc": "A modern applied sciences university formed from two merged institutions, with a strong focus on hospitality and tourism.",
+      "website": ""
+    },
+    {
+      "id": "buas",
+      "name": "Breda University of Applied Sciences",
+      "abbr": "BUas",
+      "color": "#003A5C",
+      "city": "Breda",
+      "type": "Public",
+      "tuition": "€2,314–9,500/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Humanities",
+        "Arts"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1966,
+      "students": "~10,000",
+      "desc": "A specialist applied sciences university focused on hospitality, tourism, logistics and digital media.",
+      "website": ""
+    },
+    {
+      "id": "uva_ee",
+      "name": "University of Amsterdam – Economics",
+      "abbr": "UvA-EE",
+      "color": "#BC0031",
+      "city": "Amsterdam",
+      "type": "Public",
+      "tuition": "€2,314–16,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Business",
+        "Science"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1966,
+      "students": "~7,000",
+      "desc": "The Amsterdam School of Economics, part of UvA — consistently ranked among Europe's top economics faculties.",
+      "website": ""
+    },
+    {
+      "id": "esaa",
+      "name": "Erasmus School of Law",
+      "abbr": "ESL",
+      "color": "#035E8C",
+      "city": "Rotterdam",
+      "type": "Public",
+      "tuition": "€2,314–14,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Law"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1913,
+      "students": "~5,500",
+      "desc": "One of Europe's leading law schools, consistently ranked among the top 50 globally for law.",
+      "website": ""
+    },
+    {
+      "id": "rsm",
+      "name": "Rotterdam School of Management",
+      "abbr": "RSM",
+      "color": "#003B7E",
+      "city": "Rotterdam",
+      "type": "Public",
+      "tuition": "€2,314–20,000/yr",
+      "ts": 3,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Business"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1966,
+      "students": "~5,000",
+      "desc": "Consistently ranked in the top 10 European business schools by the Financial Times — a truly global management school.",
+      "website": "https://www.rsm.nl/"
+    },
+    {
+      "id": "dsf",
+      "name": "Design Academy Eindhoven",
+      "abbr": "DAE",
+      "color": "#FF6600",
+      "city": "Eindhoven",
+      "type": "Public",
+      "tuition": "€2,314–10,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Arts",
+        "Architecture"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1947,
+      "students": "~750",
+      "desc": "One of the world's most influential design schools — consistently at the vanguard of contemporary design thinking.",
+      "website": "https://www.designacademy.nl/"
+    },
+    {
+      "id": "rdam_con",
+      "name": "Rotterdam Conservatory",
+      "abbr": "Codarts",
+      "color": "#E4003B",
+      "city": "Rotterdam",
+      "type": "Public",
+      "tuition": "€2,314–8,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Arts"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1930,
+      "students": "~1,200",
+      "desc": "The Netherlands' leading conservatory for music, dance and circus arts, with world-class performance facilities.",
+      "website": ""
+    },
+    {
+      "id": "amst_con",
+      "name": "Conservatorium van Amsterdam",
+      "abbr": "CvA",
+      "color": "#003B7E",
+      "city": "Amsterdam",
+      "type": "Public",
+      "tuition": "€2,314–8,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Arts"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1884,
+      "students": "~1,100",
+      "desc": "One of the world's leading music conservatories, situated on Amsterdam's vibrant Oosterdok waterfront.",
+      "website": "https://www.conservatoriumvanamsterdam.nl"
+    },
+    {
+      "id": "rietveld",
+      "name": "Gerrit Rietveld Academie",
+      "abbr": "Rietveld",
+      "color": "#D40000",
+      "city": "Amsterdam",
+      "type": "Public",
+      "tuition": "€2,314–9,500/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Arts",
+        "Architecture"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1924,
+      "students": "~700",
+      "desc": "Amsterdam's premier fine arts and design academy, named after the De Stijl architect and influential to this day.",
+      "website": "https://rietveldacademie.nl/"
+    },
+    {
+      "id": "kabk",
+      "name": "Royal Academy of Art The Hague",
+      "abbr": "KABK",
+      "color": "#003058",
+      "city": "The Hague",
+      "type": "Public",
+      "tuition": "€2,314–9,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Arts",
+        "Architecture"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1682,
+      "students": "~800",
+      "desc": "One of Europe's oldest art academies, offering outstanding fine arts, graphic design and interior architecture programmes.",
+      "website": ""
+    },
+    {
+      "id": "ahr",
+      "name": "ArtEZ University of the Arts",
+      "abbr": "ArtEZ",
+      "color": "#E30B17",
+      "city": "Arnhem",
+      "type": "Public",
+      "tuition": "€2,314–9,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Arts",
+        "Humanities"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 2002,
+      "students": "~4,000",
+      "desc": "A multi-campus arts university spanning fashion, fine arts, music, theatre and design across three Dutch cities.",
+      "website": ""
+    },
+    {
+      "id": "nyi",
+      "name": "NHTV Breda – Tourism Academy",
+      "abbr": "NHTV",
+      "color": "#007BC7",
+      "city": "Breda",
+      "type": "Public",
+      "tuition": "€2,314–9,000/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Humanities"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1966,
+      "students": "~8,000",
+      "desc": "A specialist hospitality, tourism and leisure university with a strong international reputation in the sector.",
+      "website": ""
+    },
+    {
+      "id": "thn",
+      "name": "The Hague Academy of International Law",
+      "abbr": "HAIL",
+      "color": "#004D7A",
+      "city": "The Hague",
+      "type": "Private",
+      "tuition": "€2,000–5,000 (courses)",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Law"
+      ],
+      "langs": [
+        "English",
+        "French"
+      ],
+      "founded": 1923,
+      "students": "~500",
+      "desc": "The world's leading institution for the study of international law, attracting academics and practitioners from across the globe.",
+      "website": ""
+    },
+    {
+      "id": "nyenrode",
+      "name": "Nyenrode Business University",
+      "abbr": "Nyenrode",
+      "color": "#8B1A1A",
+      "city": "Breukelen",
+      "type": "Private",
+      "tuition": "€15,000–30,000/yr",
+      "ts": 4,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1946,
+      "students": "~2,000",
+      "desc": "The Netherlands' only private business university, set on a historic estate, known for leadership and entrepreneurship programmes.",
+      "website": ""
+    },
+    {
+      "id": "psych_uni",
+      "name": "Leiden University – Psychology Faculty",
+      "abbr": "LU-Psych",
+      "color": "#003058",
+      "city": "Leiden",
+      "type": "Public",
+      "tuition": "€2,314–15,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Science",
+        "Humanities"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1575,
+      "students": "~7,000",
+      "desc": "The Netherlands' top psychology faculty, part of the historic Leiden University with outstanding research output.",
+      "website": ""
+    },
+    {
+      "id": "rug_med",
+      "name": "University Medical Centre Groningen",
+      "abbr": "UMCG",
+      "color": "#CC0000",
+      "city": "Groningen",
+      "type": "Public",
+      "tuition": "€2,314–10,000/yr",
+      "ts": 2,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Medicine",
+        "Science"
+      ],
+      "langs": [
+        "Dutch"
+      ],
+      "founded": 1903,
+      "students": "~5,000",
+      "desc": "One of the largest academic medical centres in Europe, affiliated with the University of Groningen.",
+      "website": ""
+    },
+    {
+      "id": "lumc",
+      "name": "Leiden University Medical Centre",
+      "abbr": "LUMC",
+      "color": "#003058",
+      "city": "Leiden",
+      "type": "Public",
+      "tuition": "€2,314–10,000/yr",
+      "ts": 2,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Medicine",
+        "Science"
+      ],
+      "langs": [
+        "Dutch"
+      ],
+      "founded": 1875,
+      "students": "~4,000",
+      "desc": "One of the world's leading academic medical centres, affiliated with the oldest Dutch university.",
+      "website": ""
+    },
+    {
+      "id": "utwente_mb",
+      "name": "University of Twente – Management Faculty",
+      "abbr": "UT-MB",
+      "color": "#009DC4",
+      "city": "Enschede",
+      "type": "Public",
+      "tuition": "€2,314–14,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Engineering"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1961,
+      "students": "~4,000",
+      "desc": "An entrepreneurial management faculty in the heart of a technical university, known for high-tech business programmes.",
+      "website": ""
+    },
+    {
+      "id": "tud_arch",
+      "name": "TU Delft – Architecture Faculty",
+      "abbr": "TUDelft Arch",
+      "color": "#00A6D6",
+      "city": "Delft",
+      "type": "Public",
+      "tuition": "€2,314–18,000/yr",
+      "ts": 2,
+      "diff": 5,
+      "dl": "Elite selective",
+      "fields": [
+        "Architecture"
+      ],
+      "langs": [
+        "English"
+      ],
+      "founded": 1904,
+      "students": "~3,500",
+      "desc": "Consistently ranked as the world's #1 or #2 architecture school — a global destination for aspiring architects.",
+      "website": ""
+    },
+    {
+      "id": "fleur",
+      "name": "Florcitura University of Applied Sciences",
+      "abbr": "Fleur",
+      "color": "#C00060",
+      "city": "Amsterdam",
+      "type": "Public",
+      "tuition": "€2,314–8,500/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Business",
+        "Humanities",
+        "Arts"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1988,
+      "students": "~3,500",
+      "desc": "A small, focused applied sciences institution in Amsterdam with specialist creative and business programmes.",
+      "website": ""
+    },
+    {
+      "id": "christel",
+      "name": "Christelijke Hogeschool Ede",
+      "abbr": "CHE",
+      "color": "#003893",
+      "city": "Ede",
+      "type": "Public",
+      "tuition": "€2,314–8,500/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Humanities",
+        "Business",
+        "Engineering"
+      ],
+      "langs": [
+        "Dutch"
+      ],
+      "founded": 1949,
+      "students": "~5,000",
+      "desc": "A Christian-oriented applied sciences university in central Netherlands with community-focused programmes.",
+      "website": ""
+    }
+  ],
+  "cities": {
+    "Amsterdam": {
+      "region": "North Holland",
+      "pop": "921,000",
+      "climate": "Oceanic",
+      "cost": "€1,200–1,800/mo",
+      "desc": "The canal city — 165 nationalities, world-class museums, vibrant nightlife and more English-language university programmes than any mainland European city.",
+      "highlights": [
+        "Rijksmuseum & Van Gogh Museum",
+        "Vondelpark student life",
+        "Jordaan canal district",
+        "Anne Frank House",
+        "NDSM Wharf creative hub"
+      ],
+      "studentLife": "Exceptional — active student unions, international community, easy cycling everywhere.",
+      "transport": "Excellent tram, metro and ferry network; NS trains to all Dutch cities.",
+      "nightlife": "World-famous clubs, jazz bars, brown cafés and rooftop terraces.",
+      "pros": [
+        "Most international city in NL",
+        "Unmatched cultural life",
+        "English everywhere"
+      ],
+      "tags": [
+        "Canals",
+        "Culture",
+        "International",
+        "Design"
+      ]
+    },
+    "Rotterdam": {
+      "region": "South Holland",
+      "pop": "655,000",
+      "climate": "Oceanic",
+      "cost": "€900–1,400/mo",
+      "desc": "Europe's largest port city has reinvented itself as a bold architectural capital — cheaper, edgier and more entrepreneurial than Amsterdam.",
+      "highlights": [
+        "Markthal food market",
+        "Cube Houses",
+        "Erasmus Bridge",
+        "Museum Boijmans",
+        "Rotterdam harbour boat tours"
+      ],
+      "studentLife": "Dynamic — strong focus on entrepreneurship and design; very international.",
+      "transport": "Metro, tram and water taxi; 30 min from Amsterdam by Intercity.",
+      "nightlife": "Thriving club scene around the Witte de Withstraat and waterfront venues.",
+      "pros": [
+        "Cheaper than Amsterdam",
+        "Cutting-edge architecture",
+        "Strong economy"
+      ],
+      "tags": [
+        "Architecture",
+        "Business",
+        "Port city",
+        "Innovation"
+      ]
+    },
+    "Utrecht": {
+      "region": "Utrecht Province",
+      "pop": "368,000",
+      "climate": "Oceanic",
+      "cost": "€900–1,300/mo",
+      "desc": "The Netherlands' most student-friendly city — a medieval centre, low-level canals and the country's highest-ranked university all in one compact package.",
+      "highlights": [
+        "Dom Tower and Dom Square",
+        "Unique wharfside cellars (wharf cafés)",
+        "Rietveld Schröder House",
+        "Utrecht Museum Quarter",
+        "Griftpark student gardens"
+      ],
+      "studentLife": "Outstanding — one-third of the city is a student, massive social scene.",
+      "transport": "Central Station is the busiest in the Netherlands; 25 min from Amsterdam.",
+      "nightlife": "Compact but excellent — numerous student bars, live music and canal-side terraces.",
+      "pros": [
+        "Most central Dutch city",
+        "Best student-to-resident ratio",
+        "High quality of life"
+      ],
+      "tags": [
+        "Historic",
+        "Student city",
+        "Central",
+        "Cycling"
+      ]
+    },
+    "Delft": {
+      "region": "South Holland",
+      "pop": "105,000",
+      "climate": "Oceanic",
+      "cost": "€800–1,200/mo",
+      "desc": "A picture-perfect Dutch canal city dominated by TU Delft — the world's top engineering and architecture school in one of Europe's most photogenic settings.",
+      "highlights": [
+        "Markt and Nieuwe Kerk",
+        "TU Delft campus",
+        "Vermeer Centre",
+        "Delft Blue pottery workshops",
+        "Prinsenhof Museum"
+      ],
+      "studentLife": "Intimate student community centred around the university campus.",
+      "transport": "10 min by tram to Rotterdam; direct trains to The Hague and Amsterdam.",
+      "nightlife": "Small but lively student pub scene; easy access to Rotterdam's clubs.",
+      "pros": [
+        "World's #1 engineering school",
+        "Beautiful historic centre",
+        "Affordable"
+      ],
+      "tags": [
+        "Engineering",
+        "Historic",
+        "Compact",
+        "Architecture"
+      ]
+    },
+    "Groningen": {
+      "region": "Groningen Province",
+      "pop": "233,000",
+      "climate": "Oceanic",
+      "cost": "€700–1,100/mo",
+      "desc": "The student capital of northern Netherlands — the highest proportion of students per capita in the country and one of Europe's most affordable university cities.",
+      "highlights": [
+        "Groningen Museum",
+        "Der Aa-Kerk events venue",
+        "Forum Groningen",
+        "Noorderplantsoen park",
+        "Martinitoren tower"
+      ],
+      "studentLife": "Unparalleled — a quarter of the population are students; incredible social scene.",
+      "transport": "Good regional connections; direct trains to Amsterdam (2 hrs).",
+      "nightlife": "Legendary Dutch student nightlife — Poelestraat known as the party street.",
+      "pros": [
+        "Cheapest major Dutch city",
+        "Highest student density",
+        "Extremely safe"
+      ],
+      "tags": [
+        "Student life",
+        "Affordable",
+        "Nightlife",
+        "North Netherlands"
+      ]
+    },
+    "Leiden": {
+      "region": "South Holland",
+      "pop": "125,000",
+      "climate": "Oceanic",
+      "cost": "€850–1,250/mo",
+      "desc": "The oldest Dutch university city — a compact, beautifully preserved canal city with world-class academic heritage and just 20 minutes from both Amsterdam and The Hague.",
+      "highlights": [
+        "Rijksmuseum van Oudheden",
+        "Hortus Botanicus (oldest botanical garden)",
+        "Lakenhal Museum",
+        "Burcht castle mound",
+        "Pieterskerk and the Pilgrim Fathers connection"
+      ],
+      "studentLife": "Strong academic community with numerous student associations.",
+      "transport": "Intercity trains every 15 minutes to Amsterdam, Rotterdam, The Hague.",
+      "nightlife": "Pleasant student bar scene; easy access to bigger cities.",
+      "pros": [
+        "Beautiful historic centre",
+        "Leiden University — NL's best",
+        "Near coast (Katwijk beach)"
+      ],
+      "tags": [
+        "Historic",
+        "Academic",
+        "Compact",
+        "Near coast"
+      ]
+    }
+  },
+  "cityCards": [
+    {
+      "city": "Amsterdam",
+      "region": "North Holland",
+      "gradient": "linear-gradient(135deg,#BC0031,#FF6600)",
+      "icon": "fa-solid fa-water",
+      "desc": "165 nationalities, canal rings, world-class museums and the most English-taught programmes in mainland Europe.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud"
+      ],
+      "stats": [
+        "921,000 residents",
+        "€1,200–1,800/mo student cost",
+        "Oceanic climate"
+      ],
+      "tags": [
+        "International",
+        "Canals",
+        "Culture"
+      ]
+    },
+    {
+      "city": "Rotterdam",
+      "region": "South Holland",
+      "gradient": "linear-gradient(135deg,#003B7E,#00A0E3)",
+      "icon": "fa-solid fa-ship",
+      "desc": "Europe's boldest city of architecture, Erasmus University and Europe's largest port.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud"
+      ],
+      "stats": [
+        "655,000 residents",
+        "€900–1,400/mo student cost",
+        "Oceanic climate"
+      ],
+      "tags": [
+        "Architecture",
+        "Business",
+        "Port"
+      ]
+    },
+    {
+      "city": "Utrecht",
+      "region": "Utrecht Province",
+      "gradient": "linear-gradient(135deg,#FFCD00,#E58A00)",
+      "icon": "fa-solid fa-church",
+      "desc": "The most student-friendly city in the Netherlands — compact, affordable and home to the country's highest-ranked university.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud"
+      ],
+      "stats": [
+        "368,000 residents",
+        "€900–1,300/mo student cost",
+        "Oceanic climate"
+      ],
+      "tags": [
+        "Student life",
+        "Historic",
+        "Central"
+      ]
+    },
+    {
+      "city": "Delft",
+      "region": "South Holland",
+      "gradient": "linear-gradient(135deg,#00A6D6,#003B7E)",
+      "icon": "fa-solid fa-cog",
+      "desc": "The world's #1 engineering and architecture university in a picture-perfect canal city.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud"
+      ],
+      "stats": [
+        "105,000 residents",
+        "€800–1,200/mo student cost",
+        "Oceanic climate"
+      ],
+      "tags": [
+        "Engineering",
+        "Historic",
+        "Compact"
+      ]
+    },
+    {
+      "city": "Groningen",
+      "region": "Groningen Province",
+      "gradient": "linear-gradient(135deg,#CC0000,#FF6600)",
+      "icon": "fa-solid fa-star",
+      "desc": "Student capital of the north — the highest student density in the Netherlands with legendary nightlife.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud"
+      ],
+      "stats": [
+        "233,000 residents",
+        "€700–1,100/mo student cost",
+        "Oceanic climate"
+      ],
+      "tags": [
+        "Student life",
+        "Affordable",
+        "Nightlife"
+      ]
+    },
+    {
+      "city": "Leiden",
+      "region": "South Holland",
+      "gradient": "linear-gradient(135deg,#003058,#0066CC)",
+      "icon": "fa-solid fa-book",
+      "desc": "The oldest Dutch university city — historic canals, Nobel laureates and 20 minutes from Amsterdam.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud"
+      ],
+      "stats": [
+        "125,000 residents",
+        "€850–1,250/mo student cost",
+        "Oceanic climate"
+      ],
+      "tags": [
+        "Historic",
+        "Academic",
+        "Compact"
+      ]
+    }
+  ],
+  "featuredCities": [
+    {
+      "city": "Amsterdam",
+      "icon": "fa-solid fa-water",
+      "sub": "Capital"
+    },
+    {
+      "city": "Rotterdam",
+      "icon": "fa-solid fa-ship",
+      "sub": "South Holland"
+    },
+    {
+      "city": "Utrecht",
+      "icon": "fa-solid fa-church",
+      "sub": "Centre"
+    },
+    {
+      "city": "Delft",
+      "icon": "fa-solid fa-cog",
+      "sub": "South Holland"
+    },
+    {
+      "city": "Groningen",
+      "icon": "fa-solid fa-star",
+      "sub": "North"
+    },
+    {
+      "city": "Leiden",
+      "icon": "fa-solid fa-book",
+      "sub": "South Holland"
+    }
+  ]
+}

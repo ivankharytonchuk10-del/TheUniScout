@@ -1,0 +1,107 @@
+{
+  "ucm": {
+    "name": "Universidad Complutense de Madrid",
+    "type": "Public",
+    "field": "Multi-discipline",
+    "tuition": "€1,500–2,500/yr",
+    "students": "80,000"
+  },
+  "uam": {
+    "name": "Universidad Autónoma de Madrid",
+    "type": "Public",
+    "field": "Research-intensive",
+    "tuition": "€1,200–2,200/yr",
+    "students": "36,000"
+  },
+  "upm": {
+    "name": "Universidad Politécnica de Madrid",
+    "type": "Public",
+    "field": "Engineering & Architecture",
+    "tuition": "€1,400–3,000/yr",
+    "students": "42,000"
+  },
+  "uc3m": {
+    "name": "Universidad Carlos III de Madrid",
+    "type": "Public",
+    "field": "Social Sciences & Engineering",
+    "tuition": "€1,300–2,500/yr",
+    "students": "18,000"
+  },
+  "ie": {
+    "name": "IE University",
+    "type": "Private",
+    "field": "Business, Law & Tech",
+    "tuition": "€22,000–32,000/yr",
+    "students": "12,000"
+  },
+  "ub": {
+    "name": "Universitat de Barcelona",
+    "type": "Public",
+    "field": "Multi-discipline",
+    "tuition": "€1,300–2,200/yr",
+    "students": "63,000"
+  },
+  "uab": {
+    "name": "Universitat Autònoma de Barcelona",
+    "type": "Public",
+    "field": "Research-intensive",
+    "tuition": "€1,200–2,000/yr",
+    "students": "40,000"
+  },
+  "upf": {
+    "name": "Universitat Pompeu Fabra",
+    "type": "Public",
+    "field": "Social Sciences & Communications",
+    "tuition": "€1,400–2,600/yr",
+    "students": "16,000"
+  },
+  "upc": {
+    "name": "Universitat Politècnica de Catalunya",
+    "type": "Public",
+    "field": "Engineering & Architecture",
+    "tuition": "€1,500–3,200/yr",
+    "students": "30,000"
+  },
+  "upv": {
+    "name": "Universitat Politècnica de València",
+    "type": "Public",
+    "field": "Engineering & Architecture",
+    "tuition": "€1,100–2,200/yr",
+    "students": "40,000"
+  },
+  "uv": {
+    "name": "Universitat de València",
+    "type": "Public",
+    "field": "Multi-discipline",
+    "tuition": "€900–1,800/yr",
+    "students": "52,000"
+  },
+  "us": {
+    "name": "Universidad de Sevilla",
+    "type": "Public",
+    "field": "Multi-discipline",
+    "tuition": "€750–1,500/yr",
+    "students": "70,000"
+  },
+  "upo": {
+    "name": "Universidad Pablo de Olavide",
+    "type": "Public",
+    "field": "Social Sciences",
+    "tuition": "€700–1,300/yr",
+    "students": "12,000"
+  },
+  "ugr": {
+    "name": "Universidad de Granada",
+    "type": "Public",
+    "field": "Multi-discipline",
+    "tuition": "€700–1,200/yr",
+    "students": "55,000"
+  },
+  "usal": {
+    "name": "Universidad de Salamanca",
+    "type": "Public",
+    "field": "Multi-discipline",
+    "tuition": "€650–1,100/yr",
+    "students": "26,000"
+  }
+}

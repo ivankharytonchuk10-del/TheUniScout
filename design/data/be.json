@@ -1,0 +1,483 @@
+{
+  "meta": {
+    "name": "Belgium",
+    "code": "be",
+    "flag": "be",
+    "capital": "Brussels",
+    "language": "Dutch / French / English",
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "aboutStudying": "Belgium sits at the heart of Europe and is home to some of the continent's oldest universities. Tuition is low (around €1,000/year for EU students) and the country offers an extraordinary number of English-taught Master's programmes. As the capital of the EU, Belgium is unrivalled for students of law, politics and international relations.",
+    "uniCount": 8,
+    "cityCount": 4
+  },
+  "tips": [
+    {
+      "icon": "fa-solid fa-euro-sign",
+      "color": "rgba(39,174,96,.1)",
+      "iconColor": "#27ae60",
+      "title": "Low EU Tuition",
+      "text": "EU students pay around €950/year at Belgian universities — among the lowest in Western Europe. Non-EU students pay €2,500–6,000/year. Living costs are moderate: €800–1,200/month including rent, cheaper than the Netherlands or France."
+    },
+    {
+      "icon": "fa-solid fa-language",
+      "color": "rgba(52,152,219,.1)",
+      "iconColor": "#2980b9",
+      "title": "Three Languages",
+      "text": "Belgium has Dutch-speaking Flanders (north), French-speaking Wallonia (south) and bilingual Brussels. Most Master's programmes are taught in English, but learning some Dutch or French will hugely enrich daily life and broaden your job prospects."
+    },
+    {
+      "icon": "fa-solid fa-landmark-dome",
+      "color": "rgba(217,124,20,.1)",
+      "iconColor": "#d97c14",
+      "title": "Capital of Europe",
+      "text": "Brussels hosts the European Commission, Parliament and NATO. For students of law, politics, economics and international affairs, no city offers more internships and career opportunities. Belgium is also famed for chocolate, beer and waffles."
+    }
+  ],
+  "universities": [
+    {
+      "id": "kul",
+      "name": "KU Leuven",
+      "abbr": "KU Leuven",
+      "color": "#00407A",
+      "city": "Leuven",
+      "type": "Public",
+      "tuition": "€1,000–6,000/yr",
+      "ts": 2,
+      "diff": 4,
+      "dl": "Highly selective",
+      "fields": [
+        "Medicine",
+        "Engineering",
+        "Science",
+        "Law",
+        "Humanities",
+        "Business"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1425,
+      "students": "~60,000",
+      "desc": "Belgium's highest-ranked university and one of the oldest in the world — a QS top-70 institution and Europe's most innovative university.",
+      "website": "https://www.kuleuven.be/"
+    },
+    {
+      "id": "ugent",
+      "name": "Ghent University",
+      "abbr": "UGent",
+      "color": "#1E64C8",
+      "city": "Ghent",
+      "type": "Public",
+      "tuition": "€1,000–6,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Medicine",
+        "Engineering",
+        "Humanities",
+        "Law",
+        "Business"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1817,
+      "students": "~50,000",
+      "desc": "A top-150 global university in one of Belgium's most beautiful and lively student cities.",
+      "website": "https://www.ugent.be/"
+    },
+    {
+      "id": "uclouvain",
+      "name": "UCLouvain",
+      "abbr": "UCLouvain",
+      "color": "#5A2A82",
+      "city": "Louvain-la-Neuve",
+      "type": "Public",
+      "tuition": "€835–4,175/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Medicine",
+        "Law",
+        "Engineering",
+        "Humanities",
+        "Business",
+        "Science"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1425,
+      "students": "~31,000",
+      "desc": "The largest French-speaking university in Belgium, set in a purpose-built student town created entirely for the campus.",
+      "website": "https://uclouvain.be/"
+    },
+    {
+      "id": "ulb",
+      "name": "Université libre de Bruxelles",
+      "abbr": "ULB",
+      "color": "#003DA5",
+      "city": "Brussels",
+      "type": "Public",
+      "tuition": "€835–4,175/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Law",
+        "Medicine",
+        "Science",
+        "Humanities",
+        "Business"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1834,
+      "students": "~38,000",
+      "desc": "A leading free-thinking research university in the European capital, with strong programmes in politics and law.",
+      "website": "https://www.ulb.be/"
+    },
+    {
+      "id": "vub",
+      "name": "Vrije Universiteit Brussel",
+      "abbr": "VUB",
+      "color": "#003399",
+      "city": "Brussels",
+      "type": "Public",
+      "tuition": "€1,000–5,500/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Science",
+        "Engineering",
+        "Medicine",
+        "Business",
+        "Humanities"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1834,
+      "students": "~17,000",
+      "desc": "A young, internationally minded Dutch-speaking university in the heart of Brussels with many English Master's programmes.",
+      "website": "https://www.vub.be/"
+    },
+    {
+      "id": "uantwerpen",
+      "name": "University of Antwerp",
+      "abbr": "UAntwerpen",
+      "color": "#003F7D",
+      "city": "Antwerp",
+      "type": "Public",
+      "tuition": "€1,000–6,000/yr",
+      "ts": 2,
+      "diff": 3,
+      "dl": "Competitive",
+      "fields": [
+        "Business",
+        "Medicine",
+        "Science",
+        "Humanities",
+        "Law"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 2003,
+      "students": "~20,000",
+      "desc": "A research university in Belgium's vibrant fashion and diamond capital, known for its medical and business faculties.",
+      "website": "https://www.uantwerpen.be/"
+    },
+    {
+      "id": "uliege",
+      "name": "University of Liège",
+      "abbr": "ULiège",
+      "color": "#005BA8",
+      "city": "Liège",
+      "type": "Public",
+      "tuition": "€835–4,175/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Engineering",
+        "Science",
+        "Medicine",
+        "Humanities",
+        "Business"
+      ],
+      "langs": [
+        "French",
+        "English"
+      ],
+      "founded": 1817,
+      "students": "~26,000",
+      "desc": "The only complete public university in French-speaking Belgium, with a strong veterinary and engineering reputation.",
+      "website": "https://www.uliege.be/"
+    },
+    {
+      "id": "hasselt",
+      "name": "Hasselt University",
+      "abbr": "UHasselt",
+      "color": "#E94E1B",
+      "city": "Hasselt",
+      "type": "Public",
+      "tuition": "€1,000–5,500/yr",
+      "ts": 2,
+      "diff": 2,
+      "dl": "Low",
+      "fields": [
+        "Science",
+        "Engineering",
+        "Business",
+        "Medicine"
+      ],
+      "langs": [
+        "English",
+        "Dutch"
+      ],
+      "founded": 1971,
+      "students": "~7,000",
+      "desc": "A smaller, fast-rising university known for life sciences and a strong sense of community in eastern Flanders.",
+      "website": "http://www.uhasselt.be/"
+    }
+  ],
+  "cities": {
+    "Brussels": {
+      "region": "Brussels-Capital",
+      "pop": "1,210,000",
+      "climate": "Oceanic",
+      "cost": "€900–1,400/mo",
+      "desc": "The capital of Europe — multilingual, cosmopolitan and unbeatable for students of law, politics and international affairs, with EU institutions on the doorstep.",
+      "highlights": [
+        "Grand-Place",
+        "Atomium",
+        "European Quarter",
+        "Magritte Museum",
+        "Manneken Pis"
+      ],
+      "studentLife": "Highly international — students from across the EU and the world.",
+      "transport": "Extensive metro, tram and bus network; high-speed trains to Paris, London, Amsterdam.",
+      "nightlife": "Diverse and cosmopolitan — from Belgian beer cafés to international clubs.",
+      "pros": [
+        "Capital of the EU",
+        "Unrivalled internships",
+        "Multilingual"
+      ],
+      "tags": [
+        "International",
+        "Politics",
+        "Capital",
+        "Multilingual"
+      ]
+    },
+    "Leuven": {
+      "region": "Flemish Brabant",
+      "pop": "102,000",
+      "climate": "Oceanic",
+      "cost": "€750–1,150/mo",
+      "desc": "Belgium's ultimate student town — KU Leuven dominates this compact, beautiful and historic city where students make up a huge share of the population.",
+      "highlights": [
+        "Old Market (longest bar in the world)",
+        "University Library",
+        "Town Hall (Gothic masterpiece)",
+        "Great Beguinage UNESCO site",
+        "Stella Artois brewery"
+      ],
+      "studentLife": "Among the best in Europe — the whole city revolves around the university.",
+      "transport": "20 min by train to Brussels; very walkable and bike-friendly.",
+      "nightlife": "The Oude Markt is famously called 'the longest bar in the world'.",
+      "pros": [
+        "Belgium's #1 university",
+        "Quintessential student town",
+        "Near Brussels"
+      ],
+      "tags": [
+        "Student city",
+        "Historic",
+        "Beer culture",
+        "Compact"
+      ]
+    },
+    "Ghent": {
+      "region": "East Flanders",
+      "pop": "265,000",
+      "climate": "Oceanic",
+      "cost": "€800–1,200/mo",
+      "desc": "A stunning medieval canal city that locals call the best-kept secret in Europe — with a huge student population and one of the continent's most atmospheric old towns.",
+      "highlights": [
+        "Gravensteen Castle",
+        "Saint Bavo's Cathedral (Van Eyck altarpiece)",
+        "Graslei waterfront",
+        "Ghent Light Festival",
+        "Patershol district"
+      ],
+      "studentLife": "Exceptional — Ghent is one of Belgium's liveliest and most progressive cities.",
+      "transport": "Excellent trams and trains; 30 min to Brussels, 25 min to Bruges.",
+      "nightlife": "Buzzing — countless student bars and one of Belgium's best music scenes.",
+      "pros": [
+        "Top-150 university",
+        "Gorgeous medieval centre",
+        "Vibrant student culture"
+      ],
+      "tags": [
+        "Historic",
+        "Canals",
+        "Student life",
+        "Arts"
+      ]
+    },
+    "Antwerp": {
+      "region": "Antwerp Province",
+      "pop": "530,000",
+      "climate": "Oceanic",
+      "cost": "€850–1,300/mo",
+      "desc": "Belgium's second city — the global diamond capital and a world fashion centre, blending a grand historic core with cutting-edge design and Europe's second-largest port.",
+      "highlights": [
+        "Cathedral of Our Lady",
+        "MAS Museum",
+        "Antwerp Central Station",
+        "Diamond District",
+        "Rubens House"
+      ],
+      "studentLife": "Stylish and creative — strong fashion, design and business student scene.",
+      "transport": "Magnificent central station; trams, buses and 45 min to Brussels.",
+      "nightlife": "Trendy and varied — from designer cocktail bars to harbour-side clubs.",
+      "pros": [
+        "Fashion & design hub",
+        "Stunning architecture",
+        "Strong economy"
+      ],
+      "tags": [
+        "Fashion",
+        "Design",
+        "Port",
+        "Historic"
+      ]
+    }
+  },
+  "cityCards": [
+    {
+      "city": "Brussels",
+      "region": "Brussels-Capital",
+      "gradient": "linear-gradient(135deg,#003DA5,#0066CC)",
+      "icon": "fa-solid fa-landmark-dome",
+      "desc": "The capital of Europe — multilingual, cosmopolitan and unbeatable for law, politics and international affairs.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud"
+      ],
+      "stats": [
+        "1.21M residents",
+        "€900–1,400/mo",
+        "Oceanic"
+      ],
+      "tags": [
+        "International",
+        "Politics",
+        "Capital"
+      ]
+    },
+    {
+      "city": "Leuven",
+      "region": "Flemish Brabant",
+      "gradient": "linear-gradient(135deg,#00407A,#0066BB)",
+      "icon": "fa-solid fa-graduation-cap",
+      "desc": "Belgium's ultimate student town — KU Leuven dominates this beautiful and historic city.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud"
+      ],
+      "stats": [
+        "102,000 residents",
+        "€750–1,150/mo",
+        "Oceanic"
+      ],
+      "tags": [
+        "Student city",
+        "Historic",
+        "Beer"
+      ]
+    },
+    {
+      "city": "Ghent",
+      "region": "East Flanders",
+      "gradient": "linear-gradient(135deg,#1E64C8,#3A8DDE)",
+      "icon": "fa-solid fa-chess-rook",
+      "desc": "A stunning medieval canal city with a huge student population — Europe's best-kept secret.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud"
+      ],
+      "stats": [
+        "265,000 residents",
+        "€800–1,200/mo",
+        "Oceanic"
+      ],
+      "tags": [
+        "Historic",
+        "Canals",
+        "Student life"
+      ]
+    },
+    {
+      "city": "Antwerp",
+      "region": "Antwerp Province",
+      "gradient": "linear-gradient(135deg,#003F7D,#0072BC)",
+      "icon": "fa-solid fa-gem",
+      "desc": "Belgium's second city — global diamond capital and a world fashion centre.",
+      "statIcons": [
+        "fa-solid fa-users",
+        "fa-solid fa-coins",
+        "fa-solid fa-cloud"
+      ],
+      "stats": [
+        "530,000 residents",
+        "€850–1,300/mo",
+        "Oceanic"
+      ],
+      "tags": [
+        "Fashion",
+        "Design",
+        "Port"
+      ]
+    }
+  ],
+  "featuredCities": [
+    {
+      "city": "Brussels",
+      "icon": "fa-solid fa-landmark-dome",
+      "sub": "Capital"
+    },
+    {
+      "city": "Leuven",
+      "icon": "fa-solid fa-graduation-cap",
+      "sub": "Flanders"
+    },
+    {
+      "city": "Ghent",
+      "icon": "fa-solid fa-chess-rook",
+      "sub": "Flanders"
+    },
+    {
+      "city": "Antwerp",
+      "icon": "fa-solid fa-gem",
+      "sub": "Flanders"
+    }
+  ]
+}
