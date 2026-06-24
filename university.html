@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> University Page </title>
+    <link rel="stylesheet" href="university.css">
+    <script src="university.js" defer></script>
+</head>
+ <body>
+    <div class="row searchWrap" id="searchWrap">
+
+        <h1>Институты Испании</h1>
+        <div class="muted">Данные: <code>/data/ES/institutions.json</code></div>
+
+    
+      <input
+        id="q"
+        class="searchInput"
+        type="text"
+        placeholder="Поиск по названию (например: Madrid или Barcelona)…"
+        autocomplete="off"
+      />
+      <div id="suggest" class="suggestBox" aria-label="Подсказки"></div>
+    </div>
+
+    <div id="status" class="row muted">Загрузка…</div>
+    <div id="list"></div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

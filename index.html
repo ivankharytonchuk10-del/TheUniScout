@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        // Already signed in? Skip the welcome page and go straight to the app —
+        // unless the user deliberately came here (e.g. the in-app logo → index.html?home).
+        (function () {
+            try {
+                if (/[?&]home\b/.test(location.search)) return;
+                var s = localStorage.getItem('uniscout_session') || sessionStorage.getItem('uniscout_session');
+                if (s && JSON.parse(s)) { window.location.replace('mainPage.html'); }
+            } catch (e) {}
+        }());
+    </script>
+    <title>UniScout — Scout your future</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="earth.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Sora:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Fraunces:ital,opsz,wght@1,9..144,400;1,9..144,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="welcome.css">
+</head>
+<body>
+
+    <!-- NAV -->
+    <nav class="nav" id="nav">
+        <a href="index.html" class="nav__brand"><img src="logo2.png" alt="UniScout">UniScout</a>
+        <div class="nav__links" id="navLinks">
+            <a href="#features">Features</a>
+            <a href="subscription.html">Subscription</a>
+            <a href="#explore">Explore</a>
+            <a href="log-in.html">Sign in</a>
+            <a href="log-in.html" class="nav__cta"><i class="fa-solid fa-arrow-right-to-bracket"></i> Get started</a>
+        </div>
+        <button class="nav__burger" id="burger" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero">
+        <span class="orb orb--1"></span><span class="orb orb--2"></span><span class="orb orb--3"></span>
+
+        <div class="cube3d" aria-hidden="true">
+            <span class="cube3d__face cf-front"></span>
+            <span class="cube3d__face cf-back"></span>
+            <span class="cube3d__face cf-right"></span>
+            <span class="cube3d__face cf-left"></span>
+            <span class="cube3d__face cf-top"></span>
+            <span class="cube3d__face cf-bottom"></span>
+        </div>
+
+        <div class="chip chip--a"><i class="fa-solid fa-graduation-cap"></i><div>1,000+ programmes<small>across the world</small></div></div>
+        <div class="chip chip--b"><i class="fa-solid fa-wand-magic-sparkles"></i><div>AI matcher<small>find your fit</small></div></div>
+        <div class="chip chip--c"><i class="fa-solid fa-bell"></i><div>Deadline alerts<small>never miss one</small></div></div>
+
+        <div class="wrap hero__inner">
+            <span class="eyebrow"><b><i class="fa-solid fa-star"></i> New</b> Your AI guide to university</span>
+            <h1 class="display">
+                <span class="ln"><span>Find your perfect</span></span>
+                <span class="ln"><span><span class="grad-text">university</span> <span class="accent-serif">in&nbsp;one</span></span></span>
+                <span class="ln"><span>brilliant place.</span></span>
+            </h1>
+            <p class="hero__sub">Discover, compare and apply to universities with confidence. <b>UniScout</b> scores every option by how well it fits you — then builds a submission-ready application package.</p>
+            <div class="hero__cta">
+                <a href="log-in.html" class="btn btn--primary"><i class="fa-solid fa-rocket"></i> Start exploring — it's free</a>
+                <a href="#features" class="btn btn--ghost"><i class="fa-solid fa-circle-play"></i> See how it works</a>
+            </div>
+            <p class="hero__note"><i class="fa-solid fa-circle-check"></i> No credit card · Set up in under a minute</p>
+        </div>
+    </header>
+
+    <!-- MARQUEE -->
+    <div class="marquee">
+        <p class="marquee__label">Built around the world's leading universities</p>
+        <div class="marquee__track">
+            <div class="marquee__row">
+                <span>Harvard</span><span>Oxford</span><span>Stanford</span><span>MIT</span><span>Cambridge</span><span>ETH Zürich</span><span>Yale</span><span>UCL</span><span>Sorbonne</span><span>NUS</span>
+            </div>
+            <div class="marquee__row" aria-hidden="true">
+                <span>Harvard</span><span>Oxford</span><span>Stanford</span><span>MIT</span><span>Cambridge</span><span>ETH Zürich</span><span>Yale</span><span>UCL</span><span>Sorbonne</span><span>NUS</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- STATS -->
+    <section class="sec wrap">
+        <div class="stats reveal">
+            <div class="stat"><div class="stat__num"><span class="grad-text" data-count="1000" data-suffix="+">0</span></div><div class="stat__lbl">Programmes to explore</div></div>
+            <div class="stat"><div class="stat__num"><span class="grad-text" data-count="50" data-suffix="+">0</span></div><div class="stat__lbl">Countries covered</div></div>
+            <div class="stat"><div class="stat__num"><span class="grad-text" data-count="30" data-suffix="s">0</span></div><div class="stat__lbl">To get your matches</div></div>
+            <div class="stat"><div class="stat__num"><span class="grad-text" data-count="100" data-suffix="%">0</span></div><div class="stat__lbl">Free to start</div></div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="sec wrap" id="features">
+        <div class="sec__head reveal">
+            <span class="tag">Everything you need</span>
+            <h2 class="display">One platform, <span class="accent-serif grad-text">every</span> step covered</h2>
+            <p>From the first search to the final submission — UniScout turns a messy, stressful process into a calm, guided journey. Click any card to learn more.</p>
+        </div>
+        <div class="bento">
+            <a class="fcard fcard--wide reveal" data-d="1" href="feature.html?id=matcher">
+                <div class="fcard__ico g-violet"><i class="fa-solid fa-magnifying-glass-dollar"></i></div>
+                <h3>AI matcher that actually fits you</h3>
+                <p>Tell us about your grades, budget and goals — and every university gets scored by how well it matches. Deep research, real numbers, zero guesswork.</p>
+                <span class="fcard__more">Learn more <i class="fa-solid fa-arrow-right"></i></span>
+            </a>
+            <a class="fcard reveal" data-d="2" href="feature.html?id=explore">
+                <div class="fcard__ico g-orange"><i class="fa-solid fa-compass"></i></div>
+                <h3>Discover & explore</h3>
+                <p>Browse universities, programmes and cities with rich, filterable detail.</p>
+                <span class="fcard__more">Learn more <i class="fa-solid fa-arrow-right"></i></span>
+            </a>
+            <a class="fcard reveal" data-d="1" href="feature.html?id=compare">
+                <div class="fcard__ico g-blue"><i class="fa-solid fa-scale-balanced"></i></div>
+                <h3>Compare side by side</h3>
+                <p>Tuition, difficulty, rankings and languages — lined up so you can decide fast.</p>
+                <span class="fcard__more">Learn more <i class="fa-solid fa-arrow-right"></i></span>
+            </a>
+            <a class="fcard reveal" data-d="2" href="feature.html?id=apply">
+                <div class="fcard__ico g-green"><i class="fa-solid fa-file-pdf"></i></div>
+                <h3>Application assistant</h3>
+                <p>Fill it once and get a professional, submission-ready PDF per university.</p>
+                <span class="fcard__more">Learn more <i class="fa-solid fa-arrow-right"></i></span>
+            </a>
+            <a class="fcard reveal" data-d="3" href="feature.html?id=deadlines">
+                <div class="fcard__ico g-pink"><i class="fa-solid fa-bell"></i></div>
+                <h3>Deadline tracker</h3>
+                <p>Every important date in one calendar, with reminders so nothing slips.</p>
+                <span class="fcard__more">Learn more <i class="fa-solid fa-arrow-right"></i></span>
+            </a>
+        </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="sec wrap" id="how">
+        <div class="sec__head reveal">
+            <span class="tag">How it works</span>
+            <h2 class="display">Three steps to your <span class="accent-serif grad-text">shortlist</span></h2>
+            <p>No spreadsheets, no endless tabs. Just answer, explore, apply.</p>
+        </div>
+        <div class="steps">
+            <span class="steps__line"></span>
+            <div class="step reveal" data-d="1"><div class="step__num">1</div><h3>Tell us about you</h3><p>Grades, interests, budget and where you'd love to study — it takes about a minute.</p></div>
+            <div class="step reveal" data-d="2"><div class="step__num">2</div><h3>Get matched & compare</h3><p>See universities ranked by fit, then compare your favourites side by side.</p></div>
+            <div class="step reveal" data-d="3"><div class="step__num">3</div><h3>Apply with confidence</h3><p>Generate a polished application package and track every deadline in one place.</p></div>
+        </div>
+    </section>
+
+    <!-- WHY UNISCOUT -->
+    <section class="sec wrap" id="why">
+        <div class="sec__head reveal">
+            <span class="tag">Why UniScout</span>
+            <h2 class="display">Choosing a university shouldn't feel like <span class="accent-serif grad-text">guesswork</span></h2>
+            <p>Most students decide with scattered tabs, outdated lists and gut feeling. We replace that with clarity.</p>
+        </div>
+        <div class="benefits">
+            <div class="benefit reveal" data-d="1"><i class="fa-solid fa-bullseye"></i><h3>Personalised, not generic</h3><p>Recommendations are scored against your real profile — not a one-size-fits-all ranking.</p></div>
+            <div class="benefit reveal" data-d="2"><i class="fa-solid fa-layer-group"></i><h3>Everything in one place</h3><p>Search, compare, apply and track deadlines without juggling ten different websites.</p></div>
+            <div class="benefit reveal" data-d="3"><i class="fa-solid fa-clock"></i><h3>Saves you hours</h3><p>What used to take weeks of research takes minutes — so you spend time deciding, not digging.</p></div>
+            <div class="benefit reveal" data-d="1"><i class="fa-solid fa-coins"></i><h3>Budget-aware</h3><p>See tuition and living costs up front, and only the options that work for your wallet.</p></div>
+            <div class="benefit reveal" data-d="2"><i class="fa-solid fa-shield-halved"></i><h3>Honest & transparent</h3><p>We show you exactly why a university fits — the numbers behind every match.</p></div>
+            <div class="benefit reveal" data-d="3"><i class="fa-solid fa-earth-europe"></i><h3>Made for everyone</h3><p>Whether you're aiming local or abroad, school-leaver or postgrad — UniScout adapts to you.</p></div>
+        </div>
+    </section>
+
+    <!-- SHOWCASE -->
+    <section class="sec wrap" id="explore">
+        <div class="showcase reveal">
+            <div>
+                <span class="tag">Made for you</span>
+                <h2 class="display">Universities, ranked by how well they <span class="accent-serif grad-text">fit you</span></h2>
+                <p class="lead">Stop scrolling through endless lists. UniScout reads your profile and surfaces the places where you'll genuinely thrive — and shows you exactly why.</p>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i><div>Personalised fit scores<small>Based on grades, budget, language and goals</small></div></li>
+                    <li><i class="fa-solid fa-check"></i><div>Budget-aware matching<small>Only see options that work for your wallet</small></div></li>
+                    <li><i class="fa-solid fa-check"></i><div>Save & revisit anytime<small>Build your shortlist and track it as you go</small></div></li>
+                </ul>
+                <div style="margin-top:30px"><a href="feature.html?id=matcher" class="btn btn--primary"><i class="fa-solid fa-wand-magic-sparkles"></i> See how matching works</a></div>
+            </div>
+            <div class="mock">
+                <div class="mock__bar"><span></span><span></span><span></span></div>
+                <div class="mock__body">
+                    <div class="mock__row"><div class="mock__abbr" style="background:#8B1A1A">UCM</div><div><div class="mock__nm">Complutense Madrid</div><div class="mock__mt">Madrid · Public</div></div><div class="mock__bar2"><b style="width:94%"></b></div></div>
+                    <div class="mock__row"><div class="mock__abbr" style="background:#004B87">UPM</div><div><div class="mock__nm">Politécnica de Madrid</div><div class="mock__mt">Madrid · Public</div></div><div class="mock__bar2"><b style="width:88%"></b></div></div>
+                    <div class="mock__row"><div class="mock__abbr" style="background:#2A5CAA">UAM</div><div><div class="mock__nm">Autónoma de Madrid</div><div class="mock__mt">Madrid · Public</div></div><div class="mock__bar2"><b style="width:81%"></b></div></div>
+                    <div class="mock__row"><div class="mock__abbr" style="background:#d97c14">ESA</div><div><div class="mock__nm">ESADE Business School</div><div class="mock__mt">Barcelona · Private</div></div><div class="mock__bar2"><b style="width:74%"></b></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="sec wrap" id="faq">
+        <div class="sec__head reveal">
+            <span class="tag">Good to know</span>
+            <h2 class="display">Frequently asked <span class="accent-serif grad-text">questions</span></h2>
+            <p>Everything you might want to know before you start.</p>
+        </div>
+        <div class="faq reveal">
+            <details class="faq__item">
+                <summary class="faq__q">What exactly is UniScout? <i class="fa-solid fa-plus"></i></summary>
+                <p class="faq__a">UniScout is an AI-powered platform that helps you discover, compare and apply to universities. You tell us about yourself once, and we score every university by how well it fits you, then help you build and submit a professional application package.</p>
+            </details>
+            <details class="faq__item">
+                <summary class="faq__q">Is it really free? <i class="fa-solid fa-plus"></i></summary>
+                <p class="faq__a">Yes. You can explore every university, compare options, save favourites and track deadlines completely free. Advanced AI matching and the application assistant are part of the Elite plan — but you never need a card to get started.</p>
+            </details>
+            <details class="faq__item">
+                <summary class="faq__q">How does the AI matcher work? <i class="fa-solid fa-plus"></i></summary>
+                <p class="faq__a">It reads your grades, budget, preferred subjects, languages and goals, then compares them against each university's real requirements and data to produce a personalised fit score — and shows you the reasoning behind every match.</p>
+            </details>
+            <details class="faq__item">
+                <summary class="faq__q">Which universities and countries are covered? <i class="fa-solid fa-plus"></i></summary>
+                <p class="faq__a">UniScout covers leading universities across dozens of countries, with deep detail on programmes, tuition, languages, entry difficulty and student cities — and we're always adding more.</p>
+            </details>
+            <details class="faq__item">
+                <summary class="faq__q">Can I cancel Elite anytime? <i class="fa-solid fa-plus"></i></summary>
+                <p class="faq__a">Absolutely. Elite is billed yearly and you can cancel whenever you like from your account — no lock-in, no hassle.</p>
+            </details>
+        </div>
+    </section>
+
+    <!-- QUOTE -->
+    <section class="sec wrap">
+        <div class="quote reveal">
+            <img src="logo2.png" alt="">
+            <p>“The important thing is not to stop questioning. <span>Curiosity has its own reason for existing.”</span></p>
+            <cite>Albert <b>Einstein</b></cite>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="sec wrap">
+        <div class="cta reveal">
+            <span class="orb orb--1"></span><span class="orb orb--2"></span>
+            <div class="cta__in">
+                <img src="logo2.png" alt="">
+                <h2 class="display">Ready to scout your future?</h2>
+                <p>Join UniScout and turn university hunting into the most exciting part of your journey.</p>
+                <a href="log-in.html" class="btn btn--primary"><i class="fa-solid fa-arrow-right-to-bracket"></i> Get started — free</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer wrap">
+        <div class="footer__grid">
+            <div class="footer__brand">
+                <a href="index.html" class="nav__brand"><img src="logo2.png" alt="">UniScout</a>
+                <p>Your AI-powered guide to discovering, comparing and applying to universities around the world.</p>
+                <div class="footer__socials">
+                    <a href="#" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer__col">
+                <h4>Product</h4>
+                <a href="#features">Features</a>
+                <a href="subscription.html">Subscription</a>
+                <a href="#explore">Explore</a>
+                <a href="#faq">FAQ</a>
+                <a href="log-in.html">Sign in</a>
+            </div>
+            <div class="footer__col">
+                <h4>Company</h4>
+                <a href="#why">Why UniScout</a>
+                <a href="#">Privacy</a>
+                <a href="#">Cookie policy</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <span><b>UniScout.</b> Scout your future.</span>
+            <span>© <span id="year"></span> UniScout · All rights reserved</span>
+        </div>
+    </footer>
+
+    <button class="scrolltop" id="scrollTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <script src="welcome.js"></script>
+</body>
+</html>

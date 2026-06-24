@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniScout — Sign In</title>
+    <link rel="stylesheet" href="log-in.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="earth.png">
+</head>
+<body>
+
+    <div class="auth__bg">
+        <div class="auth__orb auth__orb--1"></div>
+        <div class="auth__orb auth__orb--2"></div>
+        <div class="auth__orb auth__orb--3"></div>
+        <div class="auth__orb auth__orb--4"></div>
+    </div>
+
+    <!-- Card -->
+    <div class="auth__card">
+
+        <a href="index.html" class="auth__logo__link">
+            <img src="logo2.png" alt="UniScout">
+            <span>UniScout</span>
+        </a>
+
+        <!-- Tab switcher -->
+        <div class="auth__tabs" id="authTabs">
+            <button class="auth__tab auth__tab--active" data-tab="signin">Sign In</button>
+            <button class="auth__tab" data-tab="signup">Create Account</button>
+            <div class="auth__tab__indicator"></div>
+        </div>
+
+        <!-- Sliding forms container -->
+        <div class="auth__slider" id="authSlider">
+
+            <!-- ─── SIGN IN ─── -->
+            <div class="auth__panel" id="panelSignin">
+                <form id="signinForm" novalidate autocomplete="on">
+
+                    <div class="auth__field">
+                        <label for="si_id">Email or Username</label>
+                        <div class="auth__input__wrap">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" id="si_id" name="username" placeholder="you@email.com" autocomplete="username">
+                            <i class="fa-solid fa-check auth__tick" id="si_id_tick"></i>
+                        </div>
+                        <span class="auth__err" id="si_id_err"></span>
+                    </div>
+
+                    <div class="auth__field">
+                        <label for="si_pw">Password</label>
+                        <div class="auth__input__wrap">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" id="si_pw" name="password" placeholder="••••••••" autocomplete="current-password">
+                            <button type="button" class="auth__eye" data-target="si_pw"><i class="fa-solid fa-eye-slash"></i></button>
+                        </div>
+                        <span class="auth__err" id="si_pw_err"></span>
+                    </div>
+
+                    <div class="auth__row">
+                        <label class="auth__check">
+                            <input type="checkbox" id="si_remember">
+                            <span class="auth__checkmark"></span>
+                            Remember me
+                        </label>
+                        <button type="button" class="auth__forgot" id="forgotBtn">Forgot password?</button>
+                    </div>
+
+                    <p class="auth__form__err" id="si_form_err"></p>
+
+                    <button type="submit" class="auth__btn" id="siSubmit">
+                        <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                        <span>Sign In</span>
+                        <span class="auth__spinner" id="siSpinner"></span>
+                    </button>
+
+                    <div class="auth__divider"><span>or continue with</span></div>
+
+                    <div class="auth__socials">
+                        <button type="button" class="auth__social" id="googleBtn">
+                            <svg width="18" height="18" viewBox="0 0 48 48"><path fill="#FFC107" d="M43.611 20.083H42V20H24v8h11.303C33.654 32.657 29.332 36 24 36c-6.627 0-12-5.373-12-12s5.373-12 12-12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4 12.955 4 4 12.955 4 24s8.955 20 20 20 20-8.955 20-20c0-1.341-.138-2.65-.389-3.917z"/><path fill="#FF3D00" d="M6.306 14.691l6.571 4.819C14.655 15.108 18.961 12 24 12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4 16.318 4 9.656 8.337 6.306 14.691z"/><path fill="#4CAF50" d="M24 44c5.166 0 9.86-1.977 13.409-5.192l-6.19-5.238C29.211 35.091 26.715 36 24 36c-5.311 0-9.821-3.317-11.409-7.988l-6.511 5.019C9.505 39.556 16.227 44 24 44z"/><path fill="#1976D2" d="M43.611 20.083H42V20H24v8h11.303c-.792 2.237-2.231 4.166-4.087 5.571l6.19 5.238C42.022 35.948 44 30.418 44 24c0-1.341-.138-2.65-.389-3.917z"/></svg>
+                            Google
+                        </button>
+                        <button type="button" class="auth__social" id="appleBtn">
+                            <i class="fa-brands fa-apple"></i>
+                            Apple
+                        </button>
+                    </div>
+
+                    <p class="auth__switch">Don't have an account? <button type="button" class="auth__switch__btn" data-to="signup">Sign up</button></p>
+
+                </form>
+            </div>
+
+            <!-- ─── SIGN UP ─── -->
+            <div class="auth__panel auth__panel--right" id="panelSignup">
+                <form id="signupForm" novalidate autocomplete="on">
+
+                    <div class="auth__field">
+                        <label for="su_email">Email</label>
+                        <div class="auth__input__wrap">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" id="su_email" placeholder="you@email.com" autocomplete="email">
+                            <i class="fa-solid fa-check auth__tick" id="su_email_tick"></i>
+                        </div>
+                        <span class="auth__err" id="su_email_err"></span>
+                    </div>
+
+                    <div class="auth__field">
+                        <label for="su_user">Username</label>
+                        <div class="auth__input__wrap">
+                            <i class="fa-solid fa-at"></i>
+                            <input type="text" id="su_user" placeholder="your_username" autocomplete="off">
+                            <i class="fa-solid fa-check auth__tick" id="su_user_tick"></i>
+                        </div>
+                        <span class="auth__err" id="su_user_err"></span>
+                    </div>
+
+                    <div class="auth__field">
+                        <label for="su_pw">Password</label>
+                        <div class="auth__input__wrap">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" id="su_pw" placeholder="••••••••" autocomplete="new-password">
+                            <button type="button" class="auth__eye" data-target="su_pw"><i class="fa-solid fa-eye-slash"></i></button>
+                        </div>
+                        <div class="auth__strength" id="su_strength">
+                            <div class="auth__strength__bars">
+                                <div class="auth__bar" id="bar1"></div>
+                                <div class="auth__bar" id="bar2"></div>
+                                <div class="auth__bar" id="bar3"></div>
+                                <div class="auth__bar" id="bar4"></div>
+                            </div>
+                            <span id="su_strength_label"></span>
+                        </div>
+                        <span class="auth__err" id="su_pw_err"></span>
+                    </div>
+
+                    <div class="auth__field">
+                        <label for="su_conf">Confirm Password</label>
+                        <div class="auth__input__wrap">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" id="su_conf" placeholder="••••••••" autocomplete="new-password">
+                            <button type="button" class="auth__eye" data-target="su_conf"><i class="fa-solid fa-eye-slash"></i></button>
+                        </div>
+                        <span class="auth__err" id="su_conf_err"></span>
+                    </div>
+
+                    <label class="auth__check auth__check--block">
+                        <input type="checkbox" id="su_terms">
+                        <span class="auth__checkmark"></span>
+                        <span>I agree to the <a href="#" class="auth__link">Terms of Service</a> and <a href="#" class="auth__link">Privacy Policy</a></span>
+                    </label>
+
+                    <p class="auth__form__err" id="su_form_err"></p>
+
+                    <button type="submit" class="auth__btn" id="suSubmit">
+                        <i class="fa-solid fa-user-plus"></i>
+                        <span>Create Account</span>
+                        <span class="auth__spinner" id="suSpinner"></span>
+                    </button>
+
+                    <p class="auth__switch">Already have an account? <button type="button" class="auth__switch__btn" data-to="signin">Sign in</button></p>
+
+                </form>
+            </div>
+
+        </div><!-- /auth__slider -->
+
+    </div><!-- /auth__card -->
+
+    <!-- Forgot Password modal -->
+    <div class="auth__modal__overlay" id="forgotOverlay">
+        <div class="auth__modal">
+            <button class="auth__modal__close" id="forgotClose"><i class="fa-solid fa-xmark"></i></button>
+            <div class="auth__modal__icon"><i class="fa-solid fa-key"></i></div>
+            <h3>Reset Password</h3>
+            <p>Enter your email address and we'll send a reset link.</p>
+            <div class="auth__field" id="forgotEmailWrap">
+                <div class="auth__input__wrap">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" id="forgotEmail" placeholder="you@email.com">
+                </div>
+                <span class="auth__err" id="forgotEmailErr"></span>
+            </div>
+            <button class="auth__btn" id="forgotSubmit">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span>Send Reset Link</span>
+            </button>
+            <p class="auth__modal__success" id="forgotSuccess"></p>
+        </div>
+    </div>
+
+    <!-- Social sign-in (email + password + 6-digit code) -->
+    <div class="auth__modal__overlay" id="socialOverlay">
+        <div class="auth__modal">
+            <button class="auth__modal__close" id="socialClose"><i class="fa-solid fa-xmark"></i></button>
+            <div class="auth__modal__icon" id="socialIcon"><i class="fa-brands fa-google"></i></div>
+            <h3 id="socialTitle">Sign in with Google</h3>
+
+            <div id="socialStep1">
+                <p>Enter your account email and password to continue.</p>
+                <div class="auth__field">
+                    <div class="auth__input__wrap"><i class="fa-solid fa-envelope"></i>
+                        <input type="email" id="socialEmail" placeholder="you@gmail.com" autocomplete="off"></div>
+                </div>
+                <div class="auth__field">
+                    <div class="auth__input__wrap"><i class="fa-solid fa-lock"></i>
+                        <input type="password" id="socialPw" placeholder="Password" autocomplete="off">
+                        <button type="button" class="auth__eye" data-target="socialPw"><i class="fa-solid fa-eye-slash"></i></button></div>
+                    <span class="auth__err" id="socialErr1"></span>
+                </div>
+                <button class="auth__btn" id="socialContinue"><i class="fa-solid fa-arrow-right"></i><span>Continue</span></button>
+            </div>
+
+            <div id="socialStep2" style="display:none">
+                <p>We sent a 6-digit verification code to <b id="socialEmailEcho"></b>. Enter it below.</p>
+                <div class="auth__field">
+                    <div class="auth__input__wrap"><i class="fa-solid fa-shield-halved"></i>
+                        <input type="text" id="socialCode" inputmode="numeric" maxlength="6" placeholder="••••••" style="letter-spacing:6px"></div>
+                    <span class="auth__err" id="socialErr2"></span>
+                </div>
+                <button class="auth__btn" id="socialVerify"><i class="fa-solid fa-circle-check"></i><span>Verify &amp; sign in</span></button>
+                <p class="auth__modal__success"><button type="button" class="auth__switch__btn" id="socialResend">Resend code</button></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast -->
+    <div class="auth__toast" id="authToast">
+        <i class="fa-solid fa-circle-check"></i>
+        <span id="toastMsg">Welcome to UniScout!</span>
+    </div>
+
+    <script src="log-in.js"></script>
+</body>
+</html>
